@@ -1,0 +1,21 @@
+\usepackage{fontspec}
+\usepackage{geometry}
+\usepackage{tcolorbox}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{placeins}
+\usepackage{float} 
+\usepackage[normalem]{ulem}
+\geometry{margin=1in}
+\let\originAlParaGraph\paragraph
+\renewcommand{\paragraph}[1]{\originAlParaGraph{#1} \hfill}
+
+\tcbset{
+    mytransparentbox/.style={
+        colback=gray!20,  % Sfondo grigio chiaro (trasparente)
+        colframe=black,   % Bordo nero
+        boxrule=0.5pt,    % Spessore del bordo
+        sharp corners,    % Angoli netti
+    }
+}
