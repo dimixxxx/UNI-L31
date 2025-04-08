@@ -7,7 +7,7 @@ toc: true
 ---
 
 \newpage
-# \Large\textbf{\textcolor{red}{Capitolo 1 – Introduzione alla Statistica}}
+# **Capitolo 1 – Introduzione alla Statistica**
 \vspace{3pt}
 \hrule
 
@@ -43,8 +43,8 @@ in questo modo, le proporzioni di ciascun strato presenti nel campione rispecchi
 La stratificazione è particolarmente efficace per conosce il membro *medio* della popolazione totale quando ci sono differenze tra le sottopopolazioni rispetto alla questione studiata.
 
 \newpage
-# \LARGE\textbf{\textcolor{red}{La statistica descrittiva}}
-# \Large\textbf{\textcolor{red}{Capitolo 2 - Descrivere insiemi di dati}}
+# **La statistica descrittiva**
+# **Capitolo 2 - Descrivere insiemi di dati**
 ## **Dati quantitativi e qualitativi**
 
 Una distinzione che si può fare sui dati osservabili riguarda il modo in cui questi sono misurati:
@@ -241,7 +241,7 @@ Una delle ragioni per cui questo tipo di diagramma è utile consiste nella possi
  Il diagramma di dispersione, oltre a mostrare il comportamento relativo di due variabili e ad aiutarci nelle previsioni, è utile per riconoscere i valori anomali (**outlier**) che sono i punti che non sembrano seguire il comportamento degli altri. Una volta identificati questi valori, si può decidere quali di essi siano appropriati e quali invece siano causati da errori nella raccolta dati.
 
 \newpage
-# \Large\textbf{\textcolor{red}{Capitolo 3 - Statistiche}}
+# **Capitolo 3 - Statistiche**
 
 Una **statistica** è una quantità numerica calcolata a partire da un insieme di dati.
 
@@ -1090,7 +1090,550 @@ $%
 Nei casi intermedi si avrà dunque che i punti staranno su una curva sotto la bisettrice del I° e III° quadrante $F=Q$, cado che $Q_i \le F_i$ per qualsiasi $i = 1, \cdots, n$. Più la curva si avvicina alla bisettrice e più la concentrazione è bassa, mentre più si allontana e più la concentrazione è altra.
 
 \newpage
-# \Large\textbf{\textcolor{red}{Formulario}}
+# **Teoria delle probabilità**
+# **Capitolo 5 - Calcolo combinatorio**
+
+## **Principio fondamentale del calcolo combinatorio**
+
+Se ci sono $s_1$ modi per operare una scelta e, per ciascuno di essi, ci sono $s_2$ modi per operare una seconda scelta e, per ciascuno di essi, ci sono $s_3$ modi per operare una terza scelta e cosi via fino a $s_t$ modi per operare la t-esima scelta, allora il numero delle sequenze di possibili scelte è 
+$$
+s_1 \cdot s_2 \cdots s_t = \prod^t_{i=1} s_i
+$$
+Osserviamo che il risultato corrisponde a calcolare il numero delle foglie di un albero di profondità $t$ il cui primo livello ha $s_1$ nodi, ciascuno dei quali ha $s_2$ figli, e cosi via per ogni nodo.
+
+## **Permutazioni**
+
+Consideriamo un insieme di *n* oggetti $A = {a_1, \cdots, a_n}$. Una permutazione di questi *n* oggetti è una sequenza ordinata in cui compaiono tutti e soli gli elementi dell'insieme A.
+
+#### **Permutazioni semplici**
+
+Se gli *n* oggetti di *A* sono tutti distinguibili, allora si parla di permutazione semplice.
+
+Il numero totale di permutazioni semplici si ottiene applicando il principio fondamentale del calcolo combinatorio; il primo elemento della configurazione può essere scelto in *n* modi, il secondo in *(n - 1)*, il terzo in *(n-2)* e cosi via, fino all'ultimo elemento che può essere scelto in un solo modo. 
+
+Indicando con $p_n$ il numero delle possibili permutazioni di un insieme di $n$ elementi distinguibili, si ottiene:
+$$
+p_n = n \cdot (n-1) \cdot (n-2) \cdots 1 = n!
+$$
+Casi particolari: $p_1 = 1! = 1$ mentre, $p_0 = 0! = 1$ per convenzione.
+
+#### **Permutazioni con ripetizioni**
+
+Se gli *n* oggetti di *A* non sono tutti distinguibili, ma suddivisi in *r* gruppi di oggetti indistinguibili tra loro, con numerosità rispettive $k_1, k_2, \cdots, k_r$, allora una sequenza ordinata che includa tutti gli oggetti è detta permutazione con ripetizioni. Poichè ogni oggetto appartiene a un solo gruppo, si ha $\sum_{i=1}^r k_i = n$, da cui segue $r \le n$.
+
+Indicando con $P_n$ il numero delle possibili permutazioni di un insieme di *n* elementi non distinguibili, si ottiene: 
+$$
+P_n^{k_1, k_2, \cdots, k_r} = \dfrac{n!}{k_1!\, k_2!\, \cdots\, k_r!} = \binom{n}{k_1, k_2, \cdots, k_r}
+$$
+Questa formula si ottiene dividendo il numero totale di permutazioni di *n* oggetti distinti per il numero delle permutazioni indistinguibili, ovvero quelle interne ai singoli gruppi di oggetti uguali, che non alterano la configurazione complessiva. La quantità ottenuta è detta *coefficiente multinomiale*.
+
+Osserviamo che $P_n = P_n^{k_1, \cdots, k_r} \cdot k_1! \cdots k_r!$ e che, nel caso in cui tutti i gruppi abbiano numerosità unitaria, ossia $K_i = 1 per ogni *i*, si ottiene la formula delle permutazioni semplici.
+
+## **Disposizioni**
+
+Consideriamo un insieme di *n* oggetti $A = {a_1, \cdots, a_n}$. Una disposizione di *k* oggetti tratti dall'insieme *A* è una sequenza ordinata di *k* elementi in cui l'ordine e gli oggetti possono essere scelti con o senza ripetizione, a seconda del contesto.
+
+#### **Disposizioni semplici**
+
+Se gli *n* oggetti di *A* sono tutti distinguibili e non sono ammesse ripetizioni, allora si parla di disposizione semplice. Ne segue che $k \le n$. 
+
+il numero totale di disposizioni semplici si ottiene applicando il principio fondamentale del calcolo combinatorio: il primo elemento dlela configurazione può essere scelto in *n* nodi, il secondo in $(n-1)$, il terzo in $(n-2)$ e cosi via, fino al k-esimo che può essere scelto in $(n-k+1)$ modi diversi.
+
+Indicando con $d_{n,k}$ il numero delle possibili disposizioni semplici di $k$ elementi tra $n$ oggetti distinti, si ottiene:
+$$
+d_{n,k} = n\, (n-1) \dots (n-k+1) = n\, (n-1) \dots (n-k+1)\, \textcolor[rgb]{0.65,0.65,0.65}{\dfrac{(n-k)!}{(n-k)!}} = \dfrac{n!}{(n-k)!}
+$$
+Le permutazioni semplici possono essere interpretate come un caso particolare delle disposizioni semplici, in cui il numero di elementi scelti coincide con il numero totale disponibile, ossia con k = n.
+
+#### **Disposizioni con ripetizioni**
+
+Se gli *n* oggetti dell'insieme *A* sono tutti distinguibili e ogni elemento può comparire più volte nella sequenza, si parla di disposizione con ripetizione.
+
+In questo caso, ogni posizione della sequenza può essere occupata da uno qualunque degli *n* elementi, senza alcuna restrizione, e quindi ognuna delle *k* posizioni può essere riempita in *n* modi indipendenti dagli altri.
+
+Indicando con $D_{n,k}$ il numero delle disposizioni con ripetizione di *k* elementi tratti da un insieme di *n* oggetti distinti, si ottiene: 
+$$
+D_{n,k} = \underbrace{n \cdot n  \dots n}_{k\ \text{volte}} = n^k
+$$
+Tale formula vale per ogni intero $k \ge 0$, indipendentemente dalla cardinalità di partenza.
+
+Quando $k = 1$, si ottiene $D_{n,1} = n$; quando $k = 0$ si pone per convenzione $D_{n,0} = 1$, in quanto esiste un'unica sequenza vuota di lunghezza zero.
+
+## **Combinazioni**
+
+Consideriamo un insieme di *n* oggetti $A = {a_1, \cdots, a_n}$. Una combinazione di *k* oggetti tratti dall'insieme *A* è un insieme di *k* elementi in cui l'ordine non è rilevante e gli oggetti possono essere scelti con o senza ripetizione, a seconda del contesto.
+
+#### **Combinazioni semplici**
+
+Una combinazione semplice di *k* oggetti tratti da un insieme *A* di *n* oggetti distinguibili è definita come un sottoinsieme di *k* elementi di *A*, in cui l'ordine non è rilevante e non è consentito ripetere lo stesso oggetto più volte. Ne consegue che *k* debba soddisfare la condizione $0 \le k \le n$.
+
+Per determinare il numero, si considere il numero di disposizioni semplici di *k* elementi su *n*, vale a dire tutte le possibili sequenze ordinate di *k* oggetti distinti scelti da *A*. Ogni sottoinsieme di *k* elementi può essere riordinato in $k!$ modi diversi, ossia un numero pari a quello delle permutazioni dei suoi *k* oggetti. Per convertite quindi il conteggio delle sequenze ordinati in quello dei sottoinsiemi, in cui l'ordine è irrilevante, è ncessario dividere $d_{n,k}$ per $k!$. 
+
+Indicando con $c_{n,k}$ il numero delle combinazioni semplici di $k$ elementi tratti da un insieme di $n$ oggetti distinti, si ottiene:
+$$
+c_{n,k} = \dfrac{d_{n,k}}{p_k} = \dfrac{n!}{(n-k)!} \, \dfrac{1}{k!} = \dfrac{n!}{k!\,(n-k)!} = \binom{n}{k}
+$$
+La quantità ottenuta è detta *coefficiente binomiale n su k* ed esprime il numero di tutti i possibili sottoinsiemi di cardinalità *k* che si possono formare a partire da *n* oggetti distinti. Si osservi come per definizione $c_{n,k} < d_{n,k}$. 
+
+#### **Combinazioni con ripetizione**
+
+Se ogni elemento di $A$ può comparire più volte nella combinazione, ignorando comunque l'ordine, si parla di combinazione con ripetizione. In tal caso si possono scegliere $k$ elementi (con possibile duplicazione) tra gli $n$ oggetti di $A$, senza considerare l'ordine in cui vengono selezionati.
+
+Indicando con $C_{n,k}$ il numero delle combinazioni con ripetizione di $k$ elementi tratti da un insieme di $n$ oggetti distinti, si ottiene:
+$$
+C_{n,k} = c_{n+k-1, k} = \binom{n+k-1}{k}
+$$
+
+#### **Dimostrazione**
+
+TO DO
+
+#### **Coefficienti combinatori**
+
+I coefficienti misurano il numero di modi in cui si possono selezionare o distribuire gli elementi. 
+
+Il **Coefficiente binomiale** rappresenta il numero di modi in cui si possono scegliere *k* elementi da un insieme di *n* elementi, senza considerare l'ordine. Il suo valore è data da:
+$$
+\binom{n}{k} = \binom{n}{k,\, n{-}k} = \dfrac{n!}{k!\,(n-k)!}
+$$
+Il **coefficiente multinomiale** generalizza il concetto del coefficiente binomiale e indica il numero di modi per suddividere *n* elementi in *r* gruppi distinti di dimensioni $k_1, \cdots, k_r$ dove $k_1 + \cdots + k_r = n$. Il suo valore è dato da:
+$$
+\binom{n}{k_1, k_2, \cdots, k_r} = \dfrac{n!}{k_1!\, k_2!\, \cdots\, k_r!}
+$$
+Il coefficiente binomiale è il caso particolare del coefficiente multinomiale quando si divide l'insieme in due gruppi: uno di grandezza *k* e l'altro di grandezza $n - k$. La somma delle cardinalità dei due gruppi distinti continua a essere *n*, infatti $k + (n - k) = n$.
+
+\newpage
+# **Capitolo 6 - Probabilità**
+
+Il concetto di probabilità di un evento, quando si effettua un esperimento, è passabile di diverse interpretazioni filosofiche:
+
+- Interpretazione frequentista: la probabilità di un evento viene intesa come il limite del rapporto tra il numero di volte in cui l'evento si verifica e il numero totale di prove, quando queste sono ripetute indefinitamente. 
+- Interpretazione soggettivistica: la probabilità non è vista come una proprietà oggettiva dell'esito, ma come una misura del livello di fiducia che lo studioso ripone nel verificarsi dell'evento.
+
+Indipendentemente dall'approccio che si favorisce, utilizzando un approccio matematico ed i suoi strumenti, come per esempio la nozione insiemistica, è possibile formalizzare regole e gli assiomi della teoria della probabilità.
+
+## **Definizioni**
+
+Prima di enunciare gli assiomi della teoria della probabilità, occorre introdurre alcuni concetti fondamentali relativi agli esperimenti e ai loro esiti.
+
+### **Spazio degli esiti**
+
+Un **esperimento** è un procedimento o una prova condotta in condizioni controllate, il cui risultato è incerto.
+
+L'**esito** è un possibile risultato ottenuto da un esperimento. Si indica con $\omega$ e appartiene allo spazio degli esiti: $\omega \in \Omega$.
+
+Lo **spazio degli esiti**, anche detto insieme universo o spazio campionario, è l'insieme dei possibili esiti dell'esperimento, e si indica con $\Omega$. L'universo può essere:
+
+- finito o infinito, a seconda del numero di esiti possibili
+- discreto se gli esiti sono isolati e contabili, o continuo se gli esiti formano un continuum. In questo contesto, la distinzione tra spazi discreti e continui riguarda la struttura complessiva di $\Omega$, e non le proprietà intriseche degli elementi stessi.
+
+### **Evento**
+
+Un evento *E* è un sottoinsieme dello spazio degli esiti, percio $E \subseteq \Omega$. Un evento formato solo da un solo esisto ${\omega}$ è detto evento elementare, $\Omega$ rappresenta l'evento certo mentre $\varnothing$ è l'evento impossibile.
+
+#### **Operazioni**
+
+Dati due eventi, $E,F \subseteq \Omega$, è possibile applicare le operazioni fondamentali degli insiemi:
+
+- Unione $E \cup F$: è l'evento che si verifica quando almeno uno tra $E$ e $F$ si verifica. 
+    Per un esito *x* si ottiene che $\;x \in E \cup F \; \Leftrightarrow\; x \in E \lor x \in F$
+- Intersezione $E \cap F$: è l'evento che si verifica quando si verificano entrambi gli eventi $E$ e $F$. 
+    Per un esito *x* si ottiene che $\;x \in E \cap F \; \Leftrightarrow\; x \in E \land x \in F$
+    Se $E \cap F = \varnothing$ allora $E$ e $F$ si dicono *mutuamente esclusivi* o *eventi disgiunti*.
+- Complementare $E^C$ di $E$: è l'evento che si verifica quando non si verifica $E$. Si indica anche con $\overline{E}$. 
+    Per un esito *x* si ottiene che $\;x \in E^C \; \Leftrightarrow\; x \not \in E$
+    Si osserva che $E^C = \Omega - E$. Vale anche la relazione $\Omega^C = \varnothing$.
+- Differenza $E \smallsetminus F$: è l'evento che si verifica quando $E$ si verifica ma non $F$.
+    Per un esito *x* si ottiene che $x \in E \smallsetminus F \; \Leftrightarrow \; x \in E \land x \not\in F$
+    Si osserva che questa operazione non è simmetria, infatti $E \smallsetminus F \not = F \smallsetminus E$.
+
+È possibile definire l'unione o l'intersezione di più eventi. Consideriamo gli eventi $E_1, \cdots, E_n$:
+
+- la loro unione $\bigcup_{i=1}^n E_i = E_1 \cup \dots \cup E_n$ è l'evento formato da tutti gli esiti che appartengono ad almeno uno degli eventi $E_i$
+- la loro intersezione $\bigcap^n_{i=1} E_i = E_1 \cap \dots \cap E_n$ è l'evento formato da tutti gli esiti che appartengono a tutti gli eventi $E_i$
+
+In altre parole, l'unione degli $E_i$ si verifica se almeno uno degli eventi $E_i$ si verifica, mentre l'intersezione degli $E_i$ si verifica solo se tutti gli $E_i$ si verificano.
+
+È inoltre possibile definire delle relazioni di **inclusione** e ugualianza tra eventi. Siano $E, F \subseteq \Omega$ due eventi, si dice che l'evento $E$ è contenuto in $F$, e si scrive $E \subseteq F$, se tutti gli esisti di $E$ appartengono anche a $F$. Formalmente, si può indicare questa relazione come $E \subseteq F \; \Leftrightarrow \; \forall\, \omega \in E: \omega \in F$. Questo significa che se si verifica $E$, allora si verifica anche $F$. Osserviamo che se $E \subseteq F \land F \subseteq E \; \Rightarrow \; E = F$.
+
+#### **Proprietà**
+
+Per l'unione e l'intersezione valgono le seguenti proprietà (verranno presentate solo sull'unione):
+- commutatività: $\;E \cup F = F \cup E$
+- associatività: $\; E \cup F \cup G = (E \cup F) \cup G = E \cup (F \cup G)$
+- distributività: $\; E \cup (F \cap G) = (E \cup F) \cap (E \cup G)$
+- leggi di assorbimento: $\; E \cup (E \cap F) = E \;$ e $\; E \cap (E \cup F) = E$ 
+- leggi di De Morgan: $\; \overline{E \cup F} = \overline{E} \cap \overline{F}\;$ e $\;\overline{E \cap F} = \overline{E} \cup \overline{F}$
+
+  **Dimostrazione**
+
+  1. $x \in \overline{E \cup F} \;\Rightarrow\; x \not\in E \cup F \;\Rightarrow\; x \not\in E \land x \not\in F \;\Rightarrow\; x \in \overline{E} \land x \in \overline{F} \;\Rightarrow\; x \in \overline{E} \cap \overline{F} \;\Rightarrow\; \overline{E \cup F} \subseteq \overline{E} \cap \overline{F}$
+
+  2. $x \in \overline{E} \cap \overline{F} \;\Rightarrow\; x \in \overline{E} \land x \in \overline{F} \;\Rightarrow\; x \notin E \land x \notin F \;\Rightarrow\; x \notin E \cup F \;\Rightarrow\; x \in \overline{E \cup F} \;\Rightarrow\; \overline{E} \cap \overline{F} \subseteq \overline{E \cup F}$
+
+  Da entrambe le inclusioni si ottiene che $\overline{E \cup F} = \overline{E} \cap \overline{F}$.
+
+Un modo rigorso per dimostrare queste proprietà consiste nel verificare che ogni esito appartenente all'evento al primo membro è anche conenuto dell'evento al secondo membro, e viceversa, proprio come si è fatto pocanzi tramite la dimostrazione della legge di De Morgan.
+
+Un tipo di rappresentazione grafica degli eventi, utile per illustrare le relazioni logiche che li legano, sono i **diagrammi di Venn**. Lo spazio degli esiti $\Omega$ è rappresentato da un rettangolo che contiene il resto della figura. Gli eventi da prendere in considerazione sono invece rappresentati da cerchi disegnati all'interno del rettangolo. A questo punto si evidenziano gli eventi complessi rilevanti.
+Si illustrano le operazioni di unione, intersezione, complemento e inclusione tramite i diagrammi di Venn:
+
+```{=latex}
+\vspace{1mm}
+\noindent
+% --- 1) Unione E ∪ F ---
+\begin{minipage}{0.3\linewidth}
+  \centering
+  \begin{tikzpicture}[scale=1]
+    % Rettangolo di contorno (universo Ω): da (-2, -1.4) a (2, 1.6)
+    \draw[thick] (-2,-1.4) rectangle (2,1.6);
+    % Etichetta del rettangolo: Ω in alto a sinistra
+    \node[anchor=north west] at (-2,1.6) {$\Omega$};
+
+    % UNIONE: coloriamo in grigio le aree coperte dai cerchi di E e F
+    \begin{scope}
+      \clip (-0.5,0) circle (1);
+      \fill[gray!40] (-2,-1.4) rectangle (2,1.6);
+    \end{scope}
+    \begin{scope}
+      \clip (0.5,0) circle (1);
+      \fill[gray!40] (-2,-1.4) rectangle (2,1.6);
+    \end{scope}
+
+    % Disegno dei due cerchi
+    \draw (-0.5,0) circle (1);
+    \draw (0.5,0) circle (1);
+
+    % Etichette degli insiemi: E e F posizionate a y = 1.2
+    \node at (-0.9,1.2) {$E$};
+    \node at (0.9,1.2) {$F$};
+  \end{tikzpicture}
+
+  \vspace{0.5em}
+  \(E \cup F\)
+\end{minipage}
+\hfill
+% --- 2) Intersezione E ∩ F ---
+\begin{minipage}{0.3\linewidth}
+  \centering
+  \begin{tikzpicture}[scale=1]
+    % Rettangolo di contorno (universo Ω): da (-2, -1.4) a (2, 1.6)
+    \draw[thick] (-2,-1.4) rectangle (2,1.6);
+    % Etichetta del rettangolo: Ω in alto a sinistra
+    \node[anchor=north west] at (-2,1.6) {$\Omega$};
+
+    % INTERSEZIONE: coloriamo in grigio la parte comune dei cerchi di E e F
+    \begin{scope}
+      \clip (-0.5,0) circle (1);
+      \clip (0.5,0) circle (1);
+      \fill[gray!40] (-2,-1.4) rectangle (2,1.6);
+    \end{scope}
+
+    % Disegno dei due cerchi
+    \draw (-0.5,0) circle (1);
+    \draw (0.5,0) circle (1);
+
+    % Etichette degli insiemi: E e F posizionate a y = 1.2
+    \node at (-0.9,1.2) {$E$};
+    \node at (0.9,1.2) {$F$};
+  \end{tikzpicture}
+
+  \vspace{0.5em}
+  \(E \cap F\)
+\end{minipage}
+\hfill
+% --- 3) Complemento di F ---
+\begin{minipage}{0.3\linewidth}
+  \centering
+  \begin{tikzpicture}[scale=1]
+    % Rettangolo di contorno (universo Ω): da (-2, -1.4) a (2, 1.6)
+    \draw[thick] (-2,-1.4) rectangle (2,1.6);
+
+    % COMPLEMENTO di F: coloriamo l'intera area del rettangolo in grigio (con margini minimi)
+    \fill[gray!40] (-1.99,-1.39) rectangle (1.99,1.59);
+    % "Buchiamo" (ritagliamo) l'area di F in bianco, per evidenziare il complemento di F
+    \begin{scope}
+      \clip (-2,-1.4) rectangle (2,1.6);
+      \fill[white] (0,0) circle (1);
+    \end{scope}
+
+    % Disegno del cerchio di E
+    \draw (0,0) circle (1);
+    
+    % Disegno del cerchio E concentrico all'interno di F (raggio 0.56)
+    \draw (0,0) circle (0.5);
+    % Etichetta del cerchio interno E
+    \node at (-0.46,0.54) {$E$};
+
+    % Etichetta dell'insieme F
+    \node at (0.65,1.08) {$F$};
+
+	\node[anchor=north west] at (-2,1.6) {$\Omega$};
+	
+  \end{tikzpicture}
+
+  \vspace{0.5em}
+  \(\overline{F},\, E \subseteq F \)
+\end{minipage}
+```
+
+### **Algebra degli eventi**
+
+Un'algebra degli eventi $\mathcal{A}$ su $\Omega$ è una collezione di sottoinsiemi di $\Omega$, ossia $\Omega$, ossia $\mathcal{A}\subseteq \mathcal{P}(\Omega)$, Tale che:
+
+1. $\Omega \in \mathcal{A}:\;$ l'evento certo fa parte dell'algebra
+2. $\forall E \in \mathcal{A} \; \Rightarrow\; \overline{E} \in \mathcal{A}:\;$ chiusura rispetto al complementare
+3. $\forall E, F \in \mathcal{A} \;\Rightarrow \; E \cup F \in \mathcal{A}:\;$ chiusura rispetto all'unione di due eventi
+
+Da queste proprietà discendono varie conseguenze:
+
+- $\varnothing \in \mathcal{A}\,$ perché $\, \varnothing = \overline{\Omega}$ 
+- Per induzione, $\mathcal{A}$ è chiusa per l'unione finita, infatti $\forall E_1, E_2, \dots, E_n \in \mathcal{A} \quad \bigcup^n_{{i=1}} E_i \in \mathcal{A}$.
+- $\mathcal{A}$ è chiusa rispetto all'intersezione di due eventi: $\,A \cap B = \overline{\overline{A} \cup \overline{B}}$, e per induzione anche rispetto all'intersezione finita: $\forall E_1, E_2, \dots, E_n \in \mathcal{A} \quad \bigcap^n_{{i=1}} E_i \in \mathcal{A}$
+- $\mathcal{A}$ è chiusa rispetto alla differenza finita: $\, E \smallsetminus F = E \cap \overline{F}$ 
+
+Se $\Omega$ è finito, l'algebra più grande che si possa considerare è $\mathcal{P}(\Omega)$, l'insieme di tutte le parti di $\Omega$.
+
+#### $\boldmath{\sigma}$-algebra
+
+Sia $\mathcal{A} \subseteq \mathcal{P}(\Omega)$ un'algebra su $\Omega$. Se per ogni famiglia numerabile di insiemi $\{E_i\}_{i \in \mathbb{N}} \subseteq \mathcal{A}$ vale
+$$
+\bigcup^{\infty}_{i=1} E_i \in \mathcal{A}
+$$
+allora $\mathcal{A}$ si dice $\sigma$-algebra e si indica con $\mathcal{F}$. Da ciò discende, per De Morgan, anche la chiusura rispetto alle intersezioni numerabili. 
+
+Un **insieme** è detto **numerabile** se i suoi elementi sono in numero finito oppure se possono essere messi in corrispondenza biunivoca con $\mathbb{N}$. Se un insieme numerabile ha un numero infinito di elementi, viene detto *infinito numerabile*, e dato che può essere messo in corrispondenza biunivoca con i numeri naturali, si può dire che un insieme è infinito numerabile se ha la cardinalità di $\mathbb{N}$.
+
+Se $\Omega$ è finito, l'insieme di tutte le parti ha cardinalità $|\mathcal{P}(\Omega)| = 2^{|\Omega|}$ ed è quindi finito anch'esso. In questo caso, ogni algebra $\mathcal{A} \subseteq \mathcal{P}(\Omega)$, che è chiusa per unioni finite, è automaticamente una $\sigma$-algebra, poichè ogni unione numerabile coincide con una unione finita. $\mathcal{P}(\Omega)$ rappresenta la $\sigma$-algebra più grande possibile.
+
+Nel caso in cui $\Omega$ sia infinito, $\mathcal{P}(\Omega)$ è certamente una $\sigma$-algebra, ma in genere non è quella che si usa in contesti di misura, perchè spesso si considerano $\sigma$-algebre proprie, ovvero strettamente più piccole.
+
+Una volta fissata una $\sigma$-algebra $\mathcal{F}$ su $\Omega$, la coppia $\Omega, \mathcal{F}$ si chiama **spazio misurabile**. Qui $\mathcal{F}$ individua i sottoinsiemi di $\Omega$ considerati misurabili, ossia quelli ai quali sarà in seguito possibile associare una misura in modo coerente. Lo spazio misurabile è dunque la struttura formata dallo spazio degli esiti $\Omega$ e dalla famiglia $\mathcal{F}$ di sottoinsiemi ammessi.
+
+#### **Isomorfismo tra algebre**
+
+Due spazi misurabili $(\Omega_1, \mathcal{F}_1)$ e $(\Omega_2, \mathcal{F}_2)$ si dicono isomorfi se esiste una funzione biunivoca $\phi: \mathcal{F}_1 \to \mathcal{F}_2$ che preserva le operazioni fondamentali, cioè:
+
+- per ogni $E \in \mathcal{F}_1$, vale $\phi(\overline{E}) = \overline{\phi(E)}$
+- Per ogni coppia $E, F \in \mathcal{F}_1$, vale $\phi(E \cup F) = \phi(E) \cup \phi(F)$ 
+
+La mappa $\phi$ è un isomorfismo di algebre booleane, il che implica che le due strutture hanno la stessa struttura misurabile, pur essendo definite su spazi degli esiti differenti. Questo significa che, per ogni proprietà, operazione o misura che possiamo definire su una delle algebre, c'è una corrispondenza diretta nell'altra.
+
+\begin{tcolorbox}[colback=gray!20!white, boxrule=0.5pt, opacityfill=0.25]
+Esempio: Si consideri il lancio di una moneta, per il quale la $\sigma$-algebra è  
+$\mathcal{F}_M = \{\varnothing, \{T\}, \{C\}, \Omega_M\},$ dove $T$ sta per testa, $C$ per croce e $\Omega_M = \{T, C\}$.\\
+Per il lancio di un dado, supponiamo di considerare solo due eventi, ottenuti partizionando lo spazio degli esiti $\Omega_D = \{1,2,3,4,5,6\}$ in $\mathcal{F}_D = \{\emptyset, \{1,2\}, \{3,4,5,6\}, \Omega_D\}$. $\mathcal{F}_D$ è un'algebra ammissibile diversa dall'insieme delle parti $\mathcal{P}(\Omega)$.\\
+Si definisce la mappa $\phi: \mathcal{F}_D \to \mathcal{F}_M$ mediante:\\
+    \\
+    - $\phi(\varnothing)=\varnothing$\\
+    - $\phi(\{1,2\})=\{T\}$\\
+    - $\phi(\{3,4,5,6\})=\{C\}$\\
+    - $\phi(\Omega_D)=\Omega_M$\\
+    \\
+È facile verificare che $\phi$ preserva il complementare e le unioni, quindi $\mathcal{F}_D$ e $\mathcal{F}_M$ sono isomorfe. In questo modo, funzionalmente, il lancio del dado (con questa specifica scelta di $\sigma$-algebra) si comporta come il lancio della moneta, pur essendo l'esperimento originariamente a sei esiti.
+\end{tcolorbox}
+
+### **Assiomi di Kolmogorov**
+
+Sperimentando un esperimento ripetutamente, mantenendo costanti le condizioni, si osserva empiricamente che la frazione di casi in cui si realizza un evento *E* tende, al cresce del numero dei tentativi, a stabilizzarsi in un valore costante, che dipende univocamente da E. Questo valore costante è quello che intendiamo come probabilità dell'evento *E*.
+
+Si consideri lo spazio misurabile $(\Omega, \mathcal{F})$. Definiziamo la *misura di probabilità* come una funzione $\sigma$-additiva $\mathbb{P}:\mathcal{F}\to[0,1]$ che assegna a ciascun evento $E\in\mathcal{F}$ il numero $\mathbb{P}(E)$, ossia la probabilità che $E$ si verifichi.
+
+La funzione $\mathbb{P}$ deve soddisfare i seguenti assiomi di Kolmogorov:
+
+ 1. Non negatività:  
+    $\forall E\in\mathcal{F} \quad \mathbb{P}(E)\ge0$
+ 2. Normalizzazione:  
+    $\mathbb{P}(\Omega)=1\quad$ l'evento certo ha probabilità $1$
+ 3. Additività numerabile (o $\sigma$-additività):  
+    Se $\{E_i\}_{i\in\mathbb{N}}\subseteq\mathcal{F}$ è una famiglia di eventi disgiunti (cioè, $E_i\cap E_j=\varnothing$ per ogni $i\neq j$), allora
+    \vspace{-2mm}
+    $$
+    \mathbb{P}\Bigl(\bigcup_{i=1}^{\infty}E_i\Bigr)=\sum_{i=1}^{\infty}\mathbb{P}(E_i).
+    $$
+
+Questi assiomi formalizzano l'osservazione empirica: la probabilità, definita come la frequenza relativa limite, viene interpretata come una misura che assegna ad ogni evento misurabile un valore compreso tra 0 e 1, rispettando le proprietà di coerenza e additività.
+
+Sia $\mathcal{A}$ un'algebra di insiemi. Una funzione $\mu: \mathcal{A} \rightarrow (-\infty, +\infty)$ è detta (finitamente) additiva se $\forall A, B \in \mathcal{A}$ disgiunti si ha $\mu(A \cup B) = \mu(A) +\mu(B)$. La funzione è detta numerabile additiva o **$\sigma$-additiva** se per ogni successione $A_1, \cdots, A_n, \cdots \in \mathcal{A}$ tra loro disgiunti e tali che la loro unione numerabile stia ancora in $\mathcal{A}$ si ha:
+
+\vspace{-5mm}
+$$
+\mu \Bigl( \bigcup^{\infty}_{n=1} A_n \Bigr) = \sum_{n=1}^{\infty} \mu(A_n)
+$$
+
+Ogni funzione $\sigma$-additiva è una funzione (finitamente) additiva, ma non vale il contrario
+
+#### **Proprietà**
+
+Sia $(\Omega, \mathcal{F}, \mathbb{P})$ uno spazio di probabilità. Sono allora vere le seguenti proprietà, e verranno dimostrate.
+
+#### **Teorema 1**
+
+$\forall E \in \mathcal{F} \quad \mathbb{P}(\overline{E}) = 1 - \mathbb{P}(E)$
+
+Dimostrazione: 
+
+$\quad E \cup \overline{E} = \Omega \land E \cap \overline{E} = \varnothing \;\; \Rightarrow \;\;
+\text{I due insiemi sono disgiunti}$
+
+\quad Dato che i due insiemi sono disgiunti, è possibile applicare il terzo assioma:
+
+$\quad\quad 1 \overset{\;K2\;}{=} \mathbb{P}(\Omega) \overset{}{=} \mathbb{P}(E \cup \overline{E}) \overset{\;K3\;}{=} \mathbb{P}(E) + \mathbb{P}(\overline{E})$
+
+$\quad\quad \mathbb{P}(E) + \mathbb{P}(\overline{E}) = 1 \;\; \Rightarrow\;\; \mathbb{P}(\overline{E}) = 1 - \mathbb{P}(E)$
+
+#### Teorema 2
+
+$\forall E,F \in \mathcal{F} \quad \mathbb{P}(E \cup F) = \mathbb{P}(E) + \mathbb{P}(F) - \mathbb{P}(E \cap F)$
+
+Dimostrazione:
+
+```{=latex}
+\vspace{1mm}
+\begin{minipage}{0.285\linewidth}
+  \centering
+  
+\begin{tikzpicture}[scale=1]
+  % Rettangolo di contorno (universo Ω)
+  \draw[thick] (-2,-1.4) rectangle (2,1.6);
+  % Etichetta Ω
+  \node[anchor=north west] at (-2,1.6) {$\Omega$};
+
+  % Regione I: E \ F
+  \begin{scope}
+    \clip (-0.5,0) circle (1);
+    \fill[gray!20] (-2,-1.4) rectangle (2,1.6);
+  \end{scope}
+
+  % Regione III: F \ E
+  \begin{scope}
+    \clip (0.5,0) circle (1);
+    \fill[gray!20] (-2,-1.4) rectangle (2,1.6);
+  \end{scope}
+
+  % Regione II: E ∩ F (più scuro per distinguerla)
+  \begin{scope}
+    \clip (-0.5,0) circle (1);
+    \clip (0.5,0) circle (1);
+    \fill[gray!50] (-2,-1.4) rectangle (2,1.6);
+  \end{scope}
+
+  % Disegno dei due cerchi
+  \draw (-0.5,0) circle (1);
+  \draw (0.5,0) circle (1);
+
+  % Etichette degli insiemi
+  \node at (-0.9,1.2) {$E$};
+  \node at (0.9,1.2) {$F$};
+
+  % Etichette delle regioni
+  \node at (-1.3,0) {I};
+  \node at (0,0) {II};
+  \node at (1.2,0) {III};
+\end{tikzpicture}
+
+  \vspace{0.3em}
+  \small Suddivisione di \(E \cup F\)
+
+\end{minipage}
+\begin{minipage}{0.65\linewidth}
+\vspace{1.5mm}
+
+	Si suddivide l'evento $E \cup F$ in tre eventi distinti: \\
+	1. I = $E \cap \overline{F}$ \\
+	2. II = $E \cap F$ \\
+	3. III = $\overline{E} \cap F$ \\
+	
+	Dal diagramma di Venn si osserva che questi tre eventi sono disgiunti a due a due. Si dimostra ora algebricamente che I e II sono disgiunti. Analogamente sarà possibile dimostrarlo per le altre coppie. \\
+	
+\end{minipage}
+\vspace{2mm}
+```
+
+
+
+\quad I e II sono disgiunti $\;\; \Leftrightarrow \;\; (\text{I} \cup \text{II} = E) \land (\text{I} \cap \text{II} = \varnothing)$
+
+\quad\quad $(E \cap \overline{F}) \cup (E \cap F) = E \cup (\overline{F} \cap F) = E \cup \varnothing = E$
+
+\quad\quad $(E \cap \overline{F}) \cap (E \cap F) = (E \cap E) \cap (F \cap \overline{F}) = E \cap \varnothing = \varnothing$
+
+```{=latex}
+\noindent\hspace*{1em}Si è quindi dimostrato che I e II sono due eventi disgiunti. Dimostrandolo analogamente per le altre\\
+\hspace*{1em}coppie, è possibile poi applicare il terzo assioma su questi tre eventi disgiunti:
+```
+
+\quad\quad $\mathbb{P}(E \cup F) = \mathbb{P}(\text{I} \cup \text{II} \cup \text{III}) \overset{\;K3\;}{=}  \underbrace{\mathbb{P}(\text{I}) + \mathbb{P}(\text{II})}_{\Large \mathbb{P}(E)} + \underbrace{\mathbb{P}(\text{III}) \textcolor[rgb]{0.65,0.65,0.65}{\; +\; \mathbb{P}(\text{II})}}_{\Large \mathbb{P}(F)} \textcolor[rgb]{0.65,0.65,0.65}{- \mathbb{P}(\text{II})}$
+
+\quad\quad $\;\,\qquad\qquad = \mathbb{P}(E) + \mathbb{P}(F) - \mathbb{P}(E \cap F)$
+
+##### Teorema 3
+
+$\mathbb{P}(\varnothing) = 0$
+
+Dimostrazione:
+
+\quad $\overline{\Omega} = \varnothing$
+
+\quad $\mathbb{P}(\overline{\Omega}) \overset{\;T1\;}{=} 1 - \mathbb{P}(\Omega) \;\; \Rightarrow \;\; \mathbb{P}(\varnothing) = 1 - \mathbb{P}(\Omega) \;\; \overset{\;K2\;}{\Rightarrow} \;\; \mathbb{P}(\varnothing) = 1-1=0$
+
+#### Teorema 4
+
+$\forall E \in \mathcal{F} \quad \mathbb{P}(E) \le 1$
+
+Dimostrazione:
+
+\quad $\mathbb{P}(\overline{E}) \overset{\;T1\;}{=}  1 - \mathbb{P}(E) \;\; \overset{K1}{\Rightarrow} \;\; \mathbb{P}(\overline{E}) = 1 - \mathbb{P}(E) \ge 0 \;\; \Rightarrow \;\; \mathbb{P}(E) \le 1$
+
+#### Teorema 5
+
+$\forall E, F \in \mathcal{F} ~|~ E \subseteq F \quad \mathbb{P}(E) \le \mathbb{P}(F)$
+
+Dimostrazione:
+
+\quad Dato che $E \subseteq F$, allora si può scrivere $F = E \cup (F \smallsetminus E)$ con $E \cap (F \smallsetminus E) = \varnothing$
+
+\quad $E$ e $F\smallsetminus E$ sono quindi due eventi disgiunti ed è quindi possibile applicare il terzo assioma:
+
+\quad $\quad \mathbb{P}(F) \overset{\;K3\;}{=} \mathbb{P}(E) + \mathbb{P}(F \smallsetminus E) \;\; \overset{\;K1\;}{\Rightarrow} \;\; \mathbb{P}(F\smallsetminus E) \ge 0 \;\; \Rightarrow \;\; \mathbb{P}(F) \ge \mathbb{P}(E)$
+
+### **Spazio di probabilità**
+
+Se $\mathcal{F}$ è una $\sigma$-algebra definita sullo spazio degli esiti $\Omega$ e $\mathbb{P}$ è una misura di probabilità definita su $\mathcal{F}$ che soddisfa gli assiomi di Kolmogorov, allora la terna $(\Omega, \mathcal{F}, \mathbb{P})$ è detta spazio di probabilità.
+
+#### **Spazio di probabilità equiprobabile**
+
+Se nello spazio di probabilità $(\Omega, \mathcal{F}, \mathbb{P})$ lo spazio degli esiti $\Omega$ è finito e $\forall \omega \in \Omega$ si ha che $\mathbb{P}(\{\omega\})$ è costante, allora lo spazio di dice equiprobabile.
+
+Essendo $\Omega$ finito, lo si può considerare come $\{\omega_1, \omega_2, \cdots, \omega_N\}$, e di conseguenza la sua cardinalità è $|\Omega| = N$. L'equiprobabilità degli esiti si scrive come $\mathbb{P}(\{\omega_1\}) = \mathbb{P}(\{\omega_2\}) = \cdots = \mathbb{P}(\{\omega_N\}) = p$
+
+Dagli assiomi 1 e 3 segue che
+$$
+1 \overset{\;K1\;}{=} \mathbb{P}(\Omega) = \mathbb{P}(\{\omega_1\} \cup \cdots \cup \{\omega_N\}) \overset{\;K3\;}{=} \mathbb{P}(\{\omega_1\}) + \cdots + \mathbb{P}(\{\omega_N\}) = N p
+$$
+da cui si deduce che $\mathbb{P}(\{\omega_i\}) = p = 1/N$ per $i \in [1, N]$. Generalizzando si ha:
+$$
+p = \dfrac{|\{\omega_i\}|}{|\Omega|}
+$$
+Si consideri un evento $E \subseteq \Omega$, ed essendo $E$ finito sia la sua cardinalità $|E| = k$. Riapplicando gli assiomi:
+$$
+\mathbb{P}(E) = \mathbb{P}(\{e_1', \cdots, e_k'\}) = \mathbb{P}(\{e_1'\} \cup \cdots \cup \{e_k'\}) \overset{\;K3\;}{=} \sum_{i=1}^k \mathbb{P}(\{e_i'\}) = \sum_{i=1}^k p = pk = \dfrac{k}{N} = \dfrac{|E|}{|\Omega|}
+$$
+Si definisce $\mathbb{P}(E) = \dfrac{|E|}{|\Omega|}$ come la regola classica per il calcolo delle probabilità.
+
+\vspace{3mm}
+
+Se $\Omega$ è infinito non è possibile definire una probabilità equiprobabile nel senso in cui ogni esito riceve la stessa probabilità positiva $p$. Infatti se $|\Omega| = \infty$ allora $p \rightarrow 0$, ma se $\forall \omega \in \Omega$ si ha che $\mathbb{P}(\{\omega\}) = 0$, allora gli assiomi di Kolmogorov non sono più soddisfatti e si giunge ad un assurdo.
+
+
+\newpage 
+# **Statistica inferenziale**
+# **Capitolo 7 - Analisi della varianza**
+
+
+
+\newpage
+# **Formulario**
 
 **Frequenza cumulata**:
 $$
