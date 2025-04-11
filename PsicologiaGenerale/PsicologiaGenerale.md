@@ -271,15 +271,256 @@ La ricerca è arrivata ad una conclusione, le persone creative hanno una duplice
 
 \newpage
 ## **Capitolo 8 - L'intelligenza**
+### **8.1 Che cos'è l'intelligenza**
 
+L'intelligenza è un costrutto teorico particolarmente ampio e di difficile definizione. Le sue definizioni spaziano dalla capacità di ragionare astrattamente ai processi di adattamento all'ambiente. 
 
+\begin{tcolorbox}[colback=gray!20!white, boxrule=0.5pt, opacityfill=0.25]
+Varie definizioni date da vari intervistati per la parola intelligenza sono:\\
+- "Capacità di condurre un ragionamento astratto" (Lewis M. Terman)\\
+- "Capacità di adattarsi a situazioni esistenziali relativamente nuove" (Rudolf Pintner)\\
+- "Capacità di acquisire abilità" (Herbert Woodrow)\\
+- "Capacità di trarre profitto dall'esperienza" (Walter F. Dearborn)
+\end{tcolorbox}
+
+Edwin Boring cerco di raccogliere tutte le diverse definizione, fornite dagli intervistati, in una unica frase paradossale e tautologica: "L'intelligenza è la capacità di rispondere esattamente ai test di intelligenza". 
+
+Linda Gottfredson unendo le opinioni di 52 esperti in materia, nè tirò fuori la seguente definizione di intelligenza: "Capacità mentale molto generale che implica, tra le altre cose, l'abilità di ragionare, di pianificare, di risolvere problemi, di pensare in maniera astratta, di comprendere idee complesse, di apprendere rapidamente e di imparare dall'esperienza. Non è pura erudizione o bravura nella risoluzione dei test. Piuttosto essa riflette una più ampia e profonda capacità di comprendere ciò che ci circonda, 'di capire, 'di dare un significato', 'di immaginarsi', che cosa va fatto". 
+
+Ai giorni nostri, non si è ancora arrivata ad una definizione generalizzabile a tutte le culture, infatti si è formata la seguente definizione: l'intelligenza consiste essenzialmente nelle capacità di adattarsi in modo efficace al proprio ambiente, ne deriva che ben difficilmente la nostra visione del funzionamento intellettivo può essere condivisa da culture a noi lontane.
+
+### **8.2 Teorie dell'intelligenza**
+
+Di teorie dell'intelligenza ne sono state formulate diverse da diversi studiosi che si sono interessati a ciò, anche con critiche tra di loro. Secondo Sternberg le **teorie esplicite** sono formulate da esperti e si basano sulle risposte di gruppi di soggetti a compiti considerati idonei a fornire misure del comportamento intelligente, mentre le **teorie implicite**, che possono essere sia di esperti che non, riguardano le idee che tali persone hanno dell'intelligenza.
+
+Per sternberg, l'interesse delle teorie implicite è riconducibile ad almeno quattro ragioni:
+
+- informano sulle idee che la gente ha sulla propria e sull'altrui intelligenza
+- sono alla base delle teorie esplicite
+- permettono di ripensare le teorie esplicite
+- mettono in luce differenze tra le diverse culture circa le opinioni sulle funzioni intelletive.
+
+In merito al primo punto, Bruner, Shapiro e Tagiuri riferiscono che le persone intelligenti sono in genere considerate abili, efficienti ed energiche, non sono mai apatiche, inaffidabili, disoneste e dipendenti. Siegler e Richards hanno osservato nelle persone intervistate la tendenza a considerare l'intelligenza dei bambini, nel corso della loro crescità, sempre meno ancorata alla dimensione percettivo-motoria ma sempre più ricca di componenti cognitive. In merito al secondo e terzo punto, gli studiosi partano da teorie implicite per arrivare ad teorie esplicite, e in caso di imprecisioni o errori in queste ultime, ritornerebbero ad analizzare le teorie implicite. Infinite, l'ultimo punto, ci evidenzia come le teorie implicite vadano ad evidenziare le differenze culturali, come per esempio, le diverse aspettative da un bambino nelle varie fasce d'età.
+
+Nelle prossime pagine andiamo ad analizzare le più famose teorie esplicite, e noteremo come si è passato nel tempo a concezioni meno globalistiche.
+
+\newpage
+#### **8.2.1 Teorie fattoriali**
+
+Binet e Wechsler pensavano che le diverse abilità umane fossero riconducibili a un'origine unitaria. Binet durante le sue prove notò che le differenze di prestazione tra i bambini che riuscivano meglio e quelli che riuscivano peggio tendevano a mantenersi in tutti i vari test. 
+
+Altri studiosi per analizzare come fosse organizzata l'intelligenza, fecerò uso di **tecniche di analisi fattoriale**, esse hanno un valore "economico" perchè permettono di riassumere molte variabili iniziali, che sono correlate tra loro, in un numero minore di variabili ipotetiche nascoste, detti fattori, che stanno alla base di quelle osservate. 
+
+Le tecniche matematico-statistiche di analisi fattoriale furono usate per prime da Charles Spearman, insieme al matematico Karl Pearson. Spearman formulò una **teoria bifattoriale**, secondo cui le capacità intellettive sarebbero l'espressione di un fattore comune, denominato fattore generale 'g' e di fattori specifici 's' che caratterizzano le diverse abilità. Quindi se la capacità intellettiva di una persona è legata al fattore 'g', il rendimento in una particolare prova è dovuto sia dal fattore 'g' che dal fattore 's' specifico della prova.
+
+Thurstone ha ideato una teoria multifattoriale, nella quale ha definito una dozzina di fattori di gruppo, definiti *abilità mentali primarie* (PMA), che secondo lui sarebberò alla base dell'intelligenza; di essi in un secondo momento tramite ulteriori ricerche ne furono selezionati sette, cioè: comprensione verbale (V), fluidità verbale (W), abilità numerica (N), relazioni spaziali (S), memoria associativa (M), velocità percettiva (P), induzione/ragionamento generale (I o R). Tuttavia Thurstone nell'applicazione dei suoi test arrivo alla conclusione che questi fattori sono tra loro correlati. Tramite una indicazione di Eysenck, risolse questa sua contraddizione andando ad applicare a questi fattori l'analisi fattoriale. I risultati ottenuti portarono a formulare l'ipotesi della presenza di un fattore 'g' di ordine superiore, che avrebbe giustificato la correlazione fra le sette abilità primarie. Il nuovo modello di Thurstone aprì il via alle teorie gerarchiche dell'intelligenza e alle teorie delle intelligenze multiple.
+
+Un esempio di teoria gerarchia è quella di Philip Vernon, nella quale il fattore 'g', collocato al vertice della gerarchia, si ramifica attraverso successive biforcazioni in tanti fattori specifici, a partire da una suddivisione iniziale in due ampi fattori di gruppo, il fattore *verbale-educativo* e il fattore *percettivo-spaziale-meccanico*, tra loro indipendenti. Questa teoria può essere considerata una via di mezzo tra la teoria bifattoriale di Spearman e quella multifattoriale di Thurstone.
+
+Cattell, tramite l'applicazione dei suoi test, ha determinato due fattori principali, l'intelligenza fluida *Gf* e l'intelligenza cristallizata *Gc*. L'**intelligenza fluida** è connessa con aspetti biologici e quindi si deteriorerebbe nel corso degli anni, essa rappresenta la capacità di elaborazione delle informazioni e di ragionamento astratto. Mentre l'**intelligenza cristallizata** è basata sui contenuti che la persona ha appreso tramite l'utilizzo dell'intelligenza fluida, contenuti che sono il risultato della processazione dei dati derivanti dalle influenze socioambientali e culturali. La teoria dell'intelligenza fluida e cristallizzata è stata ripresa da John Horn, allievo di Cattell. Entrambi pensano che ad una maggiore intelligenza fluida corrisponde un alto grado di intelligenza cristallizata, quindi i fattori *Gc* e *Gf* sarebbero collegati. Horn disse che le abilità cristallizate tendono ad aumentare nel corso del ciclo di vita di una persona, a differenza di quelle fluide, che decrescono all'avanzare con l'età.
+
+Il fattorialista Joy Paul Guilford introdusse il **cubo di Guilford** per rappresentare graficamente il suo modello multifattoriale, che ha portato a ipotizzare l'esistenza di 120 fattori, estesi a 150 in un secondo momento. I tre assi rappresentano cinque tipi di operazioni (cognizione, memoria, produzione divergente, produzione convergente, valutazione), cinque tipi di contenuti (simbolico, semantico, comportamentale, uditivo, visivo) e sei tipi di prodotti(unità, classi, relazioni, sistemi, trasformazioni, implicazioni); tramite la loro intersezione si giunge ai 150 fattori.
+
+In conclusione possiamo notare come le diverse teorie fattoriali hanno portato a risultati anche molto diversi tra loro. 
+
+\newpage
+#### **8.2.2 La teoria Cattel-Horn-Carrol (CHC) delle abilità cognitive**
+
+Questa teoria nasce tra l'unione della *teoria dell'intelligenza fluida e cristallizata* di Cattell-Horn e della *teoria a tre strati* di John Bissell Carroll. Dalle sue attività di ricerca, Carroll arrivo alla conclusione che esiste uno strato III più elevato, fattore $g$, uno strato II con 8 abilità ampie (intelligenza fluida, intelligenza cristallizata, visualizzazione, memoria, velocità d'elaborazione, recupero dalla memoria, percezione uditiva, fattore di sintesi di $Gf$ e $Gc$) e uno strato I con molti fattori specifici.
+
+Flanagan e Dixon distinguono due versioni della **teoria CHC**: la prima finalizzata a creare una tassonomia unitaria, cioè la classificazione gerarchica della abilità, a partire dalle abilità comprese nei modelli di Cattel-Horn e di Carroll. La proposta di Flanagan ha come obbiettivo l'evidenziare in modo flessibile i processi e le capacità cognitive dei profili prestazionali individuali, rilevandone i punti di forza e di debolezza. La seconda versione, a opera di Scheneider e McGrew, include 16 ampie abilità cognitive, che comprendono più di 70 abilità specifiche, ricavate dalle precedenti. Le 16 abilità sono cosi composte:
+
+- sei fattori generali sono su base cerebrale (ragionamento fluido, memoria a breve termine, immagazzinamento e recupero di informazioni a lungo termine, velocità di processazione, velocità di reazione e decisione, velocità psicomotoria)
+- quattro abilità si fondano sulla teoria dell'intelligenza cristallizzata di Cattell (comprensione-conoscenza, conoscenza dominio-specifica, lettura/scrittura, conoscenza quantitativa)
+- le restanti sono legate ai sistemi sensoriali e alle loro rispettive aree primarie, associate alla corteccia cerebrale (elaborazione visiva, elaborazione uditiva, abilità olfattive, abilità tattili, abilità cinestetiche, abilità psicomotorie)
+
+In questo modo avremo un quadro generale contenente sia approcci cognitivi che neuropsicologici.
+
+Successivamente a questa teoria, alcuni strumenti psicometrici sono stati costruiti o modificati facendo riferimento ad essa. Inoltre secondo alcuni esperti questa diventerà la tassonomia di base per la psicologia cognitiva orientata alla costruzione di test.
+
+#### **8.2.3 La teoria triarchica dell'intelligenza di Robert J. Sternberg**
+
+Sternberg dopo aver ideato la *teoria componenziale dell'intelligenza umana*, ha sviluppato la **teoria triarchica dell'intelligenza**. All'interno di essa la teoria componenziale è diventata una delle tre subteorie, insieme alla *subteoria contestuale* e alla *subteoria esperienzale*. 
+
+La **subteoria componenziale** si occupa degli aspetti interni dell'intelligenza, cioè quei meccanismi mentali che sottendono il comportamento intelligente. Questi meccanismi detti **componenti**, sono distinti in *metacomponenti*, *componenti di prestazione* e *componenti di acquisizione di conoscenze*. 
+
+Le **metacomponenti** sono le componenti di livello più alto, utilizzate dalle persone per progettare i loro compiti, controllarne le modalità di esecuzione, prendere delle decisioni sulle strategie da adottare. Le **componenti di prestazione** sono processi mentali di tipo esecutivo, necessarie alle persone per mettere in atto le istruzioni delle metacomponenti, esse possono essere specifiche di singoli tipi di compito. Le **componenti di acquisizione di conoscenze** sono necessarie alle persone per apprendere le conoscenze utili per la soluzione dei problemi. Stenberg ha identificato tre tipi di componenti di acquisizione di conoscenze, la *codifica selettiva*, la *combinazione selettiva* e il *confronto selettivo*. Per esempio, la codifica selettiva determinerebbe quali elementi sono rilevanti per i propri scopi e quali no. 
+
+La **subteoria contestuale** riguarda gli aspetti esterni dell'intelligenza, cioè  la pratica applicazione delle metacomponenti e dei componenti. Secondo questa subteoria il comportamento intelligente è definito dal contesto socioculturale in cui si esprime; i suoi momenti fondamentali sono l'adattamento all'ambiente in cui si vive, la selezione di un ambiente alternativo e la modellazione del proprio ambiente di vita.
+
+La **subteoria esperienzale** rapprensenta l'intelligenza che l'individuo dimostra nel fare uso della propria esperienza, quindi nel risolvere problemi relativamente nuovi e nell'automatizzare velocemente le procedure che consentono di acquisire competenze e abilità. 
+
+Sternberg e Spear-Swerling ipotizzano che l'attività intelligente sia di tre generi fondamentali: analitica, creativa e pratica. L'**intelligenza analitica** è la capacità di analizzare, giudicare, valutare, di stabilire dei confronti e dei contrasti e di esaminare. L'**intelligenza creativa** si concentra nell'abilità di creare, scoprire, produrre, immaginare, supporre. L'**intelligenza pratica** rappresenta la capacità di usare strumenti, applicare e attuare progetti e piani.
+
+Secondo anderson la teoria triarchica di Sternberg è il risultato di una sintesi originale tra approccio psicometrico, cioè dei test, e approccio informazionale, cioè la vita quotidiana.
+
+#### **8.2.4 Teoria delle intelligenze multiple di Howard E. Gardner** 
+
+La posizione di Gardner è rimasta lontanda da quella che si può definire teoria classica, che identificava l'intelligenza con la capacità di ragionamento logico. Quest'ultimo sviluppo la **teoria delle intelligenze multiple**, che comprendeva sette tipi di intelligenza, ognuno dei quali indipendente dagli altri e ancorato ad un proprio substrato neurologico. Successivamente Gardner ha aggiunto due nuove intelligenze, quella *naturalistica* consistente nella abilità di capire l'ambiente naturale, e quella *esistenziale* definita come la capacità di riflettere su questioni fondamentali dell'esistenza e nell'abilità di ragionare astrattamente. Oltre a queste nove intelligenze, Gardner ha citato una *intelligenza spirituale* e una *intelligenza morale*, ma che non ha integrato nel suo modello per via della mancanza di prove scientifiche attendibili.
+
+Le sette intelligenze identificate da Gardner sono:
+
+- l'intelligenza logico-matematica, comprensione e uso di algoritmi matematici
+- l'intelligenza linguistica, competenza nell'uso delle lingue
+- l'intelligenza spaziale, capacità di percepire la tridimensionalità, che sia orientarsi o produrre oggetti
+- l'intelligenza musicale, comprensione e realizzazione di opere musicali
+- l'intelligenza corporeo-cinestica, padronanza del proprio corpo e movimenti
+- l'intelligenza interpersonale, capacità di capire e relazionarsi con altri
+- l'intelligenza intrapersonale, capacità di capire se stessi
+- l'intelligenza naturalistica, capacità di riconoscere e classificare elementi della natura
+- l'intelligenza filosofico-esistenziale, capacità di riflettere su temi dell'esistenza umana
+
+Gardner sostiene che ogni persona è contraddistinta da una combinazione di intelligenze, che funzionano in modo più o meno efficace; esse sono basate su una base biolgica, ma è l'ambiente a favorire o rendere difficoltosa l'attivazione delle potenzialità intellettive, anche a seconda delle diverse culture.
+
+In un secondo momento, Gardner ha ipotizzato un insieme di cinque intelligenze che sarebbero al centro dell'interesse negli anni a venire. Esse sono l'*intelligenza disciplinare*, l*intelligenza sintetica*, l'*intelligenza creativa*, l'*intelligenza rispettosa* e l'*intelligenza etica*; che le descrive nel seguente modo:
+
+- l'intelligenza disciplinare, raggiungimento di un buon livello di competenza negli ambiti più importanti del sapere, che sarebbero discipline scientifiche, matematica, storia e almeno un'area professionale
+- l'intelligenza sintetica, capacità di integrare in modo coerente le conoscenze acquisite nelle aree disciplinari e di saper comunicare tali conoscenze agli altri
+- l'intelligenza creativa, capacità di identificare e chiarire nuovi problemi, questioni e fenomeni
+- l'intelligenza rispettosa, si esprime nella solidarietà e valorizzazione delle differenze fra le persone
+- l'intelligenza etica, rispettare le proprie responsabilità civiche e lavorative
+
+In conclusione, dal lavoro di Gardner, possiamo cogliere una critica al QI e all'educazione scolastica tradizionale, ed una particolare attenzione alla valorizzazione di aspetti dell'intelligenza poco approfonditi, come la creatività.
+
+#### **8.2.5 Intelligenza emotiva**
+
+John Mayer e Peter Salovey formularono il concetto di **intelligenza emotiva**, essa consisterebbe in un insieme di competenze che permettono un'accurata valutazione delle emozioni in se stessi e negli altri. Daniel Goleman afferma che le nostre emozioni giocano un ruolo molto importante, più di quanto si creda, sul nostro modo di pensare e sui processi decisionali. Goleman definisce l'intelligenza emotiva come un insieme di abilità che includono il controllo dei propri impulsi, l'auto-motivazione, l'empatia e la competenza sociale nelle relazioni interpersonali. 
+
+#### **8.2.6 Cenni sull'approccio delle neuroscienze all'intelligenza**
+
+La corteccia prefrontale è generalmente considerata la sede pensiero astratto. La **teoria dell'integrazione Parieto-Frontale (P-FIT)** ipotizza l'esistenza di una rete neurale frontoparientale rilevante per l'intelligenza, rete che sarebbe alla base di funzioni cognitive quali la percezione, la memoria, il linguaggio; una ulteriore fase di tale ricerca si è posta l'obbietibo di indagare sul modo in cui le aree cerebrali comunicano fra loro.
+
+### **8.3 La valutazione dell'intelligenza**
+
+Uno dei principali interessi degli studiosi dell'intelligenza fu la creazione di strumenti per la sua misurazione. 
+
+#### **8.3.1 Le origini della valutazione dell'intelligenza**
+
+I primi strumenti per la misurazione dell'intelligenza sono databili attorno alla seconda metà dell'ottocento, ma ci sono un paio di eccezioni, come per esempio quelle condotte in cina per la selezione di funzionari pubblici circa mille anni avanti Cristo, le prove d'esame per gli studenti delle scuole medievali oppure quelli utilizzati in inghilterra per la selezione di personale da inviare in india. Teniamo presente che tutti questi test sono considerati obsoleti, in quanto privi di attendibilità e validità.
+
+Nel 1904 a Binet vennè chiesto di creare un test per identificare i bambini con difficolta di apprendimento scolastico in modo precoce, per poterli seguire con un percorso dedicato in modo da colmare le loro carenze. Esso, insieme a Simon pubblico il primo vero e proprio test d'intelligenza, uno strumento formato da trenta prove, che dichiaravano di aver preliminarmente applicato alla scuola della Salpetriere e nelle scuola primarie di Parigi.
+
+Il **test di Binet-Simon** acquisisce in breve tempo importanza internazionale, dalla sua prima pubblicazione esso fu colpito da varie revisioni, la prime due proprio dagli stessi Binet e Simon. Nel 1908 il test fu applicato a bambini di età dai 3 ai 13 anni e fu introdotto il concetto di *età mentale*, successivamente fu esteso agli adulti. Il concetto di *età mentale* nella versione del 1908 necessità un approfondimento. Il test prevedeva prove graduate per difficoltà, quindi se un bambino di quattro anni di età cronologica (EC) superava le prove della sua classe di età allora si ipotizza che la sua età mentale (EM) coincide; se invece non la superava completamente aveva una EM inferiore alla sua EC. In conclusione l'EM poteva risultate uguale, superiore o inferiore all'EC, a seconda delle prestazioni. Il concetto di EM si è presto rilevato *fragile*, per primo fatto la differenza, sia in positivo che in negativo, tra la EM e la EC ha un valore molto diverso in base all'EC della persona analizzata, per secondo fatto invece due profili con la stessa EM possono corrispondere profili intellettivi anche profondamente diversi di persone con differente EC, per esempio un bambino di 6 anni e uno di 8, entrambi con la stessa EM, mantengono comportamenti diversi.
+
+#### **8.3.2 Il quoziente d'intelligenza (QI) e la scala Stanford-Binet**
+
+Dopo la morte di Binet, Lewis Terman si occupo di una rielaborazione del suo strumento, esso è conosciuto come **Scala Stanford-Binet**. L'innovazione più importante è stata l'introduzione del **Quoziente intellettivo (QI)** che rappresenta il risultato della prova. Il QI è dato dal rapporto fra l'età mentale e l'età cronologica della persona a cui viene applicata la Scala Stanford-Binet. Lo psicologo William Stern introdusse la formula per il calcolo del QI:
+$$
+   \text{QI} = \frac{\text{EM}}{\text{EC}} \times 100
+$$
+Ottenendo un punto di EM uguale alla propria EC si ottiene un QI pari a 100, in caso contrario esso sarà superiore o inferiore.
+
+Tuttavia anche questa procedura presenta delle imprecisioni, quindi questo metodo detto QI-rapporto fu sostituito da un altro indice, definito impropriamente, **QI-deviazione**, determinato in base alla distanza, espressa in unità di deviazioni standard, del punteggio totale conseguito da un soggetto rispetto alla media aritmetica dei punteggi del proprio gruppo d'età.
+
+La scala di Binet fu varie volte rivisitata nel tempo, nel 1937 Terman e Merrill, collaborarono per creare la revisione detta **Scala Terman-Merrill**, la prova fu ampliata e divisa in due parti, dette L e M definite equivalenti o parallele. La suddivisione in forme parallele era data dalla convinzione che l'utilizzo di una versione equivalente di un test riducesse la facilitazione che si osservava quando alla stessa persona veniva riapplicato più volte lo stesso strumento; tale convinzione si rivelò inesatta, poichè l'applicazione della forma parallela rivelò una facilitazione pressochè identica a quella che si voleva evitare. Quindi nella versione successiva si ritornò a una unica forma (L-M). In questa nuova versione il risultato veniva espresso tramite la QI-deviazione, ritenuto più preciso. Nel 1973 fuu introdotta una nuova versione, essa basata su una ristandardizzazione del reattivo, avvenuto su un campione più rappresentativo, quindi si sono ottenuti dati più accurati sui quali calcolare il QI. Nel 1986, venne creata da Thorndike, insieme a Hagen e Sattler, la quarta versione della Scala Stanford-Binet; le sue prove furono divise in quattro aree, per poter cogliere meglio l'articolazione delle diverse capacità intellettive, tramite un punteggio dedicato per ogni area. Le aree introdotte sono: *ragionamento verbale*, *ragionamento astratto/visivo*, *ragionamento quantitativo* e *memoria a breve termine*. Nella quinta versione la modifica mirava a valutare i punti di forza e debolezza dei processi cognitivi delle persone esaminate; essa valutava i seguenti cinque fattori: *ragionamento fluido*, *conoscenze*, *ragionamento quantitativo*, *ragionamento visuo-spaziale* e *memoria di lavoro*. 
+
+#### **8.3.3 Altri test d'intelligenza**
+
+La scala d'intelligenza *Wechsler-Bellevue* per adulti, di David Wechsler, era formata da 11 subtest, suddivisi in una subscala verbale e una di performance, dalla loro applicazione si otteneva un QI verbale, un QI di performance e un QI totale. Gli strumenti riconducibili alla Wechsler-Bellevue sono la WAIS IV per adulti, la WISC IV per bambini e ragazzi dai 6 ai 16 anni e la WPPSI III per i bambini dai 4 ai 6 anni.
+
+Per via dell'ingresso in guerra degli stati uniti, è stato necessario sviluppare degli strumenti appliccabili simultaneamente a gruppi di persone per una rapida selezione, a questo scopo furono ideati i test *Army Alpha* e *Army Beta*. Tra le prove principali troviamo le *Progressive Matrices*, considerato uno strumento culture free, poichè sono formate da stimoli non verbali, che non richiedono acquisizioni scolastiche. 
+
+Un test d'intelligenza recente è la *Scala Leiter-3*, è un test non verale per la misura del QI e dell'abilità cognitiva di soggetti di età variante dai 3 ai 75 anni; Essa è costituita da 10 subtest, di cui 5 compongono la batteria cognitiva e 5 la batteria di attezione e memoria. Un altro test di recente standardizzazione è il KBIT-2, formato da 2 subtes verbali e da un subtest non verbale, che genera un QI non verbale, un QI verbale e un QI composito.
+
+#### **8.3.4 Il dibattito sul QI**
+
+Il secolo scorso è stato caratterizzato da un'ampia polemica sull'uso dei test d'intelligenza e dell'interpretazione del QI. Sono nate diverse linee di pensiero in merito ad essi, alcune partivano dal fatto che il QI sia una misura affidabile dell'intelligenza intesa nel suo significato più ampio, che esso rispecchi l'intelligenza innata e che le differenze razziali nei punteggi dei test siano il riflesso di fattori ereditari, altri psicologi respingono tutte le asserzioni precedentemente elencate. Alcuni psicologi osservano che per molta parte del novecento la psicologia sperimentale non disponeva una soddisfacente teoria dell'intelligenza, per cui i test intellettivi erano privi di una solida base teorica.
+
+TO BE CONTINUED
+
+### **8.4 La disabilità intellettiva**
+
+La **disabilità intellettiva** è una condizione condivisa da sindromi diverse tra loro, essa è caratterizzata da significative limitazioni sia nel funzionamento intellettivo che nel comportamento adattivo, espresso in abilità concettuali, sociali e pratico-adattive. Tale disabilità ha origine prima dei 18 anni. 
+
+Il DMS-5, uno strumento di riferimento per psichiatri e psicologi clinici, suddivide  la disabilità intellettiva in livelli di gravità: lieve, moderato, grave, estremo; per stabilire il livello di gravità si vanno ad analizzare i seguenti ambiti: concettuale, sociale e pratico. Nei paesi più avanzati si è creata l'idea di **supporto**, cioè risorse e strategie finalizzate a promuovere l'educazione, gli interessi e il benessere della persona, tali da migliorare il funzionamento individuale. Fondamentali, in questo contesto, sono l'attività di ricerca e l'utilizzo di opportune metodologie psicoeducative per tempi prolungati e un idoneo inserimento scolastico nella cosidetta scuola comune, non separata, coordinato e supervisionato da esperti.
+
+Da una ricerca a livello mondiale è emerso la significativa carenza di azioni politiche e legislative adeguate, l'insufficienza di servizi e risorse. Un ruolo particolarmente importante è dato dalle organizzazioni non governative (ONG) e dalle organizzazioni internazionali, oltre a quello, predominante, delle famiglie, nel sostenere le persone con disabilità intellettiva. In alcuni paesi il supporto famigliare è l'unica forma di sostegno presente. 
+
+### **8.5 Persone particolarmente dotate sul piano intellettivo**
+
+Le persone intellettivamente più abili si distinguono per il raggiungimento di traguardi di eccellenza nei settori di cui si occupano. Il loro QI è elevato. La **plusdotazione** può essere riconducibile a una base genetica, ma non va dimenticata l'incidenza della componenti educativo-ambientale, essere seguiti precocemente dai genitori in un ambiente gratificante e stimolante è il primo passo per si che le potenzialità ereditarie possano realizzarsi, il passo successivo è caratterizzato da buone scuole. Bisogna tenere presente che alcune persone gifted, cioè plusdotate, non si integrano con il sistema scolastico in quanto non trovano questo ambiente abbastanza stimolante, dovuto anche dal fatto che posseggono un pensiero divergente e creatività superiore alla media. Uno stereotipo che si è creato sulle persone gifted è il fatto che soffrirebbero di problemi psichici e/o fisici e sarebbero chiuse in se stesse e poco socievoli e la loro genialità è dovuta da una sorta di costruzione di una sovrastruttura psichica compensatoria. La ricerca sul benessere psicologico è arrivata alla conclusione che se da una parte si rileva che la plusdotazione aumenterebbe la capacità di trovare strategie per affrondare le difficoltà, dall'altra parte se ne sottolinea la vulnerabilità, per esempio per via dell'alta sensibilità, del forte senso di giustizia e dell'elevato desiderio di perfezionismo. Secondo Neihart questi esiti dipenderebbero da tre fattori: le caratteristiche della plusdotazione, l'adeguatezza educativa e la struttura personologica individuale.
+
+In conclusione quindi non è detto che una persona gifted sia per forza non interessata all'ambiente scolastico, chiusa in se stessa o elevatamente sensibile, possono anche sviluppare caratteristiche differenti.
+
+### **8.6 Intelligenza ed età**
+
+Non ci sono molte prove per sostenere l'idea del declino delle **capacità cognitive negli anziani** in buona salute, infatti solo il 5% della popolazione viene colpita da gravi perdite di funzionamento cognitivo. La ricerca si è concentrata sul concetto *usalo o lo perdi*, quindi una persona che nella vità è maggiormente occupata in attività sociali, fisiche e intellettuali, avrà una maggiore velocità di processazione nei compiti cognitivi, anche con l'avanzare dell'età. Bisogna stare attenti che la correlazione non implica un rapporto di causa-effetto. Il risultato potrebbe indicare che un alto livello di attività comporta una velocità di processazione relativamente alta; dobbiamo tuttavia anche considerare il fatto che una velocità di elaborazione relativamente ridotta permette ad alcuni adulti di età avanzata di rimanere più attivi, per esempio per compensare o mantenersi allenati.
+
+### **8.7 Basi genetiche dell'intelligenza**
+
+Un obbiettivo della psicologia è capire quanto l'intelligenza sia determinata dal corredo genetico, in quanto questo non è mai stato dimostrato scientificamente. Per stimare quanto la variabilità di una caratteristica, nel nostro caso il QI, in una popolazione è determinata dalla variabilità genetica, si calcola l'**indice di ereditabilità**, il cui simbolo è $h^2$. Bisogna tenere presente che la misura dell'ereditabilità non si utilizza per singoli individui ma su una intera popolazione. 
+
+Holzinger ha proposto la seguente formula per il calcolo di tale incide:
+$$
+h^2 = \frac{\text{rMZ} - \text{rDZ}}{1 - \text{rDZ}}
+$$
+nella quale, rMZ rappresenta il coefficiente di correlazione di Bravais-Pearson, calcolato su coppie di gemelli monozigoti, mentre rDZ è il coefficiente di correlazione di Bravais-Pearson, calcolato su coppie di gemelli dizigoti. il $1 - h^2$ fornisce una stima dell'incidenza dell'ambiente, in quanto l'eredità e l'ambiente sono strettamente interconnessi.
 
 \newpage
 ## **Capitolo 11 - Comprendere la personalità umana**
+
+Gli psicologi definiscono la personalità come l'insieme complessivo delle caratteristiche psicologiche che influenzano i pattern comportamentali tipici di un individuo nel corso del tempo e in situazioni differenti. In questo capitolo tratteremo diverse teorie, ogni teoria ha due fondamentali obbiettivi; in primo luogo comprendere l'unicità di ogni individuo per quanto riguarda la struttura, le origini e i correlati della personalità; in secondo luogo comprendere come ogni singola personalità produca caratteristici pattern comportamentali. 
+
+### **11.1 Teorie dei tratti**
+
+Un approccio allo studio della personalità implica l'utilizzo di scale di misura di differenti tratti, le persone sembrano avere una tendenza naturale a classificare il proprio e l'altrui comportamento su più dimensioni.
+
+#### **11.1.1 Descrivere attraverso i tratti**
+
+I **tratti** sono caratteristiche o attributi duraturi che predispongono gli individui a comportarsi in modo coerente in tutte le situazioni. Alcuni teorici ritengono i tratti predisposizioni che sono causa del comportamento, mentre teorici più conservativi usano i tratti come pure dimensioni descrittive che si limitano a dar conto dei pattern comportamentali. 
+
+#### **Approccio di Allport**
+
+Gordon Allport considerava i tratti come i mattoni della personalità e la fonte dell'individualità. 
+
+### **11.2 Teorie psicodinamiche**
+
+
+
+### **11.3 Teorie umanistiche**
+
+
+
+### **11.4 Teorie cognitive e dell'apprendimento sociale**
+
+
+
+### **11.5 Teorie del Sè**
+
+
+
+### **11.6 Teorie della personalità a confronto**
+
+
+
+### **11.7 Valutare la personalità**
 
 
 
 \newpage
 ## **Capitolo 12 - Psicologia della salute e del benessere della persona**
 
+
+
+### **12.1 Salute e benessere**
+
+
+
+### **12.2 Psicologia della salute: sviluppo storico, obbiettivi e temi di ricerca**
+
+
+
+### **12.3 Il modello biopsicosociale**
+
+
+
+### **12.4 La comunicazione al servizio della salute**
+
+
+
+### **12.5 Personalità e benessere**
+
+
+
+### **12.6 Eventi stressanti e modalità di risposta**
 
