@@ -5,6 +5,12 @@ date: "2025-03-14"
 lang: it-IT
 toc: true
 ---
+```{=latex}
+
+\definecolor{mygray}{HTML}{F7F7F7}
+\newenvironment{myquote}{\begin{mdframed}[backgroundcolor=mygray, leftmargin=0.5cm, rightmargin=0.5cm, skipabove=\baselineskip, linewidth=0pt, innertopmargin=0.45cm, innerbottommargin=0.45cm, innerleftmargin=0.5cm, innerrightmargin=0.5cm]}{\end{mdframed}}
+\renewenvironment{quote}{\begin{myquote}}{\end{myquote}}
+```
 
 \newpage
 # **Capitolo 1 – Introduzione alla Statistica**
@@ -43,7 +49,7 @@ in questo modo, le proporzioni di ciascun strato presenti nel campione rispecchi
 La stratificazione è particolarmente efficace per conosce il membro *medio* della popolazione totale quando ci sono differenze tra le sottopopolazioni rispetto alla questione studiata.
 
 \newpage
-# **La statistica descrittiva**
+# **Statistica descrittiva**
 # **Capitolo 2 - Descrivere insiemi di dati**
 ## **Dati quantitativi e qualitativi**
 
@@ -499,112 +505,6 @@ l'IQR è un indice robusto poichè non è influenzato da valori fuori scala, com
 
 Questo indice è fondamentale per la costruzione dei boxplot perchè viene utilizzato per definire quali valori siano fuori scala e quali no. Generalmente i valori inferiori a $Q1 - 1.5 \cdot IQR$ o superiori a $Q3 + 1.5 \cdot IQR$ sono considerati outlier.
 
-## **Altri grafici**
-### **Box Plot**
-
-Se vogliamo visualizzare alcune statistiche riassuntive di un insieme di dati usiamo un **box plot** (diagramma a scatola). Per realizzarlo tracciamo un segmento orizzontale dal minore al maggiore dei dati. A questo segmento sovrapponiamo un rettangolo che si estende dal primo al terzo quartile. Il rettangolo è diviso in due parti da un segmento verticale in corrispondenza della mediana campionaria.
-
-La lunghezza della base del rettangolo corrisponde allo scarto interquantile.
-```{=latex}
-\begin{tikzpicture}
-\begin{axis}[
-    width=12cm,
-    height=2.8cm,
-    xmin=0, xmax=10,
-    ymin=0.5, ymax=1.5,
-    axis x line=none,
-    axis y line=none,
-    boxplot/draw direction=x,
-    clip=false,
-]
-  % box plot
-  \addplot+[
-    boxplot prepared={
-      lower whisker=1,
-      lower quartile=2,
-      median=3.5,
-      upper quartile=5.8,
-      upper whisker=8,
-    },
-    thick,
-    draw=black,
-    fill=white,
-  ] coordinates {};
-
-  % outliers
-  \addplot+[
-    only marks,
-    mark=o,
-    mark options={draw=black, line width=0.8pt},
-  ] coordinates {(9.3,1) (11,1)};
-
-  % etichette
-  \node[above, yshift=0.6cm] at (axis cs:1,1) {Min};
-  \node[above, yshift=0.55cm] at (axis cs:2,1) {Q1};
-  \node[above, yshift=0.6cm] at (axis cs:3.5,1) {Med};
-  \node[above, yshift=0.55cm] at (axis cs:5.8,1) {Q3};
-  \node[above, yshift=0.6cm] at (axis cs:8,1) {Max};
-
-  % frecce
-  \draw[<->, thick, gray]
-    (axis cs:1.1,0.4) -- (axis cs:1.9,0.4)
-    node[midway,below, text=gray]{25\%};
-  \draw[<->, thick, gray]
-    (axis cs:2.1,0.4) -- (axis cs:3.4,0.4)
-    node[midway,below, text=gray]{25\%};
-  \draw[<->, thick, gray]
-    (axis cs:3.6,0.4) -- (axis cs:5.7,0.4)
-    node[midway,below, text=gray]{25\%};
-  \draw[<->, thick, gray]
-    (axis cs:5.9,0.4) -- (axis cs:7.9,0.4)
-    node[midway,below, text=gray]{25\%};
-
-\end{axis}
-\end{tikzpicture}
-```
-In un box plot ciascuno dei quattro segmenti contiene il 25% delle osservazioni, però la lunghezza di ciascun segmento sulla scala orizzontale dipende dalla distribuzione dei valori. Se i dati sono più concentrati in un certo intervallo, quel tratto sarà più corto. I quartili dividono le osservazioni in parti uguali sul numero dei dati ma non sulla distanza numerica.
-
-I pallini a destra del blox plot rappresentano dei valori fuori scala, determinati tramite l'utilizzo dell'IQR.
-
-### **Q-Q Plot**
-```{=latex}
-\begin{minipage}[c]{0.3\textwidth}
-    \centering
-    \includegraphics[width=\linewidth]{\detokenize{./immagini/qq-plot.png}}
-\end{minipage}
-\hspace{2mm}
-\begin{minipage}[c]{0.65\textwidth}
-    \vspace{-7mm}
-Un diagramma Q-Q, o diagramma qauntile-quantile, è una rappresentazione grafica qualitativa che permette di verificare le similarità tra le distribuzioni di due campioni diversi. Può tornare utile per vedere quindi se seguono una stessa distribuzione. \\\\ 
-Questi diagrammi si basano sul fatto che i quantili campionari rappresentino l'approssimazione di quantili teorici, se considerati tutti insieme, individuano la distribuzione dei dati.
-\end{minipage}
-```
-Ogni asse cartesiano di questo diagramma contiene i quantili dei due campioni presi in considerazione. Poichè i quantili sono ordinati in modo creascente anche il grafico lo sarà, o perlomeno non decrescente.
-
-Se due campioni hanno una distribuzione uguale, allora estraendo da entrambi il quantile di un livello fissato si dovranno ottenere due numeri vicini. In questo caso i punti del diagramma Q-Q tenderanno ad allinearsi alla bisettrice del I° e III° quadrante.
-
-## **Distribuzioni normali**
-
-Un insieme di dati si dice **normale** se il rispettivo istogramma ha le seguenti proprietà:
-
-- L'istogramma è simmetrico rispetto all'intervallo centrale.
-- Ha il punto massimo in corrispondenza dell'intervallo centrale.
-- Spostandoci dal centro verso destra o sinistra, l'altezza diminuisce in modo tale che l'intero istogramma è a forma di campana.
-
-Se l'istogramma di un insieme di dati è vicino ad essere un istrogramma normale, allora diciamo che l'insieme di dati è approssimativamente normale. Inoltre l'insieme di dati si dice asimmetrico a destra o a sinistra a seconda di quale sia la coda più lunga.
-
-A causa della simmetria dell'istogramma normale, la media e la mediana di un insieme di dati approssimativamente normale sono uguali o molto prossime.
-
-Siano $\bar{x}$ e $s$ rispettivamente la media e la deviazione standard campionarie di un insieme di dati approssivativamente normale. La **regola empirica** specifica le proporzioni approssimate delle osservazioni che si trovano a una distanza di $s, 2s$ e $3s$ da $\bar{x}$:
-
-- circa il 68% delle osservazioni rientrano nell'intervallo $\bar{x} \pm s$
-- circa il 95% delle osservazioni rientrano nell'intervallo $\bar{x} \pm 2s$
-- circa il 99,7% delle osservazioni rientrano nell'intervallo $\bar{x} \pm 3s$
-
-Un insieme di dati ottenuto campionando una popolazione costituita da sottogruppi eterogenei non è di solito normale. L'istogramma di un insieme di dati di questo tipo spesso assomiglia ad una sovrapposizione di istogrammi normali e quindi spesso ha due o più massimi locali. Questi massimi locali si comportano come mode. Un insieme di dati il cui istogramma ha due massimi locali si dice **bimodale**.
-
-In questi casi, quando nei dati si hanno due popolazioni ben distinte per quanto riguarda un certo attributo, ha senso dividere i dati in base a queste popolazioni e ottenere un insieme normale.
-
 ## **Indici di dipendenza**
 
 Consideriamo un insieme composto da dati accoppiati $(x_1,y_1),(x_2, y_2), \cdots, (x_n, y_n)$. Per vedere la relazione relativa di queste due variabili è possibile rappresentarle in un diagramma di dispersione. Questo approccio è pero qualitativo e quindi soggetto a interpretazione.
@@ -880,16 +780,6 @@ H = \log m \quad \Rightarrow \quad H' = \dfrac{\log m}{\log m} = 1
 $$
 Nel nostro caso è utile avere il logaritmo in base 2 in modo da poter misurare l'entropia di bit, che risulta utile quando bisogna svolgere i calcoli in un computer, ma volendo si può utilizzare una qualsiasi base, come il logaritmo naturale o in base 10.
 
-### **Alberi di decisione**
-
-Gli indici di eterogeneità oltre ad misurare la dispersione delle frequenze nelle variabili qualitative, sono fondamentali anche nella costruzione degli alberi di decisione. In un albero di decisione, ogni oggetto da classificare è descritto da un vettore di attributi e la classificazione avviene valutando, partendo dalla radice, condizioni sui valori di tali attributi.
-
-In pratica, ad ogni nodo viene associata una condizione/test che suddivide il campione in sottoinsiemi: si segue il percorso corrispondente in base al risultato del test, fino al raggiungimento di una foglia, la quale indica la classe assegnata. La scelta del test in ciascun nodo è guidata proprio dagli indici di eterogeneità; l'obbiettivo è quello di ridurre l'eterogeneità dei dati nei nodi figli rispetto a quella del nodo padre. Si cerca quindi di porre condizioni ai vari nodi per ottenere dei sottogruppi il più omogenei possibili e con il minor numero di nodi possibili.
-
-Ad esempio, tramite l'indice di Gini si seleziona la condizione che minimizza l'indice nei gruppi risultanti, cioè quella che porta a sottoinsiemi in cui la distribuzione delle classi è il più possibile concentrata in una sola categoria. Analogamente se si usa l'indice di Entropia si cerca la divisione che riduce al minimo l'incertezza nei nodi successivi. In entrambi i casi procedento lungo l'albero si raggiungono foglie contenenti gruppi di oggetti più omogenei rispetto alla classe di appartenenza. 
-
-In questo modo l'impiedo degli indici di eterogeneità consente di valutare quantitativamente la bontà delle suddivisioni, contribuendo a costruire alberi di decisione efficaci per il compito di classificazione.
-
 ## **Concentrazione**
 
 Le misure di concentrazione sono strumenti statistici che consentono di comprendere come una determinata risorsa/bene, come la ricchezza, sia distribuita all'interno di una popolazione. In questo modo è possibile valutare se tale risorsa sia distribuita in maniera equa tra gli individui oppure se risulta concentrata in un numero ristretto di individui.
@@ -1088,6 +978,140 @@ $%
 \vspace{1mm}
 ```
 Nei casi intermedi si avrà dunque che i punti staranno su una curva sotto la bisettrice del I° e III° quadrante $F=Q$, cado che $Q_i \le F_i$ per qualsiasi $i = 1, \cdots, n$. Più la curva si avvicina alla bisettrice e più la concentrazione è bassa, mentre più si allontana e più la concentrazione è altra.
+
+### **Indice di concentrazione di Gini** TO DO
+
+\newpage
+# **Capitolo 4 - Altro**
+
+## **Altri grafici**
+
+### **Box Plot**
+
+Se vogliamo visualizzare alcune statistiche riassuntive di un insieme di dati usiamo un **box plot** (diagramma a scatola). Per realizzarlo tracciamo un segmento orizzontale dal minore al maggiore dei dati. A questo segmento sovrapponiamo un rettangolo che si estende dal primo al terzo quartile. Il rettangolo è diviso in due parti da un segmento verticale in corrispondenza della mediana campionaria.
+
+La lunghezza della base del rettangolo corrisponde allo scarto interquantile.
+```{=latex}
+\begin{tikzpicture}
+\begin{axis}[
+    width=12cm,
+    height=2.8cm,
+    xmin=0, xmax=10,
+    ymin=0.5, ymax=1.5,
+    axis x line=none,
+    axis y line=none,
+    boxplot/draw direction=x,
+    clip=false,
+]
+  % box plot
+  \addplot+[
+    boxplot prepared={
+      lower whisker=1,
+      lower quartile=2,
+      median=3.5,
+      upper quartile=5.8,
+      upper whisker=8,
+    },
+    thick,
+    draw=black,
+    fill=white,
+  ] coordinates {};
+
+  % outliers
+  \addplot+[
+    only marks,
+    mark=o,
+    mark options={draw=black, line width=0.8pt},
+  ] coordinates {(9.3,1) (11,1)};
+
+  % etichette
+  \node[above, yshift=0.6cm] at (axis cs:1,1) {Min};
+  \node[above, yshift=0.55cm] at (axis cs:2,1) {Q1};
+  \node[above, yshift=0.6cm] at (axis cs:3.5,1) {Med};
+  \node[above, yshift=0.55cm] at (axis cs:5.8,1) {Q3};
+  \node[above, yshift=0.6cm] at (axis cs:8,1) {Max};
+
+  % frecce
+  \draw[<->, thick, gray]
+    (axis cs:1.1,0.4) -- (axis cs:1.9,0.4)
+    node[midway,below, text=gray]{25\%};
+  \draw[<->, thick, gray]
+    (axis cs:2.1,0.4) -- (axis cs:3.4,0.4)
+    node[midway,below, text=gray]{25\%};
+  \draw[<->, thick, gray]
+    (axis cs:3.6,0.4) -- (axis cs:5.7,0.4)
+    node[midway,below, text=gray]{25\%};
+  \draw[<->, thick, gray]
+    (axis cs:5.9,0.4) -- (axis cs:7.9,0.4)
+    node[midway,below, text=gray]{25\%};
+
+\end{axis}
+\end{tikzpicture}
+```
+In un box plot ciascuno dei quattro segmenti contiene il 25% delle osservazioni, però la lunghezza di ciascun segmento sulla scala orizzontale dipende dalla distribuzione dei valori. Se i dati sono più concentrati in un certo intervallo, quel tratto sarà più corto. I quartili dividono le osservazioni in parti uguali sul numero dei dati ma non sulla distanza numerica.
+
+I pallini a destra del blox plot rappresentano dei valori fuori scala, determinati tramite l'utilizzo dell'IQR.
+
+### **Q-Q Plot**
+```{=latex}
+\begin{minipage}[c]{0.3\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{\detokenize{./immagini/qq-plot.png}}
+\end{minipage}
+\hspace{2mm}
+\begin{minipage}[c]{0.65\textwidth}
+    \vspace{-7mm}
+Un diagramma Q-Q, o diagramma qauntile-quantile, è una rappresentazione grafica qualitativa che permette di verificare le similarità tra le distribuzioni di due campioni diversi. Può tornare utile per vedere quindi se seguono una stessa distribuzione. \\\\ 
+Questi diagrammi si basano sul fatto che i quantili campionari rappresentino l'approssimazione di quantili teorici, se considerati tutti insieme, individuano la distribuzione dei dati.
+\end{minipage}
+```
+Ogni asse cartesiano di questo diagramma contiene i quantili dei due campioni presi in considerazione. Poichè i quantili sono ordinati in modo creascente anche il grafico lo sarà, o perlomeno non decrescente.
+
+Se due campioni hanno una distribuzione uguale, allora estraendo da entrambi il quantile di un livello fissato si dovranno ottenere due numeri vicini. In questo caso i punti del diagramma Q-Q tenderanno ad allinearsi alla bisettrice del I° e III° quadrante.
+
+## **Distribuzioni normali**
+
+Un insieme di dati si dice **normale** se il rispettivo istogramma ha le seguenti proprietà:
+
+- L'istogramma è simmetrico rispetto all'intervallo centrale.
+- Ha il punto massimo in corrispondenza dell'intervallo centrale.
+- Spostandoci dal centro verso destra o sinistra, l'altezza diminuisce in modo tale che l'intero istogramma è a forma di campana.
+
+Se l'istogramma di un insieme di dati è vicino ad essere un istrogramma normale, allora diciamo che l'insieme di dati è approssimativamente normale. Inoltre l'insieme di dati si dice asimmetrico a destra o a sinistra a seconda di quale sia la coda più lunga.
+
+A causa della simmetria dell'istogramma normale, la media e la mediana di un insieme di dati approssimativamente normale sono uguali o molto prossime.
+
+Siano $\bar{x}$ e $s$ rispettivamente la media e la deviazione standard campionarie di un insieme di dati approssivativamente normale. La **regola empirica** specifica le proporzioni approssimate delle osservazioni che si trovano a una distanza di $s, 2s$ e $3s$ da $\bar{x}$:
+
+- circa il 68% delle osservazioni rientrano nell'intervallo $\bar{x} \pm s$
+- circa il 95% delle osservazioni rientrano nell'intervallo $\bar{x} \pm 2s$
+- circa il 99,7% delle osservazioni rientrano nell'intervallo $\bar{x} \pm 3s$
+
+Un insieme di dati ottenuto campionando una popolazione costituita da sottogruppi eterogenei non è di solito normale. L'istogramma di un insieme di dati di questo tipo spesso assomiglia ad una sovrapposizione di istogrammi normali e quindi spesso ha due o più massimi locali. Questi massimi locali si comportano come mode. Un insieme di dati il cui istogramma ha due massimi locali si dice **bimodale**.
+
+In questi casi, quando nei dati si hanno due popolazioni ben distinte per quanto riguarda un certo attributo, ha senso dividere i dati in base a queste popolazioni e ottenere un insieme normale.
+
+## **Traslazione dei dati** TO DO
+
+## **Alberi di decisione**
+
+Gli indici di eterogeneità oltre ad misurare la dispersione delle frequenze nelle variabili qualitative, sono fondamentali anche nella costruzione degli alberi di decisione. In un albero di decisione, ogni oggetto da classificare è descritto da un vettore di attributi e la classificazione avviene valutando, partendo dalla radice, condizioni sui valori di tali attributi.
+
+In pratica, ad ogni nodo viene associata una condizione/test che suddivide il campione in sottoinsiemi: si segue il percorso corrispondente in base al risultato del test, fino al raggiungimento di una foglia, la quale indica la classe assegnata. La scelta del test in ciascun nodo è guidata proprio dagli indici di eterogeneità; l'obbiettivo è quello di ridurre l'eterogeneità dei dati nei nodi figli rispetto a quella del nodo padre. Si cerca quindi di porre condizioni ai vari nodi per ottenere dei sottogruppi il più omogenei possibili e con il minor numero di nodi possibili.
+
+Ad esempio, tramite l'indice di Gini si seleziona la condizione che minimizza l'indice nei gruppi risultanti, cioè quella che porta a sottoinsiemi in cui la distribuzione delle classi è il più possibile concentrata in una sola categoria. Analogamente se si usa l'indice di Entropia si cerca la divisione che riduce al minimo l'incertezza nei nodi successivi. In entrambi i casi procedento lungo l'albero si raggiungono foglie contenenti gruppi di oggetti più omogenei rispetto alla classe di appartenenza. 
+
+In questo modo l'impiedo degli indici di eterogeneità consente di valutare quantitativamente la bontà delle suddivisioni, contribuendo a costruire alberi di decisione efficaci per il compito di classificazione.
+
+## **Analisi di classificatori** TO DO
+
+### **Classificatori costanti** TO DO
+
+### **Classificatori ideali** TO DO
+
+### **Classificatori casuali** TO DO
+
+### **Classificatori a soglia** TO DO
 
 \newpage
 # **Teoria delle probabilità**
@@ -1619,12 +1643,680 @@ Si consideri un evento $E \subseteq \Omega$, ed essendo $E$ finito sia la sua ca
 $$
 \mathbb{P}(E) = \mathbb{P}(\{e_1', \cdots, e_k'\}) = \mathbb{P}(\{e_1'\} \cup \cdots \cup \{e_k'\}) \overset{\;K3\;}{=} \sum_{i=1}^k \mathbb{P}(\{e_i'\}) = \sum_{i=1}^k p = pk = \dfrac{k}{N} = \dfrac{|E|}{|\Omega|}
 $$
-Si definisce $\mathbb{P}(E) = \dfrac{|E|}{|\Omega|}$ come la regola classica per il calcolo delle probabilità.
+Si definisce $\mathbb{P}(E) = \dfrac{|E|}{|\Omega|} = \dfrac{\text{\# casi favorevoli}}{\text{\# casi possibili}}\;$ come la regola classica per il calcolo delle probabilità.
 
 \vspace{3mm}
 
 Se $\Omega$ è infinito non è possibile definire una probabilità equiprobabile nel senso in cui ogni esito riceve la stessa probabilità positiva $p$. Infatti se $|\Omega| = \infty$ allora $p \rightarrow 0$, ma se $\forall \omega \in \Omega$ si ha che $\mathbb{P}(\{\omega\}) = 0$, allora gli assiomi di Kolmogorov non sono più soddisfatti e si giunge ad un assurdo.
 
+## **Probabilità condizionata**
+
+Si definisce **probabilità condizionata** la probabilità che si verifichi un evento *E* sapendo che si è già verificato un altro evento *F*. La probabilità condizionate di *E* dato *F* si indica con $\mathbb{P}(E|F)$, oppure $\mathbb{P}_F(E)$, e si può definire a partto che la probabilità di *F* sia diverso da zero.
+
+La probabilità condizionata subentra tutte le vole che si vuole calcolare la probabilità di un evento *E*, detto *evento condizionato*, assumendo che si sia già verificato un altro evento *F*, detto *evento condizionante*. L'incertezza dell'evento *E* è quindi solo parziale ed è limitata al sottoinsieme degli esiti in cui *F* si verifica.
+
+Utilizzando la definizione classica di probabilità, vale la seguente formula sulla probabilità condizionata:
+$$
+\mathbb{P}(E|F) = \dfrac{\mathbb{P}(E \cap F)}{\mathbb{P}(F)} \quad \text{con } \mathbb{P}(F) \not= 0
+$$
+Infatti, se si è verificato l'evento *F*, affinchè si verifichi anche *E* il caso deve aver favorito un elemento che sta sia in *E* che in *F*, ovvero che appartiene all'intersezione $E \cap F$. In secondo luogo, il verificarsi di *F* restringe lo spazio degli esiti ai soli elementi di *F*, escludendo quelli che non vi appartengono. L'evento condizionante diventa quindi il nuovo spazio degli esisti, sostituendo $\Omega$. 
+
+Nel caso in cui $F = \varnothing$, e quindi $\mathbb{P}(F) = 0$, non è possibile calcolare $\mathbb{P}(E|F)$ che è perciò detta indefinita.
+
+> **Esempio** Si immagini di tirare due dadi. Lo spazio degli esiti di questo esperimento è descritto  
+> da $\Omega = \{ (x,y) \;\, | \;\, x,y \in [1,6]  \}$ dove si intende che si ottiene l'esito $(x,y)$ se il risultato del primo dado è $x$ e quello del secondo $y$. Si supponga che entrambi i dadi non siano truccati, e di trovarci quindi in uno spazio equiprobabile dove $\mathbb{P}((x,y)) = 1/|\Omega| = 1/36$.
+>
+> ```{=latex}
+> \begin{minipage}{0.35\linewidth}
+> 	\centering
+>     \begin{tikzpicture}[scale=0.5]
+>         % Assi con frecce
+>         \draw[->] (0,0) -- (7,0) node[below] {$x$};
+>         \draw[->] (0,0) -- (0,7) node[left] {$y$};
+> 
+>         % Unico 0 in obliquo all'origine
+>         \node[below left] at (0,0) {0};
+> 
+>         % Tacche e etichette sugli assi (1..6)
+>         \foreach \x in {1,2,3,4,5,6} {
+>             \draw (\x,0) -- (\x,-0.1) node[below] {\x};
+>         }
+>         \foreach \y in {1,2,3,4,5,6} {
+>             \draw (0,\y) -- (-0.1,\y) node[left] {\y};
+>         }
+> 
+>         % Retta x+y = 8
+>         \draw[color=gray!60] (1.1,6.9) -- (6.9,1.1);
+>         % Retta x = 3
+>         \draw[color=black] (3,0) -- (3,6.9);
+> 
+>         % Rombi per la retta x+y=8, escluso l'intersezione (3,5)
+>         \foreach \p in {(2,6), (4,4), (5,3), (6,2)} {
+>             \draw[rotate around={45:\p}, color=gray!70] \p 
+>                 ++(-0.2,0) -- ++(0.2,0.2) -- 
+>                 ++(0.2,-0.2) -- ++(-0.2,-0.2) -- cycle;
+>         }
+> 
+>         % Rombi per la retta x=3, escluso l'intersezione (3,5)
+>         \foreach \y in {1,2,3,4,6} {
+>             \draw[rotate around={45:(3,\y)}, color=black] (3,\y) 
+>                 ++(-0.2,0) -- ++(0.2,0.2) -- 
+>                 ++(0.2,-0.2) -- ++(-0.2,-0.2) -- cycle;
+>         }
+> 
+>         % Evidenzia l'intersezione (3,5) con un quadrato grosso
+>         \draw[black,thick] (2.8,4.8) rectangle (3.2,5.2);
+> 
+>         % Griglia di punti (i, j) con i, j = 1..6
+>         \foreach \x in {1,2,3,4,5,6} {
+>             \foreach \y in {1,2,3,4,5,6} {
+>                 \fill (\x,\y) circle (2pt);
+>             }
+>         }
+> 
+>     \end{tikzpicture}
+> \end{minipage}
+> \begin{minipage}{0.65\linewidth}
+> 	Sia $E = \{(x,y) \in \Omega \;\,|\;\, x\, +\, y = 8 \}$ l'evento che si verifica quando la somma dei due dadi lanciati vale 8. Graficamente, queste coppie $(x,y)$ stanno sulla retta $x\,+\,y=8$ nel diagramma: si hanno quindi 5 possibili coppie valide. \\[3mm]
+> 	Se si calcola la probabilità di questo evento, si ottiene: \\[-2mm]
+> 	$$
+> 	\mathbb{P}(E) = \dfrac{|E|}{|\Omega|} = \dfrac{5}{36}
+> 	$$
+> \end{minipage}
+> ```
+>
+> Si supponga ora che il primo dado sia risultato in un 3, si vuole ancora calcolare la probabilità che $E$ si verifichi. Possedendo questa informazione, si definisce $F = \{(x,y) \in \Omega \;\, | \;\, x = 3\}$ come l'evento condizionante. Graficamente, si osserva che l'evento $F$ contiene esattamente 6 esiti; di conseguenza $\mathbb{P}(F) = |F|/|\Omega| = 1/6$.
+>
+> Calcolando $\mathbb{P}(E|F)$ si ottiene la probabilità di $E$ sapendo che $F$ si è verificato. Per definizione:
+> $$
+> \mathbb{P}(E|F) = \dfrac{\mathbb{P}(E \cap F)}{\mathbb{P}(F)} = \dfrac{1/36}{1/6} = \dfrac{1}{6}
+> $$
+> $E \cap F$ è infatti l'insieme degli esiti che soddisfano sia $x+y = 8$ che $x=3$. Graficamente, si osserva che le due rette si incontrano in un unico punto, e di conseguenza $|E \cap F| = 1$.
+>
+> Nel diagramma, l'evento $F$ è rappresentato dalla retta verticale $x=3$ mentre $E$ è rappresentato dalla retta obliqua $x+y = 8$. Una volta saputo che il primo dado risulta in un 3, rimangono solo 6 possibili esiti, ossia quelli della retta verticale: lo spazio degli esiti è quindi ridotto da $\Omega$ a $F$. Tra questi punti, solo uno realizza la somma 8, ossia quella all'incrocio delle due rette.
+
+Si osserva che la definizione di probabilità condizionata è compatibile con l'interpretazione frequentista della probabilità degli eventi. Quest'ultima considera la probabilità come il limite del rapporto tra il numero di volte in cui si verifica un evento e il totale delle prove, al crescere indefinito di queste ultime. Pertanto, la probabilità condizionata rappresenta la frequenza relativa con cui *E* si verifica tra le prove in cui *F* è accaduto, rendendo la definizione coerente con l'approccio empirico.
+
+**Definizione rigorosa:** dato uno spazio misurabile $(\Omega, \mathcal{F})$ di misura $\mathbb{P}$, ogni evento *F* eredita una struttura di spazio misurato $(F, \mathcal{A}_F, \mathbb{P})$, restrigendo gli insiemi misurabili a quelli contenuti in *F*, ed induce una nuova misura $\mathbb{P}_F'(E) = \mathbb{P}(E \cap F)$ su $(\Omega, \mathcal{F})$, con $\mathbb{P}_F'(\Omega) = P(F)$.
+
+Se $(\Omega, \mathcal{F}, \mathbb{P})$ è uno spazio di probabilità (valgono quindi gli assiomi di Kolmogorov, tra cui $\mathbb{P}(\Omega) = 1$) e $F$ non è trascurabile (ossia $\mathbb{P}(F) \not= 0$), allora riscalando $\mathbb{P}_F'$ a $\mathbb{P}_F = \frac{1}{\mathbb{P}(F)}\, \mathbb{P}_F'$ si ottiene lo spazio di probabilità $(\Omega, \mathcal{F}, \mathbb{P}_F)$ condizionato dall'evento $F$.
+
+### **Teorema delle probabilità totali**
+#### **Regola di fattorizzazione**
+
+Siano *E* e *F* due eventi in uno spazio di probabilità $(\Omega, \mathcal{F}, \mathbb{P})$. Se $\mathbb{P}(F) \not= 0$, moltiplicando entrambi i membri della formula della probabilità condizionata di *E* dato *F* per $\mathbb{P}(F)$ si ottiene $\mathbb{P}(E \cap F) = \mathbb{P}(E|F), \mathbb{P}(F)$
+
+```{=latex}
+\begin{center}
+  % Minipage 1
+  \begin{minipage}{0.3\linewidth}
+    \centering
+    \begin{tikzpicture}[scale=1]
+      % Rettangolo di contorno (universo Ω)
+      \draw[thick] (-2,-1.4) rectangle (2,1.6);
+      \node[anchor=north west] at (-2,1.6) {$\Omega$};
+
+      % Disegno dei cerchi: E (centro a -0.5,0), F (centro a 0.5,0)
+      \draw (0.5,0) circle (1);
+      \draw (-0.5,0) circle (1);
+      
+      % Etichette E e F
+      \node at (-0.9,1.2) {$E$};
+      \node at (0.9,1.2) {$F$};
+
+      % Colorazione del cerchio F in grigio chiaro
+      \begin{scope}
+        \clip (0.5,0) circle (1);
+        \fill[gray!40] (-2,-1.4) rectangle (2,1.6);
+      \end{scope}
+      % Cerchio E tratteggiato
+      \draw[dashed] (-0.5,0) circle (1);
+
+      % Etichette probabilità
+      \node at (1.02,0) {$\mathbb{P}(F)$};
+      \node at (-1.02,0) {$\mathbb{P}(E)$};
+    \end{tikzpicture}
+  \end{minipage}
+  % Minipage 2
+  \begin{minipage}{0.3\linewidth}
+    \centering
+    \begin{tikzpicture}[scale=1]
+      % Rettangolo di contorno (universo Ω)
+      \draw[thick] (-2,-1.4) rectangle (2,1.6);
+      \node[anchor=north west] at (-2,1.6) {$\Omega$};
+
+      % Cerchi E e F
+      \draw (-0.5,0) circle (1);
+      \draw (0.5,0) circle (1);
+
+      % Etichette E e F (posizionate un po' in basso)
+      \node at (-1.25,-1) {$E$};
+      \node at (1.25,-1) {$F$};
+
+      % Colorazione dell'intersezione E ∩ F
+      \begin{scope}
+        \clip (-0.5,0) circle (1);
+        \clip (0.5,0) circle (1);
+        \fill[gray!70] (-2,-1.4) rectangle (2,1.6);
+      \end{scope}
+
+      % Etichetta interna
+      \node at (0,1.25) {\(\mathbb{P}(E \cap F)\)};
+    \end{tikzpicture}
+  \end{minipage}
+  % Minipage 3
+  \begin{minipage}{0.3\linewidth}
+    \centering
+    \begin{tikzpicture}[scale=1]
+      % Forziamo la stessa bounding box invisibile dei primi due
+      \path[draw=none] (-2,-1.4) rectangle (2,1.6);
+      % Eventuale label in alto a sinistra
+      \node[anchor=north west] at (-2,1.6) {\(\mathbb{P}(E|F)\)};
+
+      % Disegno del cerchio F
+      \draw (0.5,0) circle (1);
+
+      % Colora F in grigio chiaro
+      \begin{scope}
+        \clip (0.5,0) circle (1);
+        \fill[gray!40] (-2,-1.4) rectangle (2,1.6);
+      \end{scope}
+
+      % Colora E∩F in grigio scuro, usando il cerchio di E come clip (non disegnato)
+      \begin{scope}
+        \clip (0.5,0) circle (1);   % F
+        \clip (-0.5,0) circle (1); % E (clip invisibile)
+        \fill[gray!70] (-2,-1.4) rectangle (2,1.6);
+      \end{scope}
+
+      % Etichetta per l'intersezione
+      \node at (0,0) {\(E \cap F\)};
+      \node at (1.25,-1) {$F$};
+    \end{tikzpicture}
+  \end{minipage}
+
+\end{center}
+\vspace{4mm}
+```
+
+Allo stesso modo, se $\mathbb{P}(E) \not= 0$, si ottiene $\mathbb{P}(F \cap E) = \mathbb{P}(F|E)\, \mathbb{P}(E)$
+
+```{=latex}
+\begin{center}
+
+  % Minipage 1: Diagramma per P(E) (l'evento condizionante per P(F|E))
+  \begin{minipage}{0.3\linewidth}
+    \centering
+    \begin{tikzpicture}[scale=1]
+      % Rettangolo di contorno (universo Ω)
+      \draw[thick] (-2,-1.4) rectangle (2,1.6);
+      \node[anchor=north west] at (-2,1.6) {$\Omega$};
+      
+      % Disegno dei cerchi: E (centro a -0.5,0) e F (centro a 0.5,0)
+      \draw (-0.5,0) circle (1);
+      \draw (0.5,0) circle (1);
+      
+      % Etichette E e F
+      \node at (-0.9,1.2) {$E$};
+      \node at (0.9,1.2) {$F$};
+      
+      % Colorazione del cerchio E (condizionante per P(F|E))
+      \begin{scope}
+        \clip (-0.5,0) circle (1);
+        \fill[gray!40] (-2,-1.4) rectangle (2,1.6);
+      \end{scope}
+      % Disegno tratteggiato del cerchio F
+      \draw[dashed] (0.5,0) circle (1);
+      
+      % Etichette per le probabilità
+      \node at (-1.02,0) {$\mathbb{P}(E)$};
+      \node at (1.02,0) {$\mathbb{P}(F)$};
+    \end{tikzpicture}
+  \end{minipage}
+  % Minipage 2: Diagramma per P(E ∩ F)
+  \begin{minipage}{0.3\linewidth}
+    \centering
+    \begin{tikzpicture}[scale=1]
+      \draw[thick] (-2,-1.4) rectangle (2,1.6);
+      \node[anchor=north west] at (-2,1.6) {$\Omega$};
+      
+      % Disegno dei cerchi E e F
+      \draw (-0.5,0) circle (1);
+      \draw (0.5,0) circle (1);
+      
+      % Etichette E e F (posizionate in basso per chiarezza)
+      \node at (-1.25,-1) {$E$};
+      \node at (1.25,-1) {$F$};
+      
+      % Colorazione dell'intersezione E ∩ F
+      \begin{scope}
+        \clip (-0.5,0) circle (1);
+        \clip (0.5,0) circle (1);
+        \fill[gray!70] (-2,-1.4) rectangle (2,1.6);
+      \end{scope}
+      
+      % Etichetta interna
+      \node at (0,1.25) {\(\mathbb{P}(E \cap F)\)};
+    \end{tikzpicture}
+  \end{minipage}
+  % Minipage 3: Diagramma per P(F|E)
+  \begin{minipage}{0.3\linewidth}
+    \centering
+    \begin{tikzpicture}[scale=1]
+      % Forza la stessa bounding box invisibile dei diagrammi precedenti
+      \path[draw=none] (-2,-1.4) rectangle (2,1.6);
+      \node[anchor=north west] at (-2,1.6) {\(\mathbb{P}(F|E)\)};
+      
+      % Disegno del cerchio E (l'evento condizionante)
+      \draw (-0.5,0) circle (1);
+      
+      % Colora E in gray!40
+      \begin{scope}
+        \clip (-0.5,0) circle (1);
+        \fill[gray!40] (-2,-1.4) rectangle (2,1.6);
+      \end{scope}
+      
+      % Colora l'intersezione E ∩ F in gray!70, usando il cerchio F come clip
+      \begin{scope}
+        \clip (-0.5,0) circle (1);  % E
+        \clip (0.5,0) circle (1);     % F (usato solo per clip)
+        \fill[gray!70] (-2,-1.4) rectangle (2,1.6);
+      \end{scope}
+      
+      % Etichetta per l'intersezione
+      \node at (0,0) {\(E\cap F\)};
+      \node at (-1.25,-1) {$E$};
+    \end{tikzpicture}
+  \end{minipage}
+
+\end{center}
+\vspace{4mm}
+```
+
+Essendo però $\mathbb{P}(F \cap E) = \mathbb{P}(E \cap F)$, si può concludere che: 
+$$
+\mathbb{P}(E \cap F) = \mathbb{P}(E|F), \mathbb{P}(F) = \mathbb{P}(F|E), \mathbb{P}(E)
+$$
+
+Questa formula è detta **regola di fattorizzazione** e discende in maniera diretta dalla definizione di probabilità condizionata. Essa afferma che la probabilità dell'evento $E \cap F$ può essere vista sotto due prospettive equivalenti, a seconda dell'evento che decidiamo di considerare come condizionante.
+
+Questa reciprocità nasce dal fatto che gli eventi $E \cap F$ e $F \cap E$ sono identici in quanto la loro intersezione è commutativa. Quindi $\mathbb{P}(E|F)$ e $\mathbb{P}(F|E)$ sono due modi diversi di esplorare lo stesso evento $E \cap F$, solo che prendono come spazio degli esiti di riferimento due eventi diversi, rispettivamente $F$ e $E$.
+
+La regola di fattorizzazione ci permette di spezzare la probabilità di un evento $E$ in parti più semplici, legate a condizioni note. Partendo dalla considerazione che qualsiasi evento può essere suddiviso rispetto a un altro o più eventi che lo partizionano, si ottiene la **formula delle probabilità totali**.
+
+**Formula binaria delle probabilità totali:** siano $E$ e $F$ due eventi in uno spazio di probabilità $(\Omega,\mathcal{F},\mathbb{P})$. Poiche $F$ e il complementare $\overline{F}$ costituiscono una partizione di $\Omega$, si può suddividere $E$ in due parti disgiunte:
+
+```{=latex}
+\vspace{1mm}
+\begin{minipage}{0.285\linewidth}
+  \centering
+  
+\begin{tikzpicture}[scale=1]
+  % Rettangolo di contorno (universo Ω)
+  \draw[thick] (-2,-1.4) rectangle (2,1.6);
+  % Etichetta Ω
+  \node[anchor=north west] at (-2,1.6) {$\Omega$};
+
+  % Regione I: E \ F
+  \begin{scope}
+    \clip (-0.5,0) circle (1);
+    \fill[gray!20] (-2,-1.4) rectangle (2,1.6);
+  \end{scope}
+
+  % Regione II: E ∩ F (più scuro per distinguerla)
+  \begin{scope}
+    \clip (-0.5,0) circle (1);
+    \clip (0.5,0) circle (1);
+    \fill[gray!50] (-2,-1.4) rectangle (2,1.6);
+  \end{scope}
+
+  % Disegno dei due cerchi
+  \draw (-0.5,0) circle (1);
+  \draw (0.5,0) circle (1);
+
+  % Etichette degli insiemi
+  \node at (-0.9,1.2) {$E$};
+  \node at (0.9,1.2) {$F$};
+
+  % Etichette delle regioni
+  \node at (-1.3,0) {I};
+  \node at (0,0) {II};
+\end{tikzpicture}
+
+  \vspace{0.3em}
+  \small Suddivisione di $E$
+
+\end{minipage}
+\begin{minipage}{0.7\linewidth}
+\vspace{-4mm}
+	$E = \text{I} \cup \text{II} = (E \cap \overline{F}) \cup (E \cap F)$ \\[2mm]
+	Poiché gli insiemi $E \cap F$ e $E \cap \overline{F}$ sono disgiunti, è possibile applicare il terzo assioma di Kolmogorov: \\[-3.5mm]
+	$$ \mathbb{P}(E) = \mathbb{P}(E \cap \overline{F}) + \mathbb{P}(E \cap F) $$ \\[-4mm]
+	Applicando la regola di fattorizzazione si ottiene: \\[-3.5mm]
+	$$ \mathbb{P}(E) = \mathbb{P}(E|F)\, \mathbb{P}(F) + \mathbb{P}(E|\overline{F})\, \mathbb{P}(\overline{F}) $$
+\end{minipage}
+\vspace{2mm}
+```
+
+Si ottiene quindi una versione binaria del teorema delle probabilità totali, limitata alla partizione  $\{F, \overline{F}\}$:
+$$
+\mathbb{P}(E) = \mathbb{P}(E|F)\, \mathbb{P}(F) + \mathbb{P}(E|\overline{F})\, \mathbb{P}(\overline{F})
+$$
+Si osserva che $\mathbb{P}(\overline{F}) = 1 - \mathbb{P}(F)$, di conseguenza andando a sostituire sopra si ha:
+$$
+\mathbb{P}(E) = \mathbb{P}(E|F)\, \mathbb{P}(F) + \mathbb{P}(E|\overline{F})\, (1-\mathbb{P}(F))
+$$
+
+**Formula estesa delle probabilità totali:** sia $(\Omega, \mathcal{F}, \mathbb{P})$ uno spazio di probabilità. Si consideri una *partizione* $\{F_1, F_2, \dots, F_n\}$ di $\Omega$, ovvero un insieme di eventi tali che:
+
+- $F_i \not= \varnothing \quad \forall i \in [1, n]$
+- $F_i \cap F_j = \varnothing \quad \forall i \neq j$
+- $\displaystyle \bigcup_{i=1}^{n} F_i = \Omega$
+
+Per un evento $E \subseteq \Omega$, possiamo scrivere $E$ come unione disgiunta di più parti:
+$$
+E \;=\; (E \cap F_1) \;\cup\; (E \cap F_2) \;\cup\;\cdots\;\cup\;(E \cap F_n) = \bigcup_{i=1}^n (E \cap F_i)
+$$
+
+dove $(E \cap F_i) \cap (E \cap F_j) = \varnothing$ per $\forall i,j \mid i \neq j$.
+
+Essendo $E$ l'unione di eventi disgiunti, è possibile applicare il terzo assioma di Kolmogorov:
+$$
+\mathbb{P}(E) \;=\; \mathbb{P} \Bigl(\, \bigcup_{i=1}^n (E \cap F_i) \,\Bigr)
+\overset{\;K3\;}{=} \sum_{i=1}^n \mathbb{P}(E \cap F_i)
+$$
+
+Tramite la regola di fattorizzazione, per ogni $F_i$ con con $\mathbb{P}(F_i) \neq 0$ si ottiene $\mathbb{P}(E \cap F_i) = \mathbb{P}(E | F_i)\,\mathbb{P}(F_i)$
+
+Sommando tutti gli indici $i$ si ottiene dunque *la formula delle probabilità totali in forma estesa*:
+$$
+\mathbb{P}(E) = \sum_{i=1}^n \mathbb{P}(E | F_i)\,\mathbb{P}(F_i)
+$$
+
+Questa relazione generalizza il caso binario $\{ F, \overline{F} \}$ e permette di calcolare $\mathbb{P}(E)$ suddividendo lo spazio deli esiti in una partizione $\{F_1, F_2, \ldots, F_n\}$. In tal modo, ciascun insieme $F_i$ ha la probabilità $\mathbb{P}(F_i)$ e, all'interno di ciascuno, si considera la probabilità condizionata $\mathbb{P}(E | F_i)$. Sommando tutti i contributi $\mathbb{P}(E|F_i)\,\mathbb{P}(F_i)$ si ottiene $\mathbb{P}(E)$.
+
+## **Teorema di Bayes**
+
+Una volta chiarite la regola di fattorizzazione e la formula delle probabilità totali, possiamo introdurre il teorema di Bayes, questo fornisce un modo per capovolgere il condizionamento di un evento $E$ rispetto a un altro evento $F$.
+
+Siano $E$ e $F$ due eventi di uno spazio di probabilità $(\Omega, \mathcal{F}, \mathbb{P})$ con $\mathbb{p}(E) \neq 0$. Allora vale la seguente formula:
+$$
+\mathbb{P}(F | E)
+= \frac{\mathbb{P}(E | F)\,\mathbb{P}(F)}{\mathbb{P}(E|F)\, \mathbb{P}(F) + \mathbb{P}(E|\overline{F})\, \mathbb{P}(\overline{F})}
+= \frac{\mathbb{P}(E | F)\,\mathbb{P}(F)}{\mathbb{P}(E)}
+$$
+**Dimostrazione** Tramite la formula della regola di fattorizzazione si è visto che $\mathbb{p}(E\cap F)$ può essere scritta in 2 modi equivalenti:
+    $$
+    \mathbb{P}(E\cap F) = \mathbb{P}(E| F)\,\mathbb{P}(F) = \mathbb{P}(F| E)\,\mathbb{P}(E)
+    $$
+    Dato che $\mathbb{P}(E) \neq 0$, isolando $\mathbb{P}(F|E)$ si ottiene proprio la formula di Bayes. Si ricordi che tramite la formula binaria delle probabilità totali si ha che $\mathbb{P}(E|F)\, \mathbb{P}(F) + \mathbb{P}(E|\overline{F})\, \mathbb{P}(\overline{F}) = \mathbb{P}(E)$.
+
+Mentre $\mathbb{P}(E|F)$ descrive la probabilità che $E$ accada dopo che $F$ è avvenuto, $\mathbb{P}(F|E)$ equivale al contrario.  
+Inoltre il denominatore $\mathbb{P}(E)$ funge da normalizzatore: rappresenta la probabilità totale di $E$ e assicura che la probabilità condizionata $\mathbb{P}(F|E)$ sia un numero tra 0 e 1.
+
+**Forma estesa** Estendendo il ragionamento a una partizione generale di $\Omega$, otteniamo la forma estesa del teorema di Bayes, sia ${F_1, \cdots, F_n}$ una partizione di $\Omega$ e $\mathbb{P}(F_i) \neq 0$ per ogni $i$, e sia $E$ un evento tale per cui $\mathbb{P}(E) \neq 0$ allora: 
+$$
+\mathbb{P}(F_i | E)
+=
+\frac{\mathbb{P}(E | F_i)\,\mathbb{P}(F_i)}
+{\displaystyle \sum_{k=1}^n \mathbb{P}(E | F_k)\,\mathbb{P}(F_k)} 
+= \dfrac{\mathbb{P}(E | F_i)\,\mathbb{P}(F_i)}{\mathbb{P}(E)}
+$$
+dove il denominatore è $\mathbb{P}(E)$ per via della formula estesa delle probabilità totali.
+
+### **Classificatori naive Bayes**
+
+Un classificatore è un meccanismo che, dati degli oggetti (individui) su cui si vuole effettuare una distinzione, associa a ciascun oggetto una classe tra quelli disponibili. Per esempio, potremmo suddividere gli individui in "positivi" o "negativi" rispetto a una determinata condizione. 
+
+Nel contesto di un classificatore bayesano, si sfrutta il teorema di Bayes per valutare la probabilità che un individuo appartenga a una certa classe, sulla base delle proprietà che abbiamo osservato per quell'individuo.  
+In generale, se cosideriamo:
+
+- $n$ proprietà (o variabili aleatorie) $X_1,\cdots,X_n$, con valori $\{x_1,\cdots,x_n\}$
+- $m$ classi $\{y_1,\cdots,y_m\}$ (ognuna corrisponde a un evento $\{Y\,{=}\,y_k\}$)
+
+Per un individuo di cui abbiamo misurato $(x_1, \cdots, x_n)$ come realizzazioni di $X_1, \cdots, X_n$, vorremmo attribuirgli la classe ${Y = y_k}$ che risulta più "probabile" alla luce di tali proprietà. Il teorema di Bayes ci dice che:
+$$
+\mathbb{P}\bigl(Y \,{=}\, y_k \mid
+X_1 \,{=}\, x_1,\, \cdots,\, X_n \,{=}\, x_n\bigr)
+\;=\;
+\frac{\mathbb{P}\bigl(X_1 \,{=}\, x_1, \cdots, X_n \,{=}\, x_n \mid
+Y\,{=}\,y_k\bigr)\, \mathbb{P}(Y \,{=}\, y_k)}
+{\mathbb{P}(X_1 \,{=}\, x_1,\dots, X_n \,{=}\, x_n)}
+$$
+Per classificare l'individuo, dobbiamo scegliere la classe ${Y = y_k}$ che massimizza la probabilità a posteriori $\mathbb{P}(Y = y_k | X_1 = x_1, \cdots, X_n = x_n)$. Tuttavia, la stima diretta della probabilità congiunta $\mathbb{P}(X_1 \,{=}\, x_1,\cdots, X_n \,{=}\, x_n \mid Y\,{=}\,y_k)$ può risultare molto onerosa, poichè richiede di considerare tutte le combinazioni dei valori $(x_1, \cdots, x_n)$.
+
+Il classificatore naive Bayes semplifica tale stima assumendo che, condizionatamente alla classe $Y = y_k$, le variabili $X_1, \cdots, X_n$ siano approssimativamente indipendenti. In formule:
+$$
+\mathbb{P}\bigl(X_1 \,{=}\, x_1,\cdots, X_n \,{=}\, x_n \mid Y\,{=}\,y_k\bigr)
+\;\approx\;
+\prod_{i=1}^n \mathbb{P}\bigl(X_i \,{=}\, x_i \mid Y\,{=}\,y_k\bigr)
+$$
+Sostituendo questa ipotesi nella versione bayesiana precedente, si ottiene:
+$$
+\mathbb{P}\bigl(Y \,{=}\, y_k \mid
+X_1 \,{=}\, x_1,\, \cdots,\, X_n \,{=}\, x_n\bigr)
+\;\approx\;
+\frac{\displaystyle \mathbb{P}(Y \,{=}\, y_k)\, \prod_{i=1}^n \mathbb{P}\bigl(X_i \,{=}\, x_i \mid Y\,{=}\,y_k\bigr)}
+{\mathbb{P}(X_1 \,{=}\, x_1,\dots, X_n \,{=}\, x_n)}
+$$
+Il denominatore $\mathbb{P}(X_1 = x_1, \cdots, X_n = x_n)$ non dipende dalla classe $y_k$ ma solo dai valori osservati $(x_1, \cdots, x_n)$. Per la decisione di classificazione, cioè per confrontare le probabilità di classi diverse, esso funge da costante di normalizzazione, la stessa per ogni classe candidata. Di conseguenza, è sufficiente determinare la classe $\{Y\,{=}\,y_{k^*}\}$ che massimizza il prodotto:
+$$
+\mathbb{P}(Y \,{=}\, y_k)\;\prod_{i\,{=}\,1}^n \mathbb{P}(X_i \,{=}\, x_i \mid Y\,{=}\,y_k)
+$$
+In pratica, per classificare un individuo con proprietà $(x_1, \cdots, x_n)$, si calcola per ogni classe $y_k$ il prodotto $\mathbb{P}(Y\,{=}\,y_k)\prod_{i=1}^n\mathbb{P}(X_i\,{=}\,x_i\mid Y\,{=}\,y_k)$ e si sceglie la classe che ne produce il valore più alto. In notazione compatta:
+$$
+k^* =\arg\max_{k\in\{1,\dots,m\}}
+\Bigl[\,
+\mathbb{P}(Y\,{=}\, y_k)\,\prod_{i=1}^n
+\mathbb{P}(X_i \,{=}\, x_i \mid Y\,{=}\,y_k)
+\Bigr]
+$$
+L'ipotesi di indipendenza condizionale riduce drasticamente il numero di stime necessarie per calcolare le probabilità, passando da una modellazione congiunta (potenzialmente esponenziale) a una sommatoria di stime "marginali" ($\sum_{i}|\mathcal{X}i|$ invece di $\prod{i}|\mathcal{X}_i|$).  
+Sebbene nella pratica le variabili $X_i$ possano non essere completamente indipendenti all'interno di una stessa classe (da cui l'aggettivo naive), l'approssimazione risulta spesso efficace in molti scenari, a fronte di una grande semplicità computazionale.
+
+## **Eventi indipendenti**
+
+In generale, la probabilità condizionata $\mathbb{P}(E|F)$ differisce da $\mathbb{P}(E)$, poichè il verificarsi di $F$ fornisce informazioni che possono modificare la probabilità che si verifiche $E$. Tuttavia se si ha $\mathbb{P}(E|F) = \mathbb{P}(E)$, allora si dice che gli eventi $E$ e $F$ sono *indipendenti*. Questo significa che la conoscenza del verificarsi di $F$ non influisce sulla probabilità che $E$ si realizzi.
+
+Partendo dalla definizione di probabilità condizionata, l'uguaglianza $\mathbb{P}(E|F) = \mathbb{P}(E)$, per $\mathbb{P}(F) \neq 0$, implica
+$$
+\mathbb{P}(E|F) = \frac{\mathbb{P}(E \cap F)}{\mathbb{P}(F)} = \mathbb{P}(E)
+$$
+Moltiplicando entrambi i membri per $\mathbb{P}(F)$ si ottiene una definizione simmetrica di indipendenza:
+$$
+E,\, F \text{ indipendenti} \quad \Longleftrightarrow \quad \mathbb{P}(E \cap F) = \mathbb{P}(E)\,\mathbb{P}(F)
+$$
+Analogamente, ponendo $\mathbb{P}(F|E) = \mathbb{P}(F)$ per $\mathbb{P}(E) \neq 0$ si giunge alla medesima conclusione.
+
+Questa relazione evidenzia che, se $E$ è indipendente da $F$, allora anche $F$ è indipendente da $E$, poichè entrambi gli enunciati implicano l'uguaglianza della probabilità dell'intersezione al prodotto delle probabilità marginali. La nozione di indipendenza si conserva rispetto ad alcune operazioni insiemistiche elemetari tra eventi. In particolare, se due eventi sono indipendenti, anche semplici combinazioni di essi, come intersezioni, unioni o complementi, possono preservare la proprietà di indipendenza.
+
+Dimostriamo questo fatto per quanto riguarda l'operazione di complemento.
+
+**Teorema** SE $E$ e $F$ sono indipendenti, allora anche $E$ e $\overline{F}$ lo sono.
+
+Dimostrazione:
+\qquad
+\begin{tabular}{@{}l@{\hspace{1mm}}p{0.93\linewidth}}
+
+- & Affinché $E$ e $\overline{F}$ siano indipendenti, bisogna dimostrare che 
+$\mathbb{P}(E \cap \overline{F}) = \mathbb{P}(E) \, \mathbb{P}(\overline{F})$
+
+\vspace{3mm}
+\begin{minipage}{0.285\linewidth}
+  \raggedright
+  
+  \begin{tikzpicture}[scale=1]
+    % Rettangolo di contorno (universo Ω)
+    \draw[thick] (-2,-1.4) rectangle (2,1.6);
+    % Etichetta Ω
+    \node[anchor=north west] at (-2,1.6) {$\Omega$};
+
+    % Riempi la porzione di E che appartiene a F (cioè, con y < 0.1-1.5x) in grigio scuro:
+    \begin{scope}
+      \clip (0,0.1) circle (1);
+      \clip (-100,-100) -- (-100, {0.1 - 1.5*(-100)}) -- (100, {0.1 - 1.5*(100)}) -- (100,-100) -- cycle;
+      \fill[gray!50] (0,0.1) circle (1);
+    \end{scope}
+
+    % Riempi la porzione di E che appartiene a F^c (cioè, con y > 0.1-1.5x) in grigio chiaro:
+    \begin{scope}
+      \clip (0,0.1) circle (1);
+      \clip (-100, {0.1 - 1.5*(-100)}) -- (-100,100) -- (100,100) -- (100, {0.1 - 1.5*(100)}) -- cycle;
+      \fill[gray!20] (0,0.1) circle (1);
+    \end{scope}
+
+    % Disegna il bordo del cerchio E
+    \draw[semithick] (0,0.1) circle (1);
+    
+    % Disegno della linea obliqua: y = 0.1 - 1.5x (che passa per il centro del cerchio)
+    \draw[semithick] (-1,1.6) -- (1,-1.4);
+
+    % Etichette per il cerchio e le regioni
+    \node at (0,1.37) {$E$};
+    \node at (-1.7,-1) {$F$};
+    \node at (1.7,1.2) {$\overline{F}$};
+  \end{tikzpicture}
+  
+  \vspace{0.3em}
+  \quad \small $E = (E \cap F) \cup (E \cap \overline{F})$
+
+\end{minipage}
+%
+\begin{minipage}{0.7\linewidth}
+\vspace{-6mm}
+
+\begin{tabular}{@{}l@{\hspace{1mm}}p{0.93\linewidth}}
+- & Osservando il diagramma, è possibile suddividere E in una \\[0.5mm]
+& partizione $E = \{E \cap F, E \cap \overline{F}\}$:\\[1.5mm]
+& \quad 1. $(E \cap F) \cup (E \cap \overline{F}) = E$ \\
+& \quad 2. $(E \cap F) \cap (E \cap \overline{F}) = \varnothing$ \\[2mm]
+& Diventa quindi possibile applicare il terzo assioma di Kolmogorov
+
+\end{tabular}
+\end{minipage} \\
+\\[-1mm]
+- & $\mathbb{P}(E) \overset{\;K3\;}{=} \mathbb{P}(E \cap F) + \mathbb{P}(E \cap \overline{F}) \;\;\Rightarrow\;\; \mathbb{P}(E \cap \overline{F}) = \mathbb{P}(E) - \mathbb{P}(E \cap F)$ \\[2mm]
+- & Dato che $E$ e $F$ sono indipendenti, allora vale $\mathbb{P}(E \cap F) = \mathbb{P}(E)\, \mathbb{P}(F)$. Sostituendo, si ottiene: \\[2mm]
+& \qquad $ \mathbb{P}(E \cap \overline{F}) = \mathbb{P}(E) - \mathbb{P}(E)\, \mathbb{P}(F)$ \\[2mm]
+& \qquad$\mathbb{P}(E \cap \overline{F}) = \mathbb{P}(E) \left( 1 - \mathbb{P}(F) \right) = \mathbb{P}(E)\, \mathbb{P}(\overline{F})$
+\end{tabular}
+
+#### **Estensione dell'indipendenza**
+
+Si osserva che non è possibile estendere l'indipendenza a più eventi richiedendo solo l'indipendenza a coppie, similmente a quanto invece si fa per provare la disgiunzione tra più eventi.
+
+>**Esempio** Si immagini di tirare due dadi. Lo spazio degli esiti di questo esperimento è descritto  
+>da $\Omega = \{ (x,y) \;\, | \;\, x,y \in [1,6]  \}$ dove si intende che si ottiene l'esito $(x,y)$ se il risultato del primo dado è $x$ e quello del secondo $y$. Si supponga che entrambi i dadi non siano truccati, e di trovarci quindi in uno spazio equiprobabile dove $\mathbb{P}((x,y)) = 1/|\Omega| = 1/36$.
+>
+>```{=latex}
+>\begin{minipage}{0.35\linewidth}
+>	\centering
+> \begin{tikzpicture}[scale=0.5]
+>     % Assi con frecce
+>     \draw[->] (0,0) -- (7,0) node[below] {$x$};
+>     \draw[->] (0,0) -- (0,7) node[left] {$y$};
+>
+>     % Unico 0 in obliquo all'origine
+>     \node[below left] at (0,0) {0};
+>
+>     % Tacche e etichette sugli assi (1..6)
+>     \foreach \x in {1,2,3,4,5,6} {
+>         \draw (\x,0) -- (\x,-0.1) node[below] {\x};
+>     }
+>     \foreach \y in {1,2,3,4,5,6} {
+>         \draw (0,\y) -- (-0.1,\y) node[left] {\y};
+>     }
+>
+>     % Retta x+y = 7
+>     \draw[color=black] (0.4,6.6) -- (6.6,0.4);
+>     % Retta x = 4
+>     \draw[color=gray!90] (4,0) -- (4,6.8);
+>     % Retta y = 3
+>     \draw[color=gray!80] (0,3) -- (6.8,3);
+>
+>
+>     % Evidenzia l'intersezione (4,3) con un quadrato grosso
+>     \draw[black,thick] (3.8,2.8) rectangle (4.2,3.2);
+>
+>     % Griglia di punti (i, j) con i, j = 1..6
+>     \foreach \x in {1,2,3,4,5,6} {
+>         \foreach \y in {1,2,3,4,5,6} {
+>             \fill (\x,\y) circle (2.5pt);
+>         }
+>     }
+>     
+>     \node[color=black, font=\small] at (1,6.6) {$E$};
+>     \node[color=gray!90, font=\small] at (4.4,6.6) {$F$};
+>     \node[color=gray!80, font=\small] at (6.6,3.4) {$G$};
+>
+> \end{tikzpicture}
+>\end{minipage}
+>\begin{minipage}{0.65\linewidth}
+>	\vspace{1mm}
+>	
+>	Si considerano i seguenti eventi: \\[1mm]
+>	\noindent\hspace*{1em} $E = \{(x,y) \in \Omega \;|\; x + y = 7\} = \{\text{somma dei dadi è 7}\}$ \\[1mm]
+>	\noindent\hspace*{1em} $F = \{(x,y) \in \Omega \;|\; x = 4\} = \{ \text{4 sul primo dado} \}$ \\[1mm]
+>	\noindent\hspace*{1em} $G = \{(x,y) \in \Omega \;|\; y = 3\} = \{ \text{3 sul secondo dado} \}$ \\[-1mm]
+>	
+>	Calcolando le probabilità di ciascun evento, si trova che \\[-2.5mm]
+>	$$ \mathbb{P}(E) = \mathbb{P}(F) = \mathbb{P}(F) = 1/6 $$ \\[-4.5mm]
+>	Osservando il grafico a lato si osserva, infatti, che ogni evento, rappresentato dalla propria retta, contiene 6 esiti. Dividendo questa quantità per $|\Omega| = 36$ si ottiene proprio $1/6$.
+>	
+>\end{minipage}
+>\vspace{2mm}
+>```
+>
+>
+> Gli eventi sono indipendenti a coppie, infatti:
+>
+> ```{=latex}
+> \vspace{-1mm}
+> \noindent\hspace*{1em} $\mathbb{P}(E \cap F) = 1/36 = \mathbb{P}(E)\, \mathbb{P}(F)$ \\[1mm]
+> \noindent\hspace*{1em} $\mathbb{P}(E \cap G) = 1/36 = \mathbb{P}(E)\, \mathbb{P}(G)$ \\[1mm]
+> \noindent\hspace*{1em} $\mathbb{P}(F \cap G) = 1/36 = \mathbb{P}(F)\, \mathbb{P}(G)$
+> ```
+>
+> Se si calcola $\mathbb{P}(E | F \cap G) = 1$, si osserva che la probabilità di $E$ dato $F \cap G$ risulta diversa dalla probabilità marginale $\mathbb{P}(E)$. Questo implica che $E$ è dipendente dal verificarsi di $F \cap G$, e di conseguenza i tre eventi $E$, $F$ e $G$ non sono indipendenti nel senso globale.  
+> Infatti, affinché valga l’indipendenza complessiva, dovrebbe risultare $\mathbb{P}(E | F \cap G) = \mathbb{P}(E)$, condizione che in questo caso non è soddisfatta.
+
+Dati tre eventi $E$, $F$ e $G$, questi sono indipendenti se e solo se:
+
+- $\mathbb{P}(E \cap F) = \mathbb{P}(E)\, \mathbb{P}(F)$
+- $\mathbb{P}(E \cap G) = \mathbb{P}(E)\, \mathbb{P}(G)$
+- $\mathbb{P}(F \cap G) = \mathbb{P}(F)\, \mathbb{P}(G)$
+- $\mathbb{P}(E \cap F \cap G) = \mathbb{P}(E)\, \mathbb{P}(F)\, \mathbb{P}(G)$
+
+Si può osservare come anche in questo contesto valga quanto discusso in precedenza: se gli eventi $E$, $F$ e $G$ sono indipendenti nel senso globale, allora anche eventi ottenuti tramite semplici operazioni insiemistiche risultano indipendenti senza necessità di ulteriori verifiche. Questa proprietà conferma che l'indipendenza si estende naturalmente agli eventi costruiti a partire da eventi indipendenti.
+
+**Teorema** Se $E$, $F$ e $G$ sono indipendenti allora anche $E$ e $F \cup G$ sono indipendenti.
+
+Dimostrazione:
+
+```{=latex}
+\qquad
+\begin{tabular}{@{}l@{\hspace{1mm}}p{0.93\linewidth}}
+
+- & Affinché $E$ e $F \cup G$ siano indipendenti, bisogna dimostrare che 
+$\mathbb{P}(E \cap (F \cup G)) = \mathbb{P}(E) \, \mathbb{P}(F \cup G)$ \\[2mm]
+
+- & Si applica la proprietà distributiva su $E \cap (F \cup G)$: \\[2mm]
+& \qquad $\mathbb{P}(E \cap (F \cup G)) = \mathbb{P}((E \cap F) \cup (E \cap G)) = \mathbb{P}(E \cap F) + \mathbb{P}(E \cap G) - \mathbb{P}(\underbrace{(E \cap F) \cap (E \cap G)}_{E \cap F \cap G})$ = \\
+\\[-3mm]
+& \qquad $= \mathbb{P}(E)\, \mathbb{P}(F) + \mathbb{P}(E)\, \mathbb{P}(G) - \mathbb{P}(E)\, \mathbb{P}(F)\, \mathbb{P}(G) = \mathbb{P}(E) [ \mathbb{P}(F) + \mathbb{P}(G) - \underbrace{\mathbb{P}(F)\, \mathbb{P}(G)}_{\mathbb{P}(F \cap G)} ] $ \\[3mm]
+\\[-3mm]
+
+- & Si osserva che $\mathbb{P}(F) + \mathbb{P}(G) - \mathbb{P}(F \cap G)$ corrisponde a $\mathbb{P}(F \cup G)$ dagli assiomi di Kolmogorov, di conseguenza si è dimostrato il teorema: \\[2mm]
+& \qquad $\mathbb{P}(E) \left[ \mathbb{P}(F) + \mathbb{P}(G) - \mathbb{P}(F \cap G) \right] = \mathbb{P}(E)\, \mathbb{P}(F \cup G)$
+
+\end{tabular}
+```
+
+**Generalizzazione dell'indipendenza** Si abbiano $n$ eventi $E_1, \cdots, E_n \subseteq \Omega$, questi sono indipendenti se e solo se $\forall r \le n \quad \forall\, 1 \le \alpha_1 \le \alpha_2 \le \dots \le \alpha_r \le n\,$ con $\, \alpha_i \in \mathbb{N}$ si ha che
+$$
+\mathbb{P} \Big( \bigcap_{j=1}^r E_{\alpha_j} \Big) = \prod_{j=1}^r \mathbb{P}(E_{\alpha_j})
+$$
+Questo significa che, dati più eventi, l’indipendenza globale richiede che ogni intersezione di un numero qualsiasi di essi abbia probabilità uguale al prodotto delle probabilità dei singoli eventi coinvolti.
 
 \newpage 
 # **Statistica inferenziale**
