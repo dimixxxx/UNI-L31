@@ -21,7 +21,7 @@ Lo psicologo tedesco Donders nel 1868 ideo una delle metodologie più importanti
 
 #### **7.1.2 Processi mentali e risorse mentali**
 
-Gli psicologi cognitivi quando scompongono le attività di alto livello nei processi che le compongono, spesso agiscono come se stessero giocando con i mattoncini delle costruzioni. Il loro obbiettivo è quello di determinare la forma e l'ampiezza di ciascun mattone e capire come essi si combinino per creare l'attività intera. Esistono due tipologie di processi, i processi *seriali* che si svolgono uno dopo l'altro e i processi *paralleli* quando si sovrappongono nell'unità di tempo. Gli psicologi cognitivi solitamente usano i tempi di reazione per determinare se i processi mentali si svolgano in serie o in parallelo. Questa determinazione non è una operazione semplice, infatti la sfida della psicologia cognitiva è sviluppare metodi per determinare la configurazione di mattoni corretta. Noi disponiamo di risorse di elaborazione limitate, che devono essere distribuite tra i diversi compiti mentali in atto. La distribuzione delle risorse è sotto la responsabilità dei *processi attentivi*. Teniamo presente che non tutti i processi hanno lo stesso peso sulle risorse disponibili. Possiamo distinguere processi controllati e processi automatici. I **processi controllati** richiedono attenzione e molte risorse cognitive, difficilmente è possibile svolgerne molteplici in contemporanea. I **processi automatici** non richiedono attenzione e possono essere eseguiti in contemporanea facilmente. I processi controllati possono diventare automatici con la dovuta pratica, però bisogna tenere presente che in circostanze impegnative anche i processi automatici possono diventare controllati, cioè necessitano attenzione.
+Gli psicologi cognitivi quando scompongono le attività di alto livello nei processi che le compongono, spesso agiscono come se stessero giocando con i mattoncini delle costruzioni. Il loro obiettivo è quello di determinare la forma e l'ampiezza di ciascun mattone e capire come essi si combinino per creare l'attività intera. Esistono due tipologie di processi, i processi *seriali* che si svolgono uno dopo l'altro e i processi *paralleli* quando si sovrappongono nell'unità di tempo. Gli psicologi cognitivi solitamente usano i tempi di reazione per determinare se i processi mentali si svolgano in serie o in parallelo. Questa determinazione non è una operazione semplice, infatti la sfida della psicologia cognitiva è sviluppare metodi per determinare la configurazione di mattoni corretta. Noi disponiamo di risorse di elaborazione limitate, che devono essere distribuite tra i diversi compiti mentali in atto. La distribuzione delle risorse è sotto la responsabilità dei *processi attentivi*. Teniamo presente che non tutti i processi hanno lo stesso peso sulle risorse disponibili. Possiamo distinguere processi controllati e processi automatici. I **processi controllati** richiedono attenzione e molte risorse cognitive, difficilmente è possibile svolgerne molteplici in contemporanea. I **processi automatici** non richiedono attenzione e possono essere eseguiti in contemporanea facilmente. I processi controllati possono diventare automatici con la dovuta pratica, però bisogna tenere presente che in circostanze impegnative anche i processi automatici possono diventare controllati, cioè necessitano attenzione.
 
 ### **7.2 Le forme del pensiero**
 
@@ -328,7 +328,7 @@ In conclusione possiamo notare come le diverse teorie fattoriali hanno portato a
 
 Questa teoria nasce tra l'unione della *teoria dell'intelligenza fluida e cristallizata* di Cattell-Horn e della *teoria a tre strati* di John Bissell Carroll. Dalle sue attività di ricerca, Carroll arrivo alla conclusione che esiste uno strato III più elevato, fattore $g$, uno strato II con 8 abilità ampie (intelligenza fluida, intelligenza cristallizata, visualizzazione, memoria, velocità d'elaborazione, recupero dalla memoria, percezione uditiva, fattore di sintesi di $Gf$ e $Gc$) e uno strato I con molti fattori specifici.
 
-Flanagan e Dixon distinguono due versioni della **teoria CHC**: la prima finalizzata a creare una tassonomia unitaria, cioè la classificazione gerarchica della abilità, a partire dalle abilità comprese nei modelli di Cattel-Horn e di Carroll. La proposta di Flanagan ha come obbiettivo l'evidenziare in modo flessibile i processi e le capacità cognitive dei profili prestazionali individuali, rilevandone i punti di forza e di debolezza. La seconda versione, a opera di Scheneider e McGrew, include 16 ampie abilità cognitive, che comprendono più di 70 abilità specifiche, ricavate dalle precedenti. Le 16 abilità sono cosi composte:
+Flanagan e Dixon distinguono due versioni della **teoria CHC**: la prima finalizzata a creare una tassonomia unitaria, cioè la classificazione gerarchica della abilità, a partire dalle abilità comprese nei modelli di Cattel-Horn e di Carroll. La proposta di Flanagan ha come obiettivo l'evidenziare in modo flessibile i processi e le capacità cognitive dei profili prestazionali individuali, rilevandone i punti di forza e di debolezza. La seconda versione, a opera di Scheneider e McGrew, include 16 ampie abilità cognitive, che comprendono più di 70 abilità specifiche, ricavate dalle precedenti. Le 16 abilità sono cosi composte:
 
 - sei fattori generali sono su base cerebrale (ragionamento fluido, memoria a breve termine, immagazzinamento e recupero di informazioni a lungo termine, velocità di processazione, velocità di reazione e decisione, velocità psicomotoria)
 - quattro abilità si fondano sulla teoria dell'intelligenza cristallizzata di Cattell (comprensione-conoscenza, conoscenza dominio-specifica, lettura/scrittura, conoscenza quantitativa)
@@ -385,7 +385,7 @@ In conclusione, dal lavoro di Gardner, possiamo cogliere una critica al QI e all
 #### **8.2.5 Intelligenza emotiva**
 
 John Mayer e Peter Salovey formularono il concetto di **intelligenza emotiva**, essa consisterebbe in un insieme di competenze che permettono un'accurata valutazione delle emozioni in se stessi e negli altri. Daniel Goleman afferma che le nostre emozioni giocano un ruolo molto importante, più di quanto si creda, sul nostro modo di pensare e sui processi decisionali. Goleman definisce l'intelligenza emotiva come un insieme di abilità che includono il controllo dei propri impulsi, l'auto-motivazione, l'empatia e la competenza sociale nelle relazioni interpersonali. 
-
+ 
 #### **8.2.6 Cenni sull'approccio delle neuroscienze all'intelligenza**
 
 La corteccia prefrontale è generalmente considerata la sede pensiero astratto. La **teoria dell'integrazione Parieto-Frontale (P-FIT)** ipotizza l'esistenza di una rete neurale frontoparientale rilevante per l'intelligenza, rete che sarebbe alla base di funzioni cognitive quali la percezione, la memoria, il linguaggio; una ulteriore fase di tale ricerca si è posta l'obbietibo di indagare sul modo in cui le aree cerebrali comunicano fra loro.
@@ -448,7 +448,7 @@ Non ci sono molte prove per sostenere l'idea del declino delle **capacità cogni
 
 ### **8.7 Basi genetiche dell'intelligenza**
 
-Un obbiettivo della psicologia è capire quanto l'intelligenza sia determinata dal corredo genetico, in quanto questo non è mai stato dimostrato scientificamente. Per stimare quanto la variabilità di una caratteristica, nel nostro caso il QI, in una popolazione è determinata dalla variabilità genetica, si calcola l'**indice di ereditabilità**, il cui simbolo è $h^2$. Bisogna tenere presente che la misura dell'ereditabilità non si utilizza per singoli individui ma su una intera popolazione. 
+Un obiettivo della psicologia è capire quanto l'intelligenza sia determinata dal corredo genetico, in quanto questo non è mai stato dimostrato scientificamente. Per stimare quanto la variabilità di una caratteristica, nel nostro caso il QI, in una popolazione è determinata dalla variabilità genetica, si calcola l'**indice di ereditabilità**, il cui simbolo è $h^2$. Bisogna tenere presente che la misura dell'ereditabilità non si utilizza per singoli individui ma su una intera popolazione. 
 
 Holzinger ha proposto la seguente formula per il calcolo di tale incide:
 $$
@@ -459,7 +459,7 @@ nella quale, rMZ rappresenta il coefficiente di correlazione di Bravais-Pearson,
 \newpage
 ## **Capitolo 11 - Comprendere la personalità umana**
 
-Gli psicologi definiscono la personalità come l'insieme complessivo delle caratteristiche psicologiche che influenzano i pattern comportamentali tipici di un individuo nel corso del tempo e in situazioni differenti. In questo capitolo tratteremo diverse teorie, ogni teoria ha due fondamentali obbiettivi; in primo luogo comprendere l'unicità di ogni individuo per quanto riguarda la struttura, le origini e i correlati della personalità; in secondo luogo comprendere come ogni singola personalità produca caratteristici pattern comportamentali. 
+Gli psicologi definiscono la personalità come l'insieme complessivo delle caratteristiche psicologiche che influenzano i pattern comportamentali tipici di un individuo nel corso del tempo e in situazioni differenti. In questo capitolo tratteremo diverse teorie, ogni teoria ha due fondamentali obiettivi; in primo luogo comprendere l'unicità di ogni individuo per quanto riguarda la struttura, le origini e i correlati della personalità; in secondo luogo comprendere come ogni singola personalità produca caratteristici pattern comportamentali.
 
 ### **11.1 Teorie dei tratti**
 
@@ -467,50 +467,443 @@ Un approccio allo studio della personalità implica l'utilizzo di scale di misur
 
 #### **11.1.1 Descrivere attraverso i tratti**
 
-I **tratti** sono caratteristiche o attributi duraturi che predispongono gli individui a comportarsi in modo coerente in tutte le situazioni. Alcuni teorici ritengono i tratti predisposizioni che sono causa del comportamento, mentre teorici più conservativi usano i tratti come pure dimensioni descrittive che si limitano a dar conto dei pattern comportamentali. 
+I **tratti** sono caratteristiche o attributi duraturi che predispongono gli individui a comportarsi in modo coerente in tutte le situazioni. Alcuni teorici ritengono i tratti predisposizioni che sono causa del comportamento, mentre teorici più conservativi usano i tratti come pure dimensioni descrittive che si limitano a dar conto dei pattern comportamentali.
 
 #### **Approccio di Allport**
 
-Gordon Allport considerava i tratti come i mattoni della personalità e la fonte dell'individualità. 
+Gordon Allport considerava i tratti come i mattoni della personalità e la fonte dell'individualità. I tratti producono comportamenti coerenti, collegando e uniformando le reazioni di una persona a una molteplicità di stimoli. I tratti possono agire da *variabili intervenienti*, mettendo in relazione insiemi di stimoli e risposte che potrebbero sembrare avere poco a che fare gli uni con gli altri. Egli individuò tre tipi di tratti: cardinali, centrali e secondari. I *tratti cardinali* sono quelli attorno ai quali una persona organizza la propria vita. I tratti centrali invece rappresentano le caratteristiche fondamentali di una persona, come l'onestà  o l'ottimismo. I tratti secondari sono specifiche caratteristiche personali che contribuiscono a prevedere il comportamento di un individuo, ma sono meno utili ai fini della comprensione della sua personalità, come per esempio le preferenze alimentari e di abbigliamento. Allport considerava come cause fondamentali del comportamento individuale le *strutture della personalità*, piuttosto che le *condizioni ambientali*, cioè che gli stessi stimoli possono avere effetti differenti da un individuo all'altro. 
+
+#### **Identificazione di dimensioni universali dei tratti**
+
+Nel 1936, Allport e Odbert scoprirono che il vocabolario inglese era costituito da 17953 aggettivi per descrivere le differenze individuali. Successivamente a questa scoperta, i ricercatori si sono posti l'obiettivo di individuare le dimensioni fondamentali, definire quante dimensioni esistono e quali sono utili per offrire una caratterizzazione universale di tutti gli individui.
+
+Cattell partì da questa lista di aggettivi per scoprire un piccolo gruppo di dimensioni fondamentali. La sua ricerca si concluse con l'esistenza di sedici fattori riferite alla personalità umana, definiti *tratti originari*, in quanto riteneva che rappresentavano l'origine dei comportamenti esteriori. Questi fattori includevano contrapposizioni comportamentali, come riservato ed espansivo e rilassato e teso. Tuttavia i teorici contemporanei dei tratti sostengono che per descrivere le personalità umane si può usare un gruppo ridotto di fattori. 
+
+\begin{minipage}[c]{0.3\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{\detokenize{./immagini/Eysenck}}
+\end{minipage}
+\hspace{2mm}
+\begin{minipage}[c]{0.65\textwidth}
+    \vspace{-2mm}
+    Eysenck ricavò soltanto tre ampie dimensioni: *estroversione* (interno vs esterno), *nevroticismo* (emotivamente stabile vs instabile) e *psicoticismo* (gentile vs aggressivo). Possiamo rappresentare ciò attraverso un cerchio, sulle asse ortogonali delle due dimensioni, definiamo estroversione e nevroticismo, gli individui possono corrispondere a qualunque punto del cerchio, tramite la combinazione di queste due dimensioni.
+\end{minipage}
+
+#### **Modello a cinque fattori**
+
+In anni recenti, si è pensato che la struttura della personalità è definita meglio da cinque fattori, che si sovrappongono alle tre dimensione di Eysenck. L'insieme di queste cinque dimensioni formano il **modello a cinque fattori**, anche detto *Big Five*. In questa tabella possiamo vedere i cinque fattori:
+
+\begin{tabular}{|p{3.3cm}|p{12.3cm}|}
+  \hline
+  \textbf{Fattore} & \textbf{Poli dimensionali} \\ \hline
+  Estroversione & Loquace, energico e assertivo VS silenzioso, riservato e timido \\ \hline
+  Piacevolezza & Empatico, gentile e affettuoso VS freddo, litigioso e duro \\ \hline
+  Coscienziosità & Organizzato, responsabile e prudente VS disattento, frivolo, e irresponsabile \\ \hline
+  Nevroticismo & Stabile, calmo e soddisfatto VS ansioso, instabile e volubile \\ \hline
+  Apertura mentale & Creativo, intelligente e con la mente aperta VS semplice, superficiale e poco intelligente \\ \hline
+\end{tabular}
+
+Possiamo notare che ogni dimensione presenta due poli, prima quello sinonimo del fattore versus quello opposto. In questo modo siamo passati dai numerevoli aggettivi identificati da Allport e Odbert, ad un totale di circa duecento gruppi di sinonimi, che rappresentano i due poli. Tramite varie ricerca si è arrivati a definire che tramite questo modello si riescono a descrivere se stessi e gli altri.  
+Per dimostrare l'universalità di questo modello si è deciso di estenderlo ad altre lingue, arrivando a un totale cinquantasei differenti nazioni. I cinque fattori non hanno lo scopo di sostituire i numerosi tratti specifici, piuttosto contribuiscono a definire un sistema di classificazione per descrivere tutte le persone in base alle maggiori differenze attorno ad alcune dimensioni importanti.
+
+#### **il modello a cinque fattori: prospettive evoluzionistiche**
+
+I sostenitori del modello a cinque fattori hanno cercato di spiegare l'emergere di queste specifiche dimensioni prendendo in esame l'evoluzione della specie umana. Dato che noi siamo una specie sociale, possiamo considerare le cinque dimensioni come una serie di risposte a domande sulla socievolezza: Chi è di buona compagnia? (estroversione), Chi è gentile e di sostegno? (piacevolezza), Chi si impegna in sforzi prolungati? (coscienzosità), Chi è emotivamente inaffidabile? "nevroticismo", chi ha le idee e riesce a svilupparle? (apertura mentale). 
+
+I ricercatori che adottano l'approccio evoluzionistico si sono chiesti perchè esista una variazione cosi notevole in ognuna delle dimensioni, per esempio, consideriando l'estroversione; noi siamo una specie altamente sociale, da ciò potrebbe essere antiadattativo per un individuo essere solitario e riservato anziche sociale e attivo. Ma ciò può essere causa dell'ambiente in cui vive, solitamente le persone estroverse hanno maggiori probabilità di attuare comportamenti rischiosi. Quindi la differenza degli ambienti nell'evoluzione umana spiega l'esistenza di valori diversi fra le persone.
+
+
+#### **11.1.2 Tratti ed ereditabilità**
+
+La *genetica del comportamento* è lo studio del livello di ereditarietà dei tratti personali e dei pattern comportamentali. Per determinare l'effetto della genetica sulla personalità, i ricercatori studiano i tratti posseduti dai membri della famiglia che condividono gli stessi geni e sono cresciuti nello stesso nucleo famigliare o no. Per esempio una qualunque caratteristica dovrebbe mostrare una correlazione più alta fra gemelli identici rispetto a gemelli fraterni, se essa si trasmette per via genetica. I vari studi effettuati, sia ampi che specifici, sull'ereditabilità mostrano che quasi tutti i tratti della personalità sono influenzati da fattori genetici. 
+
+#### **11.1.3 I tratti sono predittivi dei comportamenti**
+
+Si potrebbe credere che definire una persona con un particolare tratto consenta di prevederne il comportamento in situazioni differenti. Tuttavia diversi ricercatori osservarono comportamenti tratto-correlati in situazioni differenti e scoprirono comportamenti incoerenti in merito, risultati simili vennerò ottenuti da altri ricercatori nella esaminazione della coerenza trans-situazionale. Nonostante i nostri comportamenti tratto-correlati non sono coerenti a livello trans-situazionale, percepiamo le personalità, compresa la nostra, in modo stabile. Da qui nasce il **paradosso della coerenza**, cioè, il fatto che le valutazioni della personalità sono coerenti nel tempo e tra diversi osservatori, mentre le valutazioni dei comportamenti della stessa persona non sono coerenti nelle diverse situazioni.  
+L'individuazione del paradosso della coerenza portò a numerose ricerche, nel tempo è emersa una convergenza di opinioni sul fatto che l'incoerenza comportamentale deriva da una errata categorizzazione delle situazioni: quando i teorici forniscono una descrizione appropriata delle caratteristiche psicologiche delle situazioni, il paradosso svanisce.
+
+#### **11.1.4 Valutazione delle teorie dei tratti**
+
+Le teorie dei tratti consentono di offrire sintetiche descrizioni delle personalità, tuttavia queste teorie sono state criticate perchè non spiegano come si genera il comportamento o si sviluppa la personalità, ma descrivono solamente le caratteristiche associate ai comportamenti. Un'altra critica è data dal fatto che queste teorie tendono a offrire una visione statica della struttura della personalità, descrivendola per come essa è *hic et nunc* (qui e ora).
 
 ### **11.2 Teorie psicodinamiche**
 
+Le **teorie psicodinamiche della personalità** sono basate sull'assunto secondo cui la personalità è formata, e il comportamento motivato, da forze interiori. Freud dette inizio al movimento di queste teorie. La teoria della personalità di Freud tenta di spiegare le origini e lo sviluppo della personalità, la natura della mente, gli aspetti atipici della personalità e il modo in cui essa può essere cambiata con la terapia.
 
+#### **11.2.1 Psicanalisi freudiana**
+
+Secondo la teoria psicanalitica, al centro della personalità si trovano eventi interni alla mente di un individuo, che ne motivano il comportamento, per cui le persone agiscono tavolta su base inconscia. Per Freud tutto il comportamento è motivato, esso non deriva nè dal caso nè da eventi accidentali, ogni atto ha un motivo. Ogni azione umana ha una causa e uno scopo, che possono essere individuati attraverso l'analisi di associazioni mentali, sogni, errori e altri indizi comportamentali della vita interiore. Freud sviluppo la sua teoria della personalità tramite approfonditi studi di pazienti in terapia.
+
+#### **Pulsioni e sviluppo psicosessuale**
+
+La formazione di neurologo portò Freud ha chiedersi della esistenza di una base biologica comune ai pattern comportamentali dei suoi pazienti. Egli attribui l'origine della motivazione delle azioni umane all'energia psichica interna a ogni individuo, assumendo che tutte le persone avessero istinti innati. Queste fonti di energia si potevano esprimere in molteplici modi.  
+Freud indica l'esistenza di due pulsioni fondamentali, quella sessuale e quella aggressiva, la prima all'origine della componente erotica delle attività mentali, la seconda alla base della componente distruttiva. Freud usò il termine **libido** per descrivere la fonte di energia degli impulsi sessuali, mentre quella di **destrudo** in rifermineto alla pulsione aggressiva. Inoltre per lui il desiderio sessuale umano ricade in ogni ricerca di piacere o contatto fisico con gli altri, non solo nell'unione sessuale.  
+Secondo Freud l'Eros, cioè la pulsione sessuale, non compare all'improvviso durante la pubertà, ma agisce dalla nascità ed è evidente dal fatto che i bambini provano piacere nella stimolazione delle zone erogene, cioè le zone sensibili e intime. Nella successiva tabella vediamo le fasi dello sviluppo psicosessuale secondo Freud. 
+
+Uno dei principali ostacoli allo sviluppo psicosessuale, quantomeno per i maschi, si presenta nella fase fallica, cioè la fase nella quale il bambino di 3 anni affronta il complesso di Edipo. In questa fase il bambino vede il padre come un rivale sessuale alle attenzioni materne, generalmente il bambino supera questo complesso quando inizia a vedere il padre come modello da seguire, invece che un nemico.  
+Secondo Freud una eccessiva gratificazione o frustazione in una delle prime fasi dello sviluppo psicosessuale porta a una **fissazione**, cioè l'incapacità di accedere alla successiva fase dello sviluppo. La fissazione può produrre varie conseguenze in età adulta a seconda della fase incriminata. Freud riteneva che le esperienze delle prime fasi avessero un profondo impatto sulla formazione della personalità e sui pattern comportamentali della vita adulta.
+\vspace{-14pt}
+\begin{table}[ht!]
+  \centering
+  \caption{Fasi dello sviluppo psicosessuale secondo Freud}
+  \label{tab:sviluppo-psicosessuale}
+  \begin{tabular}{|p{1.55cm}|p{2.4cm}|p{2.4cm}|p{3.2cm}|p{4.8cm}|}
+    \hline
+    \textbf{Fase} & \textbf{età} & \textbf{Zone erogene} & \textbf{Compito evolutivo principale (fonte di conflitto)} & \textbf{Alcune caratteristiche in età adulta legate alla fissazione in questa fase} \\ \hline
+    Orale & 0-1 anno e 6 mesi & Bocca, labbra, lingua & Svezzamento & Comportamento orale, come fumo, sovralimentazione; passività e ingenuità \\ \hline
+    Anale & 1 anno e 6 mesi - 3 anni & Ano & Educazione all'utilizzo del vasino & Ordine, parsimonia, ostinazione, o il contrario \\ \hline
+    Fallica & A partire dalla fine dei 3 anni & Genitali & Complesso di Edipo & Vanità, irresponsabilità, o il contrario \\ \hline
+    Di latenza & 6 anni - pubertà & Nessuna area specifica & Sviluppo dei meccanismi di difesa & Nessuna: la fissazione, di norma, non si verifica in questa fase \\ \hline
+    Genitale & A partire dalla pubertà & Intimità sessuale matura & L'energia libidica si concentra nella zona genitale & Gli adulti che hanno integrato con successo le fasi precedenti dovrebbero aver raggiunto un sincero interesse verso gli altri e una sessualità matura \\ \hline
+  \end{tabular}
+\end{table}
+\vspace{-14pt}
+#### **Determinismo psichico**
+
+Il **determinismo psichico** è l'assunto per cui tutti gli eventi della vita psichica sono determinati dalle esperienze precedenti. Freud riteneva che i sintomi non fosserò casuali ma fortemente associati a episodi significativi della vita.  
+Il principio del determinismo portò Freud a dare importanza all'**inconscio**, cioè il contenitore di informazioni inaccessibili alla coscienza. Secondo Freud il comportamento può essere motivato da pulsioni di cui non si è consapevoli, cioè si può agire senza sapere il perchè o senza un accesso diretto alle cause delle proprie azioni. Il comportamento è formato da due contenuti: il *manifesto*, ciò che si dice, si fa e si percepisce, del quale si è pienamente consapevoli e un contenuto nascosto detto *latente*. I sintomi nevrotici, i sogni, i lapsus hanno una motivazione inconscia.  
+Freud pensa che gli impulsi che l'individuo considera inaccettabili continuano a lottare per trovare espressione, quando il linguaggio o il comportamento tradiscono un desiderio inconscio, si parla di *lapsus freudiano*, un esempio può essere la scrittura di un messaggio in modo sbagliato perchè la nostra idea è contraria da ciò che vorremmo scrivere.
+
+L'**Es** è la struttura della psiche che comprende i rappresentati psichici delle pulsioni. Opera in modo irrazionale, agendo d'impulso e pretendendo la gratificazione immediata, senza considerare se quanto desiderato sia realisticamente possibile, socialmente desiderabile o moralmente accettabile. L'Es si basa sul *principio del piacere*, cioè della gratificazione di piaceri sessuali, fisici ed emotivi, senza preoccuparsi delle conseguenze.
+
+Il **Super-Io** è l'istanza della psiche che comprende le norme morali e sociali, in linea di massima trasmesse dai genitori e interriorizzate dal bambino. Corrisponde alla nozione comune di *coscienza*. Esso si sviluppa quando un bambino arriva ad accettare come valori propri i divieti imposti dai genitori o altri adulti alle azioni non sociali. Rappresenta la voce interiori dei *doveri* e delle *proibizioni*, il Super-Io racchiude anche l'ideale dell'Io, cioè il tipo di persona che un individuo si sforza di diventare.  
+Possiamo dedurre che l'Es e il Super-Io spesso sono in tensione fra di loro, in quanto rappresentano i due opposti.  
+L'Io è la struttura della personalità formata dall'insieme delle funzioni che regolano i rapporti fra l'individuo e il proprio ambiente. Esso è il compromesso fra il Super-Io e l'Es, in quanto si occupa di prendere le decisioni per soddisfare l'Es ma valutando che queste ultime siano accettabili socialmente e di soddisfare anche le richieste del Super-Io. Se le pressioni di questi ultimi due si intensificano, per l'Io diventa sempre più complesso trovare il compromesso ottimale.
+\vspace{-2mm}
+
+#### **Rimozione e difesa dell'Io**
+
+I desideri ritenuti pericolosi per l'integrità dell'apparato psichico sono respinti dalla coscienza e rinchiusi nell'intimità dell'inconscio. La **rimozione** è il meccanismo di difesa che protegge un individuo dall'estrema angoscia o senso di colpa per impulsi, idee o ricordi che sono inaccettabili o pericolosi da esprimere. L'Io rimane inconsapevole sia del contenuto mentale rimosso, sia del processo attraverso il quale i contenuti vengono rimossi dalla coscienza. Questo è considerato il primo dei meccanismi di difesa tramite cui l'Io impedisce che impulsi e idee minacciose prendano il sopravvento.  
+I **meccanismi di difersa dell'Io** sono strategie inconscie usate dall'Io per difendersi dagli impulsi dell'Es e del Super-Io. Nella teoria psicanalitica essi sono fondamentali per la gestione psicologica dei potenti conflitti interiori, grazie ad essi una persona può mantenere un immagine di sè positiva e un immagine sociale accettabile.
+
+Nella teoria freudiana, l'**Angoscia** è un'intensa risposta emotiva prodotta dall'Io per mobilitare le risorse utili a fronteggiare o evitare situazioni minacciose. Essa è il segnale di pericolo che informa sul fatto che sono necessarie più difese, per fare da barriera contro gli impulsi che sono fonte di turbamento. Per esempio una madre che non vuole il figlio e prendersi cura di lui, tramite la *formazione reattiva* può vedersi trasformato il suo impulso inaccettabile nella reazione opposta.
+
+Bisogna tenere presente che i meccanismi di difesa che proteggono dall'angoscia potrebberò avere effetti negativi sull'individuo, in quanto questi sono autoinganni e il loro abuso crea più problemi di quanti ne risolva. Dal punto di vista psicologico non è sano usare grande quantità di tempo e di energia psichica per spostare, mascherare gli impulsi inaccettabili allo scopo di ridurre l'angoscia, fare ciò può causare scarse energie per avere una vita produttiva o relazioni umane soddisfacenti.
+\vspace{-12pt}
+\begin{table}[H]
+  \centering
+  \caption{Principali meccanismi di difersa dell'Io}
+  \label{tab:meccanismi-difesa}
+\begin{tabular}{|p{3.3cm}|p{12.3cm}|}
+  \hline
+  \textbf{Negazione} & Proteggersi da una realtà sgradevole, rifiutando di percepirla \\ \hline
+  \textbf{Spostamento} & Scaricare sentimenti accumulati, solitamente di ostilità, su oggetti meno pericolosi di quelli che hanno attivato l'emozione \\ \hline
+  \textbf{Fantasia} & Gratificare desideri frustati con realizzazioni immaginarie, una forma comune è il sogno a occhi aperti \\ \hline
+  \textbf{Identificazione} & Aumentare l'autostima identificandosi con un'altra persona o istituzione, spesso con una reputazione illustre \\ \hline
+  \textbf{Isolamento} & Privare situazioni dolorose di carica emotiva o separare atteggiamenti incompatibili in compartimenti stagni \\ \hline
+  \textbf{Proiezione} & Incolpare gli altri delle proprie difficoltà o attribuire ad altri i propri desideri proibiti \\ \hline
+  \textbf{Razionalizzazione} & Cercare di dimostrare che si ha un comportamento razionale e giustificabile e degno della propria e altrui approvazione \\ \hline
+  \textbf{Formazione reattiva} & Evitare di esprimere desideri pericolosi sostenendo atteggiamenti e tipi di comportamento opposti, usati come barriere \\ \hline
+  \textbf{Regressione} & Retrocedere a livelli dello sviluppo precedenti, che richiedono risposte più infantili e solitamente un livello inferiore di aspirazioni \\ \hline
+  \textbf{Rimozione} & Imperdire l'accesso alla coscienza a pensieri dolorosi o pericolosi, mantenendoli nell'inconscio; è considerato il primo dei meccanismi di difesa \\ \hline
+  \textbf{Sublimazione} & Gratificare o eliminare desideri sessuali frustati con attività sostituitive non sessuali socialmente accettate dalla cultura d'appartenenza \\ \hline
+\end{tabular}
+\end{table}
+\vspace{-12pt}
+#### **11.2.2 Valutazione della teoria freudiana**
+
+Le idee di Freud hanno avuto un enorme impatto sull'interpretazione degli aspetti ordinari e anomali della personalità, tuttavia sono probabilmente più numerosi gli psicologi che criticano i concetti freudiani che il contrario. Le critiche si basano sui seguenti punti: per prima cosa, i concetti psicanalitici sono vaghi e non definiti dal punto di vista operativo, pertanto è difficile valutare scientificamente gran parte della teoria. Poichè alcune ipotesi centrali di Freud non possono essere confutate quindi la sua teoria può essere definita *debole*. Dovuta anche dalla domanda su come possono essere studiati in modo diretto i concetti di libido, di complesso edipico e di rimozione degli impulsi sessuali infantili.  
+Una seconda critica considera la teoria freudiana *buona storia ma cattiva scienza*. Essa manca di attendibilità *predittiva*, non afferma ciò che si realizzerà; si applica in modo *retrospettivo*, dopo che gli eventi si sono verificati. Usare la teoria psicanalitica per comprendere la personalità richiede generalmente una ricostruzione storica, non una costruzione scientifica di azioni probabili e risultati prevedibili. Inoltre ponento troppa enfasi sulle origini del comportamento, la teoria allontana l'attenzione dagli stimoli attuali, che possono indurre e mantenere il comportamento.  
+Altre tre critiche alla teoria di Freud sono; In primo luogo, trattandosi di una teoria evolutiva, essa non ha mai incluso osservazioni o studi diretti di bambini. In secondo luogo, minimizza esperienze traumtiche, come gli abusi, reintepretando i ricordi dei bambini come fantasie. Infine presenta un bias androcentrico, cioè maschilista, poichè usa in modo normativo un modello maschile senza cercare di definire in che modo le donne potrebbero differire.
+
+Alcuni aspetti della teoria Freudiana continuano ad ottenere consenso. Per esempio, il concetto di inconscio è sottposto dai ricercatori odierni a un'indagine sistematica; Si è rivelato che parte della nostra esperienza quotidiana è plasmata da processi inconsci. Questi risultati sostengono l'idea generale di Freud ma indeboliscono il collegamento tra processi incosci e psicopatologia, solo una piccola parte del nostro incoscio provocherebbe angoscia o sofferenza.  
+I ricercatori hanno trovato evidenze per alcuni degli abiti mentali che Freud definì meccanismi di difesa. Abbiamo osservato che gli individui hanno maggiori probabilità di usare meccanismi di difesa quando sperimentano stati d'angoscia. I ricercatori hanno verificato questa ipotesi in vari modi.
+
+Alcuni degli stili di coping utilizzati per affrontare lo stress presentano indubbie somiglianze con i meccanismi di difesa. Inibire pensieri e sentimenti associati a traumi personali oppure a esperienze che suscitano vergogna o senso di colpa può avere un costo elevatissimo in termini di salute fisica e mentale. In questi risultati sorgono le convizioni freudiani secondo cui la repressione del materiale psichico può provocare sofferenza psicologica.
+
+La teoria di Freud è la più complessa, esaustiva e stimolante visione dei meccanismi di funzionamento della personalità. Tuttavia l'approccio migliore è confermare o confutare i diversi punti. Freud mantiene la sua influenza sulla psicologia contemporanea perchè alcune sue idee sono state ampiamente accettate ed altre abbandonate.
+
+#### **11.2.3 Teorie psicodinamiche successive**
+
+Alcuni studiosi successivi a Freud ripresero la sua teoria della personalità, descritta come un campo di battaglia nel quale impulsi primitivi inconsci confliggono con i valori sociali. Tuttavia la concezione psicanalitica elaborata dai suoi allievi apporta sostanziali modifiche, che ritroviamo nelle teorie di Adler, Horney e Jung:
+
+- pongono maggiore enfasi sulle funzioni dell'Io, incluse le sue difese, lo sviluppo del sè, i processi di pensiero consci e la padronanza di se stessi
+- attribuiscono alle variabili sociali, cioè cultura e famiglia, una maggiore influenza sulla personalità
+- danno minore enfasi agli impulsi sessuali generali all'energia libidica
+- estendono lo sviluppo della personalità oltre l'infanzia, per includere l'intero arco della vita.
+
+**Alfred Adler** rifiutò la centralità dell'Eros e del principio del piacere. Lui riteneva che da bambini piccoli, indifesi e dipendenti, tutti provassero sentimenti di inferiorità. La vita di ognuno è dominata dalla ricerca dei modi per sconfiggerli, le persone ricorrono a compensazioni per provare sentimenti di adeguatezza o a sovracompensazioni nel tentativo di sentirsi superiori. La personalità è strutturata attorno a questo conflitto soggiacente; le persone sviluppano stili di vita basati su modi specifici per superare i propri fondamentali, pervasivi sentimenti di inferiorità. Secondo Adler il conflitto di personalità sorge dall'incompatibilità tra le pressioni ambientali esterne e la tensione interiore all'adeguatezza, piuttosto che da impulsi conflittuali interni all'individuo.  
+**Karen Horney** mise in discussione la fallocentrica enfasi freudiana sull'importanza del pene, ipotizzando che esistesse un'invidia maschile della gravidanza, della maternità e del seno. Rispetto a Freud, Horney pose maggiore rilievo i fattori culturali e si concentrò sulla struttura personologica del presente piuttosto che sulla sessualità infantile.  
+**Carl Jung** rivide ampiamente il concetto di inconscio freudiano e distinse l'**inconscio personale**, formato da contenuti dimenticati o rimossi dall'individuo, dall'**inconscio collettivo**, ereditato e condiviso dall'intera specie umana. In questo ultimo sono contenute le trame psicologiche, i motivi, le immagini che in ogni tempo e lugono possono riformarsi indipendentemente da ogni tradizione e migrazione storica. Nell'incoscio collettivo hanno sede gli **archetipi**, cioè immagini universali e innate che sono sottese al nostro comportamento. Jung sostenne l'esistenza di vari archetipi:
+
+- la *Persona* è la nostra immagine publica
+- l'*Animus* è la componente maschile della personalità
+- l'*Anima* è la componente femminile della personalità
+- l'*Ombra* è il nostro lato oscuro, che reprimiamo perchè inaccetabile in un determinato conteso
+
+Al centro di tutto troviamo il Sè, è il *mandala*, e simboleggia la tensione verso l'unità e la completezza.  
+Jung considerò sana e integrata la personalità capace di equilibrare forze contrapposte, come l'aggressività maschile e la sensibilità femminile. A questa visione della personalità come insieme di forze interiori che si compensano in equilibrio dinamico fu dato il nome di **psicologia analitica**. Jung rifiutò di attribuire alla libido l'importanza primaria, sottolineando il rapporto dinamico che l'Io instaura con la componente inconscia, da cui risultano il bisogno di creare e di realizzazione del Sè. Questo secondo bisogno coincide con il concetto di *autorealizzazione* espresso dalle teorie umanistiche.
 
 ### **11.3 Teorie umanistiche**
 
+Gli approcci umanistici alla comprensione della personalità sono caratterizzati dall'interesse per la totalità dell'esperienza personale conscia di un individuo e per il suo potenziale di crescità. 
 
+#### **11.3.1 Aspetti delle teorie umanistiche**
+
+Carl Rogers definì il Sè come un concetto centrale della personalità. Rogers suggerì che l'individuo sviluppa un concetto di sè, un modello mentale dei propri comportamenti tipi e delle proprie qualità peculiari. Nel corso dell'esistenza noi ci sforziamo di rendere il nostro concetto di sè congruente cone le nostre esperienze di vita. Questa importanza del sè è una caratteristica fondamentale delle teorie umanistiche, anche detta **autorealizzazione**, cioè lo sfronzo costante per la realizzazione del proprio potenziale innato. Maslow pose l'autorealizzazione al vertice della gerarchia dei bisogni, lo sforzo per raggiungere quest'ultima è una forza costruttiva, che spinge ogni persona verso comportamenti positivi e verso il miglioramento del sè.  
+La spinta all'autorealizzazione certe volte entra in conflitto con il bisogno di approvazione di sè e degli altri, in particolare quando la persona percepisce che deve soddisfare certi obblighi o condizioni per ricevere approvazione. In merito Rogers sottolineò l'importanza dell'**accettazione incondizionata** nel crescere i figli. Esso sosteneva che i bambini dovrebbero sentirsi sempre amati e approvati, nonostante i loro errori e comportamenti sbagliati, non è giusto che debbano guadagnarsi l'amore dei genitori. Quando un figlio si comporta male, i genitori dovrebberò fare capire la dissaprovazione del comportamento, non del bambino.  
+L'accettazione incondizionata è importante anche in età adulta, in quanto la preoccupazione dell'accettazione interferisce con l'autorealizzazione, pertanto da adulti è necessario ricevere accettazione incondizionata ma altrettanto importante accettare incondizionalmente le persone a noi care. Tuttavia l'accettazione più importante è quella del sè.  
+Karen Horney tramite le proprie idee, ha gettato le fondamenta della psicologia umanistica, anche se non riceve sempre il dovuto credito in merito. Honery definì che le persone hanno un *vero sè*, che richiede circostanze ambientali favorevoli come: un'atmosfera di calore, l'affetto degli altri e l'amore dei genitori che considerino il figlio come un individuo autonomo. In assenza di ciò, il bambino sviluppa un'ansia di base che soffoca l'espressione spontanea dei sentimenti reali e impedisce di avere relazioni sociali autentiche. Per gestire l'ansia di base si fa ricorso a difese interpersonali o intrapsichiche, queste possono produrre un movimento verso gli altri (un'eccessiva condiscenza e azioni di autoannullamento), contro gli altri (soluzioni aggressive, arroganti o narcisistiche) e lontano dagli altri (distacco). Le difese intrapsichiche, in alcune persone, tendono a sviluppare un'immagine di sè irrealistica, idealizzata che per essere giustificata genera un sistema di orgoglio che porta al rispetto di rigide regole di condotta per essere all'altezza di un cosi grandisio concetto di sè. Tali persone spesso vivono sotto la tirannia di obblighi autoimposti, come devo essere perfetto, generoso, attraente, corraggioso.  
+Secondo Horney la terapia umanistica deve porsi come obiettivi l'aiutare l'individuo a provare gioia nell'autorealizzazione e promuovere le forze costruttive innate che sostengono lo sforzo per raggiungerla. 
+
+Le teorie umanistiche sono *olistiche* perchè spiegano i singoli atti degli individui in termini delle loro personalità complessive, le persone non sono considerate come la somma di tratti discreti, ognuno dei quali influenza il comportamento in modo diverso. Maslow disse che le persone sono fortemente motivate a raggiungere i livelli superiori della gerarchia dei bisogni, a meno che la mancata soddisfazione dei livelli inferiori non le spingano verso il basso.
+
+Le teorie umanistiche sono *disposizionali* perche si concentrano sulle qualità innate di una persona, che esercitano un'influenza fondamentale sulla direzione che prenderà il suo comportamento. I fattori situazionali sono considerati limiti e barriere. In assenza di condizioni negative, l'obiettivo di realizzarsi dovrebbe far scegliere alle persone situazioni che migliorino la vita.  
+Le teorie umanistiche non sono disposizionali allo stesso modo delle teorie dei tratti e psicodinamiche, in queste ultime le disposizioni sono temi riccorenti che il comportamento continuamente ripete; le disposizioni umanistiche sono orientate alla creatività e alla crescita, una disposizione non è mai espressa due volte allo stesso modo, in quanto la persona cambia leggermente dopo di essa. Nel tempo le disposizioni umanistiche guidano l'individuo verso l'autorealizzazione.
+
+Le teorie umanistiche sono *fenomenologiche* perchè enfatizzano un sistema di riferimento individuale e un punto di vista soggettivo sulla realtà, pertanto uno psicologo umanista si sforza sempre di cogliere il punto di vista peculiare di una persona. Inoltre la visione è orientata al presente, le influenze del passato sono importanti solo nella misura in cui hanno portato la persona alla situazione attuale, mentre il futuro rappresenta gli obiettivi da raggiungere. A differenza delle teorie psicodinamiche, quelle umanistiche non considerano i comportamenti attuali incosci guidati da esperienze passate.
+
+La positiva visione umanistica della personalità fu accolta tra molti psicologi che sono cresciuti sulla base della teoria freudiana. Gli approcci umanistici si concentrano sul rendere la vità più affascinante, piuttosto che sul far emergere ricordi dolorosi. La prospettiva umanistica pone l'enfasi sulle capacità che ha ogni persona di realizzare il proprio intero potenziale.
+
+#### **11.3.2 Valutazione delle teorie umanistiche**
+
+La teoria di Freud è stata spesso criticata per avere una visione troppo pessimistica, secondo cui la natura umana si sviluppa su conflitti, traumi e angosce.  
+Le teorie umanistiche sono nate per celebrare la personalità sana, che si sforza di raggiungere la felicità e l'autorealizzazione. Nonostante ciò, i critici hanno disapprovato la vaghezza dei concetti umanisitici e la difficoltà di esaminarli nella ricerca, essi si domandano che cosa sia esattamente l'autorealizzazione, se è una tendenza innata o creata dal contesto culturale. Inoltre le teorie umanistiche si non si concentrano sulle specifiche caratteristiche degli individui, ma sono teorie sulla natura umana e le qualità condivise da tutte le persone, piuttosto che sulla personalità individuale. Altri psicologi criticarono la trascurazione delle variabili ambientali, che influenzano il comportamento, per via dell'enfatizzazione del ruolo del sè come origine dell'esperienza e dell'azione. 
+
+La **psicobiografia** è definita come l'uso sistematico della teoria psicologica, specialmente quella della personalità, per trasformare una vita in una storia coerente e rivelatrice. Per esempio, l'artista Picasso da piccolo visse una serie di traumi, incluso un terremoto e la morte di una sorellina. Una psicobiografia potrebbe cercare di spiegare l'enorme creatività dell'artista come il residuo permanente delle sue risposte a quei traumi precoci.  
+Se il soggetto di una psicobiografia è una figura famosa, il ricercatore può cercare dati significativi all'interno delle sue opere pubblicate, mentre per individui più comuni, il ricercatore può elicitare direttamente le narrazioni delle esperienze di vita, per esempio chiedendo all'individuo di riflette su eventi fondamentali della propria esistenza.  
+I temi caratteristici che emergono in una serie di descrizioni narrative sostengono le versione olistica e fenomologica della personalità proposta dai primi umanisti, gli individui costruiscono le proprie identità tessendo storie di vita con i fili della narrazione. I resoconti personali sono finestre sul modo in cui gli individui considerano se stessi e le proprie relazioni interpersonali.
+
+Infine i teorici umanistici riconobbero che il cammino verso l'autorealizzazione è in parte determinato dalle realtà ambientali.
 
 ### **11.4 Teorie cognitive e dell'apprendimento sociale**
 
+Tutte le teorie precedenti avevano in comune l'importanza dei meccanismi interni, tratti, istinti, pulsioni, tendenze verso l'autorealizzazione, che sottendono il comportamento e formano la personalità. Da un'attenzione più diretta alle differenze individuali del comportamento, è emersa un'altra teoria incentrata sulle personalità, che tiene conto delle contigenze ambientali al fine di prevedere gran parte del comportamento di una persona. Questa teoria è detta **teoria dell'apprendimento** nella quale gli psicologi analizzano come le circostanze ambientali controllano il comportamento. La personalità e l'insieme delle risposte palesi e nascoste elicitate dalla *storia dei riforzi* di una persona, quindi le persone sono diverse tra loro perchè hanno diverse storie di rinforzo.  
+Oltre al considerare le contiguenze ambientali, le teorie cognitive e dell'apprendimento sociale enfatizzano l'importanza dei processi cognitivi e comportamentali. Le teorie cognitive sottolineano l'esistenza di importanti differenze individuali nel modo in cui le persone pensano e definiscono ogni situazione esterna. Le teorie cognitive danno importanza alla partecipazione dell'individuo alla creazione della propria personalità, cioè non si agisce passivamente all'ambiente ma si cerca di entrare in situazioni da cui ci si aspetta un rinforzo e di evitare quelle che sono insoddisfacenti e incerte.
 
+#### **11.4.1 Teoria dell'aspettativa di Rotter**
+
+Julian Rotter fondò la propria teoria sull'**aspettativa**, cioè la misura in cui le persone credono che i propri comportamenti in situazioni specifiche producano ricompense. Per esempio, se stiamo preparando un esame con l'obiettivo di prendere almeno un voto pari a 28. Se abbiamo un'alta aspettativa, riterremmo che una pratica aggiuntiva ci porti a prendere tale voto, se invece abbiamo una bassa aspettativa non saremmo sicuri che la pratica aggiuntiva ci porti a prendere il voto. Le nostre aspettative derivano anche dalla storia dei rinforzi; se in passato la pratica ha portata a ricompense, ci aspetteremo che anche in futuro essa porti nuovamente a ricompense.  
+Rotter mise inoltre in risalto il *valore della ricompensa*, cioè l'importanza che un individuo le assegna.  
+Secondo Rotter è possibile prevedere il comportamento di una persona soltanto se si può valutare l'aspettativa rispetto a una ricompensa e il valore attribuito ad essa.  
+Rotter insisteva sull'idea che le persone hanno aspettative specifiche in merito alle numerose situazioni che affrontano nella vita. Tuttavia credeva anche che sviluppassero una aspettativa generale relativa alla misura in cui possono controllare le ricompense ottenute. Rotter centrò il suo interesse sul **locus of control** (*luogo di controllo*); divise le persone in due gruppi; gli interni, coloro che credono fermamente che i risultati ottenuti siano condizionati dalle proprie condizioni e gli esterni, che credono che i risultati delle proprie azioni dipendano dai fattori ambientali.  
+Le ricerche hanno dimostrato l'importanza della posizione del locus di controllo. Uno studio ha esaminato la relazione tra il locus di controlllo dei partecipanti all'età di dieci anni e la loro salute mentale e fisica all'età di trenta. I trentenni che avevano un orientamento più interno godevano di miglior salute, mentre quelli che avevano un orientamento esterno erano in condizioni peggiori perche credevano di non aver il controllo sulla salute e facevano poco per migliorarla.
+\newpage
+
+#### **11.4.2 Teoria cognitivo-affettiva della personalità di Mischel**
+
+Walter Mischel sviluppò una teoria sulla base cognitiva della personalità. L'enfasi viene incentrata sul fatto che le persone partecipano attivamente all'organizzazione cognitiva delle proprie interazioni con l'ambiente. Questo approccio evidenzia l'importanza di comprendere in che modo il comportamento sia funzione dele iterazioni tra le persone e le situazioni.  
+Un esempio in merito è il seguente:
+
+\begin{tcolorbox}[colback=gray!20!white, boxrule=0.5pt, opacityfill=0.25]
+John possiede una personalità che al primo incontro con una persona è molto amichevole, ma nel corso del tempo tende a diventare brusco e ostile nel rapporto con questa persona. Mentre la personalità di Jim è caratterizzata dalla timidezza e silenziosità a riguardo di persone nuove, ma che tende a diventare molto socievole nel corso del tempo.
+\end{tcolorbox}
+
+Se calcolassimo una media complessiva del punteggio relativo al tratto dell'amicalità per John e Jim, probabilmente otterremmo un punteggio simile in entrambe, in questo modo però non coglieremmo le differenze del loro comportamento. Secondo Mischel il modo in cui si risponde a uno specifico input ambientale dipende dalle variabili definite nella tabella sottostante. Mischel ritiene che ogni variabile della tabella influisce sul comportamento di una persona in base alla sua personale storia di osservazioni e interazioni con gli altri e con l'ambiente fisico.
+\vspace{-12pt}
+\begin{table}[H]
+  \centering
+  \caption{Variabili personali nella teoria cognitivo-affettiva della personalità di Mischel}
+  \label{tab:variabiliteoriamischel}
+\begin{tabular}{|p{4cm}|p{6cm}|p{5cm}|}
+  \hline
+  \textbf{Variabile} & \textbf{Significato} & \textbf{Esempio} \\ \hline
+  Strategie di codificazione & Il modo in cui si categorizzano le informazioni su se stessi, le altre persone, gli eventi e le situazioni & Non appena Roberto incontra qualcuno, cerca di immaginare quanto sia ricco \\ \hline
+  Aspettative e credenze & Le nostre credenze sul mondo sociale e i probabili risultati di determinare azioni in specifiche situazioni; le nostre credenze sulle capacità che abbiamo di produrre risultati & Gregorio invita gli amici al cinema, ma non si aspetta mai che accettino \\ \hline
+  Stati affettivi & I nostri sentimenti e le nostre emozioni, incluse le risposte fisiologiche & Cinzia arrossisce molto facilmente \\ \hline
+  Obiettivi e valori & I risultati e gli stati affettivi ai quali attribuiamo e non attribuiamo valore; i nostri obiettivi e progetti di vita & Pietro vuole diventare presidente del consiglio degli studenti \\ \hline
+  Competenze e piani di autoregolazione & I comportamenti che si è in grado di attuare e i piani per generare risultati cognitivi e comportamentali & Gianni parla inglese, france, russo e giapponese e si aspetta di lavorare per le Nazioni Unite \\ \hline
+\end{tabular}
+\end{table}
+\vspace{-12pt}
+
+In merito alla teoria di Mischel è stato effettuato uno studio su cinquantanove bambini frequentati di un campo estivo, vennero misurate le loro compentenze tramite un test di intelligenza verbale. Vennero impegnati in un compito per misurare la capacità di autoregolazione tramite la posticipazione della gratificazione. Ai bambini vennè messa a disposizione subito una piccola quantità di dolci mentre una quantità maggiore se riuscivano ad aspettare venticinque minuti senza interpellare il ricercatore. Quindi i bambini dovevano trovare un modo per distrarsi dal pensiero dei dolci. I ricercatori presero nota della capacità dei bambini di controllare l'attenzione e ricevettero dagli istruttori del campo dettagli sulla aggressività dei bambini nelle attività di gruppo. In particolare, i bambini intelligenti ma con scarco autocontrollo tendevano ad essere più aggressivi rispetto a quelli intelligenti ma con un buon autocontrollo.
+
+Questo studio dimostra come l'intelligenza non sia strettamente legata al non rincorrere all'aggressività in situazioni sociali, ma che essa debba essere accompagnata dalla capacità e motivazione di mettere in atto comportamenti alternativi. Questo esempio ci permette di capire come la teoria di Mischel analizza l'interazione tra diversi tipi di variabili.
+\newpage
+
+#### **11.4.3 Teoria cognitiva dell'apprendimento sociale di Bandura**
+
+La teoria di Bandura mette in evidenza la complessa interazione tra fattori individuali, comportamento e stimoli ambientali, ognuna delle tre componenti può influenzare o cambiare le altre due, e la direzione del cambiamento è raramente monodirezionale, bensi è all'insegna della reciprocità. Il nostro comportamento può essere influenzato dai nostri atteggiamenti, credenze e storia di rinforzo, cosi come dagli stimoli ambientali; ciò che facciamo può avere effetto sull'ambiente e di conseguenza sull nostro comportamento e personalità. Questo concetto prende nome di **determinismo reciproco**.  
+La teoria dell'apprendimento sociale di Bandura si basa sull'apprendimento di tipo osservativo: il processo attraverso il quale un individuo cambia il comportamento tramite l'osservazione del comportamento altrui. Attraverso l'osservazione si apprendono enormi informazioni, come ciò che è appropriato e ricompensato e ciò che è punito o ignorato. Attraverso la memoria degli eventi osservati e il pensiero possiamo prevedere le possibili conseguenze delle nostre azioni, anche non avendo l'esperienza.  
+Nello sviluppo della sua teoria, baldura elaborò il costrutto di **autoefficacia**: la credenza dell'individuo di poter eseguire una prestazione adeguata in una data situazione. Il nostro senso di autoefficacia influenza le nostre percezioni, motivazioni e prestazioni in molteplici modi. Se ci aspettiamo di essere inefficaci non cercheremo di fare cose e assumerci resposanbilità, anche quando, in realtà, avremmo le capacità e motivazioni per completare il compito con successo.  
+Oltre ai risultati oggettivi, esistono altre tre fonti per formulare *giudizi di autoefficacia*:
+
+- l'esperienza vicaria, cioè l'osservazione delle prestazioni altrui
+- la persuasione, la convizione di altri o autoconvizione della nostra capacità nel fare qualcosa
+- l'osservazione della nostra attivazione emotiva quando pensiamo o ci accostiamo al compito, per esempio l'ansia può essere indice di basse aspettative di efficacia, mentre l'eccitazione il contrario.
+
+I giudizi di autoefficacia influenzano il livello di sforzo e la durata della persistenza nell'affrontare le difficoltà in un'ampia gamma di situazioni di vita.
+
+La teoria dell'autoefficacia di Bandura tiene conto dell'importanza dell'ambiente. Le aspettative di fallimento o di successo, dette **aspettative di risultato**, e le corrispondenti decisioni di smettere di provarci o perseverare, si possono basare sulle percezioni di sostegno o di mancato sostegno ambientale, oltre che sulle percezioni della propria adeguatezza o inadeguatezza. 
+
+#### **11.4.4 Valutazione delle teorie cognitive e dell'apprendimento sociale**
+
+Un insieme di critiche in merito a queste teorie si appunta sul fatto che esse trascurano spesso l'importante componente della personalità rappresentata dalle emozioni. Vengono anche criticate perchè non riconoscono appieno l'influenza delle motivazioni inconsce sui comportamenti e gli stati affettivi.  
+Un altro insieme di critiche si concentra sulla vaghezza delle spiegazioni in merito a come si creano costrutti e competenze personali. I teorici cognitivi hanno detto poco sullo sviluppo della personalità adulta, la loro focalizzazione sulla percezione individuale dell'attuale setting comportamentale mette in ombra la storia dell'individuo.
+
+Nonostante le precedenti critiche, le teorie cognitive hanno dato un importante contributo fondamentale al pensiero corrente. La teoria di Mischel ha prodotto una migliore comprensione dell'interazione tra ciò che una persona porta in un setting comportamentale e ciò che un setting comportamentale rivela di una persona. Le idee di Bandura hanno prodotto miglioramenti nell'educazione dei bambini e contribuito a nuovi trattamenti nelle aree della salute, professioni e prestazioni sportive.
 
 ### **11.5 Teorie del Sè**
 
+L'interesse per l'analisi del sè venne fondata da William James, il quale individuò tre componenti dell'esperienza del sè: 
 
+- il me materiale, cioè il me corporeo con gli occetti fisici che lo circondano
+- il me sociale, cioè la consapevolezza di come gli altri ci vedono
+- il me spirituale, cioè il sè che monitora i pensieri e sentimenti intimi
+
+James credeva che qualunque cosa si associasse alla proprià identità diventasse una parte del sè, questo spiega perchè le persone possano reagire in maniera difensiva quando persone a loro care vengono aggredite. Abbiamo gia visto che il concetto di sè era la fonte centrale nelle teorie psicodinamiche e umanistiche.
+
+#### **11.5.1 Concetto di sè e autostima**
+
+Il concetto di sè è una struttura mentale dinamica che motiva, interpreta, organizza, media e regola i comportamenti e i processi intrapersonali e interpersonali. Il concetto di sè include numerose componenti: 
+
+- i ricordi su di sè
+- le credenze circa i propri tratti, motivi, valori e capacità 
+- il sè ideale che si desidera di raggiungere
+- i sè possibili che si prevedono per il futuro
+- le valutazioni positive o negative di se stessi
+- le credenze su ciò che gli altri pensano di noi. 
+
+Il nostro concetto di sè contiene schemi riguardanti il sè che ci permettono di gestire aspetti diversi della nostra esperienza, tuttavia gli schemi di sè non influenzano soltanto il modo in cui elaboriamo informazioni su noi stessi. Questi schemi sono usati frequentemente per interpretare il nostro comportamento, influenzano anche il modo in cui elaboriamo le informazioni sulle altre persone.
+
+L'**autostima** è una valutazione generale del sè. Le persone possiedono livelli di autostima diversi, queste differenze nell'autostima hanno una componente genertica, la tendenza di alta o bassa autostima si eredita. Tuttavia anche i fattori importanti hanno effetti importanti. Per esempio la soddisfazione o no dell'aspetto fisico ha un impatto fondamentale sull'autostima. L'autostima varia anche in relazione alla percezione che la gente ha della proprià abilità di gestire le relazioni sociali; le persone con un alta autostima credono di sapersi relazionare insieme con gli altri, mentre quelle con una autostima bassa il contrario.  
+L'autostima può avere una forte influenza sui pensieri, gli umori e il comportamento delle persone. Livelli bassi di autostima portano tendenzialmente a risultati negativi, inoltre può compromettere la capacità di porsi obiettivi legati a risultati positivi e di far fronte agli eventi negativi della vita.  
+Nonostante alcune persone provano una bassa autostima, la maggior parte delle persone fa di tutto per mantenere l'autostima e sostenere l'integrità del proprio concetto di sè. Per preservare l'immagine di sè, le persone si impegnano in molteplici forme di *auto-accressimento*, utilizzando strategie finalizzate a considerare le proprie azioni e i propri comportamenti in modo positivo.  
+Un esempio sono le **strategie autolesive**, un processo che porta a sviluppare, in previsione del fallimento, risposte comportamentali e spiegazioni, cioè scuse, che riducono al minimo la possibilità di attribuirlo alle proprie insufficienti capacità. Secondo alcune ricerche gli uomini attuano strategie autolesive in modo più costante delle donne.
+
+In anni recenti, i ricercatori hanno sviluppato la **teoria della gestione del terrore**, secondo la quale l'autostima aiuta le persone ad affrontare l'ineludibilità della morte. Secondo tale teoria le persone desiderano raggiungere una *immortalità simbolica*, di origine culturale, pe rcui le persone si sentono parte di qualcosa di più ampio, di più significativo e di più duraturo delle rispettive vite individuali, attraverso i rapporti e i contributi alle proprie famiglire, nazioni, professioni e ideologie. Le persone raggiungono un buon livello di autostima quando credono di aver offerto validi contributi al raggiugimento dell'immortalità simbolica.  
+I ricercatori hanno mostrato molteplici modi in cui il comportamento degli individui cambia quando la loro attenzione è richiamata sull'ineludibilità della morte. Vediamo un esempio in merito: 
+
+\begin{tcolorbox}[colback=gray!20!white, boxrule=0.5pt, opacityfill=0.25]
+Un progetto effettuato su un gruppo di persone, ad una parte di queste fù messa in evidenza la *salienza della mortalità*, andando a chiedere cosa si aspettavano succedesse al momento della morte e dopo. In un secondo momento a tutte le persone venne chieste alcune domande, per esempio "Quando vi piacerebbe essere famosi?" e "Quanto pensate di diventare famosi in futuro?". Si è notato che le persone del sottogruppo si dichiararono più interessate a raggiungere la fama.
+\end{tcolorbox}
+
+Questo esempio va a spiegare il collegamento tra autostima e l'immortalità simbolica.
+
+Abbiamo visto che per mantenere un livello di autostima alto, le persone fanno uso di strategie autolesive, per questa ragione non è difficile capire come le valutazioni globali dell'autostima non siamo molto precise riguardo alle prestazioni delle persone in ambiti diversi. Invece si può notare come possiamo avere migliori informazioni predittive in merito ad ambiti specifici.
+
+#### **11.5.2 Costruzione culturale del sè**
+
+I ricercatori hanno studiato anche come il concetto di sè e lo sviluppo del sè sono influenzati dalle differenti culture. Le teorie e i costrutti si basano sui modi in cui le culture occidentali concettualizzano il sè. Tuttavia il sè occidentale emerge da una cultura individualistica, che rappresenta una minoranza nella popolazione mondiale, caratterizzata da circa il 70% di culture collettive. Le culture individualistiche danno maggiore importanza ai bisogni individuali, mentre quelle collettive danno maggiore priorità ai bisogni del gruppo. Quindi come possiamo immaginare questi due fattori influenzano il significato del sè o differenti costrutti del sè. 
+
+- Le culture individualistiche promuovono **costrutti indipendenti del sè**, concettualizzazione di sè come individuo il cui comportamento è organizzato principalmente attorno ai propri pensieri, sentimenti e azioni, piuttosto che attorno ai pensieri, ai sentimenti e alle azioni degli altri.
+- Le culture collettive promuovono **costrutti interdipendenti del sè**, concettualizzazione di sè come parte di un'inclusiva relazione sociale; riconoscimento che il proprio comportamento è determinato, condizionato e organizzato da quelli che sono stati giudicati essere i pensieri, i sentimenti e le azioni degli altri.
+
+Una ricerca transculturale in merito è basata su un test chiamato "Chi sono io?", nel quale a diverse persone di diversi paesi viene chiesto di rispondere alla domanda "Chi sono io?", le risposte a questa domanda rientrano in sei categorie: identità sociale, credenze ideologiche, interessi, ambizioni, autovalutazioni, altro. Si è notato come la cultura renda diversa la risposta alla domanda e al conseguente inserimento in una delle categorie. Per esempio gli studenti americani tendono ad avere risposte caratterizzabili nella categoria *autovalutazione* per via del costrutto indipendente del sè, mentre gli studenti indiani avevano la metà di risposte caratterizzabili nella categoria *autovalutazione*. Lo stesso test è stato applicato a due culture africane, la prima formata da individui delle tribù di pastori, mentre la seconda agli individui che si sono trasferiti in una città esposta a culture occidentali, si è visto come la cultura della città vada ad influenzare le risposte di individui provenienti dalla stessa origine.
+
+#### **11.5.3 Valutazione delle teorie del sè**
+
+Le teorie del sè riescono a cogliere i concetti che gli individui hanno della propria personalità e di come desiderano essere percepiti dagli altri. Inoltre le analisi transculturali del sè hanno influenzato il modo in cui gli psicologi valutano la generalizzabilità delle proprie teorie.  
+Tuttavia i critici di queste teorie ne giudicano in modo negativo l'inderteminatezza degli orizzonti entro cui si muovono. Poiche moltissimi sono gli elementi rilevanti per il sè e il concetto di sè, non è sempre chiaro quali siano i fattori più significativi per prevederne il comportamento. Infine l'enfasi posta sul sè come costrutto sociale non è del tutto coerente col fatto che alcuni aspetti della personalità possano essere ereditati. 
 
 ### **11.6 Teorie della personalità a confronto**
 
+Data l'esistenza di varie teorie della personalità, andiamo a riassumere cinque delle principali contrapposizioni negli assunti sulla personalità e negli approcci da cui derivano.
 
+1) **Ereditarietà versus ambiente**: questa contrapposizione è detta anche *natura versus cultura*. Nello sviluppo della personalità, sono più importanti i fattori genetici e biologici o le influenze ambientali? Le teorie dei tratti sono divise in merito; la teoria freudiana si basa per la maggiore sull'eredità; le teorie umanistiche, dell'apprendimento sociale, cognitive e del sè danno importanza all'ambiente come determinante del comportamento o sull'interazione con l'ambiente come origine dello sviluppo della personalità.
+2) **Proessi di apprendimento versus leggi innate del comportamento**: La teoria freudiana esprime una visione deterministica di tipo interno, mentre gli psicologi umanistici postulano l'ottimistica visione secondo cui è l'esperienza a cambiare le persone. Le teorie dell'apprendimento sociale, cognitive e del sè sostengono che il comportamento e la personalità sono cambiate per effetto delle esperienze passate.
+3) **Enfasi su passato, presente o futuro**: Le teorie dei tratti danno importanza a cause passare, siano esse innate o apprese: la teoria freudiana si concentra sui processi inconsci in età infantile; le teorie dell'apprendimento sociale si concentrano sui rinforzi del passato e sugli eventi del presente; le teorie umanistiche si concentrano sul presente e sugli obiettivi futuri; le teorie cognitive e del sè danno importanza al passato, presente e futuro, in caso di fissazione di un obiettivo.
+4) **Conscio versus inconscio**: La teoria freudiana si basa sui processi inconsci; quelle umanistiche, dell'apprendimento sociale e cognitive sui processi consci. Le teorie dei tratti si interessano poco a questa distinzione mentre quelle del sè non sono chiare in merito
+5) **Disposizioni interne versus situazione esterna**: Le teorie dell'apprendimento sociale mettono in evidenza i fattori situazionali; quelle dei tratti i fattori disposizionali, mentre le altre teorie suggeriscono un'interazione tra variabili basate sulla persona e quelle basate sulla situazione.
+
+Ogni tipologia di teoria offre differenti contributi alla comprensione della personalità umana. Possiamo dire che nel loro insieme sono in grado di descrivere e completare in modo ottimale il concetto di personalità e comportamenti.
 
 ### **11.7 Valutare la personalità**
 
+Gli psicologi si interrogano sui diversi attributi che caratterizzano un individuo e distinguono le persone tra di loro. Due assunti fondamentili in merito per capire e descrivere la personalità sono: 
 
+- esistono caratteristiche individuali che rendono coerente il comportamento di ognuno
+- queste caratteristiche possono essere valutate e misurate.
+
+I test della personalità devono soddisfare gli standard di affidabilità e validità e inoltre i ricercatori ricevono una formazione per poterli somministrare e interpretare. Esistono due tipologie di test, quelli oggettivi e quelli proiettivi.
+
+#### **11.7.1 Test oggettivi**
+
+Nei test oggettivi il punteggio e la somministrazione sono relativamente semplici e seguono regole ben definite. il punteggio finale solitamente è un numero a una sola cifra collegato ad una singola dimensione oppure è un insieme di punteggi su differenti tratti, messi in rapporto con i punteggi di un campione. Un *inventario self-report* è test oggettivo formato da una serie di domane sui propri pensieri, sentimenti e azioni. Uno dei primi inventati è il *Woodworth personal data sheet*.  
+Ai giorni nostri l'**inventario della personalità** è formato da una serie di affermazioni che vanno selezionate se sono vere o tipiche per noi.
+
+Il **MMPI** fu sviluppato negli anni trenta presso l'università del minnesota. Il suo principale scopo è elaborare diagnosi individuali in merito a un insieme  di etichette psichiatriche. Il primo test era formato da 550 item con opzioni di risposta vero/falso o non so.  
+Le scale MMPI differivano dai test sulla personalità presenti perchè erano sviluppate usando una strategia empirica, cioè su dati reali, piuttosto che l'approccio intuitivo, teorico prevalente al tempo. Gli item venivano inclusi nella scala solo se distinguevano chiaramente i due grupppi, cioè quelli con il problema e quelli no. Per testarne l'affidabilità venivano analizzate le risposte date dai due gruppi, selezionati su base empirica.  
+Il MMPI presenta dieci scale cliniche, ognuna dedicata ad un gruppo clinico. Il test include anche *scale di validità* che rilevano pattern di risposta sospetti, in quanto palesemente falsi, difensivi o evasivi. Durante l'interpretazione del MMPI, chi lo sommistra per prima cosa controlla la scala di validità, per assicurarsi che il test sia esente da distorsioni, e successivamente analizza gli altri punteggi. il pattern dei punteggi forma il **profilo MMPI**.  
+A metà degli anni ottante venne fondato il **MMPI-2**, una revisione della prima versione per aggiornarsi ai nuovi modelli culturali, liguaggi e contenuti, e nuovi gruppi demografici hanno fornito dati per le norme. Sono state aggiunte quindi nuove *scale di contenuto*, ottenute in parte in modo teorico. Ognuno di questi nuovi item sono stati selezionati in base a due principi: 
+
+- la pertinenza teorica rispetto all'area tematica
+- la formazione, dal punto di vista statistico, di una *scala omogenea* che misuri un singolo concetto unitario.
+
+Il MMPI-2 svuole un ruolo importante nella ricerca e nella pratica clinica, per cui i ricercatori continuano a valutarne l'attendibilità e la validità dei giudizi. Infatti si sono formate rivisitazioni successive, come la MMPI-2-RF che include scale cliniche riviste per integrare quelle gia presenti, con l'obiettivo di migliorare la distinzione tra persone con differenti disturbi psicologici. Queste scale riviste sono state sottoposte a verifiche di attendibilità e validità.
+
+\vspace{-12pt}
+\begin{table}[H]
+  \centering
+  \caption{MMPI-2 Scale cliniche}
+  \label{tab:MMPI-2C}
+\begin{tabular}{|p{5cm}|p{10.6cm}|}
+  \hline
+  \textbf{Ipocondria (Hs)} & Preoccupazione patologica per le funzioni corporee \\ \hline
+  \textbf{Depressione (D)} & Pessimismo; assenza di speranza; rallentamento di pensieri e azioni \\ \hline
+  \textbf{Isteria di conversione (Hy)} & Uso inconscio dei problemi mentali per evitare conflitti o responsabilità \\ \hline
+  \textbf{Deviazione psicopatica (Pd)} & Inosservanza dei costumi della società; emozioni superficiali; incapacità di trarre profitto dall'esperienza \\ \hline
+  \textbf{Mascolinità/Femminilità (Mf)} & Differenze tra uomini e donne \\ \hline
+  \textbf{Paranoia (Pa)} & Sospettosità; manie di grandezza o di persecuzione \\ \hline
+  \textbf{Psicastenia (Pt)} & Ossessioni; compulsioni; paure; senso di colpa; indecisione \\ \hline
+  \textbf{Schizofrenia (Sc)} & Pensieri o comportamenti bizzarri, inusuali; ritiro psichico; allucinazioni; manie \\ \hline
+  \textbf{Ipomania (Ma)} & Eccitabilità emotiva; fuga di idee; iperattività \\ \hline
+  \textbf{Introversione sociale (Si)} & Timidezza; disinteresse per gli altri; insicurezza \\ \hline
+\end{tabular}
+\end{table}
+\vspace{-20pt}
+\begin{table}[H]
+  \centering
+  \caption{MMPI-2 Scale di contenuto}
+  \label{tab:MMPI-2DC}
+\begin{tabular}{|p{5cm}|p{10.6cm}|}
+  \hline
+  \textbf{Ansia} & Tipo A (dipendenza da lavoro) \\ \hline
+  \textbf{Paure} & Bassa autostima \\ \hline
+  \textbf{Ossessività} & Disagio sociale \\ \hline
+  \textbf{Depressione} & Problemi familiari \\ \hline
+  \textbf{Preoccupazioni per la salute} & Interferenza del lavoro \\ \hline
+  \textbf{Ideazione bizzarra} & Indicatori di trattamento negativi (atteggiamenti negativi verso medici e trattamenti) \\ \hline
+  \textbf{Rabbia} & Difficoltà nel controllo dell'ira \\ \hline
+  \textbf{Cinismo} & Misantropia \\ \hline
+\end{tabular}
+\end{table}
+\vspace{-12pt}
+
+Il **NEO-PI** fu ideato per valutare le caratteristiche di popolazioni adulte non cliniche. Esso misura il modello della personalità a cinque fattori. Il sottoposto al NEO-PI riceve un profilo in cui sono indicati i propri punteggi standardizzati, in rapporto a un campione normativo e in ognuna delle cinque principali dimensioni: nevroticismo, estroversione, apertura mentale, piacevolezza, coscienziosità.  
+Il recente **NEO-PI 3** valuta trenta tratti distinti, organizzati all'interno dei cinque fattori fondamentali. Per esempio la dimensione del nevroticismo è suddivisa in sei subscale: ansia, ostilità rabbiosa, depressione, coscienza di sè, impulsività e vulnerabilità. La ricerca ha dimostrato che le dimensioni usate nel NEO-PI sono attendibili e valide.  
+Il NEO-PI attualmente è usato per studiare la stabilità e il cambiamento della personalità nell'arco della vita, nonchè la relazione delle caratteristiche della personalità con gli eventi della vita e la salute.
+
+#### **11.7.2 Test proiettivi**
+
+I *test proiettivi*, a differenza di quelli oggettivi, non presentano un'insieme di predeterminate risposte. in un **test proiettivo** si assegna a una persona una serie di stimoli volutamente ambigui, come modelli astratti, immagini incomplete o disegni interpretabili in diversi modi, andandogli a chiedere di descrivere i modelli, completare le immagini o raccontare storie dai disegni. I primi a usare questi test furono gli psicanalisti con la speranza che rivelassero le dinamiche inconscie della personalità. Data l'ambiguità degli stimoli, le risposte sono in parte determinate da quanto una persona porta di sè nella situazione; ossia da sentimenti interiori, motivi personali e esperienze di vita. Questi aspetti personali proiettati sugli stimoli permetto di valutare la personalità. 
+
+Il test **Rorschach**, sviluppato dal ononimo psichiatra nel 1921, possiede stimoli ambigui come disegni simmetrici a macchia d'inchiostro, alcuni in bianco e nero altri a colori. Ai rispondenti viene chiesto cosa possa essere il disegno mostrato assicurandogli che non esiste una risposta corretta. I sommistratori terranno traccia della risposta parola per parola, il tempo totale per ogni macchia e il modo di come usano le mani sulla tavola del disegno. In una seconda fase, detta *inchiesta*, viene chiesto di puntualizzare le risposte fornite.  
+Alle risposte è attribuito un punteggio in base alle seguenti caratteristiche:
+
+- la *localizzazione*, cioè la parte di tavola menzionata nella risposta, cioè se la risposta si riferisce all'intero stimolo o ad una parte e quanti dettagli contiene
+- il *contenuto della risposta*, cioè la natura dell'oggetto e le azioni osservate
+- i *determinanti*, cioè gli oggetti della tavola, come il colore o le ombre, che hanno stimolato la risposta.
+
+Il punteggio può tenere conto dell'originalità e unicità delle risposte.  
+Si potrebbe pensare che la varietà di risposte ad una macchia non sia interpretabile, in realtà i ricercatori hanno elaborato un sistema di punteggio per le risposte date, che permette significativi confronti tra i differenti soggetti testati. Il sistema di punteggio indica categorie di contenuto che compaiono di frequente nelle risposte delle persone.  
+I ricercatori hanno sviluppato procedure formative in modo che il test venga sostenuto in modo attendibile, inoltre hanno intrapreso studi formali per determinare se i risultati ricavati rendano possibile diagnosticare specifici disturbi psicologi. Tuttavia alcuni clinici formulano diagnosi sulla base delle risposte date al test anche senza alcuna evidenza formale, per questa ragione il test rimane controverso.
+
+Il **TAT** elaborato nel 1938 da Henry Murray, è un testi di appercezione tematica, nel quale ai rispondenti sono mostrate immagini che raffigurano scene di contenuto ambiguo da cui andare a produrre storie che descrivano ciò che i personaggi rafigurati fanno e pensano, che cosa ha originato ogni evento e come si concluderà ogni situazione. Chi somministra il TAT valuta struttura e contenuto delle narrazioni nel tentativo di scoprire alcune delle preoccuopazioni, motivazioni e caratteristiche della personalità del rispondente.  
+Anche in questo caso i critici hanno suggerito che il TAT è usato per scopi per i quali la sua validità rimane incerta. 
+Un uso frequente del TAT, sostenuto dalla ricerca, è finalizzato a rivelare differenze individuali nei bisogni dominanti: i bisogni di potere, affiliazione e realizzazione. I ricercatori hanno usato il TAT anche per valutare le differenze tra gruppi, come per esempio il cambiamento dei bisogni dominanzi di generazioni di studenti che iniziano un corso di laurea in medicina.  
+I test della personalità possiedono il potenziale per fornire *insight* unici sulla personalità di un individuo. Per questo motivo i clici utilizzano spesso una combinazione di test per effettuare valutazioni della personalità.
 
 \newpage
 ## **Capitolo 12 - Psicologia della salute e del benessere della persona**
-
-
-
 ### **12.1 Salute e benessere**
 
+La definizione di salute, data nel 1948 dall'OMS, dice che essa è *uno stato di completo benessere, fisico, mentale e sociale, e non la semplice assenza di una malattia o infermità*. Quindi l'assenza di una malattia non garantisce che l'individuo sia una persona in salute, cioè non garantisce lo stato di completo benessere. Nonostante ciò ci sono persone non in uno stato di completo benessere ma che vivono in modo sereno per via di particolari caratteristiche della loro personalità e per la positiva interazione di queste caratteristiche con variabili familiari e socioambientali. Quindi l'assenza di malattia e benessere soggettivo non sono la stessa cosa, non sono sovrapponibili, e conservano ampi marigini di reciproca autonomia.  
+Il benessere fisico e quello psichico sono due ottimali condizioni che vanno comunque viste in relazione al contesto socioculturale in cui la persona vive.  
+Nel tema del benessere troviamo due termini citati spesso e usati in modo intercambiabile, che sono happiness e wellbeing o subjective wellbeing (SWB). Della felicità si è ampiamente occupata la **Psicologia positiva** a partire da due diversi approcci **edonico** ed **eudaimonico**.  
+Entrambi gli approcci hanno radici antichissime, l'approccio edonico è la concezione della felicità come puro soddisfacimento di bisogni e desideri, mentre l'approccio eudaimonico è la concezione della felicità come autorealizzazione virtuosa.  
+La felicità ci appare come una condizione di breve durata, ricca di emozioni di segnò positivo. Secondo la teoria del **Set point**, il quale rappresenta l'abituale stato affettivo di ciascuna persona, Questo viene brevemente sfumato da particolari situazioni di gioia e felicità ma anche di profonda tristezza ma un sistema di regolazione tende a riportare l'individuo al suo abituale set point. Tuttavia Headey pensa che tale teoria debba essere rivista, in quanto riferisce che dai dati del *German Socio-Economic Panel* emergono chiare evidenze di cambiamenti a lungo termine e forse permanenti nel set point. Headay scrive che individui con certi tratti di personalità hanno cambiamenti di lungo periodo nel livello di benessere soggettivo con maggiore probabilità di altri, e che questo dipenderebbe dal tipo di obiettivi che possiedono, per esempio porsi obiettivi altruistici comporterebbe un livello maggiore di benessere soggettivo rispetto al ricercare obiettivi di carriera e profitti materiali.
 
+### **12.2 Psicologia della salute: sviluppo storico, obiettivi e temi di ricerca**
 
-### **12.2 Psicologia della salute: sviluppo storico, obbiettivi e temi di ricerca**
-
-
+I temi trattati dalla **psicologia della salute**
 
 ### **12.3 Il modello biopsicosociale**
+
+
+
+#### **12.3.1 La medicina psicosomatica**
 
 
 
@@ -524,3 +917,14 @@ Gordon Allport considerava i tratti come i mattoni della personalità e la fonte
 
 ### **12.6 Eventi stressanti e modalità di risposta**
 
+
+
+#### **12.6.1 La sindrome generale di adattamento**
+
+
+
+#### **12.6.2 Eustress e distress**
+
+
+
+#### **12.6.3 La risposta agli eventi stressanti: le strategie di coping**
