@@ -532,6 +532,340 @@ $$
 $$
 
 \newpage
+# **Lezione 4 – Progettazione Logica e SQL DDL**
+\vspace{3pt}
+\hrule
+
+## **1 Progettazione logica**
+
+#### **Fasi della progettazione logica**
+
+- **Ristrutturazione dello schema ER**: definizione di un nuovo schema ER andando a eliminare le gerarchie di generalizzazione e gli attributi composti e multivalore
+- **Traduzione dello schema ER**: definizione dello schema relazionale, risultante dallo schema ER ristrutturato.
+
+### **1.1 Ristrutturazione dello schema ER (FARE ESEMPI)**
+
+#### **Principi per la ristrutturazione dello schema ER**
+
+Le modifiche da apportare allo schema ER sono basare su considerazioni legate al carico della base di dati, cioè quanto e come verra utlizzata.
+
+Le principali modifiche da tenere in considerazione sono l'analisi dei dati derivati (ridondanza), eliminazione delle gerarchie di generalizzazione e scelta degli identificatori primari.
+
+#### **Carico della base di dati**
+
+Il carico di un database è l'insieme di tutte le operazioni e applicazioni che il database dovrà supportare durante il suo utilizzo quotidiano. Per valutare quanto impegnativo sarà il carico, è necessario conoscere queste informazioni:
+
+- Volume dei dati: il numero medio di istanze di ogni entità/associazione e il numero medio di partecipazioni delle entità alle associazioni
+- Operazioni più frequenti (interrogazioni, inserimenti, aggiornamenti)
+- Tipologia delle operazioni: se le operazioni sono interattive o batch, cioè in tempo reale o no
+- Frequenza: il numero medio di esecuzioni delle operazioni in un certo intervallo di tempo
+- Dati coinvolti: entità e/o associazioni interessate dalle operazioni
+
+#### **Dati derivati**
+
+Nei database ci possono essere attributi derivati, cioè informazioni che possono non essere memorizzate direttamente, ma che si possono calcolare partendo da altri dati già presenti. Possiamo scegliere di non salvare nel database questi dati ma andarli a calcolare solo quando servono.
+
+I vantaggi sono la riduzione della quantità di dati memorizzati per via della eliminazione dell'attributo e nessuna necessità di mantenere la coerenza fra dati primari e derivati.
+
+Lo svantaggio è dato da un maggiore carico di elaborazione per andare a calcolare il dato derivato.
+
+**FARE ESEMPIO**
+
+#### **Analisi dei dati derivati**
+
+L'eliminazione o il mantenimento di un dato derivato va valutata e documentata tentendo conto di alcuni fattori:
+
+- In caso di eliminazione: il numero e la frequenza delle operazioni necessarie a calcolare il dato derivato
+- In caso di mantenimento: il numero e la frequenza delle operazioni di aggiornamento necessarie a mantenere la persistenza e coerenza dei dati derivati
+- Oltre a questi due fattori è necessario analizzare il risparmio/uso della memoria.
+
+#### **Eliminazione delle gerarchie di generalizzazione ESEMPI**
+
+Alcuni modelli logici, come il modello relazionale, non contemplano la nozione di gerarchia di generalizzazione. Quindi occorre sostituire le gerarchie con entità e associazioni, cercando di rispettare la semantica.
+
+#### **Opzione 1: mantenimento della sola entità padre**
+
+Questa strategia consiste nalla eliminazione delle entità figlie, cioè le sottoclassi, andando a conservare solo l'entità padre, per fare ciò bisogna seguire questi passi:
+
+- Aggiunta di un nuovo attributo *tipo* sull'entità padre per memorizzare la sottoclasse di ogni istanza
+- Aggiunta all'entità padre di tutti gli attributi e associazioni delle sottoclassi eliminate nell'entità padre
+- Revisione delle cardinalità degli attributi aggiunti all'entità padre, in quanto alcuni potrebbero valere solo per alcune istanze, questi avranno cardinalità minima uguaòe a zero
+
+Questi passaggi sono applicabili a qualsiasi tipo di gerarchia, sia totale che parziale.
+
+#### **Opzione 2: mantenimento delle sole entità figlie**
+
+Questa strategia è l'opposto della precedente, si procede all'eliminazione dell'entità padre e si mantengono solo le entità figlie. per fare ciò bisogna seguire questi passi:
+
+- Eliminazione dell'entità padre e trasferimento di tutti i suoi attributi e relazioni su tutte le entità figlie.
+- Nessuna modifica delle cardinalità degli attributi e relazioni trasferite
+
+Questi passaggi sono applicabili solo a gerarchie totali ed esclusive.
+
+#### **Opzione 3: mantenimento di tutte le entità**
+
+Questa strategia non va ad eliminare nulla, ma va a rappresentare la gerarchia in modo più esplicito attraverso associazioni uno a uno. I passaggi da seguire sono i seguenti:
+
+- Creazione delle opportune associazioni 1:1 per rappresentare il legame *IS-A* espresso dalla gerarchia, ovvero che le entità figlie sono sottoinsiemi dell'entità padre e pertanto ogni loro istanza coincide con una sola istanza dell'entità padre
+- Le entità figlie sono entità deboli rispetto all'entità padre, in quanto sono identificate tramite l'identificatore dell'entità padre
+
+Questi passaggi sono applicabili a qualsiasi tipo di gerarchia.
+
+#### **Verifiche di correttezza**
+
+Dopo la modifica/eliminazione di una gerarchia, bisogna controllare che i dati restino coerenti, è necessario verificare che per ogni istanza delle specializzazioni, cioè le entità figlie, esista un'istanza dell'entità generica, ovvero il padre. In caso di generalizzazioni totali è necessario verificare che a ogni istanza dell'entità padre deve corrispondere un'istanza di qualche entità figlia.
+
+#### **Criteri di scelta della modalità di ristruttuazione**
+
+- **Opzione 1**: le operazioni usano principalmente gli attributi comuni a tutta la gerarchia, cioè quelli dell'entità padre. Questa opzione assicura un numero minore di accessi rispetto alle altre due alternative.
+- **Opzione 2**: le operazioni usano insieme sia gli attributi generali che quelli specifici della sottoclassi, inoltre la gerarchia è totale ed esclusiva (T,E). Questa opzione assicura un risparmio di memoria, in quanto non ci sono attributi nulli come nella opzione 1 e ha meno accessi rispetto all'opzione 3 perchè non si visita l'entità padre per alcuni attributi.
+- **Opzione 3**: le operazioni usano sia gli attributi dell'entità padre che quelli delle figlie, ma non necessariamente insieme. Questa opzione assicura un risparmio di memoria rispetto alla opzione 1, data l'assenza di valori nulli e riduce i tempi di accesso rispetto all'opzione 2, in quanto ogni entità ha solo gli attributi che servono.
+
+#### **Eliminazione di attributi multivalore**
+
+Per andare a rappresentare in modo più corretto questi attributi è necessario seguire questo procedimento:
+
+- Creazione di una nuova entità per rappresentare l'attributo multivalore
+- Creazione di una relazione tra l'entità originaria e la nuova entità, per collegare l'istanza principale con i suoi valori multipli
+- La cardinalità della relazione è la stessa dell'attributo multivalore
+
+ESEMPIO
+ 
+#### **Eliminazione di attributi composti**
+
+In caso di attributi composti, il modo più semplice e comune è andare a saperarli in attributi semplici, un altra sceltà è la creazione di una nuova entità, se l'attributo composto ha significato proprio o presenta dipendenze transitive si crea una nuova entità e la si collega con una relazione 1:N all'entità originale.
+
+ESEMPIO
+
+### **1.2 Traduzione dello schema ER**
+
+#### **Metodologia generale**
+
+La traduzione dello schema ER ristrutturato allo schema relazione può essere vista come un processo composto da queste tre fasi principali:
+
+1. Traduzione di entità
+2. Traduzione di relazioni
+3. Verifica di normalizzazione
+
+#### **Traduzione di entità**
+
+Data una entità $E = \{K,W\}$ con $K = \{a_1, \cdots, a_t\}$ come identificatore e $W = \{a_{(t+1)}, \cdots, a_{(t+n)}\}$ come l'insieme di attributi descrittivi. $E$ è tradotto in una relazione $E(a_1, \cdots, a_t, a_{(t+1)}, \cdots, a_{(t+n)})$ in cui $K$ è la chiave primaria. Gli attributi diventano le colonne della tabella.
+
+#### **Traduzione di relazioni/associazioni**
+
+La traduzione di associazioni dal modello ER ristrutturato al modello relazione permette diverse opzioni che dipendono dalla tipologia dell'associazione, come per esempio binaria o n-aria, o dalla tipologia di cardinalità, come 1:1, 1:N, N:M
+
+#### **Associazioni molti a molti (N:M) (ESEMPIO)**
+
+Data una associazione $R = \{C\}$ fra le entittà $E1 = \{K1, WI\}$ e $E2 = \{K2, W2\}$ in cui:
+
+- Cardinalità massima di $(E1, R) = N$ e di $(E2, R) = M$
+- $C$ insieme di attributi della relazione $R$
+- $K1$ e $K2$ sono identificatori di $E1$ e $E2$
+- $W1$ e $W2$ sono attributi descrittivi di $E1$ e $E2$
+
+Si traduce $R$ come una relazione: $R(K1,K2,C)$  
+Nella quale $C$ è presente solo nel caso in cui l'associazione $R$ abbia attributi propri. La chiave primaria è composta da $K1 \cup K2$. Solo nel caso in cui si vogliano rendere possibili più relazioni fra le stesse istanze $E1$ e $E2$ al variare di $C$, si include anche $C$ nella chiave primaria.
+
+#### **Associazioni uno a uno (1:1) (ESEMPIO)**
+
+Data una associazione $R = \{C\}$ fra le entittà $E1 = \{K1, WI\}$ e $E2 = \{K2, W2\}$ in cui:
+
+- Cardinalità massima di $(E1, R) = 1$ e di $(E2, R) = 1$
+- $C$ insieme di attributi della relazione $R$
+- $K1$ e $K2$ sono identificatori di $E1$ e $E2$
+- $W1$ e $W2$ sono attributi descrittivi di $E1$ e $E2$
+
+Si traduce la relazione $R$ con una chiave esterna inserita in $E1$ o $E2$, quindi $E1(K1, W1, K2, C) E2(K2,W2)$ oppure $E1(K1, W1,) E2(K2,W2,K1,C)$
+
+Notare che gli eventuali attributi $C$ dell'associazione seguono la chiave esterna. La chiave esterna ammette valori nulli se la cardinalità minima dell'associazione è zero. In caso di entità deboli la chiave esterna è anche la chiave primaria.
+
+#### **Associazioni uno a molti (1:N) (ESEMPIO)**
+
+Data una associazione $R = \{C\}$ fra le entittà $E1 = \{K1, WI\}$ e $E2 = \{K2, W2\}$ in cui:
+
+- Cardinalità massima di $(E1, R) = 1$ e di $(E2, R) = N$ o viceversa
+- $C$ insieme di attributi della relazione $R$
+- $K1$ e $K2$ sono identificatori di $E1$ e $E2$
+- $W1$ e $W2$ sono attributi descrittivi di $E1$ e $E2$
+
+Si traduce la relazione $R$ con una chiave esterna inserita nella relazione corrispondente all'entità con cardinalità massma 1: $E1(K1, W1, K2, C) E2(K2, W2)$ oppure si può creare una nuova relazione in cui però la chiave è composta dalla sola chiave esterna $R(K1, W1, K2, C)$
+
+Notiamo che gli eventuali attributi $C$ dell'associazione seguono la chiave esterna. La chiave esterna ammette valori nulli se la cardinalità minima dell'associazione è zero.
+
+#### **Altre tipologie di associazione (ESEMPI)**
+
+- **Associazioni n-arie**: si traducono con relazioni N:M con una chiave esterna per ogni entità implicata nell'associazione
+- **Associazioni ricorsive**: si traducno come normali associazioni ma ridenominando le chiavi esterne in modo da evidenziarne il ruolo nell'associazione
+
+### **1.3 Reverse engineering**
+
+Il reverse engineering è l'operazione di derivazione dello schema ER a partire dallo schema relazione, può essere utile quando occorre intervenire su un database pre-esistente e non documentato. Il criterio principale è partire dalle chiavi esterne per ricavare le associazioni e le cardinalità, nello schema ER non ci sono chiavi esterne.
+
+## **2 Creazione dello schema relazione con SQL DDL**
+
+### **2.1 Introduzione a SQL**
+
+SQL è un linguaggio basato sulle query, ad oggi siamo arrivati alla sua terza versione, la quale aggiunge i trigger, i tipi composti, le viste ricorsive e il supporto per oggetti di grandi dimensioni.
+
+### **2.2 Domini**
+
+Esistono i domini elementari, quali: numerici, caratteriali, temporali, questi ultimi sono suddivisi in vari sottotipi.
+
+#### **Domini numerici**
+
+I principali domini numerici si dividono in due categorie:
+
+- Tipi numerici esatti, che rappresentano valori interi o decimali in virgola fissa, e sono: INTEGER, SMALLINT, NUMERIC, DECIMAL
+- Tipi numerici approssimati, che rappresentano valori numerici approssimati in virgola mobile, e sono: REAL, DOUBLE, FLOAT
+
+#### **Stringhe e caratteri**
+
+Il principale dominio per indicare le stringhe è CHARACTER [VARYING] o abbreviato in CHAR, questo dominio permette di rappresentare un carattere o stringhe, di lunghezza fissa o variabile e definire una lunghezza massima predefinita, aggiungendo [(n)] nel comando.
+
+Esistono altri domini di stringa quali: BIT, che rappresnta stringhe di bit, cioè di 0 e 1, e BOOLEAN, che rappresenta valori booleani di true e false.
+
+#### **Domini temporali**
+
+I principali domini temporali sono: DATE, rappresenta le date in formato YYYY-MM-DD, con le restrizioni necessarie, TIME che rappresenta i tempi nel formato HH:MM:SS e TIMESTAMP che è l'insieme dei due precedenti.
+
+### **2.3 Creazione dello schema**
+
+La sintassi di base per la creazione di uno schema è la seguente:
+\begin{tcolorbox}[colback=gray!20!white, boxrule=0.5pt, opacityfill=0.25]
+\begin{verbatim}
+    CREATE SCHEMA NomeSchema
+    AUTHORIZATION IDAutorizzazione
+    [ElementoSchema1, ElementoSchema2, ...];
+\end{verbatim}
+\end{tcolorbox}
+
+Nel quale *NomeSchema* rappresenta il nome dello schema, se mancante prende il nome dell'utente proprietario, mentre *IDAutorizzazione* è l'identificativo dell'utente proprietario dello schema, se mancante prende il valore di chi esegue il comando, infine ci sono gli elementi dello schema che sono i domini, le tabelle, le asserzioni, le viste e i privilegi.
+
+#### **Definizione di tabelle**
+
+La sintassi di base per la definizione di una tabella è la seguente:
+\begin{tcolorbox}[colback=gray!20!white, boxrule=0.5pt, opacityfill=0.25]
+\begin{verbatim}
+    CREATE TABLE NomeTabella (
+    NomeAttributo1 Dominio [DEFAULT Valore] [Vincoli],
+    NomeAttributo2 Dominio [DEFAULT Valore] [Vincoli],
+    ...
+    [AltriVincoli]);
+\end{verbatim}
+\end{tcolorbox}
+
+Vediamo un esempio in merito:
+\begin{tcolorbox}[colback=gray!20!white, boxrule=0.5pt, opacityfill=0.25]
+\begin{verbatim}
+    CREATE TABLE Ordini (
+    IDOrdine INT PRIMARY KEY,
+    DataOrdine DATE NOT NULL,
+    ClienteID INT NOT NULL,
+    Importo DECIMAL(10,2) DEFAULT 0.00,
+    CONSTRAINT fk_cliente FOREIGN KEY (ClienteID) REFERENCES Clienti(ID));
+\end{verbatim}
+\end{tcolorbox}
+
+### **2.4 Vincoli**
+
+#### **Vincoli intrarelazionali**
+
+Il vincolo è una proprietà che deve essere verificata da ogni istanza della basi di dati, per esempio NOT NULL indica che il valore NULL non è ammesso come valore dell'attributo, UNIQUE indica che il valore dell'attributo o un insieme di attributo deve essere unico, ciòe non può comparire su più righe.
+
+#### **Chiave primaria**
+
+La chiave primaria viene specificata tramite PRIMARY KEY, una volta sola per ogni tabella e può essere associata ad un attributo oppure su un gruppo di attributi, in questo caso viene detto chiave composta.
+
+#### **Vincoli inter-relazionali**
+
+Il vincolo di **integrità referenziale (foreign key)**, è un legame tra i valori dell'attributo della tabella corrente e i valori dell'attributo di un altra tabella. Impone che per ogni tupla della tabella che riferisce, il valore dell'attributo sia presente tra i valori di un attributo delle tuple della tabella riferita, eccetto il caso che la chiave esterna sia nullo.
+
+Possiamo associare una *azione referenziale innescata* alle violazioni del vincolo di integrità referenziale generate da operazioni di modifica sulla tabella riferita, ovvero la cancellazione di tuple riferite da chiave esterna o modifiche del valore dell'attributo chiave riferito da chiave esterna. Queste azioni sono eseguite dal DBMS in caso di aggiornamenti sulla tabella riferita.
+
+Le azioni possono essere le seguenti:
+
+- CASCADE: i valori di chiave esterna della tabella che riferisce corrispondenti alla tupla modificata/cancellata nella tabella riferita vengono a loro volta modificati/cancellati
+- SET NULL: i valori di chiave esterna della tabella che riferisce corrispondenti alla tupla modificata/cancellata nella tabella riferita sono posti a NULL
+- SET DEFAULT: i valori di chiave esterna della tabella che riferisce corrispondenti alla tupla modificata/cancellata nella tabella riferita sono posti al valore predefinito
+- NO ACTION: l'azione di aggiornamento/cancellazione sulla tabella riferita è rifiutata se vi sono tuple che fanno riferimento alla tupla da modificare/cancellare nella tabella che riferisce
+
+#### **Vincoli di dominio e di ennupla**
+
+Sono vincoli di integrità che impongono condizioni generiche sui valori delle tuple in una tabella, come i vincoli dipendenti dall'applicazione, i vincoli vengono specificati tramite l'uso di una o più clausole CHECK nel comando per la definizione di tabelle.  
+La condizione del vincolo (check-condition) è un qualsiasi predicato che può apparire nella clausola WHERE di una interrogazione SQL.
+
+#### **Definizione di domini**
+
+La sintassi di base per la definizione di un dominio è la seguente:
+\begin{tcolorbox}[colback=gray!20!white, boxrule=0.5pt, opacityfill=0.25]
+\begin{verbatim}
+    CREATE DOMAIN NomeDominio AS TipoDatoBase
+    [DEFAULT Valore]
+    [CONSTRAINT NomeVincolo CHECK (condizione)];
+\end{verbatim}
+\end{tcolorbox}
+
+*NomeDominio* rappresenta il nome al nuovo dominio personalizzato, TipoDatoBase rappresenta il tipo di dato sul quale si basa il dominio, come INT, DATE, VARCHAR eccetera, il campo *DEFAULT* permette di associare un valore predefinito in caso non fosse riempito un attributo della tabella, *CONSTRAINT NomeVincolo CHECK condizione* indica un vincolo di integrita che limita i valori ammessi nel dominio.
+
+### **2.5 Modifica dello schema**
+
+Abbiamo due principali comandi per la modifica dello schema, il comando ALTER e DROP.
+
+il comando base di DROP è il seguente:
+\begin{tcolorbox}[colback=gray!20!white, boxrule=0.5pt, opacityfill=0.25]
+\begin{verbatim}
+    ALTER TABLE NomeTabella
+    [modifica specifica];
+\end{verbatim}
+\end{tcolorbox}
+
+Le operazioni principali che possiamo fare con questo comando sono le seguenti:
+
+\begin{table}[H]
+  \centering
+  \caption{Operazioni con ALTER TABLE}
+  \label{tab:ALTER}
+\begin{tabular}{|p{5cm}|p{10.6cm}|}
+  \hline
+  \textbf{Operazione} & \textbf{Sintatti} \\ \hline
+  Aggiungere una colonna & ADD COLUMN NomeAttributo TipoDato \\ \hline
+  Eliminare una colonna & DROP COLUMN NomeAttributo \\ \hline
+  Impostare un valore di default & ALTER COLUMN NomeAttributo SET DEFAULT default \\ \hline
+  Rimuovere un valore di default & ALTER COLUMN NomeAttributo DROP DEFAULT \\ \hline
+  Aggiungere un vincolo & ADD CONSTRAINT NomeVincolo TipoVincolo (Colonne) \\ \hline
+  Rimuovere un vincolo & DROP CONSTRAINT NomeVincolo \\ \hline
+\end{tabular}
+\end{table}
+\vspace{-12pt}
+
+il comando di base di DROP è il seguente:
+\begin{tcolorbox}[colback=gray!20!white, boxrule=0.5pt, opacityfill=0.25]
+\begin{verbatim}
+    DROP Tabella, Dominio, Vista eccetera; NomeAssociato [RESTRICT|CASCADE]
+\end{verbatim}
+\end{tcolorbox}
+
+RESTRICT o CASCADE sono opzionali, il primo indica che il comando non è eseguito in presenta di elementi non vuoti mentre CASCADE elimina tutti gli elementi specificati, per esempio se eliminiamo un elemento che ne contiene altri implica la rimozione anche di questi ultimi.
+
+\begin{table}[H]
+  \centering
+  \caption{Operazioni con DROP}
+  \label{tab:DROP}
+\begin{tabular}{|p{5.6cm}|p{10cm}|}
+  \hline
+  \textbf{Operazione} & \textbf{Sintatti} \\ \hline
+  Elimina una tabella e i suoi dati & DROP TABLE NomeTabella \\ \hline
+  Elimina una vista & DROP VIEW NomeVista \\ \hline
+  Rimuove un dominio personalizzato & DROP DOMAIN NomeDominio \\ \hline
+  Rimuove un vincolo da una tabella & ALTER TABLE NomeTabella DROP CONSTRAINT NomeVincolo \\ \hline
+  Elimina una colonna di una tabella & ALTER TABLE NomeTabella DROP COLUMN NomeAttributo \\ \hline
+  Elimina uno schema & DROP SCHEMA NomeSchema [CASCADE|RESTRICT] \\ \hline
+\end{tabular}
+\end{table}
+\vspace{-12pt}
+
+\newpage
 # **Lezione 5 – L'algebra relazionale**
 \vspace{3pt}
 \hrule
