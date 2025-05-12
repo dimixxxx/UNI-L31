@@ -55,6 +55,7 @@ Quindi gli elementi principali sono:
 - il **canale**: il mezzo che trasferisce il messaggio
 - il **rumore**: l'insieme degli elementi ambientali e non, che interferiscono con la trasmissione del segnale. La morfologia di un segnale alla fonte non è mai identica a quella che giunge a destinazione, in quanto si incontrano diversi fattori di interferenza.  
 Le proprietà strutturali dell'ambiente hanno un impatto diretto sulle caratteristiche spettrali e temporali del segnale e partecipano attivamente a determinare un definito **rapporto segnale/rumore**. Questo rapporto deve essere superiore a zero per avere una probabilità che il segnale giunga al destinatario, quindi l'emittente deve esercitare un certo controllo sulla qualità e intensità del messaggio per ottenere un rapporto positivo
+
 - il **recettore**: il dispositivo che consente la conversione del segnale in una forma comprensibile da parte del destinatario
 - il **destinatario**: l'entità a cui è rivolto il messaggio
 
@@ -709,95 +710,318 @@ Andiamo a vedere lo studio della comunicazione non verbale, esamineremo le relaz
 
 ## **1 La comunicazione non verbale fra natura e cultura**
 
+Gli umani per secoli hanno comunicato solamente tramite **comunicazione non verbale**, in modo graduale (ipotesi incrementalista) o all'improvviso (ipotesi della discontinuità) è apparso il linguaggio che ha rivoluzionato i modi e i processi di comunicazione.  
+Il linguaggio è un sistema comunicativo aggiuntivo, che conduce alla comunicazione simbolica che consente la conoscienza dichiarativa e proposizionale e l'invenzione della cultura stessa. Esso non sostituisce la comunicazione non verbale ma si innesta su di essa. 
 
+La **comunicazione non verbale** comprende un insieme alquanto eterogeneo di fenomeni e processi comunicativi. La sua origine, secondo la psicologia ingenua, essa è ritenuta più spontanea e naturale della comunicazione verbale, meno soggetta al controllo volontario. È maggiormente rivelatrice degli stati d'animo dell'individuo, in quanto lascerebbe trapelare le sue reazioni e intenzioni, a volte anche in contrasto con quanto sta dicendo. La CNV è un *linguaggio del corpo* universale, esito dell'evoluzione filogenetica e regolato da precisi processi nervosi. In merito si sono sviluppate diverse posizioni teoriche.
+
+#### **Coevoluzione fra gene (biologia) e ambiente (cultura)**
+
+La coevoluzione fra gene e ambiente, fra biologia e cultura. Gene e cultura sono entrambi necessari per spiegare l'origine e la conformazione della CNV. Le strutture nervose e i processi neurofisiologici condivisi in modo universale a livello di specie umana sono organizzati in configurazioni differenti secondo le culture di appartenenza. 
+
+La CNV si fonda su circuiti nervosi specifici, come il *sistema piramidale* e il *sistema extrapiramidale* che si occupano di attivare, gestire e controllare l'enorme quantità e varietà di movimenti nelle loro diverse configurazioni in termini di estensione, di precisione, di intensità, di plasticità eccetera. I sistemi piramidale ed extrapiramidale agiscono in modo coordinato e sincrono attraverso circuiti funzionalmente interconnessi e meccanismi interdipendenti che facilitano o che inibiscono l'attività dei motoneuroni per l'esecuzione e gli aggiustamenti progressivi dei movimenti volontari. In questa attività nervosa si integrano processi elementari automatici, di origine inferiore, con processi volontari e consapevoli, di ordine superiore. La CNV può essere influenzata da una regolazione volontaria nelle sue espressioni, nonostante sia principalmente automatica, infatti avremo un continuum neurofisiologico da manifestazioni involontarie a manifestazioni consapevoli ed esplicite. 
+
+Questa *plasticità* pone le condizioni per le possibilità di apprendimento di numerose sue forme, che può essere similare a quella linguaggio, per altri meno consistente. Anche per i diversi sistemi di significazione e segnalazione della CNV vengono attivati importanti processi di *condivisione convenzionale* all'interno di ogni comunità di partecipanti. 
 
 ## **2 Continuità e discontinuita fra comunicazione verbale e non verbale**
 
+Ogni messaggio è prodotto dal comunicatore e interpretato dal destinatario sulla base di una molteplicità di sistemi. Chi comunica fa riferimento a un insieme di **sistemi non verbali di significazione e segnalazione**, che concorrono alla generazione ed elaborazione del significato di un messaggio, producendo una specifica *porzione di significato* che partecipa alla configurazione finale del significato. Ciò è stato interpretato secondo due impostazioni sostanzialmente antietiche:
 
+- Esistenza di una distizione dicotomica fra ciò che è linguistico e ciò che non è linguistico, in un'ottica di antitesti e di contrapposizione, secondo la psicologia tradizionale.
+- Previsione di un processo di interdipendenza fra i diversi sistemi di segnalazione, pur conservando ciascuno la propria autonomia.
 
 ### **2.1 Il verbale non esiste senza il non verbale**
 
-
+Il linguaggio è sorto in tempi relativamente recenti nella nostra specie, le attività non verbali erano forme sociali, coordinate e partecipate, prodotte in modo intenzionale e reciprocamente comprensibili, finalizzate al raggiungimento di scopi per il soddisfacimento dei bisogni. Nel tempo si è radicata la **facoltà del linguaggio**. Esiste un'assimetria strutturale fra linguaggio e sistemi non verbali, il linguaggio è sempre supportato da qualche dispositivo non verbale. Sapir aveva sottolineato l'esistenza di un profilo di variazioni vocali che indicano una maggiore o minore segnalazione di interesse e di valenza emotiva.  
+Il linguaggio pur essendo un sistema comunicativo oltremodo potente e avanzato, non è autonomo ma richiede sempre il supporto di un mezzo non verbale. I sistemi non verbali di comunicazione sono autonomi in quanto sono di natura ostensiva. Per esempio, la mimica facciale è un insieme definito e aritcolato di movimenti visibili, in grado di mostrare una gamma estesa di segnali di varia natura.
+Invece, la voce costituisce un sistema versatile e potente per manifestare i propri pensieri, desideri ed emozioni. 
 
 ### **2.2 Differenze fra il verbale e il non verbale**
 
+Data questa condizione di dipendenza di origine del linguaggio con i sistemi non verbali, va precisato che questi ultimi hanno seguito percorsi evolutivi profondamente diversi, che si concentra in tre dimensioni:
 
+- **Digitale vs analogico**: il linguaggio è caratterizzato dalla capacità mentale di produrre significati seguendo linee sofisticate di astrattezza (rappresentazione simbolica delle proprie conoscenze). La potenza e l'adattabilità del linguaggio sono connesse con la sua convenzionalità e arbitrarietà, che assegnano a ogni lingua un valore **digitale** per la presenza di tratti che caratterizzano le sue varie componenti. I fonemi sono tratti diacritici distintivi e oppositivi. Da qui derivano la computazionalità, la proposizionalità, la ricorsività ecc. della lingua. Entrano in gioco gli aspetti formali e logici del linguaggio, per la formazione di una sintassi. Grazie a ciò possiamo rendere comunicabile il nostro pensiero. Le conoscenze dichiarative sono comunicabili solo attraverso il linguaggio. 
+
+Negli aspetti non verbali prevale un valore **analogico**, poichè presentano variazioni continue e graduate in modo proporzionale a ciò che intendono esprimere. 
+
+- **Denotativo vs connotativo**: il verbale ha la funzione di **denotare**, mentre il non verbale ha la funzione di **connotare**. Il linguaggio è un codice forte in grado di trasmettere informazioni in modo preciso e definito. È caratterizzato dalla presenta di consapevolezza e controllo e ha una funzione propriamente semantica, poichè designa e veicola i contenuti della comunicazione. Il non verbale ha una funzione espressiva, caratterizzato dal fatto di essere poco controllato, per lo più come riproduzione ecoica e mimesi degli stati interni dell'individuo. Al verbale spetta l'**informazione semantica**, mentra al non verbale spetta l'**informazione affettiva**
+. 
+- **Arbitrario vs motivato**: il linguaggio sarebbe caratterizzato da aspetti arbitrari poichè l'esito della relazione convenzionale fra l'immagine acustica (significante) e la rappresentazione mentale (significato). Il segno linguistico per via della sua combinazione di un significante e un significato è **arbitrario**, poichè regolato da un rapporto di semplice contiguità.
+
+Al contrario, gli elementi della CNV hanno valore **motivato** e iconico nell'esprimere un certo evento e trattengono in sè degli aspetti della realtà che intendono evocare. In questo senso sono "motivati", poichè vi sarebbe un rapporto di similitudine fra l'unità non verbale e quanto viene espresso. 
+
+Queste distinzioni hanno un valore relativo, in quanto troviamo aspetti analogici, connotativi e motivati nel linguaggio e tratti digitali, denotativi e arbitrari nel non verbale. Un esempio ne è l'*iconismo fonosimbolico*: i suoni di una lingua, oltre al carattere di arbitrarietà, hanno anche una funzione evocativa. In modo analogo nella comunicazione non verbale ci sono aspetti digitali, arbitrari e denotativi, come la deissi e i gesti emblematici, certe configurazione facciali eccetera. 
 
 ### **2.3 Autonomia e interdipendenza fra i sistemi non verbali**
 
+Bisogna comprendere i processi di composizione e di articolare del significato per capire la comunicazione umana. Oggi prevale una concezione integrata fra gli aspetti verbali e quelli non verbali nella definizione del significato. Ogni sistema di significazione e segnalazione è parziale nella configurazione finale del significato, anche il sistema linguistico è insufficiente. Allo stesso tempo ogni sistema è autonomo, dotato di un insieme specifico di regole e corrispondenze, poiche concorre in modo distinto a generare il profilo finale del significato.
 
+I vari sistemi di significazione e segnalazione sono fra loro intrecciati in modo interdipendente, concorrono in modo congiunto alla definizione finale del significato di un messaggio.  
+L'esito di questo processo è la **sintonia semantica e pragmatica** che coordina in modo convergente i diversi sistemi. Grazie a tale prrocesso siamo in grado di capire sia l'*unitarietà* e la coerenza del significato di un dato messaggio in base alle condizioni della situazione, sia la sua *flessibilità* per la presenza di variazioni e sfumature. Un individuo può procedere all'*attribuzione di pesi diversi alle singole componenti* del messaggio, egli ha l'opportunità di accentuare il valore di una certa componente, dando a essa prominenaza o di attenuare quello di un'altra. In tal modo si pongono le condizioni per la *focalizzazione* di un dato percorso comunicativo e per la definizione del fuoco comunicativo.
+
+La sintonia e l'interdipendenza semantica consentono al parlante di giungere ad una **calibrazione situazionale** del messaggio, in linea con i vincoli del contesto immediato. Ogni messaggio è sempre situato, radicato in uno scambio contingente. Tale calibrazione consiste in un messaggio che copre le opportunità a sua disposizione, in modo di avere un *messaggio giusto al momento giusto in una data circostanza*. Questo traguardo è raggiungibile grazie alla variazione e graduazione continua dei segnali non verbali, poichè non hanno confini precisi. 
+
+L'interdipendenza, la sintonia semantica, la focalizzazione comunicativa e la calibrazione situazione sono alla base dell'**efficacia comunicativa**, che è un indice sintetico del valore comunicativo di un messaggio e consiste nella capacità di produrre effetti pragmatici (attenzione, interesse, consenso, influenza, ecc.) nel destinatario. È necessario massimizzare le opportunità offerte dalla situazione per aumentare la fiducia, la credibilità e l'attrazione del comunicante, allo stesso tempo bisogna minimizzare i rischi di tale situazione per evitare incomprensioni. L'efficacia varia da cultura a cultura e da gruppo a gruppo.  
+Inoltre contribuiscono anche a illustrare l'oscillazione del significato fra stabilità e instabilità, un significato non è mai stabile o instabile ma *un significato stabile che presenta aree di instabilità (ibidem)*
+
+Andiamo ad analizzare i principali sistemi non verbali di significazione e di segnalazione, quali il sistema vocale, il sistema cinesico, il sistema prossemico e aptico e il sistema cronemico.
 
 ## **3 Il sistema vocale**
 
-
+La **voce** manifesta e trasmette numerose componenti di significato oltre alle parole. Nell'atto di pronunciare una parola, assieme agli elementi linguistici sono intrinsecamente associati agli aspetti prosodici dell'intonazione e quelli paralinguistici del tono, del ritmo e dell'intensità dell'eloquio. L'insieme degli aspetti vocali verbali e non verbali costituisce l'**atto fonopoietico**, che fa riferimento al *canale vocale-uditivo* che richiede una quantità minima di energia fisica, consente la trasmissione e la ricezione dei segnali a distanza, è caratterizzato da rapida evanescenza e assicura un feedback completo.
 
 ### **3.1 Componenti della comunicazione vocale**
 
+La voce è una **sostanza fonica** composta da una serie di fenomeni e processi vocali, i principali sono i seguenti:
 
+- i *riflessi* (tosse, sbadiglio), i *caratterizzatori vocali* (riso, pianto) e le *vocalizzazioni* (pause piene: ah eh, mh)
+- le *caratteristiche extralinguistiche*, cioè l'insieme delle cartteristiche anatomiche permanenti ed esclusive dell'individuo; la specifica configurazione anatomica e le dimensioni dell'apparato fonatorio dell'individuo e le modalità con cui egli impiega il suo apparato fonatorio, come la voce nasalizzata o palatizzata.
+- le *caratteristiche paralinguistiche*, cioè l'insieme delle proprietà acustiche transitorie che accompagnano la pronuncia di qualsiasi enunciato e che variano in modo contigente da situazione a situazione, necessarie per comprendere la comunicazione non verbale.
+
+Le **caratteristiche paralinguistiche** sono determinate da diversi parametri:
+
+- il *tono* caratterizzato dalla frequenza fondamentale della voce, è generato dalla tensione delle corde vocali; l'insieme delle variazioni del tono nel corso della pronuncia di un enunciato determina il *profilo di intonazione*
+- l'*intensità* rappresenta il volume della voce, prodotto dalla pressione ipolaringea e dalla forza fonorespiratoria; è correlata con l'*accento enfatico* con cui il soggetto intende sottolienare un certo segmento linguistico dell'enunciato.
+- il *tempo* definisce la successione dell'eloquio e delle pause, comprende fattori come la *durata*, la *velocità di eloquio*, la *velocità di articolazione*, la *pausa* che è distinta in pause piene e pause vuote.
+
+L'atto fonopoietico è composto da una **componente vocale verbale** e da una componente non verbale. La prima comprende:
+
+- la pronuncia di una parola o frase (fonologia)
+- il vocabolario (lessico e semantica)
+- la grammatica (morofologia e sintassi)
+- il profilo prosodico (tonia conclusiva, interrogativa, sospensiva, ecc.)
+- la prominenza (rilievo enfatico o accentuazione di un elemento).
+
+Le **componenti vocali non verbali** definiscono la qualità della voce di un individuo, intesa come *impronta vocalica*, generata dalle caratteristiche extralinguistiche e paralinguistiche.  
+Le qualità non verbali interessano quattro ordini di fattori:
+
+- *fattori biologici*, come il sesso e l'età
+- *fattori sociali*, connessi con la cultura e la regione di provenienza, con la professione, con la posizione e la classe sociale di appartenenza
+- *fattori di personalità*, connessi con tratti psicologici relativamente stabili come l'umore depresso, lo stato di ansietà e di stressa, il temperamento istrionico ecc.
+- *fattori psicologici transitori*, collegati con le esperienze emotive, con gli stati cognitivi di certezza o di dubbio o con fenomeni di discomunicazione.
 
 ### **3.2 La voce delle emozioni**
 
+Le proprietà vocali sono importanti per esprimere le **emozioni**, si è andati a studiare lo studio sistematico di questi processi, analizzando in modo distinto la fase di *encoding* e la fase di *decoding*.
 
+Nella **fase di encoding** vengono esaminati e misurati i correlati acustici dell'espressione vocale delle emozioni facendo ricorso a una variètà di procedimenti. Ogni emozione è caratterizzata da un distinto profilo vocale.
+
+- La collera è caratterizza da un incremento della media, della variabilità e della gamma della $F_0$[^5], da un aumento dell'intensità della voce, dalla presenza di pause molto brevi o anche dalla loro assenza, da un ritmo elevato. 
+- La paura viene espressa da un forte aumento della media, della varaibilità e della gamma della $F_0$, con un elevata velocità del ritmo di articolazione, con un intensità della voce molto forte. Sono rilevanti anche incrementi nelle pertubazioni della $F_0$. La voce della paura risulta tesa e stretta e segnala l'impotenza di fronte a una minaccia.
+- La gioia è caratterizzata da un incremento della $F_0$ con una tonalità molto acura e un profilo di intonazione progressivo, da un aumento dell'intensità e da un'accelerazione del ritmo di articolazione.
+- Il dispresso è espresso tramita un'articolazione molto lenta delle sillabe una durata prolungata della frase, con un tono di voce profondo e un'intensità piena.
+- la tenerezza è caratterizzata da un ritmo regolare, da una tonalità grave e con un profilo di intonazione lineare e da un volume tenuto tenedenzialmente basso.
+
+Questi studi sull'encoding vocale delle emozioni rappresentano la conferma dell'autonomia del canale vocale non verbale con il trasmettere informazioni sugli stati affettivi dell'individuo.
+
+La **fase di decoding** riguarda la capacità del destinatario di riconoscere e di inferire lo stato affettivo ed emotivo del parlante prestando attenzione soltanto alle sue caratteristiche vocali. Da uno studio è emersa un'*accuratezza media di riconoscimento pari al 60%*. Bisogna notare che sono più facilmente identificabili le espressioni vocali delle emozioni negative rispetto a quelle positive, in quanto le prime sono strettamente connesse con le condizioni della sopravvivenza degli individui. 
+
+Nello studio del decoding si è interessati all'*analisi della matrice delle confusioni*, gli errori sono sistematici e regolari attraverso confusioni simmetriche (collera e dispresso, paura e tristezza) o confusione asimmetrice (tristezza e compassione, dispresso e ironia, gioia e esaltazione). 
+
+Gli indizi vocali nell'espressione delle emozioni sono una conferma della ridondanza del segno linguistico e redono ragione della grande variabilità che esiste nella manifestazione delle proprie intenzioni comunicative da parte dell'individuo.
+
+[^5]: $F_0$ = frequenza fondamentale della voce
 
 ### **3.3 Il silenzio**
 
+Nel sistema vocale il **silenzio** merita importanza, l'assenza di parola costituisce un *modo strategico di comunicare* e il suo significato varia con le situazioni, con le relazioni e con la cultura. Il suo valore comunicativo è da attribuire alla sua intrinseca ambiguità, può unire due persone in una profonda condivisione di significati o può separarle con il muro dell'incomprensione. Esso svolge anche una funzione di valutazione, può indicare consenso e approvazione o il contrario. Inoltre può costituire un processo di rivelazione, andando a rendere manifesto qualcosa o fare da barriera opaca. Può assumere una funzione di attivazione, indicando una forte concentrazione mentale o una condizione di distrazione.
 
+La **regia del silenzio** è governata da un insieme complesso di standard sociali, definibili come *regole del silenzio*. In generale il silenzion è associato a situazioni sociali in cui la relazione fra i partecipanti è incerta, poco conosciuta, vaga o ambigua. Parimenti il silenzio è un segnale comunicativo collegato con pratiche comunicative in cui vi è una distribuzione asimmetrica di potere fra i partecipanti, come nel caso di discrepanza di status sociale.
+
+In funzione della sua complessità, esso presenta importanti variazioni culturali. Nelle culture occidentali il silenzio è considerato come una minaccia e una mancanza di cooperazione per la gestione della conversazione. Quindi si ha una notevole accelerazione nei dialoghi. Nelle culture orientali il silenzio è inteso come indicatore di fiducia, armonia e intesa. 
 
 ## **4 Il sistema cinesico**
 
-
+Il sistema cinesico comprende i **movimenti del corpo, del volto e degli occhi**. Il nostro corpo è un mezzo per comunicare con gli altri. I nostri movimenti sono strumentali per compiere certe azioni, ma implicano anche la produzione e la trasmissione di significati. 
 
 ### **4.1 La mimica facciale**
 
-
+I **movimenti del volto** costituiscono un sistema semiotico privilegiato, poichè il volto è una regione elettiva del corpo per attirare l'attenzione degli interlocutori. Tali movimenti servono per manifestari certi stati mentali, le esperienze emotive e gli atteggiamenti interpersonali.
 
 #### **4.1.1 Il significato delle espressioni facciali**
 
+La **psicologia delle espressioni facciali** studia il *significato* di tali espressioni. A riguardo si sono sviluppate due prospettive quella emotiva e quella comunicativa, che rappresentano concezioni diverse.
 
+\newpage
+#### **Prospettiva emotiva**
+
+Darwin fu il primo ha sottolinerare la funzione emotiva delle espressioni facciali, aveva elaborato tre principi in merito:
+
+- le espressioni facciali sono *inutili vestigia di abitudini ancestrali*. I movimenti che in origine svolgevano una funzione specifica di attacco o di difesa sono da noi mantenuti in modo automatico come abitudini, senza svolgere oggi una specifica funzione (principio delle abitudini utili).
+- le emozioni opposte si manifestano mediante espressioni fra loro antitetiche (principio dell'antitesi)
+- le espressioni emotive compaiono perchè il sistema nervoso ha bisogno di scaricare l'eccesso di eccitazione (principio dell'azione diretta del sistema nervoso eccitato sull'organismo).
+
+Quindi per Darwin le espressioni facciali sono innate e universali, esito della seleziona naturale.
+
+Ekman e Izard approfondirono in modo sistematico la linea di pensiero di Darwin tramite la **teoria dei programmi affettivi**. Secondo la quale le espressioni facciali sono deputate a manifestare solo le emozioni di base, cioè categorie discrete. Esse sono la manifestazione immediata e non richiesta delle emozioni provate, in quanto prodotte da specifici programmi neuromotori. Infatti è presente un isomorfismo fra emozioni ed espressione facciale: a ogni emozioni corrisponde una data espressione facciale nel suo insieme.  
+Le espressioni emotive spontanee compaiono ogniqualvolta un individuo prova emozioni. Secondo Ekamn esse sono un affare individuale ed essendo il risultato della selezione naturale e il prodotto di programmi neuromotori, le espressioni facciali sono universali. Sulla universalità Ekman, Sorenson e Friesen tennerò delle ricerche su varie popolazioni tramite il *metodo standard*, cioè mostrare fotografie di espressioni facciali, in base ai risultati sostennerò l'**ipotesi dell'universalità** delle espressioni facciali emotive in quanto Gestalt unitarie e chiuse, universali e fisse, di natura discreta. Le espressioni di base sono presenti in tutte le culture, riconosciute da tutti in modo attendibile, innescata e governata da un preciso programma neuromotorio che attiva una specifica configurazione di fasce muscolari. 
+
+I programmi affettivi centrali sono innati, inoltre l'universalità e il fondamento genetico sono dimostrati dalle condotte emotive degli individui non vedenti congeniti. Tuttavia la mimica facciale dei non vedenti risulta più ridotta e limitata e spesso è compensata dalla maggiore frequenza di certi movimenti. Nonostante l'universalità Ekman ha ammesso differenze culturali nella esibizione delle espressioni, queste differenze sono generate e governate da un insieme di regole appresei nei primi anni di vita in funzione delle esperienze e degli apprendimenti culturali. Sono tecniche di gestione delle espressioni emotive facciali. Data una certa situazione, gli individui imparano a esprimere le emozioni cosi come le stanno provando (genuinità), ad aumentare le loro espressioni mostrando di più di quanto sentono (accentuazione), a diminuirle maniferstando di meno (attenuazione), a nasconderele del tutto non palesando niente (camuffamento) o a recitarle ostentando un'emozione che invece non provano affatto (simulazione).
+
+Da ciò nasce la distinzione fra le espressioni **genuine** (involontarie) e quelle **false** (volontarie). Le prime corrispondo a esperienze realmente sentite dall'organismo in funzione dell'attivazione dei processi neurofisiologici, le seconde invece sono fine e posate, segni di simulazione e finzione sociale. Ogni persona può apparire *emotivamente appropriata* in una data situazione sociale, in quanto in grado di individuare e rispettare gli standard e le aspettative culturali in atto. Allo stesso tempo questo sistema rende opaca, almeno in parte, la manifestazione emotiva. Dalle microespressioni facciali è possibile individuare ciò che è genuino e ciò che è simulato e recitato. 
+
+Andando a combiare gli aspetti neurobiologici dei *programmi affettivi* con quelli sociali delle *regole di esibizione*, si è fondata la **teoria neuroculturale** seconda la quale, dato un contesto culturale, gli individui comprendono quali eventi sono da considerarsi emotivamente marcati e a quali standard espressivi conformarsi. I dispositivi neurofisiologici sono il motore centrale e il cuore delle espressioni facciali delle emozioni, mentre le regole di esibizione rappresenzano le variazioni contigenti.
+
+Per accogliere l'ipotesi delle'universalità delle espressioni emotive occorre verificare tre proposizioni:
+ 
+- se i movimenti facciali siano universali e costanti in tutti gli individui
+- se questi movimenti esprimano in modo invariante le stesse emozioni in tutti gli individui (produzione)
+- se osservatori appartenenti a diverse culture attribuiscano il medesimo valore emotivo a tali movimenti facciali (riconoscimento)
+
+Dando importanta alla terza proposizione, è opportuno distinguere fra il livello teorico e quello metodologico. In merito al livello teorico si sono notate rilevanti debolezze riguardanti la natura additiva della teoria dei programmi affettivi e di quella neuroculturale, la loro improbabilità in termini evoluzionistici, poichè implicano forme di disadattamento, la loro focalizzazione individualistica, avulsa da ogni riferimento al contesto. In merito agli aspetti metodologici, Ekman ha fatto ricorso al metodo standard, chiedendo di dare una etichetta, tra le sei disponibile, a sei immagini di espressioni facciali. Questo metodo è influenzato da numerose debolezze, in quanto si sono usate immagini di espressioni facciali posate e volontarie che accentuano i movimenti facciali in modo stereotipato; si è fatto ricorso a un disegno sperimentale "entro soggetti" che favorisce l'addestramento e l'apprendimento, i soggetti dovevano scegliere tra un elenco limitato di etichette, questa scelta forzata aumenta la percentuale di risposte corrette rispetto ad una scelta libera; infine è probabile che i soggetti siano stati influenzati dai feedback forniti dai mediatori culturali. 
+
+Queste debolezze mettono in discussione i risultati di queste ricerche in base ai criteri di validità ecologica (incosiderazione della comporsa delle espressioni facciali in contesti naturali), della validità convergente (impossibilità di fare confronti con dati conseguiti con un metodo diverso) e della validità interna (strumenti e procedimenti adottati concorrono nella medesima direzione in modo cumulativo per confermare l'ipotesi sperimentale).
+
+#### **Prospettiva comunicativa**
+
+In opposizione alla prospettiva universalistà e innatista di Ekmman, Fridlund ha sostenuto che le espressioni facciali costituiscono dei segnali per comunicare all'interlocutore i propri interessi e motivi sociali, anzichè essere l'indizio di un'emozione, sono messaggi rivolti a un uditorio. Fridlund ha proposto la teoria dell'**ecologia comportamentale**; nella quale le espressioni facciali come comunicazione, manifestano agli altri le proprie intenzioni in funzione del contesto contingente. I movimenti espressivi possono essere impiegati in modo volontario e consapevole come mezzo di comunicazione. 
+
+Le espressioni hanno un valore comunicativo intrinseco, anche quando siamo soli, c'è un uditorio immaginario a cui facciamo riferimento. Senza un destinatario non compaiono le espressioni facciali. È il fenomento della *socialità implicita*. In questa prospettiva è prevista una separazione fra le espressioni facciali e gli stati psicologici interni, poichè non tutto ciò che appare sul volto indica in modo univoco una certa esperienza interna e non tutto ciò che proviamo lo manifestiamo sul volto. Questa dissociabilità fra interno (esperienza soggettiva) ed esterno (espressioni facciali) produce gradi di libertà nella comunicazione. Percui ad una espressione facciale possono equivalere differenti stati mentali e viceversa, quindi in conclusione le espressioni facciali non esprimono emozioni ma unicamente motivi sociali. Quindi scompare la distinzione fra espressione genuina ed espressione falsa; tutte le espressioni facciali hanno un valore comunicativo e sociale, anche quelle false.
+
+La prospettiva di Mead ha constatato che i movimenti dell'uno sono in funzione di quelli dell'altro e viceversa. Quindi le azioni raggiungono un significato simbolico quando attivano la stessa risposta nell'attore e nell'osservatore. Il loro significato non deriva da uno stato mentale preesistente, bensi dal modo in cui esse si svolgono nel corso delle interazioni quotidiane. Le espressioni facciali sono messaggi destinati a generare, mantenere, cambiare e chiudere le relazioni interpersonali nel tempo. Nel corso delle interazioni esse continuano ad aggiustarsi in un percorso di coordinamento vicendevole fra i partecipanti. Questo processo di calibrazione reciproca favorisce lo svolgimento degli scambi comunicativi.
+
+La capacità di fornire un feedback facciale da parte di altre persone, non solo promuove la comparsa delle regole di esibizione in funzione degli standard culturali, ma ha anche un impatto diretto sulle sue espressioni facciali anche nella condizione in cui siano attenuate o esagerate. La mimica facciale può attivare fenomeni di imitazione nei movimenti facciali dell'attore o di contrasto in situazioni competitive. Le espressioni facciali avvengono in un contesto sociale in funzione dell'uditorio ed implicano varie forme di coinvolgimento interpersonale al fine di conseguire una soddisfacente condizione di aggiustamento interattivo (**allineamento relazionale**). In funzione delle risposte reali, anticipate e immaginate, l'attore pone in atto differenti stili espressivi nella manifestazione delle sue emozioni.
+
+L'**effetto uditorio** è fondamentale per la comparsa, il mantenimento e il cambiamento delle espressioni stesse. Il sorriso pur costituendo un segnale di gioia, non è quest'ultima ad attivarlo ma bensì la situazione relazionale, in solitudine le persone tendono a non sorridere anche in occasioni di gioia intensa. Data la loro natura comunicativa e relazione, le espressioni facciali assumono molti significati, possono rappresentare le emozioni di base, valutazioni, sintomi e richieste, tendenza all'azione, segnali per la conversazione eccetera. Esse sostengono le molteplici forme della comunicazione, poichè forniscono un flusso continuo di informazioni in sintonia con quanto stanno facendo gli interlocutori. 
+
+Le espressioni facciali non hanno un significato intrinseco nè univoco, ma sono in grado di soddisfare differenti funzioni comunicative in coerenza con lo svolgimento delle interazioni in corso.
+
+#### **Espressioni facciali e contesto**
+
+Nella prospettiva contestualista, le espressioni facciali assumuno un valore emotivo definito solo in riferimento a una specifica situazione, esse non sono pianificate bensì in relazione al contesto immediato e a regole contingenti in funzione degli standard culturali. 
+
+Le espressioni facciali hanno un alto **valore di indessicalità**, cioè fanno riferimento a una certa realtà mediante l'impiego sistematico di indizi contestuali. La loro funzione deittica implica un ancoraggio intrinseco al contesto, poichè fuori contesto vanno incontro a evaporazione semantica, solo il contesto è in grado di fornire gli indizi necessari per attribuire un significato attendibile all'espressione facciale, di volta in volta, mostrata.
+
+In merito,un primo apporto ragguardevole proviene dalla percezione dei movimenti corporei, questi sono una componente fondamentale per la percezione delle manifestazioni emotive. La congruenza fra gli stimoli facciali e quelli corporei riduce i tempi di latenza nel riconoscimento corretto dell'emozione in esame, anche la voce contribuisce a questo riconoscimento. 
+
+La percezione delle manifestazioni di un'emozione coinvolge l'organismo nelle sue diverse modalità. Il *contesto fisico* e *sociale* risultano fondamentali per questo processo. Le informazioni contestuali congruenti svolgono una forte azione di facilitazione nel riconoscimento delle manifestazioni emotive, mentre quelle incongruenti aumentano i tempi di latenza e abbassano i livelli di accuratezza del giudizio. Anche la successione degli stimoli emotivi modifica in modo intrinseco la loro valutazione. È l'**effetto Kuleshov**, dimostrò il valore fondamentale del montaggio per far percepire l'espressione dei personaggi in un certo modo anziche in un altro. Per esempio, se un espressione neutra viene fatta precedere da un piatto succulento, gli spettatori percepiscono la sensazione di fame, mentre se è anticipata dall'immagine di un cadavere, gli spettatori colgono immensa tristezza.
+
+L'eventuale assenza di contesto di riferimento conduce in numerose situazioni a giudizi erronei. Ciò ha ricevuto spiegazione dalle ricerche di Michotte sulla percezione della casualità. Moobs ha accertato che quando facce identiche sono anticipate da brevi filmati con valenza emotiva differente, vengono percepite in modo radicalmente diverso in funzione dello stimolo precedente. In un contesto reale assume un significato fondamentale l'**uditorio** (effetto audience). Nella regolazione delle espressioni emotive la presenza di altri svolge una funzione di inibizione, sopratutto quando si tratta di esperienze negative e spiacevoli e al cospetto di persone con una posizione sociale superiore; per contro assume un valore di facilitazione in presenza di eventi favoreli o piacevoli. Gli effetti di facilitazione sono più frequenti e ragguardevoli di quelli connessi con l'inibizione. 
+
+Ad oggi, la prospettiva contestualità sta prevalendo, le espressioni facciali sono sempre situate in una data circostanza. Senza gli indizi contestuali esse corrono il rischio dell'ambiguità e dell'approssimazione, con rilevanti margini di inattendibilità e di soggettività. Il contesto fornisce una piattaforma di segnali che, andando dal basso verso l'altro (bottom-up), consentono all'individuo di interpretare in modo valido e corretto quanto l'altro stia provando a livello emotivo.
 
 #### **4.1.2 Il sorriso**
 
+Il sorriso è uno dei segnali fondamentali della specie umana, costituisce un'omologia dell'espressione facciale delle scimmie, consistenze nel "mostrare i denti in silenzio" come atto di sottomissione per acquietare l'avversario. Negli umani il sorriso è un'espressione ambigua, in quanto esistono diversi tipi di sorriso. Per primo, vi è quello autentico, di per sè immune da forme deliberate di accentuazione, esso implica il coinvolgimento sia dei muscoli orbicolari dell'occhio sia quelli della bocca e dello zigomatico maggiore. Altri sorriso sono quello miserabile (di chi, su richiesta di un altro, sa che dovrà accettare un dolore sopportabile), il sorriso finto (coinvolge solo muscoli della bocca), il sorriso sociale (sorriso stereotipato, attivazione dei muscoli zigomatici), il sorriso da disgusto (di fronte a uno stimolo repulsivo), il sorriso di dubbio o perplessità, eccetera. Grammer ha approfondito il sorriso timido e allusivo nel corso della seduzione.
 
+Il sorriso è un promotore dell'affinità relazionale, in quanto impiegato in condizioni di empatia e di rappacifizione al fine di stabilire e mantenere una relazione positiva con gli altri. Il sorriso produce il rilascio di endorfine fornendoci un profondo senso di benessere. Esso è un potente regolatore dei rapporti sociali, poichè la sua frequenza e intensità sono governate dal potere sociale e dal genere. Il sorriso **ecoico** indica che siamo propensi a ridere quando gli altri ridono o anche quando sentiamo solo la loro risata, il sorriso genera sorriso. Il sorriso ha rilevanti variazioni in funzione della cultura di appartenenza. 
 
 ### **4.2 Lo sguardo**
 
+Lo **sguardo** è un potente segnale non verbale. L'occhio è una struttura nervosa molto importante, circa i due terzi delle fibre sensoriali provengono dall'occhio e fra i dodici nervi cranici sei sono coinvolti nell'attività oculare. I muscoli extraoculari, che sono i più innervati dell'organismo, possono contrarsi centomila volte al giorno senza affaticamento. L'eccitazione delle cellule della fovea, che ha la dimensione di un millimetro e emzzo, si propaga in una regione cerebrale diecimila volte più estesa. L'orbita dell'occhio umano si è evoluta per mostrare la sclera (parte bianca), in base alla quale siamo in grado di discernere la direzione dello sguardo altrui a distanza senza possibilità di cammufamento. Negli scambi communicativi il contatto oculare aumenta di molto l'attivazione del sistema nervoso ed è fondamentale per l'avvio di qualsiasi rapporto interpersonale. Il contatto oculare trasmette in modo immediato informazioni sulla situazione relazionale in atto.
 
+#### **Durata dello sguardo**
+
+La durata di ogni sguardo è di 3 secondi, mentre i contatti visivi reciproci sono pari a un terzo dell'ammontare totale degli sguardi e durano 1,5 secondi. Ci sono profonde differenze culturali nella sua durata, nelle culture occidentali prevale uno sguardo diretto, in quanto viene data importanza al contatto oculare in termini di fiducia e apertura. Nella cultura giapponese prevale lo sguardo indiretto e hanno uno sguardo prolungato solo con i familiari, ciò è per favorire l'armonia e il rispetto delle norme. Nella cultura araba lo sguardo è prolungato fra i familiari e conoscienti, mentre è molto limitato se rivolto a una donna sconosciuta. Negli aborigeni australiani il contatto oculare è molto ridotto, in quanto valutato come offensivo.
+
+#### **Fissazione oculare**
+
+La fissazione oculare è uno sguardo prolungato e duraturo fra due persone che non può essere ignorato. Essa ha un rilevante impatto sul piano della comunicazione e riguarda soprattutto condizioni particolari di allontanamento o avvicinamento relazione fra le persone. Essa infatti può assumere un valore di minaccia, di malocchio o di una situazione di seduzione. In quest'ultima è importante anche lo sguardo laterale come questo di interesse.  
+Nelle conversazioni asimmetriche chi è in posizione di potere guarda di più e più a lungo l'interlocutore, l'evitamento dello sguardo è un segno di sottomissione.
+
+#### **Sguardo e genere**
+
+Esiste una differenza di genere nella gestione dello sguardo. Le donne guardano di più e più a lungo degli uomini, sono più pronte allo sguardo reciproco. Esistono due modalità di sguardo, la modalità femminile di natura espressiva e relazione e la modalità maschile di natura informativa e strumentale. Le donne dimostrano una migliore competenza nella comprensione del significato dello sguardo altrui. 
+
+\newpage
+#### **Sguardo e immagine personale**
+
+Lo sguardo è un segnale comunicativo effiace per generare e gestire un determinato profilo della propria **immagine personale**. In occidente, uno sguardo diretto al partner è percepito come più attento e coinvolto, oltre che più attraente. Inoltre si ha la convinzione erronea che chi guarda gli altri non dica menzogne. Le persona con sofferenza psichica fanno più facilmente ricorso al distoglimento dello sguardo. 
+
+Lo sguardo serve a regolare il rapporto di vicinanza o di distanza con le altre persone nella gestione dell'intimità, tuttavia evitiamo maggiormente lo sguardo quando si parla di argomenti intimi. Lo sguardo favorisce la cooperazione, in quanto è un segnale di condivizione dell'attenzione. Gli scambi oculari sono un segnale per richiedere e ottenre il consenso al proprio punto di vista, sostengono l'attenzione degli interlocutori e aumentano la loro disponibilità all'apprendimento. Anche le *emozioni* sono collegate con lo sguardo, in quanto quelle positive comportano un incremento del contatto oculare, mentre quelle negative, sopratutto quelle autoconsapevoli, implicano una diminuizione dello sguardo.
+
+#### **Sguardo e conversazione**
+
+Vi è una differnza fra il guardare e il fissare, il primo è collegato in modo dinamico al proprio comportamento e allo scambio comunicativo. Durante la **conversazione quotidiana** lo sguardo occuopa la quota preponderante del tempo trascorso e serve per inviare e raccogliere informazioni, nonchè per acquisire il feedback dell'interlocutore. Chi parla guarda di meno rispetto a chi ascolta. Inoltre lo sguardo è un segnale per gestire la regolazione dei turni di una conversazione. Lo sguardo funge da *segnale di appello*m grazie al quale due persone si mostrano disposte a iniziare un'interazione. In una conversazione svolge la funzione di *sincronizzazione* per evitare le sovrapposizioni e gestire l'avvicendamento dei turni, di *monitoraggio* per controllare l'interazione e di *segnalazione* per manifestare le proprie intenzioni. Quando la conversazione avviene in assenza di contatto oculare, l'alternanza dei turni si svolge in modo egualmente regolare, ma cambiano lo stile e il ritmo della conversazione, poichè si usano enunciati più formalizzati e completi, aumentano la richiesta e la produzione di segnali verbali di feedback, si hanno più interruzioni nei punti di transizione ma meno nel corso dei singoli turni.
 
 ### **4.3 I gesti**
 
-
+I **gesti** sono azioni motorie coordinate e circoscritte, volte a generare un signifiato e indirizzate a un interlocutore, al fine di raggiungere uno scopo. Essi sono importanti per interagire in pubblico. 
 
 #### **4.3.1 Tipologia dei gesti**
 
+I gesti formano una collezione eterogenea di movimenti con funzioni molto diverse fra loro. Possiamo suddividerli in macrocategorie:
 
+- **Gesti iconici o lessicali**: tali gesti anche detti illustratori o gesti ideativi, accompagnano l'azione del parlare, variano per forma, per estensione spaziale e per durata e sono in stretta relazione con quanto diciamo con le parole. Sono presenti anche i *gesti regolatori* che servono a sincronizzare gli scambi comunicati durante la conversazione. A livello semiotico sono caratterizzati dalla *globalità*, la determinazione del significato segue una direzione discendente e il valore delle parti è determinato dal significato del tutto, e dalla *sinteticità*, un singolo gesto iconico concentra in un'unica forma simbolica i significati che accompagnano l'intero enunciato.
+- **Pantomima**: gesti che formano la rappresentazione motoria e l'imitazione di azioni, scene o situazioni. Possono essere semplici o complessi, di durata variabile, senza un riferimento a un codice preciso. A livello semiotico sono caratterizzati dalla globalità e dall'*analicità*, cioè la pantomima è scomponibile in una sequenza di azioni motorie distinte.
+- **Emblemi o gesti simbolici**: anche detti gesti semiotici, sono movimenti convenzionalizzati e codificati. solitamente sono compiuti a distanza, in aseenza di linguaggio e esprimono concetti che possono essere detti anche con le parole. Sul piano semiotico costituiscono *unità segmentate* in quanto implicano azioni motorie discrete e complete per poter trasmette il significato desiderato. 
+- **Gesti deittici**: sono i movimenti, di norma compiuti con l'indice, per indicare un certo oggetto, una direzione o un evento a distanza. Sono convenzionalizzati, segmentati e caratterizzati da sinteticità a livello semiotico.
+- **Gesti motori o percussioni**: movimenti semplici, ripetuti in successione e ritmici. In questa categoria troviamo anche i *gesti di autocontatto* che svolgono una funzione automanipolatoria in condizioni di ansia, di tensione fisica o psichica e che comportano la ripetizione del medesimo tipo di movimento. Questi gesti sono poco convenzionalizzati anche se comuni, sono caratterizzati da globalità e analiticità.
+- **Linguaggio dei segni**: utilizzato dai sordomuti e ha le proprietà di un linguaggio vero e proprio in termini di arbitrarietà nella relazione fra segno e referente. Sono convenzionalizzati e caratterizzati dalla segmentazione e analicità sul piano semiotico. Presentano una specifica rappresentazione corticale nell'emisfero sinistro. Questo linguaggio presenta variazioni dialettali anche rilevanti in funzione della comunità locale.
+
+Nel loro insieme i gesti sono misurabili in funzione di alcuni parametri:
+
+- estensione spaziale: si riferisce all'ampiezza del segnale; corrisponde alla quantità di spazio occupata dai gesti: espansione o contrazione
+- estensione temporale: la durata del movimento; indica la velocità di esecuzione del comportamento
+- fluidità: la successione armoniosa, irregolare o discontinua dei movimenti; indica il grado di continuità o meno fra comportamenti consecutivi
+- forza: relativa alla finamica dei comportamenti; è associata all'accelerazione dei movimenti
+- animazione globale: connessa alla quantità globale dei movimenti di una certa regione del corpo
+- ripetizione: il numero di volte in cui un dato movimento è ripetuto nel tempo.
+
+Da ciò è possibile precisare la qualità dei movimenti come movimento brusco, vigoroso eccetera.
 
 #### **4.3.2 Gesti e parole**
 
+I gesti svolgono una funzione di punteggiatura, servono a battere il tempo e a stabilire il ritmo del discorso, utili per regolere gli scambi comunicativi nella regolazione dei turni. Altri gesti sono utili per precisare quanto stiamo dicendo con le parole, indacando la direzione, la forma e altre proprietà delle idee verbalizzate. Avremo un notevole incremento dell'intelligentibilità dell'eloquio, in quanto grazie a tali gesti si ottiene una appropriatezza ed efficacia dei segnificati che si intendono comunicare. Infatti c'è una stretta **interdipendenza fra gesto e parola**.
 
+I gesti iconici sono una parte integrante del discorso e il linguaggio va considerato come un insieme di gesti e parole. I gesti iconici sono un dispositivo comunicativo importante, in grado di generare un loro significato autonomo, realizzati secondo una pianificazione specifica. Essi partecipano attivamente a precisare il significato degli enunciati fornendo loro un rappresentazione spaziale a livelo simbolico. Fra gesti iconici ed eloquio si crea una compensazione reciproca e un'interdipendenza simmetrica. I gesti accompagnano le parole e ne facilitano la frequenza dell'eloquio.
+
+I gesti iconici accompagnano gli scambi comunicativi in modo sincronizzato e aggiungono porzioni rilevanti di significato per la definizione del percorso di senso dell'enunciato. Se il parlante interrompe il proprio discorso, interrompe simultaneamente i gesti che lo accompagnano. Quindi gesto e parola sono generati dalla medesima rappresentazione mentale, manifestino la medesima intenzione comunicativa, siano pianificati dal medesimo processo cognitivo e siano realizzati in sintonia in funzione di un dato contesto di uso.
 
 #### **4.3.3 Gesti e culture**
 
+I gesti variano sistematicamente da cultura a cultura, Morris ha verificato che i gesti comuni sono praticamente assenti. il gesto della mano a borsa, sconosciuto in inghilterra, ha un signficato di interrogezione e perplessità in italia, significa buono in grecia, lentamente in turchia, paura nella francia meridionale e molto bello in alcune comunità arabe.
 
-
+\newpage
 ## **5 I sistemi prossemico e aptico**
 
-
+Il **sistema prossemico** e quello **aptico** sono dei sistemi di contatto. La *prossemica* riguarda la percezione, l'organizzazione e l'uso dello spazio, della distanza e del territorio nei confronti degli altri; l'*aptica* fa riferimento all'insieme di azioni di contatto corporeo con un altro.
 
 ### **5.1 Prossemica e territorialità**
 
+L'uso dello spazio e della distanza implica un equilibrio instabile fra *processi affiliativi* (avvicinamento) ed esigenze di *riservatezza* (distanziamento). Abbiamo bisogno di creare e mantenere dei contatti con gli altri e la vicinanza spaziale costituisce una premessa psicologica e fisica in merito. Nel mentre abbiamo bisogno di definire e proteggere la nostra privatezza e la distanza fisica rappresenta una condizione importante a riguardo. La gestione di ciò definisce la propria **territorialità**. Il territorio è un'area geografica che assume significati psicologici nel corso degli scambi di comunicazione. Ci sono due tipi di territori, il *territorio pubblico* nel quale gli individui hanno libertà di accesso, ma è regolato da norme e vincoli ufficiali e convenzionale, la loro trasgressione è sanzionata. In questo territorio una prozione di spazio è *marcata* a livello di CNV come propria attraverso segnali e indicatori e può essere rivendicata come appartenente a sè in quella data circostanza. Il *territorio domestico* è il territorio in cui l'individuo sente di avere libertà di movimento in maniera regolare e abituale; in esso prova un senso di agio e ne possiede il controllo. Esso è distinto da quello pubblico attraverso precisi confini sia fisici e legali, sia psicologici.  
+La gestione del territorio consente anche la regolazione della **distanza spaziale** che rappresenta un indicatore della distanza comunicativa fra le persone, in merito esistono diversi tipi di distanza:
 
+- **zona intima** (0/0,5 m): distanza delle relazioni intime, ci si può toccare, sentire l'odore, avvertire l'intensità delle sue emozioni, parlare sottovoce
+- **zona personale** (0,5/1 m): area invisibile che circonda in maniera costante il nostro corpo come se fosse una bolla spaziale personale, ci accompagna sempre e la distanza varia da interazione a interazione, è possibile toccare l'altro, vederlo in modo distinto ma non sentirne l'odore
+- **zona sociale** (1/4 m): distanza per le interazioni meno personali, è il territorio in cui l'individuo sente di avere libertà di movimento; in esso prova un senso di agio e ne possiede il controllo, può essere la propria casa, l'ufficio
+- **zona pubblica**(+4 m): distanza tenunta in situazioni pubbliche ufficiali che comporta una enfatizzazione dei movimenti e una intensità della voce elevata.
+
+Vale il principio secondo cui tanto più spazio uno ha a propria disposizione, tanto più gode di una posizione sociale elevata. Questo vale per le abitazioni private ma anche negli uffici dove il confronto sociale è forte. La violazione del proprio spazio suscita reazioni di difesa, poichè è percepita come una forma di intrusione e di minacca, detta disagio. 
+
+Esistono differenze culturali nella prossemica, alcune popolazioni sono caratterizzate dalla **cultura della distanza**: in esse la distanza interpersonale è grande, mantengono un'angolazione obliqua e ogni riduzione spaziale è percepita come invasione. Altre popolazioni sono cartterizzate dalla **cultura della vicinanza**, in esse la distanza interpersonale è ridotta, mantengono un'angolazione diretta e la distanza è valutata come freddezza e ostilità. Nelle culture occidentali lo spazio pubblico diventa personale una volta che sia occupato da un certo soggetto che ne può rivendicare il possesso, mentre nelle culture arabe lo spazio pubblico continua a rimanerlo in ogni condizione ma un individuo ha il diritto di impossesarsi di una determinata traiettoria di movimento e pretendere la precedenza nei confronti degli altri.
 
 ### **5.2 Aptica e contatto corporeo**
 
+L'**aptica** riguarda le azioni di contatto corporeo nei confronti di altri. Nei primati non umani una buona parte del tempo era trascorsa in attività di *grooming* che comporta un prolungato contatto fisico e che serve a mantanere le relazioni di affiliazione, dominanza e sottomissione. Nel corso del periodo neonatale e infanzia, il tatto è uno dei canali più importanti di comunicazione e i bambini piccoli manifestano un forte bisogno di contatto corporeo per ragioni sia fisiologiche che psicologiche. Su questa base si crea il legame di *attaccamento*. Man mano che cresciamo, abbiamo un'esigenza minore di essere toccati dagli altri e, eccezion fatta per gli specialisti, raramente veniamo toccati dagli altri, sopratutto dagli estranei. 
 
+Si è soliti distinguere le *sequenze di contatto reciproco* dai contatti individuali. Le prime sono formate da azioni di contatto compiute in modo reciproco nel corso della medesima interazione. Questa ripetizione comporta una condivisione del suo significato e svolge una funzione di supporto affettivo entro una relazione simmetrica di parità. Il *contatto individuale* è unidirezionale ed è rivolto da un soggetto a un altro. Esistono regioni del corpo non vulnerabili come le mani, braccia, spalle e la parte superiore della schiena, che possonoe essere toccati anche da estranei; le altre zone sono considerate vulnerabili e sono toccate soltanto da persone intime o specialisti.
+
+Il toccare è un atto comunicativo non verbale primario che influenza la natura e la qualità della relazione e che esprime diversi atteggiamenti interpersonali. Fra essi troviamo i **rapporti amorosi** in quanto il contatto corporeo aumenta i livelli di ossitocina e invia messaggi di affetto, coinvolgimento e attrazione sessuale. Il contatto reciproco assume il valore comunicativo di *segno di legame*.
+
+Il contatto corporeo serve anche a comunicare una relazione di *dominanza* e *potere*, di norma le persone che occupano una posizione sociale dominante hanno la libertà di toccare coloro che sono in una posizione con minore potere, e non viceversa. In altre circostanze il contatto fisico è regolato attraverso **rituali** che vi attribuiscono uno specifico significato legato al contesto di uso. 
+
+Il contatto corporeo ha una molteplicità di *effetti*: La persona che tocca è ritenuta cordiale, disponibile ed estroversa e solitamente suscita simpatia. Sotto questo aspetto il contatto corporeo sembra favorire forme di accondiscendenza e di empatia interpersonale. In altri casi il contatto corporeo può suscitare reazioni negative di fastidio e irritazione, quando percepito come forma di invasione, in queste condizioni il contatto fisico è valutato come una costrizione e una riduzione della propria libertà di movimento.
+
+Esistono differenze culturali nella aptica. Accanto a **culture del contatto* come quella araba e latina, vi sono **culture del non contatto* come quelle nordiche, la giapponese e quella indiana. In ogni caso il contatto rimane un atto comunicativo ambiguo, sopratutto nelle culture occidentali, poichè trasmette contemporaneamente diversi valori semantici e l'attuale attenzione agli aspetti delle molestie sessuali ha reso più problematica questa modalità comunicativa.
 
 ## **6 Il sistema cronemico**
 
+La **cronemica** riguarda il modo in cui gli individui percepiscono e usano il *tempo* per organizzare le loro attività e per scandire la propria esperienza. Essa fa parte della *cronobiologica* ed è influenza dai **ritmi circadiani** che riguardano i cicli fisiologici e psicologici del soggetto nel periodo delle 24 ore come l'alternanza sonno-veglia. Vi sono cicli *infradiani*, quelli con un ciclo spueriore a un giorno, e quelli *ultradiani*, quelli con diversi cicli al giorno. I ritmi circadiani regolano la propria periodicità tramite fattori ambientali, questi *agenti sncronizzatori ambientali* forniscono una configurazione temporale a questi ritmi, i quali sono influenzati dall'azione di un orologio biologico interno che va più lentamente quando non è governato da fattori ambientali. Inoltre ci sono variazioni connesse con i fattori socioculturali. 
 
+Possiamo distinguere le culture veloci da quelle lente. Le **culture veloci** sono caratterizzate da un alto grado di industrializzazione, dal benessere economico, da condizioni climatiche fredde, dall'orientamento all'individualismo e al successo. Esse hanno una prospettiva temporale orientata al *futuro* e quindi una pianificazione di un traguardo a medio/lungo termine, detto *obiettivo distale*. In queste società i vincoli temporali favoriscono un'organizzazione delle attività secondo una scansione temporale che prevede di realizzare un'attività per volta (monocronia). In esse il tempo è denaro. Le **culture lente** sono caratterizzate da povertà, da condizioni climatiche calde, da un modesto grado di industrializzazione, dall'orientamento alla collettività e all'armonia, da una limitata densità di popolazione. Esse hanno una prospettiva temporale orientata al passato e presente, senza l'esigenza di una programmazione anticipata del futuro (*obiettivi prossimali*). In esse vengono svolte diverse attività nel medesimo tempo data la limitata specializzazione (*policronia*). 
+
+Ogni soggetto è portatore di uno *specifico ritmo personale*, dando per scontato che sia eguale per tutti. Di norma non è cosi e la comunicazione con soggetti che hanno ritmi differenti può generare distonie, sfasamenti e condizioni di disagio. 
+
+La cronemia indica la presenta di tempi e ritmi diversi nell'interazione comunicativa. Non soltanto vi è l'esigenza della sintonia semantica per generare un atto comunicativo coerente e unitario, ma vi è anche la necessità della *sincronia comunicativa* come capacità di sintonizzare il flusso comunicativo al fine di ottenere una sequenza regolare e fluida di scambi. Sono processi fondametali per generare attrazione e interesse, per creare armonia reciproca, nonchè per stabilire un'interazione soddisfacente.
 
 ## **7 Principali funzioni della comunicazione non verbale**
 
+La CNV partecipa in modo attivo e autonomo, assieme al sistema linguistico, a produrre il significato di qualsiasi messaggio. Essa fornisce una rappresentazione spaziale e motoria della realtà, non una rappresentazione proposizionale. Quest'ultima rimane sostanzialmente esclusiva del linguaggio verbale e del linguaggio dei segni, percui la CNV è poco idonea a definire e a trasmettere conoscenze, infatti è praticamente impossibile rappresentare e significare attraverso i segni non verbali concetti e idee astratte ma anche eventi o oggetti concreti. Ciò è dovuto dal fatto che la CNV presenta un *grado limitato di astrazione* pur essendo convenzionalizzata.
 
+La specie umana fa ricorso alla CNV per ragioni essenzialmente relazionali. Alla CNV è affidata in modo predominante la **componente relazionale** della comunicazione. La comunicazione riguarda non soltato le conoscenze, le informazioni e le notizie da partecipare con altri (componente proposizionale), ma anche le relazioni interpersonali (componente relazionale). Nella comunicazione e attraverso la comunicazione noi creiamo e giochiamo le nostre relazioni con gli altri.
+
+I segnali non verbali servono a **generare** e a **sviluppare** un'interazione con gli altri, in funzione della disponibilità psicologica reciproca tale avvio può proseguire nel corso del tempo e diventare un rapporto più profondo; sono importanti nel **mantenere** e **rinnovare** le relazioni nel corso del tempo, una relazione non può vivere nel vuoto ma va constantemente sostenuta con segnali che rafforzino il tipo di relazione in atto fra due o più persone; sono particolarmente efficaci nel **cambiare** una relazione in corso, il *cambiamento psicologico* delle relazioni passa in modo prevalente attraverso il cambiamento dei segnali non verbali che alimentano e regolano le relazioni stesse; anche l'**estinzione** di una relazione è gestita dalla CNV, data da una riduzione prograssiva o drastica dei contatti, presa di una distanza fisica eccetera, la *separazione* e la rottura di una relazione sono più difficili e impegnative di quanto lo sia la costruzione. 
 
 \newpage
 # **Capitolo 7 - Discomunicazione e comunicazione patologica**
