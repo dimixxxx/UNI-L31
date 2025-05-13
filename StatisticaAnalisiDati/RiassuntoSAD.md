@@ -17,7 +17,7 @@ toc: true
 \vspace{3pt}
 \hrule
 
-## **Definizione**
+## **1 Definizione**
 
 La **statistica** è l'arte di apprendere dei dati. Si occupa della raccolta, della descrizione e dell'analisi dei dati, possibilmente permettendo di trarne delle conclusioni.
 
@@ -28,7 +28,7 @@ La **statistica inferenziale** è quella parte della statistica che si occupa di
 La statistica inferenziale si basa sul modello probabilistico che consiste nel fare un insieme di assunzioni sulle probabilità di ottenere un certo valore, per cui essa richiede la conoscenza della teoria della probabilità.
 L'inferenza statistica si basa sull'assunzione che importanti aspetti del fenomeno in analisi si possano rappresentare in termini di probabilità e giunge a conclusioni usando i dati per fare inferenza su queste probabilità. 
 
-## **Popolazione e campioni**
+## **2 Popolazione e campioni**
 
 Nella statistica è cruciale ottenere delle informazioni su tutto un insieme di elementi, che vengono definiti **popolazione**.
 Spesso la popolazione pero è troppo numerosa per poter analizzare ciascuno dei suoi membri, in questo caso si sceglie e si esamina un suo sottoinsieme, che viene definito **campione**
@@ -51,7 +51,7 @@ La stratificazione è particolarmente efficace per conosce il membro *medio* del
 \newpage
 # **Statistica descrittiva**
 # **Capitolo 2 - Descrivere insiemi di dati**
-## **Dati quantitativi e qualitativi**
+## **1 Dati quantitativi e qualitativi**
 
 Una distinzione che si può fare sui dati osservabili riguarda il modo in cui questi sono misurati:
 
@@ -73,7 +73,7 @@ I dati quantitativi si distinguono in discreti e continui a seconda dell'insieme
 - Dati discreti: costituiscono variabili che possono assumere un insieme numerabile di valori distinti e separati, ad ogni valore corrisponde un significato specifico.
 - Dati continui: in teoria possono assumere un qualsiasi valore all'interno di un intervallo, anche se nella pratica vengono appossimati a una precisione finita, per via della memorizzazione digitale.
 
-## **Frequenze**
+## **2 Frequenze**
 
 La **frequenza assoluta** di un'osservazione *x* in un insieme di dati $A = \{x_1, \cdots, x_n \}$ è definita come il numero di volte in cui *x* compare in $A$.
 
@@ -119,7 +119,9 @@ Se il numero dei possibili valori osservabili per i caratteri non è elevato, po
 
 Per facilitare ulteriori analisi, si riportano spesso nelle ultime colonne e nelle ultime righe della tabella le *frequenze marginali*, ottenute sommando rispettivamente i valori per ogni riga e per ogni colonna. Se si desiderano valori relativi, questi totali devono essere normalizzati rispetto al numero complessivo delle osservazioni.
 
-## **Grafici**
+## **3 Grafici**
+
+### **3.1 Simmetria**
 
 La **simmetria**, un insieme di dati è detto simmetrico attorno a un valore $x_0$ se, per ogni scostamento *c* da $x_0$, la frequenza dei valori $(x_0 - c)$ è uguale a quella dei valori $(x_0 + c)$. In tal caso, il valore $x_0$ viene detto **centro di simmetria** della distribuzione.
 
@@ -251,7 +253,7 @@ Una delle ragioni per cui questo tipo di diagramma è utile consiste nella possi
 
 Una **statistica** è una quantità numerica calcolata a partire da un insieme di dati.
 
-## **Centralità**
+## **1 Centralità**
 
 Verranno presentate le statistiche che descrivono la tendenza centrale di un insieme di dati, ossia delle statistiche che descrivono il centro di un insieme di dati. Questa proprietà che si può individuare in un insieme di dati è detta **centralità** o posizione.
 
@@ -259,7 +261,7 @@ Esistono tre indici di posizione: media, mediana e moda.
 
 In tutti e tre i casi si parla di campionaria, in quanto vengono effettuare su dei campioni.
 
-### **Media campionaria**
+### **1.1 Media campionaria**
 
 Dato un campione di *n* dati i cui valori sono $x_1, x_2, \cdots, x_n$. Una statistica per indicare il centro di questo insieme di dati è la media campionaria, cioè la media aritmetica dei valori dati:
 $$
@@ -326,7 +328,7 @@ Questa uguaglianza afferma che la somma degli scarti positivi e la somma degli s
 
 *Detto tramite un linguaggio fisico, questo significa che se n pesi dotati delal stessa massa vengono posti su un'asta nei punti $x_i$ con i = $1, \cdots, n$ allora $\bar{x}$ è il punto in cui l'asta può essere messa in equilibri. Questo punto di equilibrio viene detto centro di gravità*
 
-### **Mediana campionaria**
+### **1.2 Mediana campionaria**
 
 Le media campionaria presenta un notevole punto debole come indicatore del centro di un insieme di dati, il suo valore infatti è ampliamente influenzato da eventuali valori fuori scala.
 
@@ -344,7 +346,7 @@ La media campionaria e la mediana campionaria sono due statistiche utili per des
 
 Per gli insieme di dati che sono approssivamente simmetrici rispetto ai valori centrali, la media campionaria e la mediana campionaria sono simili. Entrambe le statistiche sono informative e il loro utilizzo dipende dal contesto.
 
-### **Percentili campionari**
+### **1.3 Percentili campionari**
 
 La mediana campionaria è un caso particolare di una statistica nota come 100p-esimo percentile campionario, dove *p* indica un qualunque numero $\mathbb{R}$ dell'intervallo [0,1].
 
@@ -377,7 +379,7 @@ il 25-esimo percentile campionario si chiama *primo quartile*, il 50-esimo perce
 
 i quartili suddividono i dati in quattro parti in modo tale che il 25% dei dati sia inferiore del primo quartile, il 25% compreso tra il primo e il secondo, il 25% tra il secondo e il terzo e il restante 25% sia maggiore del terzo quartile.
 
-### **Moda campionaria**
+### **1.4 Moda campionaria**
 
 Un ulteriore indicatore della tendenza centrale è la moda campionaria, che è il valore che si verifica con maggiore frequenza nell'insieme di dati.
 
@@ -419,7 +421,7 @@ Si considerino le varie classificazioni degli attributi:
 ```
 La media si può fare solo per gli attributi quantitativi, la mediana e i percentili si possono svolgere anche sugli attributi qualitativi ordinali in caso di cardinalità del campione dispari, se la cardinalità è pari sarà necessaria la media e quindi possibili solo su attributi quantitativi, la moda si può fare per qualsiasi tipo di attributo.
 
-## **Dispersione**
+## **2 Dispersione**
 
 Due campioni *A* e *B* possono presentare la stessa centralità ma essere molto diversi tra loro, per esempio:
 $$
@@ -433,7 +435,7 @@ Si potrebbe pensare di misurare la dispersione totale di un insieme di dati calc
 
 Per fare in modo che non valga 0, andiamo a considerare i singoli scarti indipendentemente dal segno, questo possiamo farlo considerando il valore assoluto degli scari oppure il quadrato.
 
-### **Varianza campionaria**
+### **2.1 Varianza campionaria**
 
 La **varianza campionaria** è una misura della media degli scarti quadratici rispetto alla media campionaria. Tuttavia, per ragioni tecniche questa *media* divide la somma di *n* scarti quadratici per *n*-1, piuttosto che per l'usuale valore *n*.
 
@@ -469,7 +471,7 @@ $$
 y_i = ax_i + b \; \text{ per } i=1, \cdots, n \quad \Rightarrow \quad s^2_y = a^2 s^2_x
 $$
 
-### **Deviazione standard campionaria**
+### **2.2 Deviazione standard campionaria**
 
 La radice quadrata positiva della varianza campionaria si dice **deviazione standard campionaria** e si indica con $s$. Questa è definita come: 
 $$
@@ -495,7 +497,7 @@ La varianza campionaria e la deviazione standard campionaria sono due indici di 
 
 Due altri indicatori della dispersione di un insieme di dati frequentemente utilizzati sono l'**intervallo di variazione**, ossia la differenza fra il più grande e il più piccolo valore, e lo **scarto interquartile**.
 
-### **Scarto interquantile**
+### **2.3 Scarto interquantile**
 
 Lo scarto interquantile è un indice di dispersione che deriva dalla mediana campionaria, e rappresenta la lunghezza dell'intervallo in cui si trova la metà centrale dei dati. Richiamando i quartili, possiamo dire che si tratta della lunghezza dell'intervallo compreso tra il primo quartile Q1 e il terzo quartile Q3.
 
@@ -505,12 +507,12 @@ l'IQR è un indice robusto poichè non è influenzato da valori fuori scala, com
 
 Questo indice è fondamentale per la costruzione dei boxplot perchè viene utilizzato per definire quali valori siano fuori scala e quali no. Generalmente i valori inferiori a $Q1 - 1.5 \cdot IQR$ o superiori a $Q3 + 1.5 \cdot IQR$ sono considerati outlier.
 
-## **Indici di dipendenza**
+## **3 Indici di correlazione**
 
 Consideriamo un insieme composto da dati accoppiati $(x_1,y_1),(x_2, y_2), \cdots, (x_n, y_n)$. Per vedere la relazione relativa di queste due variabili è possibile rappresentarle in un diagramma di dispersione. Questo approccio è pero qualitativo e quindi soggetto a interpretazione.
 Vogliamo trovare un indice quantitativo in grado di rappresentare questa relazione oggettivamente. Questi indici sono detti di dipendenza o associazione e misurano la forza della relazione, ossia forniscono un valore numerico che indica quanto intensamente le variabili siano collegate.
 
-### **Covarianza campionaria**
+### **3.1 Covarianza campionaria**
 
 La **covarianza campionaria** è una statistica che quantifica in che misura grandi valori di $x$ corrispondano a grandi valori di $y$ e piccoli valori di $x$ a piccoli valori di $y$. Questo indice quindi misura la tendenza con cui due variabili si muovono insieme ed è definita come la media dei prodotti degli scostamenti delle variabili dalle loro medie.
 
@@ -622,7 +624,7 @@ $$
 \end{cases}
 $$
 
-### **Coefficiente di correlazione di Pearson**
+### **3.2 Coefficiente di correlazione di Pearson**
 
 La covarianza campionaria non può essere posizionata all'interno di una scala assoluta in quanto non è normalizzata e il suo valore dipende dalle osservazioni coinvolte. Si ricava perciò da questo indice il **coefficiente di correlazione lineare campionaria**, anche detto indice di correlazione di Pearson, che si indica con $\rho$.
 
@@ -705,11 +707,11 @@ Il segno di $\rho$ indica invece la direzione della relazione, se è positivo al
 
 Vale inoltre la pena sottolineare che il coefficiente di correlazione di Pearson non implica in alcun modo un rapporto causa-effetto tra le due variabili prese in considerazione, cioè due variabili possono presentare un valore di correlazione elevato senza che una determini o causi l'altra. Spesso infatti può intervenire un terzo fatto, o più fattori, a influenzare entrambe le variabili, generando un legame che in realtà non corrisponde a un meccanismo causale diretto.
 
-## **Indici di eterogeneità**
+## **4 Eterogeneità**
 
 Sappiamo che per le variabili qualitative nominali non è possibile calcolare la varianza nè gli indici che ne derivano, perchè non esistono una media, una mediana o altri valori numerici di riferimento su cui misurare le distanze. Ma è necessario avere un indice che misuri la dispersione della distribuzione delle frequenze, detta **eterogeneità**. In particolare si dice che una variabile è distribuita in modo eterogeneo quando ogni suo valore compare con la stessa frequenza.
 
-### **Indice di Gini**
+### **4.1 Indice di Gini**
 
 Consideriamo un campione ${x_1, \cdots, x_n}$ in cui occorrono i valori distinti $v_1, \cdots, v_m$ e indichiamo con $f_j$ la frequenza relativa dell'elemento $v_j$ per $j = 1, \cdots, m$. Definiamo l'**indice di eterogenità di Gini** come:
 $$
@@ -745,7 +747,7 @@ $$
 I = \dfrac{m-1}{m} \quad \Rightarrow \quad I' = \dfrac{m \cdot I}{m-1} = \dfrac{m \cdot (m-1)}{(m-1) \cdot m} = 1
 $$
 
-### **Indice di entropia**
+### **4.2 Indice di entropia**
 
 Consideriamo un campione ${x_1, \cdots, x_n}$ in cui occorrono i valori distinti $v_1, \cdots, v_m$ e indichiamo con $f_j$ la frequenza relativa dell'elemento $v_j$ per $j = 1, \cdots, m$. Possiamo definire l'**indice di entropia** del campione come:
 $$
@@ -780,7 +782,7 @@ H = \log m \quad \Rightarrow \quad H' = \dfrac{\log m}{\log m} = 1
 $$
 Nel nostro caso è utile avere il logaritmo in base 2 in modo da poter misurare l'entropia di bit, che risulta utile quando bisogna svolgere i calcoli in un computer, ma volendo si può utilizzare una qualsiasi base, come il logaritmo naturale o in base 10.
 
-## **Concentrazione**
+## **5 Concentrazione**
 
 Le misure di concentrazione sono strumenti statistici che consentono di comprendere come una determinata risorsa/bene, come la ricchezza, sia distribuita all'interno di una popolazione. In questo modo è possibile valutare se tale risorsa sia distribuita in maniera equa tra gli individui oppure se risulta concentrata in un numero ristretto di individui.
 
@@ -829,7 +831,6 @@ Da quest'ultima forma, vogliamo isolare da un lato della disequazione $\tfrac{i\
 
 $\dfrac{S_i}{S_i + T_i} \le \dfrac{i}{n} \;\; \Rightarrow \;\; \dfrac{1}{1+\tfrac{T_i}{S_i}} \le \dfrac{i}{n} \;\; \Rightarrow \;\; 1+\dfrac{T_i}{S_i} \ge \dfrac{n}{i} \;\; \Rightarrow \;\; i \roundp{\dfrac{T_i}{S_i}} \ge i \roundp{\dfrac{n}{i} - 1} \;\; \Rightarrow \;\; \dfrac{i\, T_i}{S_i} \ge n - 1$
 
-\newpage
 Si scompone ora il termine $\tfrac{i\, T_i}{S_i}$ come somma sugli elementi $a_k$ con $k > i$:
 
 $\displaystyle \dfrac{i\, T_i}{S_i} = \dfrac{i}{S_i} \sum_{k=i+1}^n a_k = \sum_{k=i+1}^n \dfrac{i\, a_k}{S_i}$
@@ -846,10 +847,9 @@ In tal modo si conclude che $\tfrac{i\, T_i}{S_i} \ge n - i$. Poiché $n-i \ge n
 
 $\dfrac{i\, T_i}{S_i} \ge n-1 \;\; \Rightarrow \;\; Q_i \le F_i$
 
-\begin{center}
-    \rule{0.5\textwidth}{1pt}
-\end{center}
+In conclusione si è dimostrato che, ordinando i dati in modo crescente, la quantità cumulata $Q_i$ risulta sempre minore o uguale alla frequenza cumulata $F_i$.
 
+\newpage
 Per $i = 1, \cdots, n$ le coppie ($F_i, Q_i$) indicano che il $100F_i%$ della popolazione detiene il $100Q_i%$ della quantità considerata. Consideriamo ora i punti sul piano che sono indicati da queste coppie.
 
 ```{=latex}
@@ -977,16 +977,197 @@ $%
 \end{minipage}
 \vspace{1mm}
 ```
-Nei casi intermedi si avrà dunque che i punti staranno su una curva sotto la bisettrice del I° e III° quadrante $F=Q$, cado che $Q_i \le F_i$ per qualsiasi $i = 1, \cdots, n$. Più la curva si avvicina alla bisettrice e più la concentrazione è bassa, mentre più si allontana e più la concentrazione è altra.
 
-### **Indice di concentrazione di Gini** TO DO
+```{=latex}
+\vspace{1mm}
+\hspace{-0.9em}\begin{minipage}[c]{0.44\textwidth}
+    \centering
+    \begin{tikzpicture}
+    \begin{axis}[
+        xmin=0, xmax=1,
+        ymin=0, ymax=1,
+        width=6.75cm, height=5.75cm,
+        xlabel={$F_i$},
+        ylabel={$Q_i\;\;\;$},
+        xlabel style={
+            at={(axis description cs:0.5,-0.135)},
+            anchor=north,
+        },
+        y label style={
+            rotate=-90,
+            anchor=center,
+        },
+        grid=major,
+        grid style={dashed,gray!30},
+        xtick={0,0.125,0.25,0.375,0.5,0.625,0.75,0.875,1},
+        xticklabels={$\hspace{-1.7em} 0$, $\frac{1}{n}$, $\frac{2}{n}$, $$, \raisebox{-1.5ex}{$\dots$}, $$, $\frac{n-2}{n}$, $\frac{n-1}{n}$, $1$},
+        ytick={0,0.125,0.25,0.375,0.5,0.625,0.75,0.875,1},
+        yticklabels={$$, $\frac{1}{n}$, $\frac{2}{n}$, $$, $\dots$, $$, $\frac{n-2}{n}$, $\frac{n-1}{n}$, $1$},
+        yticklabel style={anchor=center, xshift=-1.1em},
+    ]
+
+    % 1) Definiamo la bisettrice (senza disegnarla)
+    \addplot [
+        name path=diag,
+        domain=0:1,
+        draw=none
+    ] {x};
+
+    % 2) Definiamo la curva di Lorenz (sotto la bisettrice): y = x^2
+    \addplot [
+        name path=lorenz,
+        domain=0:1,
+        draw=none
+    ] {x^2};
+
+    % 3) Riempiamo l'area fra le due curve in grigio
+    \addplot [gray!30] fill between[of=lorenz and diag];
+
+    % 4) Disegniamo la bisettrice in nero tratteggiato
+    \addplot [
+        domain=0:1,
+        dashed,
+        black,
+        thin
+    ] {x};
+
+    % 5) Disegniamo la curva di Lorenz in nero
+    \addplot [
+        domain=0:1,
+        color=black,
+        semithick
+    ] {x^2};
+
+    \end{axis}
+    \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[l]{0.56\textwidth}
+\vspace{-8mm}
+\textbf{Concentrazione intermedia}\quad Nei casi intermedi si avrà che i punti staranno su una curva sotto la bisettrice del I° e III° quadrante $F = Q$, dato che $Q_i \le F_i$ per qualsiasi $i=1,\cdots,n$. Più la curva si avvicina alla bisettrice, e più la concentrazione è bassa, mentre più si allontana e più la concentrazione è alta.
+\end{minipage}
+```
+
+La curva dei punti $(F_i, Q_i)$ è detta *curva di Lorenz*. L'area compresa tra la curva di Lorenz e la retta di equidistribuzione (la bisettrice) è detta area di concentrazione e può essere utilizzata come base per la definizione di appositi indici di concentrazione: maggiore infatti è la concentrazione osservata e maggiore sarà quell'area.
+
+\newpage
+### **5.1 Indice di concentrazione di Gini** 
+
+I diagrammi illustrati precedentemente sono degli strumenti qualitativi. Vogliamo introdurre un indice numerico calcolato a partire dai dati, il cui valore possa facilmente essere confrontato con due estremi minimo e massimo. Si definisce l'*indice di concentrazione di Gini*:
+$$
+G = \sum^{n-1}_{i=1} (F_i - Q_i)
+$$
+Si osserva che non viene considerato il caso in cui $i = n$ in quanto $F_n - Q_n = 0$ sempre.
+
+Per interpretare questo indice come l'area nel diagramma $(F,Q)$, occorre introdurre una somma di Riemann. Ogni differenza $(F_i - Q_i)$ va infatti moltiplicata per l'ampiezza in ascissa $\Delta F_i$: trovandoci in un contesto discreto con dati equispaziati, ciò si traduce in $\Delta F_i = 1/n$. Di conseguenza, la somma $\sum (F_i - Q_i)$ diventa n volte l'area effettiva. Dividendo quindi questa sommatoria per $n$, si ottiene un indice $G_{area}$ che riflette la superficie compresa tra la retta di equidistribuzione e la curva di Lorenz:
+$$
+G_{area} = \sum_{i=1}^{n-1} \squarep{(F_i - Q_i) \Delta F_i} = \dfrac{1}{n} \sum_{i=1}^{n-1} (F_i - Q_i)
+$$
+
+```{=latex}
+\vspace{-1mm}
+\hspace{-0.9em}\begin{minipage}[c]{0.44\textwidth}
+    \centering
+    \begin{tikzpicture}
+    \begin{axis}[
+        xmin=0, xmax=1,
+        ymin=0, ymax=1,
+        width=6.75cm, height=5.75cm,
+        xlabel={$F_i$},
+        ylabel={$Q_i\;\;\;$},
+        xlabel style={
+            at={(axis description cs:0.5,-0.135)},
+            anchor=north,
+        },
+        y label style={
+            rotate=-90,
+            anchor=center,
+        },
+        grid=major,
+        grid style={dashed,gray!30},
+        xtick={0,0.125,0.25,0.375,0.5,0.625,0.75,0.875,1},
+        xticklabels={$\hspace{-1.7em} 0$, $\frac{1}{n}$, $\frac{2}{n}$, $$, \raisebox{-1.5ex}{$\dots$}, $$, $\frac{n-2}{n}$, $\frac{n-1}{n}$, $1$},
+        ytick={0,0.125,0.25,0.375,0.5,0.625,0.75,0.875,1},
+        yticklabels={$$, $\frac{1}{n}$, $\frac{2}{n}$, $$, $\dots$, $$, $\frac{n-2}{n}$, $\frac{n-1}{n}$, $1$},
+        yticklabel style={anchor=center, xshift=-1.1em},
+    ]
+
+    % 1) Bisettrice
+    \addplot [
+        name path=diag,
+        domain=0:1,
+        draw=none
+    ] {x};
+
+    % 2) Curva di Lorenz
+    \addplot [
+        name path=lorenz,
+        domain=0:1,
+        draw=none
+    ] {x^2};
+
+    % 3) Asse x
+    \addplot [
+        name path=axis,
+        domain=0:1,
+        draw=none
+    ] {0};
+
+    % 4) Area sotto la curva - grigio chiaro
+    \addplot [gray!10] fill between[of=lorenz and axis];
+
+    % 5) Area tra curva e bisettrice - grigio medio
+    \addplot [gray!30] fill between[of=lorenz and diag];
+
+    % 6) Bisettrice
+    \addplot [
+        domain=0:1,
+        black,
+        semithick
+    ] {x};
+
+    % 7) Curva di Lorenz
+    \addplot [
+        domain=0:1,
+        color=black,
+        semithick
+    ] {x^2};
+
+    \node at (axis cs:0.5,0.38) {\textbf{A}};
+    \node at (axis cs:0.75,0.25) {\textbf{B}};
+
+    \end{axis}
+    \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[l]{0.56\textwidth}
+\vspace{-9.4mm}
+Questo indice misura l'area compresa tra la bisettrice $F=Q$ e la curva di Lorenz. Nel grafico è rappresentata da $A$. \\[2mm]
+Nel caso di concentrazione minima la curva di Lorenz si \mbox{appiattisce} e coincide con la bisettrice: di conseguenza \mbox{l'indice} avrà valore minimo 0. \\[2mm]
+Nel caso di concentrazione massima la curva di Lorenz \mbox{coincide} con l'asse orizzontale, e quindi l'area è \mbox{rappresentata} da $A + B$. L'indice avrà valore massimo $1/2$, ossia l'area della porzione di piano compreso tra la bisettrice e l'asse orizzontale.
+\end{minipage}
+```
+
+Calcolando algebricamente il valore massimo di $G_{area}$ si trova che in realtà questo non assume mai valore pari a $1/2$. Ricordando che nel caso di concentrazione massima $F_i - G_i = F_i$ per $i, \cdots, n-1$:
+$$
+G_{area}\text{(max)} = \dfrac{1}{n} \sum_{i=1}^{n-1} F_i = \dfrac{1}{n} \sum_{i=1}^{n-1} \dfrac{i}{n} = \dfrac{1}{n^2} \sum_{i=1}^{n-1} i = \dfrac{1}{n^2} \dfrac{(n-1)(n-\cancel 1 + \cancel 1)}{2} = \dfrac{n-1}{2n}
+$$
+Di conseguenza si trova che per $n$ grande, nel caso di concentrazione massima, il valore di $G_{area}$ tende a $1/2$. Si è dimostrato che $0 \le G_{area} < 1/2$.
+
+#### **Indice di concentrazione di Gini normalizzato**
+
+Si consideri $G_{area}$, lo si normalizza dividendolo per il suo valore massimo $\sum F_i$ che si presenta nel caso di concentrazione massima:
+$$
+G' = \dfrac{2n}{n-1} \sum_{i=1}^{n-1} \squarep{(F_i - Q_i) \Delta F_i} = \dfrac{2n}{n-1}  \dfrac{1}{n} \sum_{i=1}^{n-1} (F_i - Q_i) = \dfrac{2}{n-1} \sum_{i=1}^{n-1} (F_i - Q_i)
+$$
+Si osserva che $0 \le G^i \le 1$. Si noti che si è arrivati a tale conclusione partendo da $G_{area}$, ma è possibile arrivare al medesimo risultato dividendo $G$ per il suo valore massimo $(n-1)/2$.
+
+Considerando il grafico, questo indice indica il rapporto $A/(A+B)$, dovee $(A+B)$ rappresenta proprio l'area dell'indice non normalizzato nel caso di concentrazione massima.
 
 \newpage
 # **Capitolo 4 - Altro**
 
-## **Altri grafici**
+## **1 Altri grafici**
 
-### **Box Plot**
+### **1.1 Box Plot**
 
 Se vogliamo visualizzare alcune statistiche riassuntive di un insieme di dati usiamo un **box plot** (diagramma a scatola). Per realizzarlo tracciamo un segmento orizzontale dal minore al maggiore dei dati. A questo segmento sovrapponiamo un rettangolo che si estende dal primo al terzo quartile. Il rettangolo è diviso in due parti da un segmento verticale in corrispondenza della mediana campionaria.
 
@@ -1052,7 +1233,7 @@ In un box plot ciascuno dei quattro segmenti contiene il 25% delle osservazioni,
 
 I pallini a destra del blox plot rappresentano dei valori fuori scala, determinati tramite l'utilizzo dell'IQR.
 
-### **Q-Q Plot**
+### **1.2 Q-Q Plot**
 ```{=latex}
 \begin{minipage}[c]{0.3\textwidth}
     \centering
@@ -1069,7 +1250,7 @@ Ogni asse cartesiano di questo diagramma contiene i quantili dei due campioni pr
 
 Se due campioni hanno una distribuzione uguale, allora estraendo da entrambi il quantile di un livello fissato si dovranno ottenere due numeri vicini. In questo caso i punti del diagramma Q-Q tenderanno ad allinearsi alla bisettrice del I° e III° quadrante.
 
-## **Distribuzioni normali**
+## **2 Distribuzioni normali**
 
 Un insieme di dati si dice **normale** se il rispettivo istogramma ha le seguenti proprietà:
 
@@ -1091,9 +1272,71 @@ Un insieme di dati ottenuto campionando una popolazione costituita da sottogrupp
 
 In questi casi, quando nei dati si hanno due popolazioni ben distinte per quanto riguarda un certo attributo, ha senso dividere i dati in base a queste popolazioni e ottenere un insieme normale.
 
-## **Traslazione dei dati** TO DO
+## **3 Trasformazione dei dati**
 
-## **Alberi di decisione**
+Può risultare utile una rielaborazione dei dati iniziali per diversi motivi: per poterli confrontare con altri dati riportandoli ad un intervallo predefinito, per poter confrontare la loro distribuzione di frequenza con quella di altri dati oppure per renderli più facilmente leggibili.
+
+Si consideri un insieme di valori distinti $V = \{v_1, v_2, \cdots, v_m\}$, ognuno con la propria frequenza relativa $f_1, f_2, \cdots, f_m$. Si consideri anche una funzione $f$ che trasformi i valori di $V$ in valori appartenenti all'insieme $V' = \{v_1', v_2', \cdots, v_m'\}$: si ha perciò che $\forall j \in \{1,\cdots, m\} f(v_j) = v_j'$. 
+
+Si prenderanno in esame solo funzioni *iniettive*: per questo tipo di trasformazioni i valori delle frequenze relative per l'insieme $V'$ rimangono i medesimi di quelli per l'insieme $V$, ossia $f_1, f_2, \cdots, f_m$.
+
+Si analizzera come variano gli indici statistici, e di conseguenza il grafico della distribuzione, a seconda delle trasformazioni che verranno effettuate. Verranno analizzate solo le trasformazioni che prevedono di appplicare ai dati una funzione *lineare*. Fissate perciò due costanti $a,b \in \mathbb{R}$ si avrà che $v' = f(v) = av + b$.
+
+### **3.1 Traslazione**
+
+Se si vogliono traslare i dati di una quantità costante $k \in \mathbb{R}$, si applica la trasformazione $f(x) = x + k$. Per $k > 0$ si trasla verso destra e per $k < 0$ si trasla verso sinistra.
+
+Questa trasformazione è utile quando i valori osservati sono molto grandi e sono poco dispersi attorno ad un valore centrale. Si osserva che:
+
+- gli indici di centralità, quali media, quantili e mediana, vengono traslati della stessa quantità $k$.
+- gli indici di dispersione, quali range (dei dati), IQR, varianza e deviazione standard, dell'insieme traslato $V'$ rimangono invece gli stessi dell'insieme di partenza $V$.
+
+La traslazione è una trasformazione iniettiva, e quindi i dati osservati varieranno nei loro valori ma le relative frequenze rimarranno uguali. Qualora si rappresentasse graficamente la distribuzione dei dati originali e quella dei dati trasformati, si osserverebbe che la forma dei due grafici non subirebbe alterazioni: ciò che cambia sono i valori dei dati lungo l'asse delle ascisse.
+
+Si conclude che la traslazione comporta uno spostamento dell'*origine* del sistema di riferimento, ovvero il punto in cui si trova lo zero sull'asse delle ascisse. Le relazioni interne, e di conseguenza le proprietà della distribuzione come la forma, la simmetria e gli indici di dispersione, rimangono invariate.
+
+### **3.2 Scalatura**
+
+Se si vogliono dilatare o contrarre i dati di un fattore costante $h \in \mathbb{R}^+$ si applica la trasformazione $f(x) = hx$. Se $h > 1$ il range dei valori risulta aumentato, ed è stata quindi applicata una dilatazione, mentre per $0 < h < 1$ si applica una contrazione del range dei valori.
+
+Si noti che non viene considerato il caso $h < 0$ in quanto, oltre alla dilazione o contrazione i dati vengono specchiati rispetto all'asse delle ordinate.
+
+Si consideri $h = 1/k$. Se $k$ è minore del valore minimo nel campione, allora tutti i valori trasformati saranno maggiori di 1, mentre se $k$ è maggiore del valore massimo, allora tutti i valori trasformati saranno minori di $1$[^1].
+
+Si osserva che:
+
+- gli indici di centralità vengono scalati della stessa quantità $h$
+- il range di variazione e l'IQR vengono scalati della stessa quantità $h$
+- la variazione viene scalata di una quantità $h^2$ mentre la deviazione standard viene scalata di $|h|$.
+
+Anche in questo caso si verifica che i dati osservati varieranno nei loro valori ma le relative frequenze rimaranno uguali. I grafici che rappresentano la distribuzione dei dati originali e quella dei dati trasformati hanno quindi la medesima forma ma valori diversi sull'asse delle ascisse.
+
+[^1]: Questa proprietà vale solo quando i dati del campione $\in \mathbb{R}^+$. Non vale se sono presenti valori negativi.
+
+### **3.3 Cambiamento di origine e scala TODO**
+
+Si abbia un insieme di valori nell'intervallo $(a,b)$ e vogliamo adattarli in modo che appartengano all'intervallo $(c,d)$, la trasformazione da applicare sarà:
+$$
+f(x) = c + \dfrac{d-c}{b-a} \, (x - a)
+$$
+
+#### **Dimostrazione**
+
+##### **Metodo delle rette** 
+
+##### **Metodo delle condizioni**
+
+
+
+#### **Standardizzazione**
+
+
+
+### **3.4 Trasformazioni logaritmiche TODO**
+
+
+
+## **4 Alberi di decisione**
 
 Gli indici di eterogeneità oltre ad misurare la dispersione delle frequenze nelle variabili qualitative, sono fondamentali anche nella costruzione degli alberi di decisione. In un albero di decisione, ogni oggetto da classificare è descritto da un vettore di attributi e la classificazione avviene valutando, partendo dalla radice, condizioni sui valori di tali attributi.
 
@@ -1103,21 +1346,21 @@ Ad esempio, tramite l'indice di Gini si seleziona la condizione che minimizza l'
 
 In questo modo l'impiedo degli indici di eterogeneità consente di valutare quantitativamente la bontà delle suddivisioni, contribuendo a costruire alberi di decisione efficaci per il compito di classificazione.
 
-## **Analisi di classificatori** TO DO
+## **5 Analisi di classificatori** TO DO
 
-### **Classificatori costanti** TO DO
+### **5.1 Classificatori costanti** TO DO
 
-### **Classificatori ideali** TO DO
+### **5.2 Classificatori ideali** TO DO
 
-### **Classificatori casuali** TO DO
+### **5.3 Classificatori casuali** TO DO
 
-### **Classificatori a soglia** TO DO
+### **5.4 Classificatori a soglia** TO DO
 
 \newpage
 # **Teoria delle probabilità**
 # **Capitolo 5 - Calcolo combinatorio**
 
-## **Principio fondamentale del calcolo combinatorio**
+## **1 Principio fondamentale del calcolo combinatorio**
 
 Se ci sono $s_1$ modi per operare una scelta e, per ciascuno di essi, ci sono $s_2$ modi per operare una seconda scelta e, per ciascuno di essi, ci sono $s_3$ modi per operare una terza scelta e cosi via fino a $s_t$ modi per operare la t-esima scelta, allora il numero delle sequenze di possibili scelte è 
 $$
@@ -1125,7 +1368,7 @@ s_1 \cdot s_2 \cdots s_t = \prod^t_{i=1} s_i
 $$
 Osserviamo che il risultato corrisponde a calcolare il numero delle foglie di un albero di profondità $t$ il cui primo livello ha $s_1$ nodi, ciascuno dei quali ha $s_2$ figli, e cosi via per ogni nodo.
 
-## **Permutazioni**
+## **2 Permutazioni**
 
 Consideriamo un insieme di *n* oggetti $A = {a_1, \cdots, a_n}$. Una permutazione di questi *n* oggetti è una sequenza ordinata in cui compaiono tutti e soli gli elementi dell'insieme A.
 
@@ -1153,7 +1396,7 @@ Questa formula si ottiene dividendo il numero totale di permutazioni di *n* ogge
 
 Osserviamo che $P_n = P_n^{k_1, \cdots, k_r} \cdot k_1! \cdots k_r!$ e che, nel caso in cui tutti i gruppi abbiano numerosità unitaria, ossia $K_i = 1 per ogni *i*, si ottiene la formula delle permutazioni semplici.
 
-## **Disposizioni**
+## **3 Disposizioni**
 
 Consideriamo un insieme di *n* oggetti $A = {a_1, \cdots, a_n}$. Una disposizione di *k* oggetti tratti dall'insieme *A* è una sequenza ordinata di *k* elementi in cui l'ordine e gli oggetti possono essere scelti con o senza ripetizione, a seconda del contesto.
 
@@ -1183,7 +1426,7 @@ Tale formula vale per ogni intero $k \ge 0$, indipendentemente dalla cardinalit�
 
 Quando $k = 1$, si ottiene $D_{n,1} = n$; quando $k = 0$ si pone per convenzione $D_{n,0} = 1$, in quanto esiste un'unica sequenza vuota di lunghezza zero.
 
-## **Combinazioni**
+## **4 Combinazioni**
 
 Consideriamo un insieme di *n* oggetti $A = {a_1, \cdots, a_n}$. Una combinazione di *k* oggetti tratti dall'insieme *A* è un insieme di *k* elementi in cui l'ordine non è rilevante e gli oggetti possono essere scelti con o senza ripetizione, a seconda del contesto.
 
@@ -1210,7 +1453,36 @@ $$
 
 #### **Dimostrazione**
 
-TO DO
+Sia $A = {a_1, a_2, \cdots, a_n}$ un insieme di $n$ oggetti distinti. Vogliamo contare il numero di combinazioni con ripetizione di $k$ elementi da $A$. Poichè in questo contesto l'ordine non è rilevante e le ripetizioni sono permesse, possiamo associare ogni combinazione (ossia, ogni multinsieme) a una sequenza non decrescente di indici. In particolare, consideriamo una sequenza non decrescente di indici. In particolare, consideriamo una sequenza
+$$
+m_1, m_2, \cdots, m_k \quad \text{con} \quad 1 \le m_1 \le m_2 \le \cdots \le m_k \le n
+$$
+Qui, i numeri $m_i$ non rappresentano direttamente gli oggetti di $A$, ma sono gli indici che li identificano: l'indice $m_i$ corrisponde all'oggetto $a_{m_i}$ in $A$. In questo modo, ogni scelta di $k$ elementi di $A$, con ripetizione, è associata a una sequenza non decrescente di indici.
+
+Per facilitare il conteggio, trasformiamo questa sequenza non decrescente in una sequenza strettamente crescente mediante la trasformazione
+$$
+n_i = m_i + (i-1) \quad \text{per } i=1,2,\cdots,k
+$$
+Dal momento che $m_i \le m_{i+1}$, si ha
+$$
+n_i = m_i + (i-1) < m_{i+1} + i = n_{i+1}
+$$
+che garantisce che la nuova sequenza $n_1, n_2, \cdots, n_k$ sia strettamente crescente.
+
+Osserviamo inoltre che il primo elemento soddisfa $n_1 = m_1 \ge 1$, mentre l'ultimo elemento è 
+$$
+n_k = m_k + (k-1) \le n + (k-1)
+$$
+quindi ogni $n_i$ appartiene all'insieme $\{1, 2, \cdots, n+k-1\}$.
+
+La trasformazione appena definita stabilisce una corrispondenza biunivoca tra le sequenze non decrescenti di indici (che rappresentano le combinazioni con ripetizione di $k$ elementi da $A$) e le sequenze strettamente crescenti di $k$ numeri presi da $\{1, 2, \cdots, n+k-1\}$. Queste ultime sono esattamente le combinazioni semplici di $k$ elementi da un insieme di $n+k-1$ elementi, il cui numero è dato da
+$$
+\binom{n+k-1}{k}
+$$
+
+Pertanto, il numero di combinazioni con ripetizione $C_{n,k}$ è proprio quel valore.
+
+Questa dimostrazione evidenzia come il problema delle combinazioni con ripetizione possa essere ridotto a quello delle combinazioni semplici, tramite una trasformazione che converte una sequenza non decrescente di indici in una sequenza strettamente crescente.
 
 #### **Coefficienti combinatori**
 
@@ -1236,11 +1508,11 @@ Il concetto di probabilità di un evento, quando si effettua un esperimento, è 
 
 Indipendentemente dall'approccio che si favorisce, utilizzando un approccio matematico ed i suoi strumenti, come per esempio la nozione insiemistica, è possibile formalizzare regole e gli assiomi della teoria della probabilità.
 
-## **Definizioni**
+## **1 Definizioni**
 
 Prima di enunciare gli assiomi della teoria della probabilità, occorre introdurre alcuni concetti fondamentali relativi agli esperimenti e ai loro esiti.
 
-### **Spazio degli esiti**
+### **1.1 Spazio degli esiti**
 
 Un **esperimento** è un procedimento o una prova condotta in condizioni controllate, il cui risultato è incerto.
 
@@ -1251,7 +1523,7 @@ Lo **spazio degli esiti**, anche detto insieme universo o spazio campionario, è
 - finito o infinito, a seconda del numero di esiti possibili
 - discreto se gli esiti sono isolati e contabili, o continuo se gli esiti formano un continuum. In questo contesto, la distinzione tra spazi discreti e continui riguarda la struttura complessiva di $\Omega$, e non le proprietà intriseche degli elementi stessi.
 
-### **Evento**
+### **1.2 Evento**
 
 Un evento *E* è un sottoinsieme dello spazio degli esiti, percio $E \subseteq \Omega$. Un evento formato solo da un solo esisto ${\omega}$ è detto evento elementare, $\Omega$ rappresenta l'evento certo mentre $\varnothing$ è l'evento impossibile.
 
@@ -1401,7 +1673,7 @@ Si illustrano le operazioni di unione, intersezione, complemento e inclusione tr
 \end{minipage}
 ```
 
-### **Algebra degli eventi**
+### **1.3 Algebra degli eventi**
 
 Un'algebra degli eventi $\mathcal{A}$ su $\Omega$ è una collezione di sottoinsiemi di $\Omega$, ossia $\Omega$, ossia $\mathcal{A}\subseteq \mathcal{P}(\Omega)$, Tale che:
 
@@ -1457,7 +1729,7 @@ Si definisce la mappa $\phi: \mathcal{F}_D \to \mathcal{F}_M$ mediante:\\
 È facile verificare che $\phi$ preserva il complementare e le unioni, quindi $\mathcal{F}_D$ e $\mathcal{F}_M$ sono isomorfe. In questo modo, funzionalmente, il lancio del dado (con questa specifica scelta di $\sigma$-algebra) si comporta come il lancio della moneta, pur essendo l'esperimento originariamente a sei esiti.
 \end{tcolorbox}
 
-### **Assiomi di Kolmogorov**
+### **1.4 Assiomi di Kolmogorov**
 
 Sperimentando un esperimento ripetutamente, mantenendo costanti le condizioni, si osserva empiricamente che la frazione di casi in cui si realizza un evento *E* tende, al cresce del numero dei tentativi, a stabilizzarsi in un valore costante, che dipende univocamente da E. Questo valore costante è quello che intendiamo come probabilità dell'evento *E*.
 
@@ -1621,7 +1893,7 @@ Dimostrazione:
 
 \quad $\quad \mathbb{P}(F) \overset{\;K3\;}{=} \mathbb{P}(E) + \mathbb{P}(F \smallsetminus E) \;\; \overset{\;K1\;}{\Rightarrow} \;\; \mathbb{P}(F\smallsetminus E) \ge 0 \;\; \Rightarrow \;\; \mathbb{P}(F) \ge \mathbb{P}(E)$
 
-### **Spazio di probabilità**
+### **1.5 Spazio di probabilità**
 
 Se $\mathcal{F}$ è una $\sigma$-algebra definita sullo spazio degli esiti $\Omega$ e $\mathbb{P}$ è una misura di probabilità definita su $\mathcal{F}$ che soddisfa gli assiomi di Kolmogorov, allora la terna $(\Omega, \mathcal{F}, \mathbb{P})$ è detta spazio di probabilità.
 
@@ -1649,7 +1921,7 @@ Si definisce $\mathbb{P}(E) = \dfrac{|E|}{|\Omega|} = \dfrac{\text{\# casi favor
 
 Se $\Omega$ è infinito non è possibile definire una probabilità equiprobabile nel senso in cui ogni esito riceve la stessa probabilità positiva $p$. Infatti se $|\Omega| = \infty$ allora $p \rightarrow 0$, ma se $\forall \omega \in \Omega$ si ha che $\mathbb{P}(\{\omega\}) = 0$, allora gli assiomi di Kolmogorov non sono più soddisfatti e si giunge ad un assurdo.
 
-## **Probabilità condizionata**
+## **2 Probabilità condizionata**
 
 Si definisce **probabilità condizionata** la probabilità che si verifichi un evento *E* sapendo che si è già verificato un altro evento *F*. La probabilità condizionate di *E* dato *F* si indica con $\mathbb{P}(E|F)$, oppure $\mathbb{P}_F(E)$, e si può definire a partto che la probabilità di *F* sia diverso da zero.
 
@@ -1741,7 +2013,7 @@ Si osserva che la definizione di probabilità condizionata è compatibile con l'
 
 Se $(\Omega, \mathcal{F}, \mathbb{P})$ è uno spazio di probabilità (valgono quindi gli assiomi di Kolmogorov, tra cui $\mathbb{P}(\Omega) = 1$) e $F$ non è trascurabile (ossia $\mathbb{P}(F) \not= 0$), allora riscalando $\mathbb{P}_F'$ a $\mathbb{P}_F = \frac{1}{\mathbb{P}(F)}\, \mathbb{P}_F'$ si ottiene lo spazio di probabilità $(\Omega, \mathcal{F}, \mathbb{P}_F)$ condizionato dall'evento $F$.
 
-### **Teorema delle probabilità totali**
+### **2.1 Teorema delle probabilità totali**
 #### **Regola di fattorizzazione**
 
 Siano *E* e *F* due eventi in uno spazio di probabilità $(\Omega, \mathcal{F}, \mathbb{P})$. Se $\mathbb{P}(F) \not= 0$, moltiplicando entrambi i membri della formula della probabilità condizionata di *E* dato *F* per $\mathbb{P}(F)$ si ottiene $\mathbb{P}(E \cap F) = \mathbb{P}(E|F), \mathbb{P}(F)$
@@ -1839,7 +2111,7 @@ Siano *E* e *F* due eventi in uno spazio di probabilità $(\Omega, \mathcal{F}, 
 \vspace{4mm}
 ```
 
-Allo stesso modo, se $\mathbb{P}(E) \not= 0$, si ottiene $\mathbb{P}(F \cap E) = \mathbb{P}(F|E)\, \mathbb{P}(E)$
+Allo stesso modo, se $\mathbb{P}(E) \not= 0$, moltiplicando entrambi i membri della formula della probabilità condizionata di $F$ dato $E$ per $\mathbb{P}(E)$ si ottiene $\mathbb{P}(F \cap E) = \mathbb{P}(F|E)\, \mathbb{P}(E)$
 
 ```{=latex}
 \begin{center}
@@ -2035,7 +2307,7 @@ $$
 
 Questa relazione generalizza il caso binario $\{ F, \overline{F} \}$ e permette di calcolare $\mathbb{P}(E)$ suddividendo lo spazio deli esiti in una partizione $\{F_1, F_2, \ldots, F_n\}$. In tal modo, ciascun insieme $F_i$ ha la probabilità $\mathbb{P}(F_i)$ e, all'interno di ciascuno, si considera la probabilità condizionata $\mathbb{P}(E | F_i)$. Sommando tutti i contributi $\mathbb{P}(E|F_i)\,\mathbb{P}(F_i)$ si ottiene $\mathbb{P}(E)$.
 
-## **Teorema di Bayes**
+## **3 Teorema di Bayes**
 
 Una volta chiarite la regola di fattorizzazione e la formula delle probabilità totali, possiamo introdurre il teorema di Bayes, questo fornisce un modo per capovolgere il condizionamento di un evento $E$ rispetto a un altro evento $F$.
 
@@ -2064,7 +2336,7 @@ $$
 $$
 dove il denominatore è $\mathbb{P}(E)$ per via della formula estesa delle probabilità totali.
 
-### **Classificatori naive Bayes**
+### **3.1 Classificatori naive Bayes**
 
 Un classificatore è un meccanismo che, dati degli oggetti (individui) su cui si vuole effettuare una distinzione, associa a ciascun oggetto una classe tra quelli disponibili. Per esempio, potremmo suddividere gli individui in "positivi" o "negativi" rispetto a una determinata condizione. 
 
@@ -2114,7 +2386,7 @@ $$
 L'ipotesi di indipendenza condizionale riduce drasticamente il numero di stime necessarie per calcolare le probabilità, passando da una modellazione congiunta (potenzialmente esponenziale) a una sommatoria di stime "marginali" ($\sum_{i}|\mathcal{X}i|$ invece di $\prod{i}|\mathcal{X}_i|$).  
 Sebbene nella pratica le variabili $X_i$ possano non essere completamente indipendenti all'interno di una stessa classe (da cui l'aggettivo naive), l'approssimazione risulta spesso efficace in molti scenari, a fronte di una grande semplicità computazionale.
 
-## **Eventi indipendenti**
+## **4 Eventi indipendenti**
 
 In generale, la probabilità condizionata $\mathbb{P}(E|F)$ differisce da $\mathbb{P}(E)$, poichè il verificarsi di $F$ fornisce informazioni che possono modificare la probabilità che si verifiche $E$. Tuttavia se si ha $\mathbb{P}(E|F) = \mathbb{P}(E)$, allora si dice che gli eventi $E$ e $F$ sono *indipendenti*. Questo significa che la conoscenza del verificarsi di $F$ non influisce sulla probabilità che $E$ si realizzi.
 
@@ -2319,9 +2591,404 @@ $$
 Questo significa che, dati più eventi, l’indipendenza globale richiede che ogni intersezione di un numero qualsiasi di essi abbia probabilità uguale al prodotto delle probabilità dei singoli eventi coinvolti.
 
 \newpage 
-# **Statistica inferenziale**
-# **Capitolo 7 - Analisi della varianza**
+# **Capitolo 7 - Variabili aleatorie**
 
+Dato uno spazio di probabilità $(\Omega, \mathcal{F}, \mathbb{P})$ e una $\sigma$-algebra $\mathcal{E}$ su $\mathbb{R}$, una variabile aleatoria $X : \Omega \to \mathbb{R}$ è definita come una funzione misurabile, ossia tale che per ogni $A \in \mathcal{E}$ l'evento
+$$
+\{X \in A\} \equiv \{\omega \in \Omega \mid X(\omega) \in A\}
+$$
+appartenga alla $\sigma$-algebra $\mathcal{F}$ di $\Omega$. In altre parole, questa condizione garantisce che, per ogni insieme misurabile $A$ in $mathbb{R}$, il corrispondente sottoinsieme $\Omega$ (cioè l'insieme degli esiti per cui $X$ assume valori in $A$) sia un evento a cui è possibile assegnare una probabilità.
+
+In particolare, se si considera $A = \{\alpha\}$ per un qualsiasi $\alpha \in \mathbb{R}$, allora si ottiene l'evento 
+$$
+\{X = \alpha\} \equiv \{\omega \in \Omega \mid X(\omega) = \alpha\}
+$$
+
+Questa forma è particolarmente usata quando si trattano variabili aleatorie discrete.
+
+Si osserva che per ogni insieme misurabile $A \in \mathcal{E}$, la probabilità che la variabile aleatoria $X$ assuma valori in $A$, ossia la probabilità dell'evento $\{X \in A\}$, è definita come
+$$
+\mathbb{P}(X \in A) = \mathbb{P}(\{\omega \in \Omega \mid X(\omega) \in A\}) = \mathbb{P}(X^{-1}(A))
+$$
+
+> **Definizione completa** Dato uno spazio di probabilità $(\Omega, \mathcal{F}, \mathbb{P})$ e una $\sigma$-algebra $\mathcal{E}$ su $\mathbb{R}$, una variabile aleatoria
+> $X: \Omega \rightarrow \mathbb{R}$
+> è definita come una funzione misurabile, ossia una funzione che trasforma gli esiti dello spazio campionario $\Omega$ in valori reali in modo da preservare la struttura misurabile. Questo significa che per ogni insieme $B \in \mathcal{E}$ (ossia per ogni insieme misurabile in $\mathbb{R}$) l'insieme preimmagine
+> $$
+> X^{-1}(B)=\{\omega \in \Omega \mid X(\omega) \in B\}
+> \vspace{-0.5mm}
+> $$
+> appartiene alla $\sigma$-algebra $\mathcal{F}$ su $\Omega$.
+>
+> In altre parole, la funzione $X$ rispetta la struttura misurabile: essa trasforma gli esiti possibili in $\Omega$ in valori misurabili in $\mathbb{R}$, permettendo così l’applicazione degli strumenti della teoria della probabilità alla variabile $X$.
+
+I singoli valori che la variabile aleatoria $X$ può assumere sono detti *specificazioni* o *variabili osservabili*.  
+L'insieme di tutte le specificazioni di $X$ costituisce il *dominio di supporto* della variabile e si indica con $D_X$.
+
+Una variabile aleatoria si dice *discreta* se può assumere solo un numero finito o infinito numerabile di valori, mentre si dice continua se può assumere valori in un intervalo (o insieme) non numerabile di $\mathbb{R}$.
+
+### **0.1 Funzioni di ripartizione**
+
+La funzione di ripartizione, o funzione di distribuzione cumulativa, di una variabile aleatoria $X$ a valori reali è la funzione che associa a ciascun valore $x$ la probabilità che la variabile $X$ assuma valori minori o uguali a $x$.
+
+In altre parole, è la funzione $F_X : \mathbb{R} \rightarrow [0,1]$ definita da
+$$
+F_X(x) = \mathbb{P}(X \le x) \quad \forall x \in \mathbb{R}
+$$
+
+> La definizione della variabile aleatoria $X$ come funzione misurabile implica che $\forall x \in \mathbb{R}$ l'insieme $\{X \le x\}$, che è l'immagine inversa dell'intervallo $(-\infty, x]$, sia un evento, ossia appartenga alla $\sigma$-algebra $\mathcal{F}$ dello spazio di probabilità su cui $X$ è definita. Senza questa condizione di misurabilità, non avrebbe senso assegnare una probabilità a tali eventi e, di conseguenza, la funzione di ripartizione non sarebbe ben definita.
+
+**Proprietà** La funzione di ripartizione $F_X$ possiede le seguenti proprietà:
+
+  - Limite inferiore: $0 \le F_X(x) \le 1 \forall x \subseteq \mathbb{R}$
+  - Monotonicità: $F_X$ è non decrescente, ossia se $x_1 < x_2$, allora $F_X(x_1) \le F_X(x_2)$. Questo riflette il fatto che $\{X \le x_1\} \subseteq \{ X \le x_2 \}$
+  - Continuità a destra: per ogni $\displaystyle x \in \mathbb{R} \;\; \lim_{y \to x^+} F_X(y) = F_X(x)$
+  - Limiti estremi: $\displaystyle \lim_{x \to -\infty} F_X(x) = 0\,$ e $\,\displaystyle \lim_{x \to +\infty} F_X(x) = 1$
+
+La funzione di ripartizione non è necessariamente continua a sinistra.
+
+Dalla definizione segue che la probabilità che $X$ risieda in un intervallo semichiuso $(a,b]$, dove $a < b$, è
+$$
+\mathbb{P}(a < X \le b) = F_X(b) - F_X(a)
+$$
+
+**Dimostrazione** Si consideri l'evento $\{a < X \le b\}$ con $a < b$. è possibile affermare che 
+
+  \qquad $\{X \le b\} = \{X \le a\} \cup \{a < X \le b\}$
+
+  dove $\{X \le a\}$ e $\{a < X \le b\}$ sono due eventi disgiunti. Utilizzando il terzo assioma di Kolmogorov:
+
+  \qquad $\mathbb{P}(X \le b)= \mathbb{P}(X \le a) + \mathbb{P}(a < X \le b)$
+
+  Riscrivendo il tutto utilizzando la funzione di ripartizione, si ha
+
+  \qquad $F_X(b) = F_X(a) +\mathbb{P}(a < X \le b)$
+
+  Da cui si ottiene che $\mathbb{P}(a < X \le b) = F_X(b) - F_X(a)$. La tesi è quindi dimostrata.
+
+> Si può quindi esprimere la probabilità di un qualsiasi evento relativo a $X$ in termini della funzione di ripartizione, sfruttando la rappresentazione degli eventi come unioni di intervalli semiaperti. 
+>
+> Sia $A \subseteq \mathbb{R}$ un evento della variabile $X$, allora si intende in realtà l'evento  
+> $\{X \in A\} \equiv \{\omega \in \Omega \mid X(\omega) \in A \}$, ossia il sottoinsieme di $\Omega$ formato da tutti gli esiti $\omega$ per cui la trasformazione $X$ produce un valore appartentente all'insieme $A \subseteq \mathbb{R}$.
+>
+> $A$ può essere scritto eventualmente come un’unione disgiunta di intervalli della forma $(a, b]$. Di conseguenza, grazie alla proprietà già dimostrata per gli intervalli semiaperti, ossia  
+> $\mathbb{P}(a < X \le b)=F_X(b)-F_X(a)$, si ottiene che
+> $$
+> \mathbb{P}(X\in A)=\sum_{k} \Bigl[F_X(b_k)-F_X(a_k)\Bigr]
+> $$
+> dove la somma è presa sulla rappresentazione disgiunta di $A$ in intervalli semiaperti $(a_k, b_k]$.
+
+## **1 Variabili aleatorie discrete**
+
+Le variabili aleatorie discrete sono variabili il cui dominio di supporto è un insieme numerabile:
+$$
+D_X = \{ x \in \mathbb{R} \mid \mathbb{P}(X = x) > 0 \}
+$$
+Poiché il supporto $D_X$ di una variabile aleatoria discreta è numerabile e, in genere, consiste di punti isolati, esso può essere ordinato in una sequenza $(x_1, x_2, \cdots)$. In questo contesto, ogni specificazione, salvo l'eventuale massimo, ha un successivo nell’ordine naturale dei numeri reali.
+
+Questo insieme si determina esaminando i valori per cui la funzione di massa di probabilità non è zero.
+
+Le probablità di un evento $\{X \in A\}$, per ogni $A \subseteq D_X$, si ottiene sommando le probabilità dei valori di $X$ che ricadono in $A$:
+$$
+\mathbb{P}(X \in A) = \sum_{x \in A \cap D_X} \mathbb{P} (X = x)
+$$
+
+**Proprietà** La somma delle probabilità di tutte le specificazioni deve essere $1$:
+$$
+\sum_{x \in D_X} \mathbb{P}(X=x) = 1
+$$
+
+**Dimostrazione** Se $D_X$ è il supporto di $X$, allora $\Omega$ si può scrivere come unione disgiunta di tutti gli eventi $\{X = x\}$ con $x \in D_X$, ossia:
+    
+  \qquad $\displaystyle \Omega = \bigcup_{x \in D_X} \{X = x\}$
+
+  perché ogni esito $\omega$ in $\Omega$ genera un valore $X(\omega)$ che appartiene al supporto.
+  Essendo gli eventi $\{X = x\}$ a due a due disgiunti, è possibile applicare il terzo assioma di Kolmogorov:
+    
+  \qquad $\displaystyle \mathbb{P}\Big( \bigcup_{x \in D_X} \{X = x\} \Big) = \sum_{x \in D_X} \mathbb{P}(X=x) = 1$
+
+  Infine, poiché l'unione copre interamente $\Omega$, per il primo assioma si ottiene:
+
+  \qquad $\displaystyle 1 = \mathbb{P}(\Omega) = \sum_{x \in D_X} \mathbb{P}(X=x)$
+
+### **1.1 Funzione di probabilità**
+
+Data una variabile aleatoria discreta $X$, la sua *funzione di (massa di) probabilità* è una funzione di variabile reale che assegna ad ogni valore di $X$ la probabilità dell'evento elementare $\{X = x\}$.
+
+- Nel caso in cui $X$ sia continua, ogni singolo punto ha probabilità zero, e dunque la funzione di massa perde di significato; in tal caso si usa la funzione di densità.
+
+Formalmente, data una variabile aleatoria $X : \Omega \rightarrow \mathbb{R}$, la funzione di probabilità è la funzione $p_X: \mathbb{R} \rightarrow [0,1]$ definita da
+$$
+p_X(x) = \mathbb{P}(X = x) = \mathbb{P}(\{\omega \in \Omega \mid X(\omega) = x\}) \quad \forall x \in \mathbb{R}
+$$
+che associa ad ogni valore $x$ assunto da $X$ la probabilità che $X$ assuma esattamente quella specificazione.
+
+**Proprietà** La funzione di probabilità rispetta le seguenti proprietà:
+
+  - $\forall x \in \mathbb{R} \;\; p_X(x) \ge 0$: trattandosi del calcolo di una probabilità, questa funzione non può assuemere valori negativi
+  - $p_X(x) \not = 0$ solo per $x \in \mathbb{R} \land x\in D_X$
+  - per $x \not \in D_X$ si assume che $p_X(x) = 0$[^2]
+
+  Come gia dimostrato in precedenza, la somma delle probabilità su tutto il supporto di $X$ deve essere pari a 1. di conseguenza, se $D_X$ è numerabile, scrivendo $p_X(x) = \mathbb{P}(X = x)$ si ottiene
+    $$
+    \sum_{x \in D_X} p_X(x) = 1
+    $$
+
+[^2]: L’uso della funzione indicatrice $I_{D_X}(x)$ garantisce formalmente che la funzione di probabilità sia definita unicamente sui valori appartenenti al supporto $D_X$. Infatti, per ogni $x \notin D_X$ abbiamo $I_{D_X}(x) = 0$, e quindi $p_X(x) = \mathbb{P}(X=x) \cdot I_{D_X}(x) = 0$. Questo esplicita il fatto che ogni $x$ non preso in considerazione (ossia, per cui $\mathbb{P}(X=x) = 0$) viene escluso dalla definizione di $p_X$.
+
+**Funzione indicatrice** Sia $X : \Omega \rightarrow \mathbb{R}$ una variabile aleatoria discreta a valori reali con dominio di supporto  
+$D_X = \{x \in \mathbb{R} \mid \mathbb{P}(X=x) > 0\}$. La funzione di massa di probabilità $p_X$ può essere espressa in forma compatta mediante la funzione indicatrice. Formalmente, si scrive
+$$
+  p_X(x) = \mathbb{P}(X=x)\, I_{D_X}(x)
+$$
+  dove $I_{D_X} : \mathbb{R} \rightarrow \{0,1\}$ è la funzione indicatrice dell'insieme $D_X$, definita come
+$$
+  I_{D_X}(x)=
+  \begin{cases}
+  1 & \text{se } x \in D_X \\
+  0 & \text{altrimenti}
+  \end{cases}
+$$
+
+  Nel caso in cui $X$ sia uniformemente distribuita su $D_X$, cioè se $\mathbb{P}(X=x) = c$ per ogni $x \in D_X$ (con $c$ costante tale che $\sum_{x \in D_X} c = 1$), la funzione di probabilità si semplifica a $p_X(x) = c \cdot I_{D_X}(x)$.
+
+#### **Relazione tra funzione di partizione e di probabilità**
+
+Sia $F_X$ la funzione di ripartizione di $X$ e sia $p_X$ la sua funzione di probabilità. La prima rappresenta la somma cumulativa dei valori della seconda.
+
+Per definizione si ha che $F_X(x) = \mathbb{P}(X \le x)$ e, per una variabile discreta con dominio di supporto numerabile, possiamo esprimere $F_X(x)$ come la somma delle probabilità associate a tutti i valori $y \in D_X$ tali che $y \le x$. In altre parole 
+$$
+F_X(x) = \sum_{ y \le x} p_X(y)
+$$
+Questo significa che, per ogni valore $x$, la funzione $F_X(x)$ è data dal contributo cumulativo dei salti indotti da ciascun valore specifico di $X$ minore o uguale a $x$. In particolare, se $x_0$ è un punto in cui $X$ può assumere un valore, ossia $x_0 \in D_X$, allora il salto di F_X in x_0 è proprio
+$$
+F_X(x_0) - \lim_{x\to x_0^-} F_X(x) = p_X(x_0)
+$$
+Indicando con $F_X(x^-)$ il limite sinistro della $F_X$ in $x$, si può riscrivere l'equazione precedente in
+$$
+p_X(x) = F_X(x) - F_X(x^-)
+$$
+Da ciò si deduce che se $X$ è una variabile aleatoria continua, tale valore è nullo in ogni punto poichè la sua funzione di ripartizione è continua, e di conseguenza $F_X(x) = F_X(x^-)
+
+**Osservazione** Quando si conosce la funzione di probabilità $p_X$, oppure la funzione di ripartizione $F_X$, di una variabile aleatoria $X$ qualsiasi, si hanno abbastanza informazioni per poter calcolare la probabilità di ogni evento che dipenda solo da tale variabile aleatoria. Si dice in questo caso che si conosce la *distribuzione* o *legge* della variabile aleatoria considerata.  
+Affermare quindi che $X$ e $Y$ hanno la stessa distribuzione significa che le rispettive funzioni di ripartizioni sono identiche, $X \sim F_X \equiv F_Y \sim Y$, e quindi anche che $\mathbb{P}(X \in A) = \mathbb{P}(Y \in A)$ per ogni insieme di valori $A \subseteq \mathbb{R}$.
+
+## **2 Variabili multivariate**
+
+Risulta necessario talvolta ridurre un esperimento casuale a più variabili aleatorie, in quanto l'oggetto di interesse sono proprio le relazioni presenti tra due o più grandezze numeriche. La coppia $(X,Y)$, con $X$ e $Y$ variabili aleatorie, è detta *variabile aleatoria bivariata*: generalizzando, una **variabile aleatoria multivariata** è un vettore aleatorio $X = (X_1, X_2, \cdots, X_n)$, dove $X_i$ è una variabile aleatoria a valori reali.
+
+Verranno ora presentate le definizioni e le proprietà delle variabili aleatorie bivariate, che possono essere però estese sul caso di variabili multivariate.
+
+#### **Funzione di ripartizione congiunta**
+
+Considerata una variabile aleatoria bivariata $(X,Y)$, la funzione di ripartizione congiunta è definita come
+$$
+F_{X,Y}(x,y) = \mathbb{P}(X \le x, Y \le y)
+$$
+dove la virgola denota l'intersezione tra i due eventi $\{X \le x\}$ e $\{Y \le y\}$.
+
+La conoscenza di questa funzione permette di calcolare la probabilità di tutti gli eventi che dipendono, singolarmente o congiuntamente, da $X$ e $Y$. La funzione di ripartizione di $X$ può essere ottenuta dalla funzione di ripartizione congiunta come
+$$
+F_X(x) = \lim_{y \to +\infty} F_{X,Y}(x,y) = \mathbb{P}(X \le x, Y \le +\infty) = F_{X,Y}(x,+\infty)
+$$
+
+Analogamente, la funzione di ripartizione di $Y$ è 
+$$
+F_Y(y) = \lim_{x \to +\infty} F_{X,Y}(x,y) = \mathbb{P}(X \le +\infty, Y \le y) = F_{X,Y}(+\infty,y)
+$$
+
+Le funzioni di ripartizione $F_X$ e $F_Y$ sono dette **marginali**.
+
+#### **Funzione di probabilità congiunta**
+
+Nel caso in cui $X$ e $Y$ siano variabili aleatorie discrete, la funzione di probabilità congiunta è definita come 
+$$
+p_{X,Y}(x, y) = \mathbb{P}(X = x, Y = y) 
+$$
+
+Le funzioni di probabilità $p_X$ e $p_Y$ si possono ricavare da quella congiunta notando che, siccome $Y$ deve assumere uno dei valori $y$, l'evento ${X = x}$ può essere visto come l'unione al variare degli $y$ degli eventi ${X = x, Y = y}$, che sono mutualmente esclusivi. In formule:
+$$
+\{X = x\} = \bigcup_{y \in D_Y} \{X = x, Y = y\}
+$$
+
+Tramite il terzo assioma di Kolmogorov, si ha quindi
+$$
+\mathbb{P}(X = x) = \sum_{y \in D_Y} \mathbb{P}(X = x, Y = y) = \sum_{y \in D_Y} p_{X,Y}(x,y) = p_X(x)
+$$
+
+Analogamente, si può dimostrare che 
+$$
+p_Y(y) = \sum_{x \in D_X} p_{X,Y}(x,y)
+$$
+
+Queste due funzioni di probabilità sono dette **marginali**. Bisogna notare che sebbene le funzioni di massa di probabilità marginali si possono sempre ricavare da quella congiunta, il viceversa è falso.
+
+### **2.1 Variabili indipendenti**
+
+Due variabili aleatorie $X$ e $Y$ sono dette **indipendenti** se tutti gli eventi relativi alla prima sono indipendenti da tutti gli eventi relativi alla seconda.
+
+Formalmente, due variabili aleatorie che riguardano lo stesso esperimento casuale sono indipendenti se e solo se, per ogni insieme $A,B \subseteq \mathbb{R}$, si ha 
+$$
+\mathbb{P}(X \in A, Y \in B) = \mathbb{P}(X \in A) \, \mathbb{P}(Y \in B)
+$$
+
+ovvero, se per ogni scelta di $A$ e $B$, gli eventi ${X \in A}$ e ${Y \in B}$ sono indipendenti. In caso contrario $X$ e $Y$ sono dette *dipendenti*.
+
+#### **Proprietà**
+
+Siano $X$ e $Y$ due variabili aleatorie indipendenti. Allora valgono le seguenti proprietà:
+
+- $F_{X,Y}(x,y) = F_X(x) \, F_Y(y)$
+- $p_{X,Y}(x,y) = p_X(x) \, p_Y(y)$
+
+    **Dimostrazione**
+
+    1. $X,Y$ indipendenti $\;\; \Rightarrow \;\; p_{X,Y}(x,y) = p_X(x) \, p_Y(y) \quad \forall x, y$
+        \begin{flalign*}
+        \text{Si fissino } x, y: \quad p_{X,Y}(x,y) 
+        & = \mathbb{P}(X=x, Y=y) = \mathbb{P}(X \in \underset{:=A}{\{x\}}, Y \in \underset{:= B}{\{y\}}) \\
+        & = \mathbb{P}(X \in A, Y \in B) \overset{\text{(1)}}{=} \mathbb{P}(X \in A) \, \mathbb{P}(Y \in B) \\
+        & = \mathbb{P}(X = x) \, \mathbb{P}(Y = y) = p_X(x) \, p_Y(y)
+        &&\end{flalign*}
+        \begin{small}\text{(1): per ipotesi di indipendenza}\end{small}
+
+    \vspace{1mm}
+    2. $p_{X, Y}(x,y) = p_X(x) \, p_Y(y) \quad \forall x, y \;\; \Rightarrow \;\; X, Y$ indipendenti
+        \begin{flalign*}
+        \text{Si fissino } A, B \subseteq \mathbb{R}: \quad \mathbb{P}(X \in A, Y \in B) 
+        & = \sum_{x \in A, y \in B}\mathbb{P}(X = x, Y = y) = \sum_{x \in A} \sum_{y \in B} p_{X,Y}(x,y) \\ 
+        & = \sum_{x \in A} \sum_{y \in B} p_X(x) \, p_Y(y) = \sum_{x \in A} p_X(x) \sum_{y \in B} p_Y(y) \\ 
+        & = \mathbb{P}(X \in A) \, \mathbb{P}(Y \in B) \\
+        &&\end{flalign*}
+
+        \vspace{-8mm}
+        Di conseguenza $X$ e $Y$ sono indipendenti.
+
+    \vspace{-6mm}
+    \begin{flalign*}
+    \text{Si è dimostrata perciò la tesi in entrambi i versi.}
+    &&\end{flalign*}
+
+È possibile estendere l'indipendenza a più variabili aleatorie. In questo caso, si dice che $X_1, X_2, \cdots, X_n$ sono indipendenti se
+$$
+\forall A_1, \dots, A_n \subseteq \mathbb{R} \quad \mathbb{P}\Big( \bigcap_{i=1}^n X_i \in A_i \Big) = \prod_{i=1}^n \mathbb{P}(X_i \in A_i)
+$$
+
+
+## **3 Valore atteso**
+
+### **3.1 Valore atteso di una variabile discreta**
+
+Sia $X$ una variabile aleatoria discreta che può assumere i valori $D_X = {x_1, \cdots, x_n, \cdots}$, il valore atteso di $X$, che si indica con $\mathbb{E}[X]$, è il numero$\,$ [^3]
+$$
+\mathbb{E}[X] = \sum_{x \in D_X} x\, \mathbb{P}(X = x) = \sum_{x \in D_X} x\, p_X(x) \tag{7.1.2}
+$$
+Pertanto, il valore atteso rappresenta la media pesata delle specificazioni di $X$, usando come pesi le probabilità che tali valori vengano assunti da $X$. Perciò $\mathbb{E}[X]$ è un indice di centralità della distribuzione di $X$.
+
+Analogamente alla media campionaria, il valore atteso può non corrispondere a una specificazione della variabile aleatoria $X$. Inoltre $\mathbb{E}[X]$ presenta la stessa unità di misura delle specificazioni.
+
+**Funzione indicatrice di un evento** La funzione indicatrice di un evento $A \subseteq \Omega$ è definita come una funzione $I_A: \Omega \to \{0,1\}$ tale che
+$$
+  I_A(\omega) =
+  \begin{cases}
+  1 & \text{sse \(A\) si verifica, cioè se } \omega \in A \\
+  0 & \text{altrimenti}
+  \end{cases}
+$$
+  Utilizzando questa definizione, si può dimostrare che il valore atteso della funzione indicatrice coincide con la probabilità dell'evento, infatti:
+$$
+  \mathbb{E}[I_A] = \sum_{\omega \in \Omega} I_A(\omega)\, \mathbb{P}(\{\omega\})  
+$$
+  Notando che $I_A(\omega) = 1$ solo se $\omega \in A$ e 0 altrimenti, la somma si riduce a 
+$$
+  \mathbb{E}[I_A] = \sum_{\omega \in A} \mathbb{P}(\{\omega\}) = \mathbb{P}(A)
+$$
+
+### **3.2 Proprietà**
+
+Si consideri una variabile aleatoria $X$ di cui si conosce la distribuzione. Anzichè calcolare il valore atteso di $X$, può essere conveniente calcolare il valore atteso di una funzione $g(X)$, dove $g$ è una funzione $g: \mathbb{R} \to \mathbb{R}$. Si nota che $g(X)$ è anche'essa una variabile aleatoria, e quindi è possibile calcolarne la distribuzione in un qualche modo; dopo averla ottenuta si può calcolare $\mathbb{E}[g(X)]$ con la sua definizione usuale.
+
+Se $X$ è una variabile aleatoria discreta con funzione di probabilità $p_X$, allora, per ogni funzione reale $g$ vale [^4]
+$$
+E[g(X)] = \sum_{x \in D_X} g(x)\, \mathbb{P}(X = x) = \sum_{x \in D_X} g(x)\, p_X(x) \tag{7.1.3}
+$$
+
+[^3]: Si osserva che $\mathbb{E}[X]$ è definito solo se la serie $(7.1.2)$ converge in valore assoluto, ovvero deve valere
+$$
+  \sum_{x \in D_X} |x|\, p_X(x) < \infty
+$$
+  \qquad In caso contrario si dice che $X$ non ha valore atteso.
+
+[^4]: Anche in questo caso si richede che la serie converga in valore assoluto affinché $\mathbb{E}[g(X)]$ sia definito:
+$$
+  \sum_{x \in D_X} |g(x)|\, p_X(x) < \infty
+$$
+
+**Corollario** Per ogni coppia di costanti reali $a$ e $b$, si ha $\mathbb{E}[aX + b] = a\, \mathbb{E}[X] + b$.
+
+Dimostrazione: 
+
+\qquad $\displaystyle \mathbb{E}[aX + b] = \sum_{x \in D_X} (ax + b)\, p_X(x) = a \sum_{x \in D_X} x\, p_X(x) + b \sum_{x \in D_X} p_X(x) = a\, \mathbb{E}[X] + b$
+
+il valore atteso è quindi un operatore lineare, proprio come la media campionaria.
+
+Si presentano due casi: 
+
+- se $a = 0$, si ha $\mathbb{E}[b] = b$ e quindi il valore atteso di una costante è la costante stessa. Una costante è infatti una variabile aleatoria degenere che assume un unico valore con probabilità 1.
+- se $b=0$ si ottiene che $\mathbb{E}[aX] = a\, \mathbb{E}[X]$. Di conseguenza il valore atteso scala rispetto alle costanti moltiplicative.
+
+## **4 Varianza**
+
+La varianza misura quanto i valori di una variabile aleatoria si dispergano intorno alla media. Siccome i valori di $X$ sono distribuiti attorno al suo valore atteso, un approccio per misurare la loro variabilità potrebbe essere quantificare la loro distanza da $\mathbb{E}[X]$, ad esempio calcolando quanto valga $\mathbb{E}[|X - \mu|]$. Tuttavia, il valore assoluto comporta alcuni problemi di calcolo, e si predilige pertanto l'elevamento al quadrato.
+
+Sia $X$ una variabile aleatoria e sia il suo valore atteso $\mu = \mathbb{E}[X]$. La varianza di $X$, che si denota con $\text{Var}(X)$ oppure $\sigma^2$ (se esiste) la quantità:
+$$
+\text{Var}(X) = \mathbb{E}[(X - \mu)^2]
+$$
+
+#### **Teorema**
+
+Sia $X$ una variabile aleatoria, allora $\text{Var}(X) = \mathbb{E}[X^2] - \mathbb{E}[X]^2$
+
+Dimostrazione: 
+
+\qquad $\text{Var}(X) = \mathbb{E}[(X - \mu)^2] = \mathbb{E}[X^2 - 2\mu X + \mu^2] \overset{(1)}{=} \mathbb{E}[X^2] - 2\mu\, \mathbb{E}[X] + \mu^2 = \mathbb{E}[X^2] - 2\mu^2 + \mu^2 = \mathbb{E}[X^2] - \mu^2$
+\begin{footnotesize}\qquad\, $(1)$: il valore atteso è lineare anche rispetto alla somma di variabili aleatorie.\end{footnotesize}
+
+#### **Corollario**
+
+Per ogni coppia di costanti reali $a$ e $b$, si ha $\text{Var}(aX + b) = a^2\, \text{Var}(X)$.
+
+Dimostrazione:
+
+\qquad $\text{Var}(aX + b) = \mathbb{E}[(aX + b - (a\mu+b))^2] = \mathbb{E}[(aX - a\mu)^2] = \mathbb{E}[(a(X - \mu))^2] = a^2\, \mathbb{E}[(X - \mu)^2] = a^2\, \text{Var}(X)$
+
+La varianza non è quindi un operatore lineare, proprio come la varianza campionaria. Si osserva che ha il quadrato dell'unità di misura della variabile aleatoria $X$.
+
+Si presentano due casi:
+
+- Se $a = 0$, si ha $\text{Var}(b) = 0$ e quindi la varianza di una costante è zero. Infatti, una costante è una variabile aleatoria degenere che assume un unico valore con probabilità 1.
+- Se $b = 0$, si ottiene che $\text{Var}(aX) = a^2\text{Var}(X)$. Di conseguenza la varianza scala al quadrato rispetto alle costanti moltiplicative.
+
+Sia $I_A$ la funzione indicatrice di un evento $A \subseteq \Omega$. Notando che $I_A^2 = I_A$ per idempotenza (infatti i valori possibili di $I_A$ sono solo 0 e 1, che elevati al quadrato rimangono invariati), si ha:
+$$
+\text{Var}(I_A) = \mathbb{E}[I_A^2] - \mathbb{E}[I_A]^2 = \mathbb{E}[I_A] - \mathbb{E}[I_A]^2 = \mathbb{P}(A) - \mathbb{P}(A)^2 = \mathbb{P}(A)(1 - \mathbb{P}(A)) = \mathbb{P}(A)\, \mathbb{P}(\overline{A})
+$$
+
+#### **Deviazione standard**
+
+A partire dalla varianza, è possibile definire la deviazione standard di una variabile aleatoria $X$ come
+$$
+\sigma_X = \sqrt{\text{Var}(X)} = \sqrt{\mathbb{E}[(X - \mu)^2]} = \sqrt{\mathbb{E}[X^2] - \mathbb{E}[X]^2}
+$$
+
+La deviazione standard possiede la stessa unità di misura della variabile aleatoria presa in considerazione.
+
+
+\newpage
+# **Statistica inferenziale**
+
+# **Capitolo 8 - Analisi della varianza**
 
 
 \newpage
