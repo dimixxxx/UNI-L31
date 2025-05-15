@@ -1026,96 +1026,297 @@ I segnali non verbali servono a **generare** e a **sviluppare** un'interazione c
 \newpage
 # **Capitolo 7 - Discomunicazione e comunicazione patologica**
 
-
+Andiamo a vedere le principali forme di discomunicazione, che sono quella ironica, seduttiva e menzognera, successivamente andiamo ad analizzare la comunicazione patologica, evidenziando come i processi comunicativi siano fonte di disturbi psicologici.
 
 ## **1 Verso una definizione di comunicazione**
 
+Le persone sono naturalmente predisposse alla comunicazione, anche se non è sempre chiara per via di aspetti impliciti e indiretti, quando questi prevalgono su quelli espliciti e diretti ed emerge uno scarto rilevante fra il detto e il non detto, rispetto alla **comunicazione standard**, si parla di **discomunicazione**. È una *comunicazione obliqua* che talvolta può diventare persino criptica e indecifrabile. Essa è dire qualcosa per qualcos'altro, un dire per non dire.
 
+La discomunicazione è una violazione delle regole di comunicazione, una cattiva interpretazione dell'informazione e comprende le forme della comunicazione ironica, menzognera o seduttiva, quelle del linguaggio figurato e della parodia, queste sono forme di **comunicazione focalizzata**. 
+
+Nei casi di discomunicazione abbiamo una condizione di **opacità intenzionale**, poichè l'intenzione comunicativa del parlante è diversa dall'intenzione espressiva o informativa. Vi è una sorta di *copertura/velatura intenzionale* lasciando al partner la responsabilità di disambiguare e di scegliere un certo percorso di senso fra quelli possibili suggeriti dal parlante. 
+
+I vantaggi della discomunicazione sono importanti, in quanto aumenta i *gradi di libertà* dei partecipanti, andando ad aprire nuovi scenari comunicativi e dischiude nuove possibilità di interazione sul piano relazionale e di condivisione dei significati. Inoltre, essa va considerata come un'*opportunità*. Essa non è un fallimento della comunicazione, in quanto per default la comunicazione non può fallire ma è un sistema continuo e articolato di processi e di fenomeni che variano in modo flessibile e mutevole in funzione delle condizioni dei partecipanti e della situazione.  
+Grazie all'aumento dei gradi di libertà possiamo parlare di *comunicazione intrigante*, intesa come una dimensione peculiare della comunicazione umana, che introduce aspetti inattesi e salienti nella sequenza degli scambi comunicativi.
 
 ## **2 Comunicazione ironica**
 
+Nella quotidianità il termine ironia è sinonimo di comicità, l'ironista è colui che sa sdramatizzare la situazione contigente. Il termine ironia può anche indicare l'amarezza di certe situazioni esistenziali.
 
+A livello etimologico "ironia" rimanda al greco *eironeia* che significa "finzione", da *eiron*, cioè colui che si interroga fingendo di non sapere. 
 
+Nella concezione tradizionale, era considerata come una figura retorica basata sull'**antifrasi**; il significato di una frase è opposto a quello che assume in condizioni normali. Grice parla di **inversione semantica** cioè dire *p* a livello letterale per significare non *p* a livello figurato. L'ironia va intesa come una maschera comunicativa complessa, poichè mostra ciò che apparentemente nasconde, infatti siamo in presenza di un'**inversione pragmatica**, cioè avere consapevolezza e la competenza di articolare un dato contesto per l'uso di una frase che a livello linguistico veicola un certo significato, ma che fa trapelare un'intenzione comunicativa antitetica. Il contrasto insito nella frase è generato dalla disparità fra piano linguistico e piano pragmatico. 
+
+L'ironia rappresenta una pratica conversazionale del **fare come se**, sfuggendo alla dicotomia vero o falso e sospendendo i criteri di giudizio che ne conseguono. Costituisce un'efficace salvaguardia dei rapporti interpersonali, lasciando ampi spazi di libertà per la gestione dei significati e dei rapporti sociali entro un certo quadro culturale.
+
+\newpage
 ### **2.1 La famiglia delle ironie**
 
+L'ironia copre una famiglia di processi discomunicativi, vediamoli nel dettaglio:
 
+- L'**ironia sarcastica** che consiste nel disprezzare il partner attraverso parole di elogio, pronunciate con tono discendente e un'articolane lenta delle sillabe, ma non si vuole attenuare la durezza dell'espressione critica, bensì condannare l'altro senza scomporsi, umiliandolo con il sarcasmo ed evitando il ricorso a forme comunicative di offesa esplicita. Essa è frequente nelle culture individualistiche (occidentali).
+- L'**ironia bonaria** consiste nell'elogiare il partner facendo ricorso a frasi di critica; in questo modo è possibile stemperare l'euforia dell'elogio diretto. Nelle culture occidentali prevale la sarcastica rispetto alla bonaria, ciò è stato spiegato tramite l'ipotesi dell'**assimetria dell'affetto**, in quanto la natura intrinseca dell'ironia consisterebbe nell'intenzione di attaccare e aggredire, mentre la bonaria è una strategia di affiliazione e non avrebbe pari rilievo di quella sarcastica.
+- L'**ironia socratica** è un modo di comunicare che risulta elegante, ingegnoso, urbano e conveniente per mettere in dubbio certezze, dogmi e stereotipi attraverso interrogativi garbati. Utilizza un tono basso, con poche variazioni e un'intensità modesta.
+- L'**ironia scherzosa** si avvicina alla battuta di spirito, utile per sdramattizare una situazione tesa o conflittuale.
+- L'**ironica ecoica** fa un commento che funge da eco a quanto detto o fatto in precedenza dall'interlocutore, e che in modo implicito pone in evidenza il proprio atteggiamento critico e umoristico rispetto a esso.
+
+L'**ironia è l'arte di essere chiaro senza essere evidente**, la chiarezza dell'enunciato ironico nonn implica trasparenza comunicativa, per via di ciò è una forma di discomunicazione. La comunicazione implicita dell'ironia pone una maschera su ciò che si pensa e prova, ma per certi aspetti rivela ciò che copre e per altri copre ciò che svela. Questa **opacità comunicativa** la rende una modalità di scambio degna di grande interesse.
 
 ### **2.2 Principali teorie sulla comunicazione ironica**
 
+L'ironia in quanto processo comunicativo complesso è stata oggetto di diverse spiegazioni teoriche:
 
+- La **prospettiva razionalista**, avanzata da Grice, formalizza l'impostazione classica dell'**antifrasi**, poichè l'enunciato ironico consiste nel dire *p* facendo intendere non *p*. L'ironia rappresenza una trasgressione della massima di qualità, essa è la negazione logica dell'interpretazione letterale. L'ironia è intesa in termini di opposizione fra l'atteggiamento soggettivo (intenzione) del parlante e l'atteggiamento generato dalle attese dell'espressione letterale della frase. In questo modello si attribuisce particolare importanza all'interpretazione della comunicazione ironica. Sia quella letterale che quella ironica di un commento ironico sono conseguenza di un processo di inferenza, in quanto è una strategia comunicativa indiretta ma chiara.  
+La prospettiva razionalista rimane ancora all'articolazione linguistica della comunicazione ironica e non prende in considerazione gli aspetti più propriamente psicologici e relazionali della comunicazione ironica.
+- La **prospettiva machiavellica** considera l'ironia come una forma comunicativa volta a crare una serie di effetti sul partner, che può diventare un mezzo efficace per disorientare il partner e coglierlo di sorpresa. Essa è la *violazione delle attese contestuali** del partner e comporta una lettura accorta che sappia valutare in modo attento la contraddizione lecita insita nel commento ironico. Secondo l'ipotesi della **simulazione affettiva** gli effetti ironici sono generati dall'allusione a un'attesa mancata, prevista sul piano convenzionale. Alla base di questa comunicazione vi è una condizione di **incongruenza** suscitata dall'incoerenza e dalla mancanza di aderenza a uno script atteso. La comprensione dell'ironia è data da un processo a due livelli: 
+    - la percezione dell'incongruenza rispetto alla situazione
+    - la rilevazione del valore ironico della frase come soluzione dell'incongruenza percepita.  
+In questo senso l'efficacia della comunicazione ironica è inversamente proporzionale alla presenza di segnalatori espliciti e raggiunge l'apice quanto più è sottile.
+- La **teoria della menzione**, ideata da Sperber e Wilson, indica che con il commento ironico il parlante produce un enunciato che fa da **eco** a quanto detto o fatto in precedenza dal partner, ponendo in evidenza nel medesimo tempo il proprio atteggiamento critico e denigratorio o umoristico. Essa, da un lato, è una **menzione implicita** (eco) di quanto detto/fatto dal partner, dall'altro è un modo per manifestare il proprio *atteggiamento* nei confronti del pensiero o dell'azione oggetto del commento ironico.  
+In questa prospettiva ecoica è presente il fenomento della *tongue in cheek*, che consiste in un commento laterale e di sottofondo a quanto viene detto o fatto da parte degli altri. Sempre in questa prospettiva si colloca il modello dell'**ironia citazionale** secondo cui l'ironia è una citazione di quanto è accaduto in precedenza. 
+- La **prospettiva teatrale**, nella quale Morgan parla di *finzione trasparente*, in quanto il parlante afferma qualcosa facendo finta di credervi e, nel medesimo tempo, segnala attraverso gli indicatori paralinguistici che si tratta di una finzione. Anche il concetto di ironia come **simulazione**, proposto da Clark e Gerrig, si colloca in questa prospettiva; l'ironista una una frase per farne capire la contradditorietàm fa finta di servirsene e crea una sorta di complicità con il destinatario che è al corrente della simulazione.  
+In questo senso l'ironia si avvicina alla **parodia**, in quanto si fonda sul meccanismo dell'antinomia, intesa come contrapposizione antitetica di due termini da cui sorge l'effetto ironico. Ironia e parodia implicano una sorta di **complicità** fra l'autore e il destinatario, poichè richiedono la condivisione dei livelli di comunicazione "primario-secondario". La comunicazione ironica crea una condizione di **triangolazione comunicativa** che eleva i partecipanti verso una comprensione più profonda e non di rado si pongono le premesse per costituire un gruppo di iniziati discriminante fra chi è in grado di capire e chi no. In questa prospettiva è una strategia di *esclusione*, cioè di selezione fra chi deve capire e chi è destinato a restare escluso da una comprensione più profonda di quella letterale. 
 
 ### **2.3 Funzioni psicologiche della comunicazione ironica**
 
+La comunicazione ironica è una **comunicazione obliqua**, in quanto da un lato *mostra ciò che nasconde*, dall'altro *nasconde ciò che dice*. Essa consiste nel *dire per non dire*, infatti è una forma di maschera in grado di rendere flessibili i confini del significato e di favorire i processi di negoziazione relazionale in funzione di un dato contesto. Essa rappresenta un'espressione della **dialogicità discorsiva** secondo cui la parola è a più voci (polisemica) e la sua interpretazione assume forme diverse sia in funzione della sua collocazione all'interno del discorso, sia in relazione all'operazione di "messa a fuoco" mediante la quale alcune sue proprietà sono poste in primo piano e altre sono occultate. Sul piano psicologico la comunicazione ironica assolve a distinte funzioni.
 
+- **Comunicazione ironica come rispetto delle convenzioni** (come aggirare la censura in modo culturalmente corretto); la comunicazione ironica è una strategia indiretta ed efficace per cogliere nel segno in modo implicito, senza trasgedire le norme e gli standard previsti dal sistema culturale di appartenenza. Il commento ironico consente di evitare la censura degli altri, pur affrontando quei temi che altrimenti andrebbero taciuti. L'ironista, abile regista della propria immagine, è in grado di gestire al meglio le relazioni interpersonali, in conformità con le norme della desiderabilità sociale, nel rispetto dei canoni impliciti della propria cultura. Infatti la comunicazione ironica trova spazio in culture che attribuiscono grande importanza all'ideale normativo dell'autocontrollo, che possiamo definire **humour**.
+- **Comunicazione ironica come confine di riservatezza** (come proteggere lo spazio personale); la comunicazione ironica può essere un mezzo per evitare la censura sociale, per conservare dignità, compostezza e contegno. Essa serve a tutelare lo spazio personale e a proteggere la propria riservatezza (privacy). L'ironista lascia l'iniziativa interpretativa al partner, pronto a smentirla se è il caso. In questa prospettiva l'ironia è efficace per non correre rischi legati all'esposizione di sè in contesti di intimità sia in ambiti pubblici in cui è opportuno non offrire al destinatario ragioni di attacco e offesa.
+- **Comunicazione ironica come ambiguità relazionale** (come rinegoziare i significati fra i partecipanti); la comunicazione ironica permette all'ironista di giocare fra l'esplicito e l'implicito del messaggio per spostare a proprio vantaggio il confine semantico fra diverse possibili interpretazioni. il suo paradosso sta nel fatto che *per essere meglio intesi, occorre essere fraintesi*.  
+L'ironista gode dell'efficacia della parole e dell'innocenza del silenzio. Possiamo parladre di **polisemia pragmatica** della comunicazione ironica, poichè il messaggio ironico, assai più di altri tipi di messaggi, offre diversi percorsi di senso all'interpretazione da parte del destinatario. In merito a ciò vediamo la regolazione del **peso dell'implicito**, poichè entro certi contesti relazionali l'ironia assume la funzione di attenuazione mentre in altri svolge la funzione di esaltazione dell'implicito. Nella mitigazione dell'implicito una critica espressa in modo ironico appare più leggera e meno offensiva di un insulto aperto, cosi come un elogio espresso in maniera ironica appare meno imbarrazante. nell'accentuazione dell'implicito un commento sarcastico risulta più mirato e calcolato di una critica aperta.
+
+In sintesi, la comunicazione ironica costituisce un importante processo di discomunicazione per i gradi di libertà che offre e per il peso dell'implicito che richiede. È un'opportunità per ampliare lo spazio comunicativo fra i soggetti, arricchendo la trama dei loro scambi e relazioni, consentendo un numero più elevato di manovre comunicative, senza venire meno alle norme di convivenza sociale e relazionale. 
 
 ### **2.4 La voce dell'ironia**
 
+La comunicazione ironica è un *fenomeno eminentemente vocale*, originato dal gioco contrastivo fra gli aspetti linguistici e gli aspetti paralinguistici nella produzione di un dato enunciato. Lo studio sperimentale della **voce dell'ironia** ha posto in evidenza che il profilo vocale della comunicazione ironica è dato dalla combinazione di *tono acuto e modulato, intensità elevata e ritmo rallentato* e in alcuni casi una lieve nasalizzazione. Questa voce si presenta come una *sottolineatura caricaturale* e una *marcatura enfatica* dei tratti soprasegmentali, in funzione della quale l'ironia apparte come una tecnica per giocare con la voce, che viene usata in modo studiato e premeditato. 
 
+Nella comunicazione ironica le parole sono finte, cosi come un gioiello finto è ben diverso da un gioiello falso, infatti il **finto** è la negazione palese di ciò che apparte. L'ironista non ha come scopo quello di ingannare, ma di essere chiaro senza che il suo messaggio sia evidente. 
 
 ### **2.5 Lo script dell'ironia**
 
+L'ironia è una forma atipica di comunicazione attraverso cui gestire le relazioni interpersonali, essa è come un **gioco comunicativo di fioretto**. Il punto di partenza consiste nel riconoscere che il commento ironico si inserisce in uno **script ironico**. Affinchè posso verificarsi un commento ironico, sono necessare quattro fasi distinte fra loro connesse in modo sequenziale.
 
+- Occorre una **premessa** un bagaglio di conoscenze reciproche interpersonali condivise dagli interlocutori. Possono essere sia testuali sia contestuali. La premessa definisce l'orizzonte di riferimento, all'interno del quale collocare lo scambio ironico successivo.
+- Occorre che gli interlocutori prendano parte a un **evento focale**, che costituisce l'elemento induttore e l'antecedente della comunicazione ironica. Esso può accadere in maniera indipendente dagli interlocutori, ma è essenziale che essi lo notino e lo rendano oggetto del loro scambio comunicativo. 
+- A ciò segue il **commento ironico** che rappresenta la manifestazione di una determinata intenzione comunicativa da parte dell'autore. L'attuazione dell'intenzione richiede l'opzione fra diverse forme di ironia e la decisione di seguire un certo percorso espressivo, che richiede un processo di sincronia comunicativa.
+- Per ultima fase, abbiamo l'**effetto ironico** prodotto dal modo in cui il commento ironico è interpretato dal destinatario. È possibile individuare tre possibili contromosse:
+    - il fraintendimento, ovvero la mancata attribuzione di un'intenzione differenze dal significato letterale all'enunciato, per cui il commento ironico non viene colto
+    - il disconoscimento, in cui il partner, pur avendo compreso il senso ironico, decide di fermarsi al significato letterale
+    - il tochè, quando la comunicazione ironica arriva a bersaglio e quest'ultimo ammette di esserne stato colpito, mostra di essere diverito o ferito dal commento ironico e risponde a seconda delle circostanza.
+
+Il modello del *fencing game* qui sintetizzato analizza in modo congiunto gli aspetti linguistici e paralinguistici, le componenti semantiche derivate, nonchè i processi psicologici e relazionali implicati. In particolare, pone in evidenza che la comunicazione ironica è circolare, in quanto dipende dalla partecipazione e dalla condivisione dello script ironico da parte di entrambi gli interlocutori. 
 
 ## **3 Comunicazione seduttiva**
 
+La **seduzione** è un importante processo di avvicinamento fra le persone e l'esito sperato è quello di una drastica riduzione della distanza psicologica fra due individui. Essa è una sequenza strategia e intenzionale di mosse il cui traguardo è quello di attrarre, anche sul piano sessuale, un'altra persona, solitamente di sesso opposto.
 
+La seduzione è un *imbroglio*, in quanto si presenta come un gomitolo di mosse e contromosse comunicative in continua evoluzione. Nessuno dei due partner sa chi ha fatto la prima mossa e come andrà a finire. Il termine *seduzione* deriva dal latino dal verbo seducere, sed vuol dire "via, a parte" e ducere vuol dire "condurre fuori strada", la seduzione era considerata una forza inesorabile del fato, una trappola che era capaci di condurre l'individuo sulla strada sbagliata. Essa conduce all'amore passionale, che è uno stato emotivo molto intenso e potente, suscitato dal desiderio di unirsi e di stare con il partner. Esso inizia quando il partner inizia a considerare l'altra persona come speciale. In questo amore i partner avvertono un senso di estremo vigore ed energia e una situazione di eccitazione ed euforia. 
+
+La seduzione, attraverso messaggi, ha lo scopo principale di riuscire ad attrarsi a vicenda e di creare un legame vincolante con il traguardo di raggiungere una relazione intima più o meno stabile nel tempo, quindi la costruzione di un legame forte e intrigante con il partner con l'obiettivo di raggiungere con lui o lei una relazione intima. Essa è un intreccio di giochi comunicativi e relazionali connessi all'immagine di sè, alla capacità di attrazione e di conquista, al bisogno di supporto e di attenzione, alla condivisione di stati interni con un'altra persona.
 
 ### **3.1 Dall'essere uno qualsiasi all'essere unico**
 
+L'eccezionalità della seduzione consiste in un formidabile **salto di status**, ad un certo punto, partendo da uno sguardo o gesto, un estraneo diventa il centro della nostra vita, quindi *dall'essere uno qualsiasi a essere unico* per l'altro, e viceversa, è la manifestazione dell'attrazione reciproca sotto la spinta del desiderio sessuale nella ricerca dell'altra metà, come suggerisce il mito platonico.
 
+In ciò assume importanza la **novità**, essa implica il gioco dell'attrazione reciproca e la sfida della conquista. È l'**effetto Coolidge**, un effetto potente, legato sia al tabù dell'*incesto* (Westermarck pensa che i bambini allevati nello stesso ambiente in condizioni di intimità svilupperebbero un'avversione sessuale reciproca), sia all'esigenza di avere una prole sana e robusta. 
 
+Il passaggio dall'essere uno qualunque a essere unico richiede l'**esibizione di sè**, essa comporta lo svelamento anche di aspetti reconditi di sè nel condividere la proprima memoria e il proprio progetto di vita. 
+
+Un individuo per sedurre deve esporsi e dire molte cose di sè al potenziale partner. il quesito sta sul quanto bisogna esporsi per evitare di diventare banale o di esporsi troppo poco e andare in corso ad un fallimento. Questo è il **paradosso dell'esibizione**, l'esibizione non è formalizzata, ma non deve superare certili limiti e non può diventare eccessiva, al fine di evitare l'invadenza della soggettività del partner, che sarebbe indotto a protestare e a opporre forme più o meno decise di rifiuto. Allo stesso tempo non può restare troppo criptica e nascosta. 
+
+Questi aspetti rendono la comunicazione seduttiva particolarmente eccitatnte in quanto richiedono un atteggiamento di sfida e competizione con se stessi e il partner, il desiderio di giungere alla sua conquista, un potenziamento delle proprie risorse psicologiche. La seduzione richiede una forte responsabilità relazionale, poichè implica un pieno coinvolgimento di sè e comporta una dichiarazione di disponibilità all'avventura e all'impegno nei confronti dell'eventuale partner. 
+
+\newpage
 ### **3.2 La seduzione come arte della comunicazione**
 
+La seduzione presenta analogie con la recitazione teatrale. Il seduttore assume un preciso ruolo sul palcoscenico relazionale e gioca in modo positivo la propria identità. La comunicazione seduttiva comporta l'uso sapiente e accorto del *trucco dell'immagine* per volgere al meglio la percezione delle proprie risorse e competenze, essa implica uno *spazio comunicativo intermedio fra il falso, il finto e il reale. 
 
+Nella seduzione la comunicazione deve diventare **arte**, essa è qualcosa che si sente profondamente dentro di sè e che richiede ispirazione. La seduzione si fonda sull'**implicito**, occorre saper comunicare più di quanto si dica con le parole o con i gesti. Il seduttore deve quindi essere capace di fare ricorso a una comunicazione indiretta ed evocativa, basata sul principio *dire abbastanza ma non troppo*. La seduzione è fatta di sfumature e quindi stiamo parlando di una **comunicazione obliqua e allusiva**, intessuta di evocazioni, sottointesi e ammiccamenti. Il seduttore lascia all'altro la responsabilità e la libertà di continuare il gioco in un vortice crescente di attaccamento e intimità. La seduzione diventa un gioco a due di conquista reciproca, entrambi hanno la loro parte e le loro mosse. Essa si serve di strategie e tecniche, al pari di ogni altra arte, ma bisogna evitare di identificare la tecnica con l'arte. La prima è un mezzo, la seconda è l'espressione della creatività della propria mente e cuore.
+
+La seduzione se non farebbe ricorso a modi impliciti, il seduttore dovrebbe giungere ben presto a dichiararsi al partner. La dichiarazione di attrazione è d'amore, può andare incontro a notevoli rischi. Essendo esplicita, essa richiede che il partner si dichiari a sua volta, se troppo precoce o fuori modo essa rischia di fallire. 
 
 ### **3.3 Nella seduzione i messaggi del corpo contano più delle parole**
 
+La comunicazione non verbale, per via della sua natura evocativa ed espressiva e fondata su sistemi impliciti di segnalazione caratterizzati da un'elevata quota di ambiguità, è un tipo di comunicazione particolarmente efficace per far intendere le emozioni, i sentimenti, i desideri che costituiscono la linfa della seduzione.
 
+- Lo **sguardo** è il primo segnale di attenzione e di interesse reciproco nella seduzione, in quanto tutto parte da un iniziale contatto oculare. Esso dimostra maggiore competenza generale in termini di intelligenza e impatto sociale, di credibilità e affidabilità e di fiducia e serenità. Lo sguardo è un gioco complesso e sottile per capire lo stato d'animo e per cogliere le intenzioni degli altri. Nelle società occidentali uno sguardo iniziale è diretto di breve durata, questo sguardo di avvio serve a stabilire il contatto con il potenziale partner, costituendo un segnale di interesse nei suoi confronti. Esso viene poi interrotto guardando in basso, a destra o sinistra. Se il partner risponde con uno sguardo di ritorno, il seduttore può allungare la conversazione con un secondo sguardo diretto accompagnato con qualche segnale non verbale, come un sorriso. Le donne dilatano in modo significativo la pupilla come reazione a uno sguardo diretto.  
+Lo sguardo iniziale è una mossa criptica, indizio di interesse e apprezzamento. Le donne fanno ricorso allo **sguardo obliquo** rivolgendo la testa leggermente da un lato, inviano lo sguardo dell'altro lato nella direzione del possibile partner, in tal modo aumentano il valore di ambiguità del loro segnale.  
+Una volta avviato il gioco di sguardi, si passa allo **sguardo reciproco**. È una premessa essenziale per ogni ulteriore sviluppo della traiettoria seduttiva.  
+Nel gioco degli sguardi hanno molta importanza i microsegnali, come la durata e la direzionalità dello sguardo, la **dilatazione della pupilla** eccetera. In una ricerca venne notato che i maschi trovano più femminili e attraenti gli sguardi con pupille largamente dilatate, mentre le donne preferiscono uomini con pupille mediamente dilatate.
+- La **mimica facciale** e i **movimenti della testa**, un bel volto è certamente attraente ma non per forza seduttivo. Nella seduzione le espressioni facciali hanno un valore emotivo, i movimenti facciali sono sottili e volontari e danno luogo a migliaia di espressioni per ogni situazione. Nella seduzione ci sono espressioni facciali ritenute emblematiche, come il **sorriso timido** (coy smile), un sorriso appena accennato, con la testa inclinata da un lato, leggermente piegata in avanti. Un altro è il **movimento all'indietro dei capelli** (hair flip), è un segnale tipico delle donne, anche se è presente negli uomini con capelli lunghi.  
+L'inclinazione della testa è una funzione preponderante, è ricorrente nello sguardo, nel sorriso timido e nel movimento dei capelli. Tale inclinazione è assai distante dalla testa ben eretta con il mento innalzato, propria di chi ha uno status di potere e dominio. Essa è un invito al dialogo e avvicinamento, all'armonia e tenerezza, oltre ad essere la posizione per il bacio alla francese.
+- I **gesti** e i **movimenti del corpo** svolgono un'azione essenziale nella seduzione. La prima è il **rispecchiamento**, il seduttore tende a imitare e a ripetere i gesti del partner. Tale rispecchiamento contribuisce in modo rilevante a creare un rapporto fondato sull'empatia, sulla partecipazione e sulla condivisione. Il risultato è il raggiungimento di una profonda sintonia fra i partner, in grado di funzionare all'unisono.  
+Tale sintonia è facilitata dal **contatto fisico**. All'inizio dell'itinerario seduttivo il contatto fisico è un contatto leggero, spesso apparrentemente casuale, quasi inavvertito, in zone del corpo innocue. Tuttavia, il tocco della pelle, favorisce l'innalzamento dell'ossitocina, trasmette reciprocamente molte sensazioni e informazioni in termini di desiderio, legame e attrazione. In un secondo momento in condizione di maggiore intimità, i contatti fisici diventano più frequenti ed estesi. Essi sono dei forti rinforzi per il rapporto e sono una tappa importante verso l'intimità piena, in quanto produttori di endorfine. In particolare, il **bacio** svolge una funzione molto importante in questo ambito grazie all'elevata innervazione delle labbra. In quanto rituale di seduzione, il bacio è una pratica assai antica e diffusa. Esso verifica la reciproca intesa e favorisce una condizione di intimità grazie alla presenza di testosterone contenuta nella saliva dei maschi. Sono soprattutto le donne a impiegare il bacio come mezzo per sincerarsi circa la bontà e l'affidabilità del potenziale partner.  
+Il bacio modifica in modo significativo l'attività di due ormoni; l'ossitocina (l'ormone del legame affettivo e attaccamento) e il cortisolo (l'ormone dello stress e ansia). Esso diminuisce il livello di cortisolo, procurando una sensazione di rilassatezza e benessere ed aumenta il grado di ossitocina, favorendo una condizione di eccitazione e attrazione.
+- La **voce della seduzione** è caratterizzata da una voce quasi infantile con toni più acuti e intensità ridotta. I *seduttori efficaci*, che sono riusciti a ottenere un appuntamento dalla partner, presentano maggiori variazioni prosodiche nel loro parlato e sanno modulare la voce in modo flessibili e mutevole durante l'interazione seduttiva. All'inizio hanno una voce altisonante e piena, in grado di richiamare l'attenzione della partner ma anche di trasmettere socievolezza, entusiasmo, vitalità e virilità. Questa **esibizione vocale** serve a fare colpo sull'eventuale partner e a stabilire il contatto iniziale. Nel corso dell'interazione la voce dei seduttori efficaci diventa tenera e calda, caratterizzata da un tono più basso e un'intensità più debole per favorire l'avvicinamento reciproco e per stabilire un legame affettivo importante. I *seduttori non efficaci* hanno un voce debole e piatta, monotona e uguale, senza variazioni nel corso dell'interazione seduttiva. Si tratta di una voce percepita come calda ma allo stesso tempo noiosa e non interessante.
+
+In sintesi, l'insieme di questi segnali non verbali della comunicazione seduttiva pone in evidenza la capacità di sintonizzarsi con il partner attraverso l'attenta valutazione dei suoi feedback a cui adeguare il messaggio successivo. È qui in gioco un aspetto centrale della comunicazione seduttiva: la manifestazione di un'attenzione incondizionata nei confronti del partner, il farlo sentire esclusivo e indispensabile nell'inversione del ruolo per cui *seduce chi si mostra sedotto*.
 
 ## **4 Comunicazione menzognera**
 
 ### **4.1 Che cosa è la menzogna**
 
+La menzogna non è ne un errore ne una finzione, nell'**errore** diciamo il falso per ignoranza, perchè non conosciamo lo stato delle cose. In questo caso chi dice fa un'errore, prima dice il faso senza esserne consapevole pensando di dire il vero e poi scopre il vero; nella menzogna succede il contrario, si conosce il vero e si dice il falso. Essa non è una **finzione**, in quanto in queste situazioni il parlante non ha intenzione di ingannare bensì di essere smascherato, anzi egli desidera che il destinatario scopra che il suo messaggio è falso, poichè tale scoperta è parte integrante della finzione. 
 
+Per dire una **menzogna** è necessario che si realizzino tre condizioni in contemporanea:
+- la *falsità* del contenuto di quanto è detto
+- la *consapevolezza* di tale falsità
+- l'*intenzione* di ingannare il destinatario in modo da fargli assumere false credenze sullo stato delle cose o da impedirgli di conoscere il vero.
+
+Alla luce di ciò, la menzogna può essere definita come la trasmissione intenzionale di conoscenze ritenute non vere a un altro in modo che quest'ultimo assuma credenze false sulla realtà dei fatti. 
+
+Lo scopo della comunicazione ingannevole da parte del parlante è che il destinatario abbia una rappresentazione fuorviante della situazione, facendogli credere il falso. Allo stesso tempo, deve fare credere di aver rispettato la **regola della sincerità** poichè crede in quello che dice e dice quello che crede. La *sincerità* consiste nella corrispondenza fra ciò che una persona dice e ciò che pensa o che sente. Kant sosteneva che "l'uomo ha caso mai diritto alla veridicità, ossia alla verità soggettiva riferita alla propria persona", poichè la veridicità è un dovere formale nei confronti di tutti. Hegel sosteneva che "ognuno deve dire la verità se egli sa la verità. Il comando dunque suonerà cosi: ognuno deve dire la verità sempre secondo la cognizione e persuasione ch'egli ne ha".
+
+Nella comunicazione menzognera c'è un gioco complesso di intenzioni di terzo ordine, ogni messaggio ingannevole implica questo livello di intenzionalità: "Desidero che tu creda che io credo che quello che sto dicendo è vero, perchè lo ritengo tale", per cui questa comunicazione richiede un rilevante impegno di risorse cognitive, in quanto richiede un'abile regia della situazione a livello verbale e non verbale. 
+
+Il parlante può fare uso di diverse strategie menzognere; può usare la **menzogna per omissione** che consiste nell'omettere informazioni essenziali in modo che il destinatario abbia conoscenze fuorvianti dello stato delle cose oppure può affidarsi alla **menzogna per commissione** andando a far credere il falso, fornendo al destinatario informazioni distorte. 
+
+Qualunque traiettoria scegliamo, possiamo fare ricorso a diverse strategie:ù
+- l'*ommissione*; il parlante omette di fornire all'interlocutore informazioni essenziali per i suoi scopi come nella recitenza e nel silenzio
+- l'*occultamento*; il parlante nasconde le informazioni rilevanti, fornendo informazioni vere ma divergenti per fargli assumere false credenze
+- la *falsificazione*; il parlante comunica al destinatario informazioni false, è la classica bugia
+- la *falsa conferma*; il parlante conferma in modo intenzionale una conoscenza dell'interlocutore nonostante sia falsa.
 
 ### **4.2 La famiglia delle menzogne**
 
+Esistono diverse forme comunicative per mentire agli altri, abbiamo provveduto ad arichitettare le menzogne in modo quasi scientifico (**menzogne preparate**), distinguendole da quelle che inizialmente dicevamo quando eravamo conti in flagrante (**menzogne impreparate**). Le prime solitamente sono menzogne ad alto contenuto mentale, poichè la posta in gioco è elevata, data solitamente da un dilemma lacerante: meglio dire la verità e pagarne le conseguenze oppure far credere in una menzogna sperando che la verità non esca mai. Le menzogne impreparate hanno un basso contenuto mentale, in quanto non richiedono un particolare carico cognitivo, come possono essere le scuse a seguito di un ritardo. All'interno di esse troviamo anche le *menzogne di cortesia*, dette anche *bianche*, cioè quando evitiamo di dire qualcosa di negativo e critico nei riguardi di qualcun'altro per evitare il rischio di offenderlo. 
 
+Un'ulteriore tipo di menzogna sono le **menzogne cooperative** che sono dette per proteggere o aumentare le risorse psicologiche del destinatario, per evitargli una situazione di imbarazza e quindi incrementare le sue emozioni positive. In merito si parla di *menzogne benevole* o *altruistiche*, anche se sembra un paradosso siamo capaci di mentire anche cooperando. Di conseguenza esistono le **menzogne non cooperative** (egoistiche), esse sono messe in atto per proteggere in modo egoistico gli interessi del mentitore a scapito e spesso a danno del destinatario. Goffman le ha definite come *menzogne di sfruttamento*.
 
 ### **4.3 Perchè facciamo ricorso alla menzogna?**
 
+Le menzogne sono il risultato di una valutazione della situazione contingente per ottimizzare le possibilità e per ottenere uno stato di cose desiderabile, in termini di rapporto fra costi e benefici. La comunicazione menzognera è realizzata da persone che si ritengono razionali, ma dotate di una *razionalità limitata* in grado di raggiungere l'**ottimo locale**, ovvero la soluzione che massimizza le opportunità e minimizza i rischi. Sotto ciò la mente del menzognere vede nella menzogna un dispositivo comunicativo per **ottenere un vantaggio in più** rispetto alla comunicazione veritiera. 
 
+Esistono diverse posizioni alla onestà della menzogna, due tra di queste sono dominanti. La prima sostiene che, a qualche titolo o ragione, il ricorso alla menzogna sia ammissibile in determinate circostanze. Platone, Tacito, Machiavelli e Benjamin Constant ritengono che "dire la verità è un dovere ma solo verso chi ha diritto alla verità. Ma nessun essere umano ha diritto a una verità che danneggia altri". Questa posizione pragmatica di tolleranza della menzogna è stata ripresa dall'*utilitarismo* di Bentham e Stuart Mill e dalla teoria degli atti linguistici. Secondo questa impostazione è bene non dire le menzogne ma in alcune circostanze esse sono ammesse. Questo atteggiamento appare indulgente con le menzogne benevole dette a fin di bene e con quelle relative al mantenimento delle convenzioni sociali. Sacks afferma che *mentire è una necessità pragmatica e che ognuno deve mentire", poichè si tratta di una convenzione sociale.  
+Kant rifiuta ogni presunto diritto di mentire per amore degli esseri umani e ribadisce con forza che la verità è un dovere incondizionato di fronte a tutta l'umanità, a cominciare da se stessi, mentre la menzogna è la rovina dell'intera società e delle sue fondamenta. *Chi mente abolisce la società, annienta la dignità umana e offende se stesso, oltre che il destinatario*.
+
+Questi principi sottolineano la **distorsione verso la verità** che caratterizza la psicologia degli esseri umani. È la tendenza delle persone a giudicare in modo corretto un'affermazione vera come vera con un probabilità più elevata rispetto al giudicare una menzogna come falsa. Per via di ciò crediamo che le affermazioni vere siano più frequenti di quelle false nella vità quotidiana, essa è sostenuta da esigenze di buona educazione e dal bisogno di fiducia verso gli altri e dal desiderio di mantenere l'armonia con loro. Essere sospettosi e nutrire un'inclinazione verso la menzogna è fastidioso, irritante e maleducato. 
 
 ### **4.4 La menzogna come gioco a due**
 
+Nella menzogna si mette in atto un **gioco a due** fra il mentitore e il destinatario, fatto di mosse e contromosse con una trama relazionale densa e di fili inestricabili. La *Deceptive Miscommunication Theory* implica la distinzione fra mentitore abile vs. ingenuo e fra destinatario ingenuo vs. sospettoso.
 
+- **Mentitore abile vs ingenuo**: il **mentitore abile** è in grado di far apparire il falso come verosimile e non presenta significative differenze comunicative sia quando dice il vero, sia quando dice il falso, dimostrando un buon livello di controllo cognitivo, emotivo e sociale. Il **mentitore ingenuo** manifesta comportamenti incongrui e produce una serie di *indizi di trapelamento* per un eccesso di controllo o per mancanza di controllo, facendo insospettire il destinatario.  
+Fra mentitore abile e ingenuo vi è una gradazione continua, fatta di sfumature nella gestione degli impliciti comunicativi.
+- **Destinatario sospettoso vs acquiescente**: il **destinatario sospettoso** è abile nel porre domande precise, verificando la corrispondenza dei fatti, facendo inferenze, giungendo tavolta fino a un vero e proprio interrogatorio. Esso sospetta l'inganno ed è in grado di discriminare gli indizi delle affermazoni menzognere da quelle veritiere, passo necessario per scoprire una menzogna. Il **destinatario acquiescente** è disponibile ad accettare per veritiero ciò che dice il mentitore, guidato dall'inclinazione per la verità, da un elevato livello di credulità, o anche dal desiderio di evitare conflitti o separazioni. 
+
+La menzogna è un **gioco intrigante e sottile** che attraversa le nostre pratiche comunicative mediante il ricorso a strategie implicite da parte sia del parlante sia del destinatario. 
+
+L'**abilità nello scoprire chi mente**, questa è una impresa difficile, in quanto la nostra mente non è attrezzata per ciò, solo nel 55% dei casi siamo in grado di fare dei riconoscimenti corretti, eppure gli indizi menzogneri sono numerosi come risulta nelle metanalisi di DePaulo. Non esistono differenze individuali nell'abilità di scoprire la menzogna rispetto a molteplici fattori. l'accuratezza nel rilevare gli indizi menzogneri è una abilità che appartiene a molti pochi individui. 
 
 ### **4.5 Come diciamo le menzogne**
 
+In quanto interazione a due, il mentitore ha bisogno di fare ricorso a specifiche strategie verbali e non verbali. 
 
+- **Strategie linguistiche**: inanzitutto vi è lo stile linguistico dell'**ambiguità** e **prolissità**, caratterizzato dal ricorso a un elevato numero di modificatori con valenza dubitativa, di livellatori e di predicati epistemici, a frasi lunghe e contorte, a un'alta variazione nella scelta delle parole, nonchè a un grande impiego di informazioni secondarie irrilevanti. Il tutto con l'obiettivo di rendere meno identificabile la menzogna. È uno stile dle tipo **dire per non dire**.  
+Una seconda strategia è improntata all'**assertività** e all'**evitamento clinico**, specialmente quando il mentitore si trova di fronte a un destinatario sospettoso. Attraverso la riduzione delle informazioni e una forte semplificazione del discorso il mentitore si propone di **esimersi dal dire**, poichè, pu dicendo una menzogna, cerca di definire i confini in modo più stretto possibile.  
+Una terza strategia consiste nella **impersonalizzazione** attraverso un limitato numero di autoriferimenti, un ricorso frequente a terze persone e un elevato uso di forme impersonali. Spesso il mentitore fa ricorso a quanto dichiara di aver sentito da una terza persona, attraverso l'impersonalizzazione si cerca di evitare di assumersi la responsabilità di quanto detto e si propone di dissociarsi dagli enunciati.
+- **Strategie non verbali**: la menzogna è accompagnata da una serie estesa di segnali non verbali. A tutt'oggi, pur non esistendo un repertorio attendibile di indizi non verbali rilevatori della menzogna, vi sono parecchi comportamenti che sappiamo accompagnarla.  
+La **voce della menzogna**, per via della grande articolazione della voce, essa può fornire informazioni importanti sul mentitore. Si è verificato che in base ai soli indizi vocali è possibile distinguere fra i mentitori ingenui e quelli abili. I primi presentano una radicale variazione di voce innalzando o abbassando di molto il tono, mentre i mentitori abili mantengono lo stesso profilo vocale della sincerità. 
 
-### **4.6 Quale migliore mentitore del mentitore sincero?**
+### **4.6 Quale migliore mentitore del mentitore sincero? SISTEMARE PAGINAZIONE**
 
+La **competenza della comunicazione menzognera** è caratterizzata da due ipotesi: una strutturale connessa con un tratto di personalità noto come "machiavellismo" e una funzionale collegata con l'autoinganno.
 
+- La **personalità machiavellica** è un costrutto psicologico che descrive la disposizione a manipolare e a sfruttare gli altri, giustificando tali azioni per scopi di adattamento. Essa è caratterizzata da tre aspetti: 
+    - implica l'impiego di strategie di manipolazione degli altri come l'inganno, il raggiro e l'abdulazione nelle relazioni interpersonali
+    - comporta la percezione cinica degli altri come persone deboli e inaffidabili
+    - include un'indifferenza di fondo verso le regole della moralità sia nei propri pensieri sia nelle proprie azioni.
+I soggetti machiavellici sono abili nella comunicazione menzognera, mantengono un freddo distacco, che li rende meno implicati sul piano emotivo e meno preoccupati di salvare la propria faccia nelle situazioni imbarazzanti. 
+- L'**autoinganno** è un mezzo efficace per mentire agli altri in modo credibile, poichè se il falso diventa vero ai miei occhi, perche non dovrebbe apparire vero anche agli occhi degli altri. L'autoinganno va incontro a un duplice paradosso:
+    - il *paradosso statico, in quanto un soggetto inganna se stesso soltanto se egli crede e accetta sia *p* (falso) sia non *p* (vero)
+    - il *paradosso dinamico*, in quanto il soggetto che si autoinganna ha l'intenzione di inventare una falsa credenza per se stesso che conosce il vero.  
+Per superare questi paradossi possiamo usare diversi modelli esplicativi. Quello tardizionale si basa sulla razionalità limitata dell'essere umano (**teoria della scelta razionale**). Gli individui sono portati a ottimizzare. L'autoinganno deriva dalla debolezza dell'autorità/garanzia, in quanto chi si autoinganna non prende in considerazione le ragioni più valide ma quelle più funzionali per raggiungere i suoi scopi e desideri. Per arrivare a questo obiettivo, chi si inganna deve distogliere l'attenzione dalle ragioni che si oppongono al falso, considerare soltanto le alternative utili, ricorrere a un processo distorto nell'elaborazione delle informazioni e trasformare le proprie credenze e opinioni.  
+Altri studiosi hanno proposto il modello della **divisione mentale**, partendo dalla distinzione fra *coscienza primaria* (l'attività conoscitiva immediata semplice e quasi automatica) e *coscienza secondaria* (la metacognizione come capacità di conoscere il proprio conoscere), l'autoinganno è dovuto a un processo inconscio automatico, in quanto chi si autoinganna non è consapevole di ammette una delle due credenze (*p* o non *p*) per ragioni motivazionali. La credenza minacciosa assume una posizione centrale nella coscienza del soggetto, mentre la credenza menzognera è a stenso ammessa nella sua coscienza.  
+Mele ha elaborato un **modello deflazionistico** dell'autoinganno che prevede la reinterpretazione della credenza minacciosa. Per superare il paradosso statico, chi si autoinganna, spinto dal desiderio di *p*, può credere *p*, senza aver bisogno di credere non *p*, grazie a una serie di *distorsioni cognitive* come quella della conferma, l'euristica delle disponibilità, la focalizzazione selettiva dell'attenzione, la raccolta selettiva delle informazioni eccetera.  
+Per superare il paradosso dinamico, in quanto l'autoinganno è intenzionale, vi è una *soglia di confidenza* per accettare o rifiutare un'ipotesi nel ragionamento comune. Per ogni ipotesi il valore di soglia è definito da due valori:
+   - accettazione della soglia, cioè il livello minimo di confidenza e di fiducia nel vero che è necessario per accettarlo
+   - rifiuto della soglia, cioè il valore minimo di fiducia nel faso che è necessario per rifiutarlo.  
+Il **valore di soglia dell'accettazione** dipende dal rapporto fra i costi dell'accettazione di un'ipotesi falsa (ossia la rilevanza soggettiva di evitare la credenza falsa *p*) e i costi dell'informazione (ossia le risorse cognitive e lo sforzo per elaborare informazioni pertinenti per l'ipotesi falsa). Il **valore di soglia del rifiuto** dipende dal rapporto fra i costi del rifiuto dell'ipotesi vera i i costi dell'informazione. Le motivazioni del soggetto possono orientare la verifica o la falsificazione di una ipotesi in due fasi:
+   - guidano la scelta dell'ipotesi da verificare
+   - valutano l'ipotesi secondo le soglie di confedenza per evitare i costi dell'informazione falsa.  
+L'autoinganno richiede una condizione di incertezza, cosi che il soggetto possa agire come se fosse autorizzato a credere di poter modificare qualcosa che è gia stato determinato e che, di per sè, non è più modificabile. In una situazione complessa egli può autoconvincersi cambiando il suo sistema di credenze. A riguardo di ciò sono essenziali due condizioni:
+   - la plausibilità della credenza erronea
+   - il valore di minaccia della credenza da inibire o reintepretare.  
+Per questa ragione esiste una correlazione positiva fra l'autoinganno e l'autostima, in quanto entrambi riguardano gli aspetti di immagine della persona e hanno il medesimo scopo di garantire una concezione positiva di sè. L'autoinganno va considerato come meccanismo di difesa per proteggersi dal pericolo di una credenza minacciosa e per mantenere una soddisfacente immagine di sè. Chi si autoinganna è capace di modificare la realtà nella sua mente trasformando in vera una credenza falsa. L'autoinganno diventa una strategia efficace e un mezzo potente per inventare una menzogna. 
 
 ## **5 Comunicazione patologica**
 
-
+La comunicazione è un'attività relazionale che va a toccare le *radici dell'identità personale e della posizione sociale di ogni individuo*. È una condizione essenziale del **benessere** e del **disagio psicologico**. Numerosi psicologi hanno ipotizzano una *interdipendenza* fra i disturbi comunicativi e quelli psicopatologici, in quanto i modi di comunicare costituiscono fattori fondamentali per la genesi e il mantenimento dei disturbi mentali.
 
 ### **5.1 Comunicazione schizofrenica**
 
+La **schizofrenia** è una forma di disagio psichico, caratterizzata da un dissesto generale della personalità. Una persona schizofrenica presenta spesso un atteggiamento sospettoso, governato da un'attenzione vigile ma estremamente tesa e rigida. Il soggetto schizofrenico tende a rifiutare ciò che è evidente in quanto "pura apparenza"; piuttosto è alla continua ricerca di indizi che convalidino la sua vera interpretazione della realtà, scartando gli altri elementi. La sua attenzione tende a mantenere uno stato di costante ipervigilanza e il suo pensiero è caratterizzato da forme deliranti di costruzione degli eventi e di interpretazione della realtà. Egli presenta una forma di **iperintenzionalità**, poichè coglie i segnali minimi degli altri per attribuirvi significati particolari e bizzarri. In tal modo viene un distacco abissare fra la realtà esterna e il suo mondo mentale. Esso possiede uno stile comunicativo contradditorio che ha come esito l'incomprensibilità e l'inafferrabilità. In questo modo egli può mantenere il controllo nel confronto delle relazioni con gli altri, con la presunzione di restarne fuori. 
 
+Wynne e Singer indicano che è necessario capire i **modelli schizofrenici di comunicazione** per un concenzione completa della schizofrenia. Tale forma di sofferenza psichica investe il sistema relazione di riferimento, come la famiglia. Lo stile schizofrenico di comunicazione, tipico del soggetto affetto, si estende anche alla famiglia attraverso un sistema più o meno imponente di squalifiche, ambiguità, espressioni criptiche e bizzarrie imprevedibili. Haley aveva parlato dlele famiglio dello schizofrenico come un sistema modello, in quanto pone in evidenza in modo esemplare modalità disturbate di comunicazione.
+
+Alla radice di questa forma di comunicazione patologica si trova l'**impossibilità di definire le relazioni** fra i partecipanti. Essa rappresenta una minaccia e un attacco mortale sia all'identità personale sia alla comunicazione medesima. Infatti, quest'ultima non solo riguarda l'elaborazione e la trasmissione delle conoscenze e del pensiero proposizionale, ma è costituitiva della definizione della relazione medesima con gli altri. La mancanza di definizione rende la relazione insostenibile e la comunicazione impossibile. 
+
+Il meccanismo di base della comunicazione schizofrenica si fonda sulla **richiesta paradossale di cambiare una definizione della relazione che non è mai stata definita**. Ovviamente questo cambiamento è destinato a fallire e il risultato di questa condizione è che *ognuno è sbagliato*. Nella comunicazione schizofrenica ognuno si aspetta e richiede che sia l'altro a cambiare. La comunicazione schizofrenica si fonda sulla richiesta assurda di definire una relazione che non è mai stata definita. Il passaggio dal verbo fare al verbo essere rende impossibile ogni cambiamento, poichè rimanda a una condizione indefinita e indefinibile. Arrivando cosi a un **messaggio indecidibile** poichè diventa impossibile pronunciarsi sulla realtà dei rapporti e ogni scambio comunicativo finisce nel criptico e nel vago. In questo modo si giunge a una situazione relazionale caotica e imprevedibile, caratterizzata da **impenetrabilità** e da **imprendibilità**. L'impenetrabilità comporta l'impegno a non definire se stessi a comparire come una sfinge enigmatica, a comunicare in modo criptico e incomprensibile. L'inprendibilità comporta a uno stato di irragiungibilità e la capacità di collocarsi fuori dagli schemi standard previsti dalla cultura di appartenenza.  
+Questa condizione comunicativa è alla base degli **giochi psicotici** nell'ambito della famiglia, possiamo menzionare l'*imbroglio*, che consiste in una vera e propria truffa relazionale e si svolge in più tappe; dapprima si ha una coalizione molto stretta fra un genitore e un figlio contro l'altro genitore, ma non appena tale coalizione rischia di diventare insostenibile, il figlio è abbandonato e tradito dal genitore a favore di un suo riavvicinamento all'altro genitore; il risultato è che il figlio si sente ingannato e strumentalizzato per i giochi di coppia fra i suoi genitori. Questo comporta a tempeste emotive, un misto fra rabbia, vergogna, confusione. Possiamo anche menzionare l'*istigazione* che consiste in un processo di comportamenti da parte di un genitore per spingere un figlio ad avere una serie di reazioni aggressive contro l'altro genitore. 
 
 ### **5.2 Comunicazione paradossale**
 
+Il **paradosso** è una contraddizione che deriva dalla deduzione corretta da premesse coerenti. Vi sono tre tipi di paradossi:
 
+- l'*antinomia logica* che comporta una contraddizione sul piano formale, risolta da Russel con la teoria dei tipi logici
+- l'*antinomia semantica* che implica una incoerenza contraddittoria del linguaggio come la frase detta da un cretese: *Tutti i cretesi sono bugiardi*, risolta da Carnap e Tarski con la teoria dei livelli di linguaggio
+- il *paradosso pragmatico* che consiste in messaggi paradossali come ingiunzioni e predizioni. 
+
+L'ingiuzione *Sii spontaneo!* è un esempio di comunicazione paradossale. Infatti il destinatario di questo messaggio si trova in una posizione *insostenibile* poichè tale ingiunzione richiede di essere disobbedita per essere obbedita. Vi è una relazione asimmetrica fra chi avanza l'ingiuzione e chi deve eseguirla. 
+
+Bateson ha elaborato la teoria del **doppio legame** come ipotesi esplicativa della comunicazione paradossale sottesa alla schizofrenia, tale teoria prevede i seguenti elementi:
+
+- due o più persone sono coinvolte in una relazione importante che ha un rilevante valore per la sopravvivenza di una o più di esse
+- in questo contesto un membro invia a un altro un messaggio cosi caratterizzato: 
+    a) asserisce qualcosa
+    b) asserisce qualcosa sulla propria asserzione a un altro livello comunicativo
+    c) queste due asserzioni si escludono a vicenda
+di conseguenza, si tratta di un messaggio indecidibileM infatti se è un comando, esso va disobbedito per essere obbedito; se è una definizione di se stesso, egli è tale soltanto se non lo è
+- al destinatario di questo tipo di messaggio contradditorio è impedito di uscire fuori dalla relazione nè metacomunicando nè fuggendo via. Ogni tentativo fatto in questa direzione è qualificato come folle o cattivo, in quanto follia e cattiveria sono le categorie più ricorrenti per etichettare comportamenti non standard e non rispettosi delle convenzioni culturali.
+
+In questa condizione ciò che è detto a voce è regolamente smentito a livello non verbale, soprattutto in riferimento agli aspetti affettivi ed emotivi. L'esito è la **frammentazione e la dispersione del significato** che non riesce a comporsi in un'unità conclusiva e coerente. A fronte di ciò il destinatario si sente smarrito e mentalmente confuso, poichè non sa quale parte di significato assumere come predominante e valido. Qualunque parte di significato egli assuma, è sempre sbagliata, in quanto ha ignorato altre parti rilevanti del significato.
 
 ### **5.3 Le squalifiche conversazionali**
 
+Nella conversazione quotidiana, il passaggio di argomento è ricorrente, è marcato sul piano comunicativo attraverso segnali linguistici o non linguistici. Fra un turno e l'altro esistono dei segnali di ricezione da parte del destinatario. Da queste premesse possiamo parlare di **squalifica conversazionale**. Essa sul piano relazionale assume il valode della **disconferma**, cioè una condizione comunicativa nella quale l'interlocutore non prende atto dell'esistenza del parlante, con un messaggio implicito del tipo: *quello che hai detto è come se non l'avessi detto. Tu non esisti per me*. La comunicazione di disconferma pone infatti in dubbio l'identità personale dell'altro, collocandono in una condizione di alienazione e di mistificazione.
 
+Sluzki ha posto in evidenza diverse forme in cui la squalifica conversazionale si verifica, riportate qui di seguito:
+
+- **Evasione e cambiamento di argomento**, è la classica squalifica, come in questo caso:
+\begin{tcolorbox}[colback=gray!20!white, boxrule=0.5pt, opacityfill=0.2]
+    Figlia: Siamo sempre state bene \\
+    Madre: Si, ti ho sempre voluto bene... nello stesso modo
+\end{tcolorbox}
+- **Interpretazione letterale**, prevede uno spostamento dal livello letterale a livello figurato:
+\begin{tcolorbox}[colback=gray!20!white, boxrule=0.5pt, opacityfill=0.2]
+    Figlio: Mi tratti come un bambino \\
+    Madre: Ma tu sei il mio bambino
+\end{tcolorbox}
+- **Specificazione**, è una risposta particolare e specifica a un tema generale:
+\begin{tcolorbox}[colback=gray!20!white, boxrule=0.5pt, opacityfill=0.2]
+    Padre: Non grido mai \\
+    Figlio: Stai gridando adesso
+\end{tcolorbox}
+- **Squalifica di status**, si passa dal contenuto del messaggio A a un messaggio B che riguarda la posizione relazionale dell'interlocutore qualificata come una posizione che comporta, in via reale o presuntiva, una maggiore conoscenza, intelligenza eccetera:
+\begin{tcolorbox}[colback=gray!20!white, boxrule=0.5pt, opacityfill=0.2]
+    Madre: Mi sono accorta poi che mia figlia non lega molto con Daniele
+    Figlia: Ma perchè no, mamma?
+    Madre: Beh, una mamma lo sa...
+\end{tcolorbox}
+
+La squalifica conversazionale, diffusa negli scambi quotidiani, assume un valore sfavorevole quando diventa sistematica. In questo caso essi generano un vorice di autosqualifiche e di controsqualifiche che conducono a fenomeni comunicativi di confusione, ambiguità e frammentazione.
 
 \newpage
 # **Capitolo 8 - La comunicazione nei e fra i gruppi e nelle organizzazioni**
+
+La comunicazione è connessa all'interazione e costituisce la sostanza delle relazioni interpersonali. Essa svolge una funzione centrale nella formazione e nel funzionamento del **gruppo sociale**, cioè un insieme di più soggetti che:
+
+- interagiscono fra loro in modo interdipendente, poichè motivati dai propri bisogni e scopi a fare affidamento reciproco e influenzarsi reciprocamente
+- si percepiscono come membri di un dato gruppo
+- sono percepiti come tali da individui di altri gruppi
 
 
 
