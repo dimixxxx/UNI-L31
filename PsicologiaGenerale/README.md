@@ -1,6 +1,6 @@
 # Psicologia Generale
 
-Riassunti del corso di psicologia generale, tenuto dal professore claudio lucchiari, della laurea magistrale di filosofia.
+Riassunti del corso di psicologia generale, tenuto dal professore claudio lucchiari, della laurea magistrale in filosofia.
 
 Comando CMD per generazione PDF da markdown: 
 
