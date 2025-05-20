@@ -426,7 +426,9 @@ Un test d'intelligenza recente è la *Scala Leiter-3*, è un test non verale per
 
 Il secolo scorso è stato caratterizzato da un'ampia polemica sull'uso dei test d'intelligenza e dell'interpretazione del QI. Sono nate diverse linee di pensiero in merito ad essi, alcune partivano dal fatto che il QI sia una misura affidabile dell'intelligenza intesa nel suo significato più ampio, che esso rispecchi l'intelligenza innata e che le differenze razziali nei punteggi dei test siano il riflesso di fattori ereditari, altri psicologi respingono tutte le asserzioni precedentemente elencate. Alcuni psicologi osservano che per molta parte del novecento la psicologia sperimentale non disponeva una soddisfacente teoria dell'intelligenza, per cui i test intellettivi erano privi di una solida base teorica.
 
-TO BE CONTINUED
+I genetisti giungono a contestare l'idea secondo cui il QI possa essere considerato una misura che dà conto di un'ipotetica intelligenza generale innata. I test di QI sono una misura di alcuni aspetti dell'intelligenza, quelli strettamente legati alle influenze ambientali e agli apprendimenti scolastici.
+
+In conclusione è utile chiedersi le ragioni di una contrapposizione tanto accessa sul QI; una buona ragione sta nella ricaduta politico-sociale degli opposti fronti, è chiaro che se si sostiene una posizione prettamente conservatrice, come quella che indica che il QI è in gran parte determinato da fattori ereditari, non ha senso investire risorse pubbliche a favore dei più deboli. Invece c'è chi sostiene politiche progressiste, che sostengono l'importanza dell'ambiente nella costruzione dell'intelligenza, finalizzate a migliore le condizioni di vita delle minoranze etniche.
 
 ### **8.4 La disabilità intellettiva**
 

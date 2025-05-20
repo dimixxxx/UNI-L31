@@ -1102,6 +1102,7 @@ L'ironia è una forma atipica di comunicazione attraverso cui gestire le relazio
 - Occorre che gli interlocutori prendano parte a un **evento focale**, che costituisce l'elemento induttore e l'antecedente della comunicazione ironica. Esso può accadere in maniera indipendente dagli interlocutori, ma è essenziale che essi lo notino e lo rendano oggetto del loro scambio comunicativo. 
 - A ciò segue il **commento ironico** che rappresenta la manifestazione di una determinata intenzione comunicativa da parte dell'autore. L'attuazione dell'intenzione richiede l'opzione fra diverse forme di ironia e la decisione di seguire un certo percorso espressivo, che richiede un processo di sincronia comunicativa.
 - Per ultima fase, abbiamo l'**effetto ironico** prodotto dal modo in cui il commento ironico è interpretato dal destinatario. È possibile individuare tre possibili contromosse:
+
     - il fraintendimento, ovvero la mancata attribuzione di un'intenzione differenze dal significato letterale all'enunciato, per cui il commento ironico non viene colto
     - il disconoscimento, in cui il partner, pur avendo compreso il senso ironico, decide di fermarsi al significato letterale
     - il tochè, quando la comunicazione ironica arriva a bersaglio e quest'ultimo ammette di esserne stato colpito, mostra di essere diverito o ferito dal commento ironico e risponde a seconda delle circostanza.
@@ -1131,7 +1132,7 @@ Questi aspetti rendono la comunicazione seduttiva particolarmente eccitatnte in 
 \newpage
 ### **3.2 La seduzione come arte della comunicazione**
 
-La seduzione presenta analogie con la recitazione teatrale. Il seduttore assume un preciso ruolo sul palcoscenico relazionale e gioca in modo positivo la propria identità. La comunicazione seduttiva comporta l'uso sapiente e accorto del *trucco dell'immagine* per volgere al meglio la percezione delle proprie risorse e competenze, essa implica uno *spazio comunicativo intermedio fra il falso, il finto e il reale. 
+La seduzione presenta analogie con la recitazione teatrale. Il seduttore assume un preciso ruolo sul palcoscenico relazionale e gioca in modo positivo la propria identità. La comunicazione seduttiva comporta l'uso sapiente e accorto del *trucco dell'immagine* per volgere al meglio la percezione delle proprie risorse e competenze, essa implica uno *spazio comunicativo intermedio* fra il falso, il finto e il reale. 
 
 Nella seduzione la comunicazione deve diventare **arte**, essa è qualcosa che si sente profondamente dentro di sè e che richiede ispirazione. La seduzione si fonda sull'**implicito**, occorre saper comunicare più di quanto si dica con le parole o con i gesti. Il seduttore deve quindi essere capace di fare ricorso a una comunicazione indiretta ed evocativa, basata sul principio *dire abbastanza ma non troppo*. La seduzione è fatta di sfumature e quindi stiamo parlando di una **comunicazione obliqua e allusiva**, intessuta di evocazioni, sottointesi e ammiccamenti. Il seduttore lascia all'altro la responsabilità e la libertà di continuare il gioco in un vortice crescente di attaccamento e intimità. La seduzione diventa un gioco a due di conquista reciproca, entrambi hanno la loro parte e le loro mosse. Essa si serve di strategie e tecniche, al pari di ogni altra arte, ma bisogna evitare di identificare la tecnica con l'arte. La prima è un mezzo, la seconda è l'espressione della creatività della propria mente e cuore.
 
@@ -1161,6 +1162,7 @@ In sintesi, l'insieme di questi segnali non verbali della comunicazione seduttiv
 La menzogna non è ne un errore ne una finzione, nell'**errore** diciamo il falso per ignoranza, perchè non conosciamo lo stato delle cose. In questo caso chi dice fa un'errore, prima dice il faso senza esserne consapevole pensando di dire il vero e poi scopre il vero; nella menzogna succede il contrario, si conosce il vero e si dice il falso. Essa non è una **finzione**, in quanto in queste situazioni il parlante non ha intenzione di ingannare bensì di essere smascherato, anzi egli desidera che il destinatario scopra che il suo messaggio è falso, poichè tale scoperta è parte integrante della finzione. 
 
 Per dire una **menzogna** è necessario che si realizzino tre condizioni in contemporanea:
+
 - la *falsità* del contenuto di quanto è detto
 - la *consapevolezza* di tale falsità
 - l'*intenzione* di ingannare il destinatario in modo da fargli assumere false credenze sullo stato delle cose o da impedirgli di conoscere il vero.
@@ -1173,7 +1175,8 @@ Nella comunicazione menzognera c'è un gioco complesso di intenzioni di terzo or
 
 Il parlante può fare uso di diverse strategie menzognere; può usare la **menzogna per omissione** che consiste nell'omettere informazioni essenziali in modo che il destinatario abbia conoscenze fuorvianti dello stato delle cose oppure può affidarsi alla **menzogna per commissione** andando a far credere il falso, fornendo al destinatario informazioni distorte. 
 
-Qualunque traiettoria scegliamo, possiamo fare ricorso a diverse strategie:ù
+Qualunque traiettoria scegliamo, possiamo fare ricorso a diverse strategie:
+
 - l'*ommissione*; il parlante omette di fornire all'interlocutore informazioni essenziali per i suoi scopi come nella recitenza e nel silenzio
 - l'*occultamento*; il parlante nasconde le informazioni rilevanti, fornendo informazioni vere ma divergenti per fargli assumere false credenze
 - la *falsificazione*; il parlante comunica al destinatario informazioni false, è la classica bugia
@@ -1216,30 +1219,39 @@ Una terza strategia consiste nella **impersonalizzazione** attraverso un limitat
 - **Strategie non verbali**: la menzogna è accompagnata da una serie estesa di segnali non verbali. A tutt'oggi, pur non esistendo un repertorio attendibile di indizi non verbali rilevatori della menzogna, vi sono parecchi comportamenti che sappiamo accompagnarla.  
 La **voce della menzogna**, per via della grande articolazione della voce, essa può fornire informazioni importanti sul mentitore. Si è verificato che in base ai soli indizi vocali è possibile distinguere fra i mentitori ingenui e quelli abili. I primi presentano una radicale variazione di voce innalzando o abbassando di molto il tono, mentre i mentitori abili mantengono lo stesso profilo vocale della sincerità. 
 
-### **4.6 Quale migliore mentitore del mentitore sincero? SISTEMARE PAGINAZIONE**
+### **4.6 Quale migliore mentitore del mentitore sincero?**
 
 La **competenza della comunicazione menzognera** è caratterizzata da due ipotesi: una strutturale connessa con un tratto di personalità noto come "machiavellismo" e una funzionale collegata con l'autoinganno.
 
 - La **personalità machiavellica** è un costrutto psicologico che descrive la disposizione a manipolare e a sfruttare gli altri, giustificando tali azioni per scopi di adattamento. Essa è caratterizzata da tre aspetti: 
+
     - implica l'impiego di strategie di manipolazione degli altri come l'inganno, il raggiro e l'abdulazione nelle relazioni interpersonali
     - comporta la percezione cinica degli altri come persone deboli e inaffidabili
     - include un'indifferenza di fondo verso le regole della moralità sia nei propri pensieri sia nelle proprie azioni.
 I soggetti machiavellici sono abili nella comunicazione menzognera, mantengono un freddo distacco, che li rende meno implicati sul piano emotivo e meno preoccupati di salvare la propria faccia nelle situazioni imbarazzanti. 
 - L'**autoinganno** è un mezzo efficace per mentire agli altri in modo credibile, poichè se il falso diventa vero ai miei occhi, perche non dovrebbe apparire vero anche agli occhi degli altri. L'autoinganno va incontro a un duplice paradosso:
+
     - il *paradosso statico, in quanto un soggetto inganna se stesso soltanto se egli crede e accetta sia *p* (falso) sia non *p* (vero)
-    - il *paradosso dinamico*, in quanto il soggetto che si autoinganna ha l'intenzione di inventare una falsa credenza per se stesso che conosce il vero.  
+    - il *paradosso dinamico*, in quanto il soggetto che si autoinganna ha l'intenzione di inventare una falsa credenza per se stesso che conosce il vero. 
+
 Per superare questi paradossi possiamo usare diversi modelli esplicativi. Quello tardizionale si basa sulla razionalità limitata dell'essere umano (**teoria della scelta razionale**). Gli individui sono portati a ottimizzare. L'autoinganno deriva dalla debolezza dell'autorità/garanzia, in quanto chi si autoinganna non prende in considerazione le ragioni più valide ma quelle più funzionali per raggiungere i suoi scopi e desideri. Per arrivare a questo obiettivo, chi si inganna deve distogliere l'attenzione dalle ragioni che si oppongono al falso, considerare soltanto le alternative utili, ricorrere a un processo distorto nell'elaborazione delle informazioni e trasformare le proprie credenze e opinioni.  
 Altri studiosi hanno proposto il modello della **divisione mentale**, partendo dalla distinzione fra *coscienza primaria* (l'attività conoscitiva immediata semplice e quasi automatica) e *coscienza secondaria* (la metacognizione come capacità di conoscere il proprio conoscere), l'autoinganno è dovuto a un processo inconscio automatico, in quanto chi si autoinganna non è consapevole di ammette una delle due credenze (*p* o non *p*) per ragioni motivazionali. La credenza minacciosa assume una posizione centrale nella coscienza del soggetto, mentre la credenza menzognera è a stenso ammessa nella sua coscienza.  
 Mele ha elaborato un **modello deflazionistico** dell'autoinganno che prevede la reinterpretazione della credenza minacciosa. Per superare il paradosso statico, chi si autoinganna, spinto dal desiderio di *p*, può credere *p*, senza aver bisogno di credere non *p*, grazie a una serie di *distorsioni cognitive* come quella della conferma, l'euristica delle disponibilità, la focalizzazione selettiva dell'attenzione, la raccolta selettiva delle informazioni eccetera.  
 Per superare il paradosso dinamico, in quanto l'autoinganno è intenzionale, vi è una *soglia di confidenza* per accettare o rifiutare un'ipotesi nel ragionamento comune. Per ogni ipotesi il valore di soglia è definito da due valori:
+
    - accettazione della soglia, cioè il livello minimo di confidenza e di fiducia nel vero che è necessario per accettarlo
-   - rifiuto della soglia, cioè il valore minimo di fiducia nel faso che è necessario per rifiutarlo.  
+   - rifiuto della soglia, cioè il valore minimo di fiducia nel faso che è necessario per rifiutarlo. 
+
 Il **valore di soglia dell'accettazione** dipende dal rapporto fra i costi dell'accettazione di un'ipotesi falsa (ossia la rilevanza soggettiva di evitare la credenza falsa *p*) e i costi dell'informazione (ossia le risorse cognitive e lo sforzo per elaborare informazioni pertinenti per l'ipotesi falsa). Il **valore di soglia del rifiuto** dipende dal rapporto fra i costi del rifiuto dell'ipotesi vera i i costi dell'informazione. Le motivazioni del soggetto possono orientare la verifica o la falsificazione di una ipotesi in due fasi:
+
    - guidano la scelta dell'ipotesi da verificare
-   - valutano l'ipotesi secondo le soglie di confedenza per evitare i costi dell'informazione falsa.  
+   - valutano l'ipotesi secondo le soglie di confedenza per evitare i costi dell'informazione falsa. 
+
 L'autoinganno richiede una condizione di incertezza, cosi che il soggetto possa agire come se fosse autorizzato a credere di poter modificare qualcosa che è gia stato determinato e che, di per sè, non è più modificabile. In una situazione complessa egli può autoconvincersi cambiando il suo sistema di credenze. A riguardo di ciò sono essenziali due condizioni:
+
    - la plausibilità della credenza erronea
-   - il valore di minaccia della credenza da inibire o reintepretare.  
+   - il valore di minaccia della credenza da inibire o reintepretare. 
+
 Per questa ragione esiste una correlazione positiva fra l'autoinganno e l'autostima, in quanto entrambi riguardano gli aspetti di immagine della persona e hanno il medesimo scopo di garantire una concezione positiva di sè. L'autoinganno va considerato come meccanismo di difesa per proteggersi dal pericolo di una credenza minacciosa e per mantenere una soddisfacente immagine di sè. Chi si autoinganna è capace di modificare la realtà nella sua mente trasformando in vera una credenza falsa. L'autoinganno diventa una strategia efficace e un mezzo potente per inventare una menzogna. 
 
 ## **5 Comunicazione patologica**
@@ -1334,6 +1346,7 @@ In base a tali premesse ogni gruppo definisce e precisa la propria **cultura** d
 ### **2.1 Noi e gli altri**
 
 I gruppi umani all'apparenza offrono una configurazione caleidoscopica, in realtà i gruppi presentano una serie densa di rapporti che li intrecciano reciprocamente. In merito vi sono premesse di fondo:
+
 - gli individui tendono a organizzare la loro comprensione del mondo sociale sulla base di distinzioni categoriali che trasformano variabili continue in classi discrete
 - poichè ogni individuo è parte di un gruppo, la categorizzazione sociale conduce alla distinzione basirale fra *noi* (ingroup) e *loro* (outgroup).
 
@@ -1360,6 +1373,7 @@ Esiste una distinzione fra **influenza sociale informativa** e quella **normativ
 
 In vari esperimenti, tra cui quello di Asch, si è confermata la presenta di un elevato grado di *acquiescenza sociale* nei gruppi, in quanto un individuo è influenzato dalle scelte e decisioni degli altri. Possiamo dire che gli aspetti proposizionali della comunicazione sono influenzati dagli aspetti relazionali, il singolo individuo spesso finisce per cedere di fronte al punto di vista della maggioranza. Inoltre possiamo notare l'**asimmetria comunicativa** fra il singolo e il gruppo preso nella sua totalità, essa colloca il singolo soggetto in una condizione di relativa debolezza e di dipendenza a fronte di un gruppo che condivida un certo punto di vista. Infine si nota l'intreccio fra comunicazione, posizione sociale e livello di autostima.  
 Il conseguimento dell'influenza sociale richiede una base di **potere**, cioè la distribuzione diseguale delle risorse e come capacità di controllo nei confronti delle decisioni degli altri. Il poteve è definito come *relazione* fra due soggetti A e B, regolata da alcuni parametri:
+
 - le risorse possedute da A (*base del potere*)
 - l'assimetria (A maggiore di B)
 - la sfera del potere di A (il potere di A su B riguarda un certo ambito)
@@ -1404,16 +1418,19 @@ La **comunicazione persuasiva** ha lo scopo di modificare uno stato mentale degl
 ### **3.1 Principali modelli teorici**
 
 La **teoria del giudizio sociale**, Sherif e Hovland indicano che il cambiamento degli atteggiamenti è mediato dai processi di giudizio e il risultato della comunicazione persuasiva dipende dal modo in cui il ricevente valuta la posizione sostenuta dal messaggio. Questo è regolato da due fattori:
+
 - il grado di accettazione, rifiuto o indifferenza verso le idee proposte
 - il livello di coinvolgimento personale nell'argomento in questione.
 Seondo questa teoria quanto più aumenta il coinvolgimento personale, tanto più si estende l'area del rifiuto e tanto più si riducono le affermazioni accettabili. L'esito di questo processo consiste negli **effetti di assimilazione** e **di contrasto**. I primi si verificano quando il destinatario valuta il messaggio come vicino alla sua posizione, i secondi quando lo percepisce come distante. Un messagio persuasivo produce un cambiamento di atteggiamenti quando sostiene una posizione che ricade nell'area dell'accetazione, mentre non è persuasivo quando ricade nella zona di rifiuto. In caso di *discrepanza*, i destinatari con poco coinvolgimento personale possono accogliere anche messaggi discrepanti, mentre in caso di un elevato coinvolgimento sono disposti ad accettare solo messaggi poco discrepanti.
 
 Il **modello del valore dell'aspettativa** considera l'atteggiamento come il prodotto di due fattori:
+
 - il valore di un dato attributo (la sua desiderabilità)
 - l'aspettativa che un certo oggetto possieda quell'attributo (la forza della credenza)  
 In ciò merita attenzione il modello dell'**integrazione dell'informazione** di Fishbeing, il quale sostiene che l'atteggiamento verso un oggetto è in funzione sia della *forza delle credenze* (la forza con cui uno tiene fede alle proprie credenzie sull'oggetto in esame) sia della *valutazione delle credenze* (la valutazione che uno ha delle proprie credenze). Il cambiamneto di atteggiamento, quindi, è la conseguenza del cambiamento di alcune credenze salienti nei confronti dell'oggetto in esame. Questo modello da importanza ai contenuti del messaggio, trascurando altri aspetti della comunicazione persuasiva.
 
 La **teoria dell'azione ragionata**, proposta da Aizen e Fishbein, essa segue il principio secondo cui, per modificare il comportamento di una persona, occorre cambiare la sua intenzione. Quest'ultima è influenzata da due fattori:
+
 - l'atteggiamento dell'individuo verso il comportamento in oggetto
 - la norma soggettiva dell'individuo.
 L'atteggiamento è definito dalle componenti attitudinali già considerate, la norma soggettiva è data dalla percezione delle aspettative che altri membri importanti del gruppo hanno e dall'esigenza di assecondare tali aspettative. L'intenzione cambia se cambiano le componenti attitudinali, le componenti della norma soggettiva o il peso di entrambe. 
@@ -1490,6 +1507,7 @@ La comunicazione entra nei processi di presa di decisione che spesso un gruppo �
 Il processo della decisione di gruppo è uno degli aspetti più importanti dell'attività svolta dal gruppo medesimo. La comunicazione è un **mezzo** per l'interazione di gruppo sia come dispositivo costituitivo delle decisioni di gruppo. Essa serve come dispositivo per influenzare i fattori strutturali e gli aspetti contestuali delle interazioni del gruppo. Le conoscenze preliminari dei membri vincolano gli scambi reciproci e influenzano le soluzioni del gruppo, la comunicazione media gli effetti della conoscenza, delle preferenze, delle caratteristiche del compito eccetera, che influenzano la presa di decisione del gruppo.
 
 La comunicazione può essere considerata **costitutiva** delle decisioni, almeno in due sensi:
+
 - le decisioni emergono come esito dello sviluppo di idee e gli scambi comunicativi generano l'incremento, l'elaborazione, la modificazione o la cancellazione delle idee, di volta in volta esaminate
 - le decisioni sono prodotti sociali inseriti nella realtà sociale del gruppo e la comunicazione partecipa in modo essenziale a creare e sostenere tale realtà.
 
@@ -1557,6 +1575,7 @@ La **prospettiva culturale**, nella quale il medium costituisce un *artefatto*, 
 I media svolgono una *funzione cognitiva*, in quanto strumenti per partecipare e condividere socialmente conoscenze e credenze- Ciò ha originato la **società della conoscenza** nella quale le competenze cognitive e comunicative prevalgono su quelle manuali e operative. Il **medium** va considerato come una tecnologia per registrare, distribuire *simboli*. L'evoluzione dei media nella comunicazione va pensata come un riassetto delle risorse, opportunità e dei limiti comunicativi di ciascun medium in quanto posto in relazione sistematica con gli altri. I media non esistono in modo isolato, quindi costituiscono una rete che avvolge ogni individuo, gruppo e società.
 
 La **prospettiva tecnologica**, nella quale il medium costituisce uno *strumento tecnologico* in grado di immagazzinare e trasferire informazione. L'importanza è posta sull'*incremento del grado di efficienza* nei processi comunicativi. Il costante perfezionamento delle acquisizioni tecnologiche è molto importante; a riguardo possiamo ricordare: 
+
 - l'opportunità di disporre di *media trasportabili*, partendo dalla carta, passando per la radio e televisione e arrivando ad internet
 - la possibilità di garantire la *permanenza del messaggio nel tempo*, legata alla scrittura, stampa e oggi dalle memorie
 - la messa a punto di *tecniche di moltiplicazione* del medesimo messaggio, come i supporti cartacei e successivamente i social network
@@ -1570,6 +1589,7 @@ L'evoluzione della comunicazione umana possiamo vederla attraverso la **teoria d
 ### **1.2 Medium e mass media**
 
 Il **mass media come comunicazione uno a molti**, la qualifica di mass media è riservata alla capacità di produrre e distribuire conoscenza alla popolazione da parte di un centro emittente. È la *comunicazione uno a molti* realizzabile grazie a quattro fattori:
+
 - le acquisizioni tecnologiche
 - la specifica configurazione sociale, politica ed economica della società in un dato momento storico
 - la presenza di una molteplicità di istituzioni e organizzazioni rappresentative di valori differenti, in grado di rivolgersi a collettività specifiche
@@ -1592,70 +1612,222 @@ L'**influenza dei media** è una ricerca finalizzata allo studio di situazioni c
 
 In merito agli effetti a breve termine dei mass media si è passati dalla teoria ipodermica a orientamento behaviorista a una concezione più articolata dei processi persuasivi.
 
-La **teoria dell'ago ipodermico** secondo la quale l'audienze dei media costituisce una massa atomizzata, anonima ed eterogenea. Inoltre il comportamento degli individui sia prodotto dai meccanismi associativi fra lo stimolo e la risposta. Si assume quindi che il repertorio delle risposte a un certo stimo da parte dei riceventi sia uniforme e universale. I messaggi sono recepiti in modo simile da tutti i destinatari e le risposte sono immediate e dirette.
+La **teoria dell'ago ipodermico** secondo la quale l'audienze dei media costituisce una massa atomizzata, anonima ed eterogenea. Inoltre il comportamento degli individui sia prodotto dai meccanismi associativi fra lo stimolo e la risposta. Si assume quindi che il repertorio delle risposte a un certo stimo da parte dei riceventi sia uniforme e universale. I messaggi sono recepiti in modo simile da tutti i destinatari e le risposte sono immediate e dirette, l'enfasi cade sulla loro forza di omogeneizzazione conformista. È un approccio ai media indifferente alla specificità comunicativa di ciascun mezzo, poichè l'attenzione è più sugli effetti e sulla loro presunta uniformità che sul processo.  
+La *teoria del proiettile magico* nella quale l'idea di una connessione diretta tra esposizione ai messaggi e risposta ha costituito il punto di partenza per la ricerca successiva. In essa sottolineiamo l'**unidirezionalità del processo comunicativo dei mass media**. Nei quali avremo un'equazione tra direzionalità rigida del processo comunicativo (linearità) e definizione dei destinatari (da uno a molti, trasmissione a una via). 
+
+Lo **schema di Lasswel** ribadisce che *nella comunicazione dei mass media la responsabilità è esclusivamente dell'emittente e gli effetti sono esclusivamente sul pubblico*. Nei processi di comunicazione di massa; vi è asimmetria strutturale, i due poli del processo comunicativo sono isolati e la comunicazione è intenzionale e orientata a ottenere *effetti osservabili e misurabili*, poichè genera un comportamento in qualche modo collegabile al messaggio trasmesso. Gli unici effetti che tale modello prevede sono quelli osservabili, legati alla modifica di specifici comportamenti. 
+
+La **persuasione selettiva** venne definita a seguito di una serie di studi, si è convinti che gli effetti della comunicazione di massa sono soggetti a processi di **selettività** nell'esposizione ai media e nell'elaborazione mentale dei messaggi. Grazie alla **fruizione selettiva** gli individui interpretano inevitabilmente il significato del messaggio ricevuto, trasformandolo in funzione del proprio sistema di credenze e valori, dei propri interessi e atteggiamenti, cosi da ottenere conferme del proprio punto di vista. Quindi i media svolgono prevalentemente una funzione di **rinforzo** delle credenze e dei valori del ricevente, piuttosto che generare cambiamenti.
 
 ### **2.2 Dal modello multifasico alla teoria delle gratificazioni**
 
+Il **modello multifasico**, il modello della comunicazione a due fasi proposto da Katz e Lazarsfeld, rappresenta una svolta nello studio degli effetti comunicativi dei mass media. Esso indica che vi è un'*interdipendenza tra processi di comunicazione di massa e comunicazione interpersonale*. Nel processo di comunicazione di massa, in cui il messaggio è intenzionalmente rivolto a una molteplicità di individui, che si possono distinguere in due casi:
 
+- il messaggio raggiunge un numero ristretto di individui; costoro comunicano il messaggio, dopo averlo interpretato, a un pubblico più ampio
+- il messaggio raggiunge una molteplicità di individui, ma è ripreso più da alcuni individui che da altri.
+
+In entrambi i casi è importante il **processo di ripercussione del messaggio** che si realizza attraverso l'attivazione dei flussi della comunicazione interpersonale. In questo processo gli *opinion leader*, sono quei soggetti in grado di partecipare il messaggio dei media ai membri del gruppo di appartenenza, amplificandone la diffusione e le opportunità di influenza. Il *processo di influenza* presenta alcune caratteristiche:
+
+- nella comunicazione interpersonale hanno minore rilievo i vincoli dell'esposizione e della percezione selettiva, poichè l'intenzione comunicativa appare meno orientata a finalità specifiche di persuasione; la vicinanza sociale alla fonte e il suo carattere informale ne rinforzano la credibilità
+- l'opportunità di realizzare la comunicazione in uno scambio interattivo facilita l'adesione alla proposta, poichè si attivano processi di partecipazione e di condivisione nella costruzione dei significati del messaggio
+- vi è un maggior grado di flessibilità e di negoziabilità dell'intenzione comunicativa e quindi la possibilità di realizzare apposite strategie finalizzate all'influenza
+- l'opportunità di identificarsi con l'opinion leader, in quanto membro del gruppo di appartenenza, rinforza la plausibilità del messaggio, inoltre avvia un processo di personalizzazione dell'informazione. 
+
+Successivamente si è pensato che l'audience è una struttura articolata, tramite la quale è possibile ipotizzare l'azione di opinion leader a diversi livelli. In questo caso si parla di **flusso multifasico di comunicazione** e di **feedback multiplo indiretto** al messaggio proveniente dai mass media. Gli effetti dei media *non sono lineari nè tanto meno prevedibili*, in quanto realizzati all'interno di un processo complesso come quello dell'influenza personale. Per ciò si ritiene che l'efficacia dei media in termini di influenza è limitata rispetto a quella della comunicazione interpersonale. Infatti questo modello è stato definito anche come il *modello degli effetti limitati dei mass media*.  
+In questo modello gli opinion leader sono punti nevralgici di connessione nella rete dei rapporti sociali dei mass media. Possiedono alcune qualità fondamentali:
+
+- la *competenza*, connessa con un maggiore consumo di media e con un'analisi più attenta e critica dei messaggi inviati dai mass media stessi
+- la *posizione sociale strategica*, in quanto dispongono di una rete estesa di contatti interpersonali, particolarmente rilevante sul piano della visibilità pubblica e delle relazioni con le fonti formali di informazione
+- la *funzione di selezione*, poichè agiscono come selezionatori delle informazioni e svolgono il ruolo di *gatekeepers*, ossia di filtro, poichè decidono se lasciar passare o bloccare una certa informazione per la sua diffusione
+- la *funzione di trasformazione*, poichè procedono all'interpretazione e modificazione del messaggio dei mass media in funzione del sistema di credenze e valori condiviso con il gruppo di riferimento.
+
+Ad oggi, il percorso comunicativo dei mass media è ancora più articolato, assume minore rilievo la funzione di filtro e di mediazione svolta dagli opinion leader, a fronte dell'opportunità di amplificazione e partecipazione dei contenuti e significati comunicati dai media ad altri membri del gruppo.
+
+La **teoria delle gratificazioni** nella quale al centro dell'attenzione non vi sono più soltanto gli effetti dei media, ma ciò che le persone fanno con i media. L'individuo non è un destinatario acritico e passivo, ma piuttosto è attivo e competente, in grado di selezionare le trasmissioni e i contenuti di suo gradimento, andando a cambiare la fonte in caso di non interesse.  
+La **gratificazione delle aspettative** è diventata l'unità di misura per valutare gli effetti dei mass media. Gli indici di ascolto e le stime dell'audience diventano i parametri per costruire i futuri programmi televisivi e radiofonici. Infatti con l'obiettivo di rispondere alla richiesta del pubblico, si ha una diminuizione della creatività e di generare nuove tendenze, i mass media tendono ad appiattirsi sull'audience e rischiano di essere ripetitivi e monotoni.
 
 ## **3 Gli effetti a lungo termine dei mass media**
 
-
+A partire dagli anni Settanta, si è passati ad analizzare l'*impatto dei media nel quadro di un'esposizione quotidiana e prolungata nel tempo*, infatti parliamo di **effetti a lungo termine**.
 
 ### **3.1 L'effetto agenda setting**
 
+McCombs e Shaw, sotto il nome di **agenda setting**, ritengono che i media tendano a sottolineare la notiziabilità delle informazioni e si pongano come *filtri di polarizzazione* sul piano informativo, selezionano alcune notizie come più influenti e rilevanti. Infatti, i media forniscono **categorile mentali**, oltre che notizie, grazie alle quali i destinatari possono collocarle entro un sistema interpretativo della realtà. Entrano in gioco *effetti cognitivi*, che si realizzano attraverso:
 
+- l'indicazione delle informazioni a cui occorre prestare attenzione
+- la loro disposizione secondo una gerarchia di priorità in riferimento a un dato segmento dell'audience. 
+
+Gli effetti generati dall'*agenda setting* interagiscono con le mappe cognitive dell'individuo, che funzionano come filtri nell'elaborare i messaggi provenienti dai mass media. Le routine produttive impiegate dai mass media e i criteri di rilevanza adottati formano il quadro professionale entro cui i giornalisti definiscono i format per la **notiziabilità** degli eventi, mentre i criteri di organizzazione cognitiva delle conoscenze a disposizione del soggetto costituiscono la corice interpretativa (**frame mentale**) che egli applica per dare senso a ciò a cui assiste. 
+
+Il concetto di *produzione di notizie* si basa su un operazione di selezione che conduce a un'inevitabile distorsione, grazie alla quale è enfatizzata una certa rappresentazione della realtà sociale piuttosto che un altra. Facendo ricorso all'accentuazione o all'omissione, i mass media hanno la possibilità di generare una certa rappresentazione della realtà. 
 
 ### **3.2 I mass media fra omogeneizzazione e differenziazione culturale**
 
+Nello studio dell'influenza a lungo termine dei media, è importante capire come essi contribuiscono a formare la cultura di una società. In merito possiamo notare due effetti principali: l'**omogeneizzazione culturale** e la **differenziazione culturale**.
 
+Il **modello della spirale del silenzio**, proposto da Noelle-Neumman, sottolinea il processo di omogeneizzazione culturale svolto dai mass media. La **televisione** ha modificato profondamente l'esperienza di fruizione dei media. Essa riduce il tempo di riflessione su quanto si sta vedendo, un immagine sostituisce l'altra, un servizio prende il posto di un altro, rendendo più difficile un impiego ragionevole dei media al fine di operare un confronto con le opinioni preesistenti.  
+In particolare, teniamo presenti due condizioni: 
+
+- il fatto che i media, in specifico la televisione, agiscono in modo continuativo, generando un flusso ininterrotto di informazioni su ambiti diversi della realtà (accumulazione)
+- quest'azione costante si esercita in un contesto di consonanza tra i media, che propongono una visione convergente rispetto a veneti, persone e problemi (convergenza).  
+Queste due condizioni portano favore dell'azione di omogeneizzazione culturale svolta dai mass media.
+
+Tale processo di omogeneizzazione è realizzato facendo ricorso alla **spirale del silenzio**. La formazione dell'opinione pubblica è frutto di continui processi di allineamento dell'individuo alla posizione dominante, al fine di evitare fenomeni di marginalizzazione o inferiorizzazione. Affinchè una data opinione si diffonda, non è necessario che sia sostenuta apertamente dalla maggioranza, ma soltanto che le persone credano che la gente la pensi in questo modo. Quindi il silenzio è assunto come garanzia di adesione delle altre persone a una determinata opinione pubblica. 
+
+In questo andamento a spirale, i media hanno una funzione di *amplificazione* della visibilità delle diverse opinioni a confronto nell'arena sociale. L'individuo allinea la propria opionie personale a quella pubblica, considerata dominante, per via del timore dell'isolamento o dell'ostracismo. Nel processo della spirale del silenzio, *crediamo ciò che pensiamo agli altri credano*.
+
+I media hanno la funzione di stabilire le **coordinate dell'opinione dominante**, consentendo agli individui di orientarsi, allinearsi, accentuando o attenuando le proprie opinioni personali. I media svolgono una funzione importante anche negli *spostamenti dell'opinione pubblica*, possono rafforzare le posizioni percepite come minotarie, rendendole visibili quindi spostando l'opinione pubblica a loro favore. In questo modo possiamo dire che vi è un processo di interdipendenza fra mass media, individui e gruppi sociali nella generazione, diffusione, mantenimento e cambiamento dell'opinione pubblica dominante in un certo momento. 
+
+La **teoria della coltivazione** esplora ulteriormente il tema dell'omogeneizzazione, secondo tale teoria i media, specialmente la televisione, sono un dispositivo dominante per l'**appropriazione culturale**. La televisione coltiva mappe specifiche di lettura e di interpretazione della realtà, generando un'omogeneizzazione progressiva nelle concezioni dell'audience, tanto da produrre una visione generale del cosidetto *uomo comune*. 
+
+La **prospettiva della differenziazione culturale**, alcuni studiosi hanno posto in evidenza l'importanza dei processi di differenziazione culturale svolta dai media. Essi sottolineano lo **scarto delle conoscenze** nei fruitori dei mass media. La diffusione su larga scala di informazioni e conoscenze non produce effetti in integrazione e riduzione delle differenze fra gli utenti, poichè l'accesso a tali flussi informativi non è equamente disponibile nella popolazione. La popolazione di livello socioculturae più alto tende ad acquisire l'informazione più rapidamente rispetto alla popolazione di livello più modesto, cosi da aumentare lo scarto di conoscenza tra questi livelli.
+
+Questa generazione degli scarti di conoscenza è posta in relazione ad altri fattori, come la motivazione ad acquisire informazioni, l'utilità di tali informazioni ai propri obiettivi e l'insieme delle competenze comunicative multimediali. In questo modo si passa da una *televisione generalista* a una *televisione tematica*, la quale viene effettuata la selezione di generi tematici in media specializzati. I segmenti di utenti con interessi tematici hanno una maggiore competenza nel gestire il **sovraccarico delle informazioni** (*overloading*) in riferimento all'area prescelta e i media tematici hanno un ruolo rilevante nel mantenimento delle differenze culturali.
+
+In sintesi, nello studio degli effetti a lungo termine emerge che i mass media non sono neutrali nel sostenere e alimentare processi di omogeneizzazione o differenziazione culturale, poichè tendono a favorire inevitabilmente uno di questi due poli. In generale, compare il fenomeno di **attrito culturale**, inteso come scarto temporale fra la comparsa di certe tendenze all'interno della società civile e la loro ricezione da parte dei mass media.
 
 ## **4 Comunicazione pubblicitaria e mass media**
 
-
+I mass media hanno acquisito un grande potere nelle società odierne, detto **quarto potere**, per la loro capacità di influenzare il sistema delle credenze e delle norme delle persone. Il maggior caso di questo potere, lo possiamo trovare nella **comunicazione pubblicitaria**, nella quale un azienda produttrice di un bene si serve dei media per far conoscere e convincere i fruitori ad acquistarlo. Oramai la convergenza degli interessi fra media e aziende è diventata cosi estesa che ogni media è incorniciato dalla pubblicità. 
 
 ### **4.1 Il prodotto come sintesi di aspetti materiali e aspetti immateriali**
 
+Un **prodotto** costituisce una realtà complessa e articolata su più livelli: fisici, biologici, psicologici e culturali. È una realtà composita, formata dalla combinazione di **aspetti materiali** e immateriali. I primi si riferiscono alla realtà fisica del prodotto. Si tratta del valore funzionale e strumentale del prodotto, che rappresenta una condizione necessaria per la soppravivenza del prodotto. L'impegno nell'area di ricerca e il miglioramento qualitativo rappresentano la memoria del prodotto, cioè gli investimenti effettuati dall'azienda e l'esperienza del consumatore in questi miglioramenti.  
+Gli **aspetti immateriali** fanno riferimento ai *significati* del prodotto. Ogni prodotto/marca va considerato come un *motore semiotico*, ossia una macchina atta a produrre e ad attribuire significazioni, quindi in grado di proporre significati e valori desiderabili per gli individui attraverso la creazione di storie e mondi possibili. La partecipazione a questi mondi consente ai consumatori l'acquisizione dei significati e dei valori che la marca promette.  
+È necessario dare pari importanza ad entrambi gli aspetti, altrimenti avremo forme di squilibrio che non consentono la valorizzazione delle potenzialità del prodotto. Tale valorizzazione implica l'influenza reciproca tra gli aspetti materiali e immateriali. In questa prospettiva il prodotto è inteso come un insieme di contenuti materiali e di valori simbolici di immagine, tra loro interdipendenti. Quindi possiamo dire che è **impossibile consumare prodotti senza consumare significati**. 
 
+L'**immagine** del prodotto diventa un mezzo per creare, mantenere o rinnovare la propria immagine, in quanto l'immagine del prodotto si riflette sulla propria immagine. Il valore della **firma** rappresenta la premessa e il vincolo per l'appartenenza a un mondo esclusivo di significati e valori. In questo ambito, dove i simboli diventano importanti, la convergenza fra comunicazione e mass media è ormai un dato consolidato.
+
+La cultura veloce delle attuali società occidentali conduce al concetto di ciclo di vita del prodotto e sopratutto di **moda** come comparsa temporanea di nuove tendenze, dove il successivo sostituice il precedente.
 
 ### **4.2 Immagine e concetto di brand equity**
 
+In uno scenario saturo quantitativa e qualitative dei mercati, si pone l'esigenza per ogni brand di acquisire identità e visibilità. È l'opportunità di disporre di un territorio di significati delimitato, robusto e coerente al suo interno, questo territorio è detto **brand equity**. Il concetto di equity è articolato, in quanto formato da diversi livelli di brand: il brand di prodotto (bevanda), il brand di linea (bevande alcoliche) o divisione e il brand di corporate (heineken). Il concetto di brand equity definisce il territorio di una marca, poichè stabilisce la globalità delle sue proprietà semantiche, simboliche e affettive. In tal modo genera e orienta gli atteggiamenti e i comportamenti dei consumatori nei confronti della marca medesima. La *brand equity* influenza l'*immagine* di marca che appare più sintetica e che ha un maggiore valore ostensivo.  
+Le diverse proprietà della brand equity si possono raggruppare in diverse categorie, quali:
 
+- *notorietà*, grado di conoscenza della marca
+- *qualità* percepita, il valore intriseco e la competenza attribuiti alla marca
+- *attrazione* percepita, il grado di simpatia ed empatia suggerite dalla marca
+- *fedeltà* alla marca, disposizione a continuare gli atti di acquisto nel tempo
+- *significati* attribuiti alla marca, un insieme di valori assegnati alla marca, come serietà, onesta, eccetera.
+
+La **notorietà** è una premessa indispensabile per le altre caratteristiche della brand equity ed è raggiungibile solo attraverso un'attività imponente di comunicazione pubblicitaria. Il raggiugimento di notorietà è un vincolo primario per qualsiasi prodotto, esso può essere raggiunto attraverso efficaci strategie di comunicazione pubblicitaria. La visibilità va mantenuta e rinnovata nel tempo per evitare il rischio di disinteresse, per via dei continui stimoli ricevuti dai consumatori. La *brand equity* costituisce anche il suo patrimonio di immagine che rappresenta un fattore strategico in grado di generare profitto. Essa genera anche la **salute della marca**, intesa come il grado di vitalità e dinamicità sui mercati. Mantenere un'elevata salute, tramite una buona pubblicità, significa perpetuare nel tempo la vità stessa del prodotto, evitando i costi per costruire notorietà e visibilità.
 
 ### **4.3 Il prodotto deve saper parlare molte lingue**
 
+Il prodotto in quanto significato da condividere attraverso i mass media, presuppone l'interazione fra tre attori: l'*azienda*, i *mass media* e i *consumatori*. Questa implica la convergenza di interessi e di aspettative comuni da parte di questi protagonisti. Sul piano della comunicazione, il prodotto non va considerato solamente come un bene, ma come una realtà complessa, possiamo fare metafora del prodotto come **personalità**, dotato di una propria identità e caratterizzato da un profilo distintivo.  
+La personalità del prodotto è generata da un sistema di diversi aspetti, come il nome, la confenzione nei suoi vari aspetti, l'immagine guida di riferimento, il prezzo e la comunicazione pubblicitaria. La coerenza di questi diversi aspetti contribuisce a definire il **posizionamento** del prodotto, cioè la sua collocazione simbolica nella categoria dei prodotti a cui appartiene. Da questo posizionamento possiamo dire se un prodotto è moderno (*on-trend*) o tradizionale (*off-trend*), formale o informale, giovane o adulto, elitè o di massa, eccetera.  
+Il posizionamento di un prodotto è il risultato di un'attività di comunicazione che evidenzia le sue proprietà tecnologiche e le sue caratteristiche simboliche. In passato l'obbiettivo era di raggiungere una forma di *posizionamento globale* del prodotto, facendo ricorso a comunicazione che evidenziamo l'insieme dei suoi tratti (*Global Selling Proposition GSP*), ad oggi si preferisce focalizzare l'attenzione su una proprietà distintiva ed esclusiva del prodotto, in grado di surclassare i prodotti concorrenti e di convincere i consumatori della sua qualità (**Unique Selling Proposition USP**). Essa è supportata dalla tecnica **Segmentation Targeting Positioning**, una concezione sistematica che considera il mercato come una matrice articolata ed eterogenea, composta da diversi gruppi sociali e tipi di consumatori. Nei mercati attuali occorre effettuare una *segmentazione* per individuare le diverse categorie di consumatori. Ogni categoria di consumatori costituisce un target definito che può essere il bersaglio da raggiungere con un prodotto e una pubblicità coerenti.
 
+In questa prospettiva, il prodotto deve saper parlare una determinata lingua per entrare in dialogo con le categorie dei consumatori a cui deve rivolgersi. Deve saper entrare in sintonia con il consumatore, possedere significati che stimolano l'attenzione e la curiosità dei consumatori. Tale **polisemia** del prodotto è resa possibile da un impiego intelligente di una comunicazione in connessione con i diversi mass media. Il traguardo non è solo acquistare l'attenzione dei destinatari ma di attribuirgli una gamma di significati e valori tali da renderlo desiderabile.
 
 ## **5 Comunicazione politica e mass media**
 
-
+Mass media e politica condividono molti interessi e attività. La **politica** è cambiata radicalmente con l'apparizione dei mass media, in quanto essi hanno modificato l'impostazione di fare politica. I dibattiti televisi e radiofonici, i notiziari e telegiornali eccetera hanno preso il sopravvento nella cossidetta **comunicazione politica**, intesa come intreccio e mediazione di messaggi fra i *politici*, i *mass media* e il *pubblico*. 
 
 ### **5.1 Dal modello pubblicistico-dialogico al modello mediatico**
 
+Il **modello pubblicistico-dialogico** che analizza le interazioni fra i politici, i cittadini e i mass media e dice che questi tre attori interagiscono alla pari in modo sia diretto che indiretto. Lo spazio condiviso da questi tre attori costituisce la *comunicazione politica mediatizzata*, ossia la comunicazione dei politici rivolta ai cittadini che passa attraverso i mass media. Questi ultimi non sono considerati essenziali per la comunicazione politica, che può aver modo anche in altri sistemi.
 
+Il **modello mediatico** ideato a seguito dell'estensione e della dominanza dei media nelle società odierne. I mass media diventano l'arena pubblica e il palcoscenico su cui si sviluppa l'azione politica; nel mentre condizionano politici e cittadini ad adattarsi alle regole e logiche che governano la comunicazione di massa. La comunicazione politica è il prodotto dell'interazione fra i diversi attori nello spazio pubblico mediatizzato.  
+La mediatizzazione della comunicazione politica oltre ad implicare un massiccio ricorso ai mass media, va a modificare le forme e la sostanza del fare politica. In questa prospettiva i politici svolgono un ruolo da protagonisti, mentre i cittadini sono in una posizione da spettatore.  
+Bisogna sottolineare la **centralità dei media nell'arena politica**, in quanto essi sono:
+
+- una fonte di potere, in quanto strumento di influenza, controllo e innovazione nella società
+- la sede dove si svolgono molti fatti della vita pubblica nazionale e internazionale
+- una fonte primaria di definizione e di diffusione dei significati della realtà sociale
+- il percorso privilegiato per ottenere visibilità pubblica e notorietà.  
+I politici che intendono mandare un messaggio ai cittadini devono negoziare con i media tempi, modi e registri. Infatti sempre più spesso si parla di *media politics*. 
 
 ### **5.2 Effetti dell'interazione media-politica**
 
+Parlando di effetti dei media in campo politico occorre distinguere fra il risultato dell'azione mediale sul funzionamento del sistema politico (*effetti sistemici*) e l'impatto che i media esercitano sulle opinioni, atteggiamenti e scelte politiche degli individui (*effetti psicologici*). Ci concentreremo sugli effetti sistemici e alla **mediatizzazione** della politica, cioè l'insieme degli effetti empiricamente osservabili prodotti dai media sul sistema politico. In cui possiamo distinguere gli effetti mediatici e gli effetti politici.
 
+Fra gli **effetti mediatici** possiao ricordare la costruzione dell'**agenda politica** (*agenda building*) e la tematizzazione, cioè gli effetti dei media sui politici nella selezione dei temi da presentare nel corso di una intervista o dibattito televisivo. Quindi l'agenda building non ha nulla a che vedere con l'agenda setting, che riguarda l'influenza dei media sulla valutazione di argomenti sociali da parte del pubblico. Un secondo effetto mediatico è la **spettacolarizzazione**, cioè l'accentuazione della dimensione teatrale insita da sempre nella politica. Tramite i mass media essa è diventata un'attività permanente e la politica ha perso parte della sua sacralità, per via dell'adattamento ai canoni comunicativi dei mass media, in quanto su questi ultimi devono fare affidamento alla *seduzione delle masse*. A seguito di ciò, il discorso politico deve seguire le regole della comunicazione di massa, questo vale anche per i telegiornali che effettuano una drammatizzazione della politica per generare notizia (*newsmaking*). 
+Quindi nello *spettacolo della politica* valgono più le competenze di comunicazione mediale che i suoi contenuti politici.  
+Un terzo effetto è la **frammentazione del discorso politico** per via della riduzione del dibattito politico ai minimi termini per rispettare i vincoli mediali. La politica tende a ridursi a slogan e a pezzetti di discorso politico (*sound bites*). Possiamo parlare di "clip politiche" che impacchettano una dichiarazione politica in frammenti di tempo, con una conseguente stereotipizzazione della comunicazione politica. 
+
+Gli **effetti politici** riguardano la sfera dell'azione e dell'interazione fra le diverse componenti del sistema politico. In merito possiamo menzionare la **personalizzazione**, poichè i media hanno la propensione a leggere la politica attraverso i suoi attori, mettendo in secondo piano l'ideologia e l'organizzazione del partito. Essa focalizza l'attenzione sul *chi* e *come* piuttosto che sul *che cosa* un politico sostiene. Per cui i politici devono essere bravi comunicatori ed adattarsi ai registri comunicativi dei media.  
+In secondo luogo troviamo un effetto di *personalizzazione della leadership* (**leaderizzazione**), passando da una democrazia acefala a una democrazia con leadership, più consone ai canoni della comunicazione di massa. La leaderizzazione incrementa la visibilità e il carisma del leader.  
+In terzo luogo troviamo la **selezione delle elitè politiche**, che consiste nel passaggio del ceto politico dagli organismi partitici ad agenti esterni al sistema partitico, in quanto questi ultimi più dotati di logica dei media, cioè più telegenici, abili nella comunicazione. 
 
 ### **5.3 La pubblicità elettorale**
 
+La **pubblicità elettorale** parte dalla campagna elettorale, tramite la quale è nato il **marketing politico**, cioè la disciplina che studia l'efficacia delle strategie di immagine e della pubblicità elettorale. Questo marketing ha condotto la *laicizzazione* dell'arena politica con un conseguente decremento del fattore ideologico, ha valorizzato i canali di comunicazione di massa sfruttando lo spazio del mercato elettorale attraverso campagne mediatizzate, ha implicato la professionalizzazione della comunicazione elettorale.  
+Il marketing politico ruota attorno a tre aspetti: la televisione, i sondaggi e la pubblicità.  
+La **televisione** è il palcoscenico dove avviene l'esibizione dell'immagine dei candidati nelle campagne elettorali. In quest'ultima conta l'impressione di essere competenti e sinceri. Essa rimane il mezzo dominante.  
+La **pubblicità elettorale** valorizza tutte le forme disponibili, da quelle tradizionali a quelle audiovisive, a quelle informatiche attraverso i new media. Essa ha come obiettivo la creazione di un'immagine vincente. Essa ha la funzione di dare notorietà, legittimare e posizionare il candidato nel ssitema politico vigente agli occhi degli elettori.  
+I **sondaggi** sono uno strumento di misurazione degli orientamenti elettorali degli elettori. Esistono sondaggi pubblici, utilizzati come strumenti di influenzamento e persuasione, anche se con effetti apparentemente opposti: *effetto di conformità* ed *effetto di attivazione della minoranza*. Ma vi sono anche sondaggi privati che servono ai politci per affinare le strategie di comunicazione. 
 
+Gli aspetti qui menzionati non sono esenti da rischi, come il trasformare la politica in videopolitca, avvantaggiare chi ha maggiori risorse economiche, chi sa vendere meglio la propria immagine eccetera. Dall'altra parte l'intreccio fra mass media e comunicazione politica e pubblicitaria ha condotto a nuove forme di fare politica.
 
 ## **6 New media e social network**
 
-
+I **new media** sono processi di comunicazione apparsi per via della comparsa di **nuove tecnologie** che hanno comportato alla diffusione di computer, smartphone e internet. 
 
 ### **6.1 La comunicazione digitalizzata**
 
+La **comunicazione mediata dai new media** è una forma di comunicazione tra due o più persone ottenuta attraverso l'utilizzo di strumenti tecnologici che effettuano una *elaborazione digitale dell'informazione*, dove l'informazione consiste nella differenza tra due o più elementi o dati. I *microprocessori* sono in grado di elaborare informazioni solamente in modo binario. In questo processo si trasforma qualsiasi variabile continua in discreta. Per essere elaborata dal microprocessore ogni informazione deve essere **digitalizzata**, essa è memorizzata sotto forma di *byte*, una sequenza di 8 bit che può assume valori da 0 a 255, basata sul sistema posizionale che ha come *base* il numero due e come *esponente* il valore della posizione del bit. Tramite un *byte* possiamo memorizzare una lettera o numero facendo riferimento alla tabella ASCII. Essa è composta da 255 codici che rappresentano una lettera o un simbolo. Nel tempo si è passati da una codifica analogica alla codifica digitalizza per via dei suoi vantaggi:
 
+- **facile modificazione**, rispetto a quella analogica, l'informazione digitale può essere modificata facilmente. Tradurre informazioni in numeri consente di poterle copiarle e modificarle tramite formule matematiche e calcoli. Da cui deriva un controllo totale sul processo e la possibilità di ritornare sempre alla situazione iniziale
+- **facile memorizzazione**, la codifica digitale consente una semplice memorizzazione dell'informazione. Esse possono essere compresse per occupare meno spazio, mentre quelle analogiche non possono essere compattate senza perdita di informazioni. Da qui deriva il successo di formati digitali come il formato MP3 ed Mp4
+- **trasmissione fedele**, la trasmissione digitale è meno sensibile alla presenza di disturbi. L'informazione digitale non è più direttamente legata al segnale che la trasporta e il rumore che si sovrappone a quest'ultimo non altera la qualità del messaggio
+- **facile integrazione fra canali**, l'informazione digitalizzata consente una facile integrazione tra i diversi canali. La digitalizzazione rende eguali informazioni provenienti da canali differenti facilitandone l'integrazione.
 
 ### **6.2 La comunicazione mediata da computer**
 
+Ad oggi il più potente strumendo di elaborazione digitale è il *computer*, anche se esso non era nato come dispositivo di comunicazione ma come strumento di realizzazione di operazioni combinatorie e computazionali. È stata la diffusione di internet a trasformarlo in un ottimo dispositivo di comunicazione.
 
+L'**architettura comunicativa di internet**, esso è nato alla fine degli anni Sessanta dal dipartimento della difesa USA, esso si trattava di una rete di computer che potevano comunicare tra loro in una rete a prova di malfunzionamenti. Questa rete, chiamata *ARPAnet*, aveva le seguenti caratteristiche:
+
+- nessun computer della rete era indispensabile per consentire una corretta trasmissione dei dati
+- ciascuno di essi doveva essere in grado di inviare correttamente le informazioni
+- ciascuno di essi doveva essere in grado di leggere correttamente le informazioni in arrivo
+Per raggiungere questo obiettivo, i computer furono fatti comunicare tra di loro tramite lo standard di trasmissione dei dati chiamato *TCP/IP*. Esso usa un metodo di trasmissione simile a quello del sistema postare per il recapito della corrispondenza, esso presenta le seguenti caratteristiche: 
+- a ogni computer della rete è attribuito un indirizzo numerico costituito da quattro byte, rappresentato in notazione decimale, chiamato indirizzo IP
+- i dati trasmessi sono riuniti in *pacchetti* ciascuno dei quali contiene l'indirizzo numerico del computer destinatario
+- esistono in rete apparati chiamati *router*, che smistano i pacchetti leggendo gli indirizzi e scegliendo il percorso migliore.
+In questo modo ogni pacchetto può essere inviato tramite percorsi alternativi, senza il rischio che vada perduto. Questo sistema in quanto efficace è diventanto lo standard mondiale detto TCP/IP. Una modifica effettuata successivamente è stata l'implementazione degli URL, che permettono di associare agli indirizzi IP un indirizzo alfabetico. 
+
+La comunicazione via internet inoltre è basata sul una modalità di interazione detta **architettura client-server**, caratterizzata da due protagonisti necessari per svolgere un dato compito. I due protagonisti sono:
+
+- il *client* è il programma che costituisce l'interfaccia con l'utente e che si occupa di richiedere e presentare i dati
+- il *server* invece si occupa solo del mantenimento, reperimento e dell'invio dei dati al client che li ha richiesti  
+Normalmente client e server sono installati su due macchine diverse, il primo si trova si trova il locale nella macchina dell'utente, il secondo è in remoto e l'utente non conosce il suo funzionamento.
+
+Per poter comunicare client e server devono adottare lo stesso *protocollo di comunicazione*, tra i vari protocolli delle diverse applicazioni internet troviamo: HTTP per le pagine web, SMTP per i messaggi di posta elettronica, FTP per il trasferimento di file.  
+
+In tal modo si ottiene la **globalizzazione della comunicazione**, in quanto tutti possono comunicare con tutti, in qualsiasi parte del mondo e in qualsiasi momento. 
+
+La **comunicazione mediata da computer (CMC)** comprende numerose attività, forme e modalità di comunicazione. Essa è caratterizzata dalla *compresenza temporale dei soggetti comunicanti*; si ha *CMC sincrona* quando la comunicazione avviene nello stesso momento fra i soggetti, mentre si ha *CMC asincrona* quando la comunicazione avviene in tempi sfasati fra i soggetti. Nella CMC sincrona possiamo vedere i siti web, l'e-mail, gli SMS, mentre in quella asincrona la chat.
+
+La **comunicazione multimediale: il Web e il Web 2.0**, l'interfaccia Web apparsa nel 1989 ha conentito di integrare i diversi contenuti disponibili in un server all'interno di un unico contenitore. Grazie al linguaggio HTML il web consente la visualizzazione e l'interazione con i diversi oggetti presenti nella pagina web. Con l'aumento degli utenti sono entrati in gioco i motori di ricerca.  §
+A sua volta il Web 2.0 rende possibile creare, trasmettere e commentare facilmente i contenuti multimediali. Grazie al linguaggio AJAX il Web 2.0 consente un uso agevole e l'opportunità di creare nuovi contenuti in rete cone ventuai evidenziazioni mediante il ricorso a parole chiave (tag). Possiamo trovare i blog nel Web 2.0, che hanno avuto grosso successo, l'idea di fondo è la condivisione dei propri pensieri ed esperienze con gli altri. Andando anche a creare una comunità virtuale.
 
 ### **6.3 Principali differenze fra CMC e comunicazione faccia a faccia**
 
+I new media costituisco uno spazio comunicativo detto **cyberspazio**, caratterizzato dalla disponibilità di una rete digitalizzata mondiale, da una comunicazione distribuita, disponibilità continua e ubiquitaria di mezzi virtuali. Esso consente la costruzione di *comunità virtuali* che permetto di instaurare legami personali validi e intensi fra le persone che hanno i medesimi interesse. 
 
+Tutta via la comunicazione attraverso tastiera e schemo di un computer o cellulare rende il processo di interazione comunicativa moldo diverso da quello faccia a faccia. Nella CMC sono assenti gli aspetti di **metacomunicazione** che caratterizzano la conversazione quotidiana, infatti in essa sono spesso utilizzate le *emoticon* per simulare la mimica facciale.  
+La CMC non offre garanzie sull'**identità** dei soggetti. Gli interlocutori sono identificati da un indirizzo, un nickname o avatar che non necessariamente è legato alle caratteristiche dei soggetti. Infatti un fenomeno particolarmente diffuso è l'assunzione di identità fittizie (spoofing).  
+Nella CMC l'**impegno** a collaborare tra i partecipanti e la cooperazione nel corso della formulazione del messaggio non sono presenti. Il processo cognitivo avviene in modo asimmetrico, con il ricevente che può decidere se continuare o meno l'interazione trasformandosi in emittente. Nella CMC la decisione di iniziare o continuare l'interazione è presa in base all'interpretazione della situazione fatta dal soggetto, ai suoi obiettivi e alle regole sociali a cui questo è sottoposto. Queste ultime delineano ciò che è stato definito come *opportunismo elettronico*.  
+La CMC è caratterizzata da una notevole presenza di atti comunicativi **disfunzionali** per via dell'asimmetria e alla difficoltà di identificazione dell'interlocutore, ha condotto alla diffusione di atti comunicativi assimilabili alla discomunicazione, come per esempio il *lurking* (assenza dalla comunicazione), il *flaming*, lo *spamming*, il *bombing*.
+
+La CMC testuale è più lenta, in quanto comunicare scrivendo con la tastiera richiede assai più tempo che parlare e interagire faccia a faccia, infatti spesso vengono usate abbreviazioni. Si tratta di forme comunicative dettate da circuiti di *convenzionalizzazione locale* che manifestano l'esigenza di accelerare i processi di trasmissione, manifestano le tendenze culturali della comunità che le segue e mettono in atto i meccanismi di condivisione dei significati.  
+La CMC non ha una precisa definizione nell'*alternanza dei turni* negli scambi comunicativi. L'ordine dei messaggi è organizzato in modo temporale ed è possibile che gli individui scrivano messaggi in contemporanea.
 
 ### **6.4 I social network**
+
+I **social network** sono il luogo di incontro fra l'impiego dei new media e l'esigenza di avere una vita sociale. Essi sono prodotti dalla convergenza di tre aspetti:
+
+- la disponibilità di uno spazio virtuale in cui ogni utente può costruire e manifestare il proprio profilo di identità
+- la possibilità di creare una lista di altri utenti (rete) con cui è possibile entrare in contatto
+- l'opportunità di analizzare le caratteristiche della propria rete.  
+I social network hanno il vantaggio di rendere visibili e utilizzabili le proprie reti sociali. Sono strumenti potenti strumenti per innescare e produrre cambiamenti culturali. Uno dei primi social network famosi è MySpace, successivamente troviamo Facebook, Twitter.
+
+I social network costituiscono una spazio misto (**cyberspazio**) in grado di permettere la creazione e sviluppo di relazioni entro gruppi umani molto estesi. Esso partecipa alla costruzione della proprià identità sociale e culturale, promuove nuove forme di comunicazione, favorisce la formazione di comunità caratterizzate da scambi comunicativi frequenti per uno scopo comune, con la consapevolezza di appartenere alla medesima unità e di incrementare il grado di partecipazione nella condivisione di stati interni con il conseguimento di un livello elevato di consenso.  
+Come esito di queste condizioni i social network favoriscono il potenziamento di sè in termini di immagine, visibilità e notorietà, autostima e autoefficacia, successo e affermazione delle proprie competenze. Essi sono palestre che consentono il miglioramento delle proprie potenzialità. Offrono l'opportunità di avviare nuove relazioni sentimentali ed attività di seduzione.
+
+Tuttavia essi non sono esenti da rischi e pericoli, il loro lato oscuro riguarda una gamma estesa di comportamenti disfunzionali. Inoltre comportano la fine della privacy, all'eccesso frammentato delle informazioni, infine sono presenti fenomeni di dipendenza patologica. 
+
+In conclusione possiamo dire che i social network presentano due facce: una positiva, costituita da grandi opportunità e vantaggi e una negativa con diverse insidie e pericoli.
