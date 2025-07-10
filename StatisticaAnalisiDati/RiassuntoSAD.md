@@ -2906,12 +2906,13 @@ $$
 
 ### **3.2 Proprietà**
 
-Si consideri una variabile aleatoria $X$ di cui si conosce la distribuzione. Anzichè calcolare il valore atteso di $X$, può essere conveniente calcolare il valore atteso di una funzione $g(X)$, dove $g$ è una funzione $g: \mathbb{R} \to \mathbb{R}$. Si nota che $g(X)$ è anche'essa una variabile aleatoria, e quindi è possibile calcolarne la distribuzione in un qualche modo; dopo averla ottenuta si può calcolare $\mathbb{E}[g(X)]$ con la sua definizione usuale.
-
+##### **Proposizione** 
 Se $X$ è una variabile aleatoria discreta con funzione di probabilità $p_X$, allora, per ogni funzione reale $g$ vale [^4]
 $$
 E[g(X)] = \sum_{x \in D_X} g(x)\, \mathbb{P}(X = x) = \sum_{x \in D_X} g(x)\, p_X(x) \tag{7.1.3}
 $$
+
+Si consideri una variabile aleatoria $X$ di cui si conosce la distribuzione. Anzichè calcolare il valore atteso di $X$, può essere conveniente calcolare il valore atteso di una funzione $g(X)$, dove $g$ è una funzione $g: \mathbb{R} \to \mathbb{R}$. Si nota che $g(X)$ è anche'essa una variabile aleatoria, e quindi è possibile calcolarne la distribuzione in un qualche modo; dopo averla ottenuta si può calcolare $\mathbb{E}[g(X)]$ con la sua definizione usuale.
 
 [^3]: Si osserva che $\mathbb{E}[X]$ è definito solo se la serie $(7.1.2)$ converge in valore assoluto, ovvero deve valere
 $$
@@ -2924,7 +2925,8 @@ $$
   \sum_{x \in D_X} |g(x)|\, p_X(x) < \infty
 $$
 
-**Corollario** Per ogni coppia di costanti reali $a$ e $b$, si ha $\mathbb{E}[aX + b] = a\, \mathbb{E}[X] + b$.
+##### **Proposizione** 
+Per ogni coppia di costanti reali $a$ e $b$, si ha $\mathbb{E}[aX + b] = a\, \mathbb{E}[X] + b$.
 
 Dimostrazione: 
 
@@ -2936,6 +2938,151 @@ Si presentano due casi:
 
 - se $a = 0$, si ha $\mathbb{E}[b] = b$ e quindi il valore atteso di una costante è la costante stessa. Una costante è infatti una variabile aleatoria degenere che assume un unico valore con probabilità 1.
 - se $b=0$ si ottiene che $\mathbb{E}[aX] = a\, \mathbb{E}[X]$. Di conseguenza il valore atteso scala rispetto alle costanti moltiplicative.
+
+##### **Proposizione** 
+Il valore atteso è lineare rispetto alla somma di variabili aleatorie: $\mathbb{E}[X+Y] = \mathbb{E}[X] + \mathbb{E}[Y]$.
+
+Dimostrazione:
+
+\hangindent=2em \qquad È possibile estendere la formula $(7.1.3)$ in una variante in due dimensioni: se $X$ e $Y$ sono variabili aleatorie e $g$ è una qualunque funzione di due variabili, allora, se $\mathbb{E}[g(X,Y)]$ è definito, vale
+$$
+\mathbb{E}[g(X,Y)] = \begin{cases} 
+\displaystyle ~ \sum_{x \in D_X} \sum_{y \in D_Y} g(x,y)\, p_{X,Y}(x,y) & \text{nel discreto} \\[2em]
+\displaystyle ~ \int_{-\infty}^{+\infty} \int_{-\infty}^{+\infty} g(x,y)\, f_{X,Y}(x,y) \, dx \, dy & \text{nel continuo}
+\end{cases}
+$$
+
+\hangindent=2em \qquad Si consideri la funzione $g(x,y) = x + y$ e si applichi la formula precedente. Verrà presentata la dimostrazione per il caso discreto, ma il ragionamento è analogo nel caso continuo:
+\begin{align*}
+\mathbb{E}[X + Y] = & \sum_{x \in D_X} \sum_{y \in D_Y} (x + y)\, p_{X,Y}(x,y) = \sum_{x \in D_X} \sum_{y \in D_Y} x\, p_{X,Y}(x,y) + \sum_{x \in D_X} \sum_{y \in D_Y} y\, p_{X,Y}(x,y) \\[0.5em]
+= & \sum_{x \in D_X} x\, \left( \sum_{y \in D_Y} p_{X,Y}(x,y) \right) + \sum_{y \in D_Y} y\, \left( \sum_{x \in D_X} p_{X,Y}(x,y) \right) \\[0.5em]
+\overset{(1)}{=} & \sum_{x \in D_X} x\, p_X(x) + \sum_{y \in D_Y} y\, p_Y(y) = \mathbb{E}[X] + \mathbb{E}[Y]
+\end{align*}
+\vspace{-2mm}
+\hangindent=2em \qquad \begin{align*}\begin{small}\text{(1):}\end{small} & \begin{small}\text{ le sommatorie all'interno delle parentesi tonde rappresentano rispettivamente le funzioni di massa di}\end{small} \\ & \begin{small}\text{probabilità marginali di $X$ e $Y$.}\end{small}\end{align*}
+
+Applicando ricorsivamente questa equazione si può estendere la linearità del valore attesso a un numero finito di variabili aleatorie:
+$$
+\mathbb{E}[X_1 + X_2 + \cdots + X_n] = \mathbb{E}[X_1] + \mathbb{E}[X_2] + \cdots + \mathbb{E}[X_n]
+$$
+Formalmente, se $X_1, X_2, \cdots, X_n$ sono variabili aleatorie discrete, si ha
+$$
+\mathbb{E}\left[\sum_{i=1}^n X_i\right] = \sum_{i=1}^n \mathbb{E}[X_i] = \sum_{i=1}^n \sum_{x \in D_{X_i}} x\, p_{X_i}(x) = \sum_{x \in D_X} x\, \left( \sum_{i=1}^n p_{X_i}(x) \right)
+$$
+
+##### **Proposizione**
+Se $X$ e $Y$ sono variabili aleatorie indipendenti, allora $\mathbb{E}[XY] = \mathbb{E}[X] \mathbb{E}[Y]$.
+
+Dimostrazione:
+
+\hangindent=2em \qquad Si consideri la funzione $g(x,y) = xy$ e si applichi la formula $(7.1.3)$:
+\begin{align*}
+\mathbb{E}[XY] = & \sum_{x \in D_X} \sum_{y \in D_Y} xy\, p_{X,Y}(x,y) \overset{(1)}{=} \sum_{x \in D_X}  \sum_{y \in D_Y} xy\, p_{X}(x)\, p_Y(y) \\[0.5em]
+= & \sum_{x \in D_X} x\, p_X(x)\, \sum_{y \in D_Y} y\, p_Y(y) = \mathbb{E}[X] \,\mathbb{E}[Y]
+\end{align*}
+\begin{small}\qquad\, \text{(1): per ipotesi di indipendenza}\end{small}
+
+##### **Teorema**
+Sia $X \ge 0$ una variabile aleatoria discreta a specificazioni non negative, allora
+$$
+\mathbb{E}[X] = \int_{0}^{+\infty} [1 - F_X(x)] \, dx
+$$
+
+Dimostrazione:
+
+\hangindent=2em \qquad Siano $x_1, x_2, \cdots, x_n$ le specificazioni non nulle assunte da $X$ e siano $F_X(x_1), F_X(x_2), \cdots, F_X(x_n)$ i valori assunti dalla funzione di ripartizione in corrispondenza di tali specificazioni. La funzione di ripartizione è definita come la somma cumulativa delle probabilità associate a ciascun valore di $X$, e quindi il salto della funzione di ripartizione in corrispondenza di $x_i$ è dato da
+$$
+\Delta_i = F_X(x_i) - F_X(x_{i-1}) = \mathbb{P}(X \le x_i) - \mathbb{P}(X \le x_{i-1}) = p_X(x_i) \quad \forall i = 1, \cdots, n
+$$
+Si osserva che ciascun salto $\Delta_i$, se moltiplicato per la corrispondente specificazione $x_i$, contribuisce al valore atteso $\mathbb{E}[X]$; sommando i contributi di tutti i salti, si ottiene pertanto proprio il valore atteso:
+$$
+\mathbb{E}[X] = \sum_{i=1}^n x_i \, p_X(x_i) = \sum_{i=1}^n x_i \, \Delta_i
+$$
+
+
+\begin{minipage}{0.45\textwidth}
+    \centering
+    \begin{tikzpicture}[xscale=1.5, yscale=3.25]
+
+  %--- Parametri generici
+  \def\xone{1}     
+  \def\xtwo{2}     
+  \def\xthree{3}   
+  \def\yone{0.3}   
+  \def\ytwo{0.7}   
+
+  %--- Ombreggiature
+  \fill[pattern=crosshatch dots,pattern color=gray!70]   (0,0)          rectangle (\xone,\yone);
+  \fill[pattern=horizontal lines,pattern color=gray!70] (0,\yone)      rectangle (\xtwo,\ytwo);
+  \fill[pattern=north east lines,pattern color=gray!70] (0,\ytwo)      rectangle (\xthree,1);
+
+  %--- Assi
+  \draw[->] (0,0) -- (3.8,0) node[right] {$x$};
+  \draw[->] (0,0) -- (0,1.2) node[above] {$F_X(x)$};
+
+  %--- Ticche su y
+  \node[left,yshift=-7pt,xshift=2pt] at (0,0) {0};
+  \draw (-0.04,1) -- (0.04,1) node[left] {1};
+  \draw (-0.04,\yone) -- (0.04,\yone) node[left,xshift=-2pt] {\small $F_X(x_1)$};
+  \draw (-0.04,\ytwo) -- (0.04,\ytwo) node[left,xshift=-2pt] {\small $F_X(x_2)$};
+
+  %--- Ticche su x e tratteggiate verticali
+  \foreach \x/\i in {\xone/1,\xtwo/2,\xthree/3} {
+    \draw (\x,0.04) -- (\x,-0.04) node[below] {$x_{\i}$};
+    \draw[dashed] (\x,0) -- (\x,1);
+  }
+
+  %--- Funzione di ripartizione
+  \draw[thick]
+    (0,0) -- (\xone,0)
+    (\xone,\yone) -- (\xtwo,\yone)
+    (\xtwo,\ytwo) -- (\xthree,\ytwo)
+    (\xthree,1) -- (3.6,1);
+  \draw[thick]
+    (\xone,0)     -- (\xone,\yone)
+    (\xtwo,\yone) -- (\xtwo,\ytwo)
+    (\xthree,\ytwo) -- (\xthree,1);
+
+  %--- Etichette A, B, C
+  \node[fill=white,inner sep=2pt] at ({\xone/2},{\yone/2})                {$A$};
+  \node[fill=white,inner sep=2pt] at ({(\xtwo)/2},{\yone+(\ytwo-\yone)/2}) {$B$};
+  \node[fill=white,inner sep=2pt] at ({(\xthree)/2},{\ytwo+(1-\ytwo)/2})   {$C$};
+
+    %--- Graffe Δ_i compatte e spesse
+  \draw[decorate, decoration={brace, amplitude=3pt, raise=1pt}, line width=0.7pt]
+    (\xone+0.02,\yone-0.02) -- (\xone+0.02,0.02)
+    node[midway,right,xshift=4pt] {\small $\Delta_1$};
+  \draw[decorate, decoration={brace, amplitude=3pt, raise=1pt}, line width=0.7pt]
+    (\xtwo+0.02,\ytwo-0.02) -- (\xtwo+0.02,\yone+0.02)
+    node[midway,right,xshift=4pt] {\small $\Delta_2$};
+  \draw[decorate, decoration={brace, amplitude=3pt, raise=1pt}, line width=0.7pt]
+    (\xthree+0.02,1-0.02) -- (\xthree+0.02,\ytwo+0.02)
+    node[midway,right,xshift=4pt] {\small $\Delta_3$};
+
+\end{tikzpicture}
+\end{minipage}
+\begin{minipage}{0.55\textwidth}
+Si consideri ora il grafico della funzione di ripartizione $F_X(x)$ presentato a sinistra: in questo caso si assumono per semplicità solo tre specificazioni. Per quanto detto precedentemente, il valore atteso di $X$ è dato dalla somma dei contributi dei salti della funzione di ripartizione, che sono rappresentati dalle aree $A, B$ e $C$. Ma la somma di queste aree corrisponde proprio all'area sopra la curva della funzione di ripartizione, che è pari a
+$$
+\int_{0}^{+\infty} [1 - F_X(x)] \, dx
+$$
+Si è quindi dimostrato che il valore atteso di una variabile aleatoria discreta non negativa corrisponde all'integrale presentato, provando quindi la tesi.
+\end{minipage}
+
+##### **Osservazione**
+$\mathbb{E}[(X-c)^2] \ge \mathbb{E}[(X-\mu)^2]$
+
+Vi è una interessante proprietà della media che emerge quando si vuole predire con il minore errore possibile il valore che verrà assunto da una variabile aleatoria. Si supponga di voler predire il valore di $X$: se si sceglie un numero reale $c$ e si dice che $X$ sarà uguale a $c$, il quadrato dell'errore che si commetterà sarà $(X - c)^2$. Si dimostra di seguito che la media dell'errore al quadrato (detto errore quadratico medio) è minima quando $c$ coincide con il valore atteso di $X$. Infatti, detta $\mu = \mathbb{E}[X]$, si ha
+\begin{align*}
+\mathbb{E}[(X - c)^2] & = \mathbb{E}[(X - \mu + \mu -c)^2] = \mathbb{E}[(X - \mu)^2 + 2(X - \mu)(\mu - c) + (\mu - c)^2] \\[0.5em]
+& = \mathbb{E}[(X - \mu)^2] + 2(\mu - c)\, \mathbb{E}[X - \mu] + (\mu - c)^2 \\[0.5em]
+& \overset{(1)}{=} \mathbb{E}[(X - \mu)^2] + (\mu - c)^2 \\[0.5em]
+& \ge \mathbb{E}[(X - \mu)^2] 
+\end{align*}
+
+$\begin{small}\qquad\, \text{(1): infatti } \mathbb{E}[X - \mu] = \mathbb{E}[X] - \mu = 0. \end{small}$
+
+Perciò la migliore previsione di $X$, in termini di minimizzazione dell'errore quadratico medio, è proprio il suo valore atteso.
 
 ## **4 Varianza**
 
@@ -2955,8 +3102,9 @@ Dimostrazione:
 \qquad $\text{Var}(X) = \mathbb{E}[(X - \mu)^2] = \mathbb{E}[X^2 - 2\mu X + \mu^2] \overset{(1)}{=} \mathbb{E}[X^2] - 2\mu\, \mathbb{E}[X] + \mu^2 = \mathbb{E}[X^2] - 2\mu^2 + \mu^2 = \mathbb{E}[X^2] - \mu^2$
 \begin{footnotesize}\qquad\, $(1)$: il valore atteso è lineare anche rispetto alla somma di variabili aleatorie.\end{footnotesize}
 
-#### **Corollario**
+### **4.1 Proprietà**
 
+##### **Proposizione**
 Per ogni coppia di costanti reali $a$ e $b$, si ha $\text{Var}(aX + b) = a^2\, \text{Var}(X)$.
 
 Dimostrazione:
@@ -2981,22 +3129,622 @@ A partire dalla varianza, è possibile definire la deviazione standard di una va
 $$
 \sigma_X = \sqrt{\text{Var}(X)} = \sqrt{\mathbb{E}[(X - \mu)^2]} = \sqrt{\mathbb{E}[X^2] - \mathbb{E}[X]^2}
 $$
-
 La deviazione standard possiede la stessa unità di misura della variabile aleatoria presa in considerazione.
 
+#### **Linearità**
+
+Se il valore atteso è lineare rispetto alla somma di variabili aleatorie, in generale non si può dire lo stesso per la varianza. Infatti, ad esempio
+$$
+\text{Var}(X + X) = \text{Var}(2X) = 4\, \text{Var}(X) \ne \text{Var}(X) + \text{Var}(X)
+$$
+
+##### **Proposizione**
+Si considerino due variabili aleatorie qualsiasi $X$ e $Y$. La varianza della loro somma è data da
+$$
+\text{Var}(X + Y) = \text{Var}(X) + \text{Var}(Y) + 2\, \text{Cov}(X, Y)
+$$
+
+##### **Dimostrazione**
+
+\begin{align*}
+\text{Var}(X + Y) & = \mathbb{E}[(X+Y)^2] - \mathbb{E}[X + Y]^2 = \mathbb{E}[X^2 + 2XY + Y^2] - (\mathbb{E}[X] + \mathbb{E}[Y])^2 \\[0.5em]
+& = \mathbb{E}[X^2] + 2\mathbb{E}[XY] + \mathbb{E}[Y^2] - (\mathbb{E}[X]^2 + 2\,\mathbb{E}[X]\, \mathbb{E}[Y] + \mathbb{E}[Y]^2) \\[0.5em]
+& = \mathbb{E}[X^2] - \mathbb{E}[X]^2 + \mathbb{E}[Y^2] - \mathbb{E}[Y]^2 + 2\,\mathbb{E}[XY] - 2\,\mathbb{E}[X]\, \mathbb{E}[Y] \\[0.5em]
+& = \text{Var}(X) + \text{Var}(Y) + 2\, \text{Cov}(X, Y) \\
+\end{align*}
+
+Utilizzando questa formula sul caso precedente, si ottiene infatti
+$$
+\text{Var}(X+X) = \text{Var}(X) + \text{Var}(X) + 2 \text{Cov}(X,X) = 2\, \text{Var}(X) + 2\, \text{Var}(X) = 4\, \text{Var}(X)
+$$
+
+Questa formula può essere estesa a un numero finito di variabili aleatorie, ottenendo che, se $X_1, X_2, \cdots, X_n$ sono variabili aleatorie, allora
+$$
+\text{Var}\left(\sum_{i=1}^n X_i\right) = \sum_{i=1}^n \text{Var}(X_i) +  \sum_{i=1}^n \sum_{\substack{j=1\\ j\neq i}}^n \mathrm{Cov}(X_i, X_j)
+$$
+
+##### **Proposizione**
+Se $X$ e $Y$ sono variabili aleatorie indipendenti, allora $\text{Var}(X + Y) = \text{Var}(X) + \text{Var}(Y)$.
+
+**Dimostrazione:**
+
+\qquad $\text{Var}(X + Y) = \text{Var}(X) + \text{Var}(Y) + 2\, \text{Cov}(X, Y) \overset{(1)}{=} \text{Var}(X) + \text{Var}(Y) + 2\cdot 0 = \text{Var}(X) + \text{Var}(Y)$
+
+$\begin{small}\qquad\, \text{(1): per ipotesi di indipendenza } \end{small}$
+
+## **5 Covarianza**
+
+Si considerino due variabili aleatorie $X$ e $Y$ di valore atteso $\mu_X$ e $\mu_Y$ rispettivamente. La loro *covarianza*, che si indica con $\text{Cov}(X,Y)$, è definita come, se esiste, la quantità
+$$
+\text{Cov}(X,Y) = \mathbb{E}[(X - \mu_X)(Y - \mu_Y)]
+$$
+
+##### **Teorema**
+Siano $X$ e $Y$ due variabili aleatorie, allora $\text{Cov}(X,Y) = \mathbb{E}[XY] - \mathbb{E}[X]\mathbb{E}[Y]$.
+
+Dimostrazione:
+\begin{align*}
+\text{Cov}(X,Y) & = \mathbb{E}[(X - \mu_X)(Y - \mu_Y)] = \mathbb{E}[XY - \mu_X Y - \mu_Y X + \mu_X \mu_Y] \\[0.3em]
+& = \mathbb{E}[XY] - \mu_X \mathbb{E}[Y] - \mu_Y \mathbb{E}[X] + \mu_X \mu_Y = \mathbb{E}[XY] - \mu_X \mu_Y - \cancel{\mu_Y \mu_X} + \cancel{\mu_X \mu_Y} \\[0.3em]
+& = \mathbb{E}[XY] - \mathbb{E}[X] \mathbb{E}[Y]
+\end{align*}
+
+### **5.1 Proprietà**
+
+Dalla definizione di covarianza si deducono le seguenti proprietà:
+
+- $\text{Cov}(X,Y) = \text{Cov}(Y,X)$ simmetria
+- $\text{Cov}(X,Y) = \text{Var}(X)$
+- $\text{Cov}(X + b,Y) = \text{Cov}(X,Y) = \text{Cov}(X,Y + b)$
+- $\text{Cov}(aX,Y) = a\text{Cov}(X,Y) = \text{Cov}(X,aY)$
+
+    **Dimostrazione**:
+
+    \qquad $\text{Cov}(aX, Y) = \mathbb{E}[(aX - a\mu_X)(Y - \mu_Y)] = \mathbb{E}[a (X - \mu_X)(Y - \mu_Y)] = a\, \text{Cov}(X,Y)$
+
+##### **Lemma**
+Siano $X,Y$ e $Z$ tre variabili aleatorie, allora \text{Cov}(X + Y, Z) = \text{Cov}(X,Z) + \text{Cov}(Y,Z)$.
+
+Dimostrazione:
+\begin{align*}
+\text{Cov}(X+Y,Z) & = \mathbb{E}[(X+Y)Z] - \mathbb{E}[X+Y]\, \mathbb{E}[Z] = \mathbb{E}[XZ + YZ] - (\mathbb{E}[X] + \mathbb{E}[Y])\, \mathbb{E}[Z] \\[0.3em]
+& = \mathbb{E}[XZ] + \mathbb{E}[YZ] - \mathbb{E}[X]\, \mathbb{E}[Z] - \mathbb{E}[Y]\, \mathbb{E}[Z] = \text{Cov}(X,Z) + \text{Cov}(Y,Z)
+\end{align*}
+
+Questo lemma può essere generalizzato a più di due variabili aleatorie, ottenendo che, se $X_1, \cdots, X_n$ sono variabili aleatorie, allora
+$$
+\text{Cov}\left(\sum_{i=1}^n X_i, Y\right) = \sum_{i=1}^n \text{Cov}(X_i, Y)
+$$
+
+##### Proposizione
+Siano $X_1, \cdots, X_n$ e $Y_1, \cdots, Y_n$ variabili aleatorie qualsiasi, allora
+$$
+\text{Cov}\left(\sum_{i=1}^n X_i, \sum_{j=1}^n Y_j\right) = \sum_{i=1}^n \sum_{j=1}^n \text{Cov}(X_i, Y_j)
+$$
+
+### **5.2 Indipendenza**
+
+##### Teorema
+Siano $X$ e $Y$ due variabili aleatorie indipendenti, allora $\text{Cov}(X,Y) = 0$.
+
+Dimostrazione:
+
+\qquad $\text{Cov}(X,Y) = \mathbb{E}[XY] - \mathbb{E}[X]\, \mathbb{E}[Y] \overset{(1)}{=} \mathbb{E}[X]\, \mathbb{E}[Y] - \mathbb{E}[X]\, \mathbb{E}[Y] = 0$
+
+$\begin{small}\qquad\, \text{(1): per ipotesi di indipendenza } \end{small}$
+
+Se due variabili aleatorie non sono indipendenti, la loro covarianza è un importante indicatore della relazione che sussiste tra loro. Si consideri la situazione in cui $X$ e $Y$ sono le funzioni indicatrici di due eventi $A,B \subseteq \mathcal{F}$:
+
+$$
+X = I_A = \begin{cases}
+1 & \text{sse \(A\) si verifica} \\[0.5em]
+0 & \text{altrimenti}
+\end{cases} \\
+\qquad\qquad Y = I_B = \begin{cases}
+1 & \text{sse \(B\) si verifica} \\[0.5em]
+0 & \text{altrimenti}
+\end{cases}
+$$
+Si ricorda che $\mathbb{E}[X] = \mathbb{P}(A)$ e $\mathbb{E}[Y] = \mathbb{P}(B)$. Si osserva che anche $XY$ è una funzione indicatrice:
+$$
+XY = I_{A \cap B} = \begin{cases}
+1 & \text{sse } X = 1 \text{ e } Y = 1 \\[0.5em]
+0 & \text{altrimenti}
+\end{cases}
+$$
+
+Sapendo che $\mathbb{E}[XY] = \mathbb{P}(X=1, Y=1) = \mathbb{P}(A \cap B)$, si ottiene che
+$$
+\text{Cov}(X,Y) = \mathbb{E}[XY] - \mathbb{E}[X]\, \mathbb{E}[Y] = \mathbb{P}(X=1, Y=1) - \mathbb{P}(X=1)\, \mathbb{P}(Y=1)
+$$
+
+da cui si deduce che
+\begin{align*}
+\text{Cov}(X, Y) > 0 & \iff \mathbb{P}(X=1, Y=1) > \mathbb{P}(X=1)\, \mathbb{P}(Y=1) \\[0.5em]
+& \iff \dfrac{\mathbb{P}(X=1, Y=1)}{\mathbb{P}(Y=1)} > \mathbb{P}(X=1) \\[0.5em]
+& \iff \mathbb{P}(X=1 | Y=1) > \mathbb{P}(X=1)
+\end{align*}
+
+Perciò la covarianza di $X$ e $Y$ è positiva se condizionando a $\{Y=1\}$ aumenta la probabilità di $X=1$. 
+
+##### **Indice di correlazione lineare**
+In generale si può dimostrare che un valore positivo di $\text{Cov}(X,Y)$ indica che $X$ e $Y$ tendenzialmente assumono valori grandi o piccoli contemporaneamente. La forza della relazione tra $X$ e $Y$ è misurata propriamente dal *coefficiente di correlazione lineare*, un numero puro che tiene conto anche delle deviazioni standard di $X$ e $Y$. Viene indicato con $\text{Corr}(X,Y)$ e definito come:
+$$
+\text{Corr}(X,Y) = \dfrac{\text{Cov}(X,Y)}{\sigma_X \sigma_Y} = \dfrac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)\,\text{Var}(Y)}}
+$$
+
+Si può dimostrare che questa quantità è sempre compresa tra -1 e +1. Valgono le seguenti affermazioni:
+
+- $\text{Corr}(X,Y) = 1$ se $X$ e $Y$ sono perfettamente correlati positivamente, cioè se esiste una relazione lineare crescente tra $X$ e $Y$.
+
+- $\text{Corr}(X,Y) = -1$ se $X$ e $Y$ sono perfettamente correlati negativamente, cioè se esiste una relazione lineare decrescente tra $X$ e $Y$.
+
+- $\text{Corr}(X,Y) = 0$ se $X$ e $Y$ sono incorrelati, cioè se non esiste alcuna relazione lineare tra $X$ e $Y$. Ciò non implica che $X$ e $Y$ siano indipendenti, in quanto potrebbero esistere relazioni non lineari che questo coefficiente non è in grado di cogliere.
+
+## **6 Disuguaglianze**
+
+L'importanza delle disuguaglianze di Markov e Chebyshev, che verranno presentate di seguito, sta nel fatto che permettono di limitare le probabilità di eventi rari che riguardano variabili aleatorie di cui si conosce solo il valore atteso oppure il valore atteso e la varianza. Naturalmente, quando la distribuzione è nota, è possibile calcolare queste probabilità esattamente e non vi è quindi la necessità di ridursi alle disuguaglianze.
+
+### **6.1 Disuguaglianza di Markov**
+
+Sia $X \ge 0$ una variabile aleatoria qualsiasi a specificazioni non negative, allora
+$$
+\mathbb{P}(X \ge a) \le \dfrac{\mathbb{E}[X]}{a} \quad \forall a > 0
+$$
+
+**Dimostrazione**:
+
+\hangindent=2em \qquad Si mostra la dimostrazione per il caso discreto, ma il ragionamento è analogo nel caso continuo. 
+\begin{align*}
+\mathbb{E}[X] & = \sum_{x \in D_X} x\, \mathbb{P}(X=x) = \underbrace{\sum_{x < a} x\, \mathbb{P}(X=x)}_{\ge 0 \text{ per ipotesi}} + \sum_{x \ge a} x\, \mathbb{P}(X=x) \\[0.5em]
+& \overset{(1)}{\ge} \sum_{x \ge a} x\, \mathbb{P}(X=x) \overset{(2)}{\ge} \sum_{x \ge a} a\, \mathbb{P}(X=x) = a\, \underbrace{\sum_{x \ge a} \mathbb{P}(X=x)}_{\text{eventi disgiunti}} \\
+& \overset{K3}{=} a\, \mathbb{P}(X \ge a)
+\end{align*}
+\vspace{-8mm}
+\begin{small}\qquad\, \text{(1): perché il primo addendo è positivo}\\ \hspace*{2.17em} \text{(2): perché $x \ge a$ nella sommatoria}\end{small}
+
+
+\hangindent=2em \qquad Si è quindi dimostrato che $\;\mathbb{E}[X] \ge a\, \mathbb{P}(X \ge a) \; \Rightarrow \; \mathbb{P}(X \ge a) \le \dfrac{\mathbb{E}[X]}{a},\;$ provando di fatto la tesi.
+
+\hfill
+
+Si osserva che è possibile utilizzare questa disuguaglianza anche nel verso opposto, ossia
+$$
+\mathbb{P}(X < a) = 1 - \mathbb{P}(X \ge a) \ge 1 - \dfrac{\mathbb{E}[X]}{a} \quad \forall a > 0
+$$
+
+### **6.2 Disuguaglianza di Chebysev**
+
+Sia $X$ una variabile aleatoria qualsiasi con media $\mu$ e varianza $\sigma^2$, allora
+$$
+\mathbb{P}(|X - \mu| \ge r) \le \dfrac{\sigma^2}{r^2} \quad \forall r > 0
+$$
+
+**Dimostrazione**:
+
+\hangindent=2em \qquad Si osservi che gli eventi $\{|X - \mu| \ge r\}$ e $\{(|X - \mu|)^2 \ge r^2\}$ si implicano a vicenda e sono quindi equiprobabili:
+$$
+\mathbb{P}(|X - \mu| \ge r) = \mathbb{P}((X - \mu)^2 \ge r^2)
+$$
+
+\hangindent=2em \qquad Si consideri perciò la variabile aleatoria $Y = (X - \mu)^2$. Essendo le sue specificazioni non negative, è possibile applicarle la disuguaglianza di Markov con $a = r^2$:
+\begin{align*}
+& \mathbb{P}(Y \ge a) \le \dfrac{\mathbb{E}[Y]}{a} \quad \forall a > 0 \\[0.5em]
+& \Rightarrow \mathbb{P}((X - \mu)^2 \ge r^2) \le \dfrac{\mathbb{E}[(X - \mu)^2]}{r^2} = \dfrac{\sigma^2}{r^2}
+\end{align*}
+La disuguaglianza finale implica a sua volta che $\mathbb{P}(|X - \mu| \ge r) \le \dfrac{\sigma^2}{r^2}$, provando di fatto la tesi.
+
+\hfill
+Si osserva che è possibile utilizzare questa disuguaglianza anche nel verso opposto, ossia
+$$
+\mathbb{P}(|X - \mu| < r) = 1 - \mathbb{P}(|X - \mu| \ge r) \ge 1 - \dfrac{\sigma^2}{r^2} \quad \forall r > 0
+$$
+
+Inoltre, se nella disugualianza di Chebyshev si pone $r = k \sigma$, essa assume la seguente forma:
+$$
+\mathbb{P}(|X - \mu| \ge k \sigma) \le \dfrac{1}{k^2} \quad \forall k > 0
+$$
+In altri termini, la probabilità che una variabile aleatoria differisca dalla sua media per più di $k$ volte la deviazione standard è al più $\dfrac{1}{k^2}$.
+
+\newpage
+# **Capitolo 8 - Modelli di distribuzione**
+
+In ambito statistico, un modello di distribuzione è una rappresentazione sia teorica che specifica, attraverso una funzione di probabilità (discreta) o di densità (continua), la legge con cui una variabile aleatoria assume i propri valori nello spazio campionario. L'adozione di tale modello consente di trascendere l'osservazione empirica di una singola realizzazione o di un campione finito, attribuendo invece alla variabile un comportamento stocastico stabilito a priori mediante assunzioni strutturate.
+
+In sintesi, il ragionamento si fonda su tre passaggi essenziali. Anzitutto si introduce una variabile aleatoria $X$, intesa come funzione misurabile che collega ogni evento elementare $\omega$ dello spazio campionario $\Omega$ a un numero reale. A questa funzione si associa poi la sua distribuzione: una misura di probabilità, indicata con $P_X$, che a ogni insieme boreliano $B$ assegna la probabilità che $X$ vi cada, ossia $P(X \in B)$; tale legge può essere descritta tramite funzione di ripartizione, massa di probabilità o densità. Infine, adottare un modello di distribuzione significa disporre di un linguaggio per calcolare momenti, quantili e altre probabilità rilevanti, cosi da fornire la base matematica per inferenze, verifiche di ipotesi e previsioni sul fenomeno in esame.
+
+## **1 Modelli discreti**
+
+Quando il fenomeno osservato può assumere solo un insieme numerabile di valori, parliamo di distribuzioni discrete. Ciascun modello discreto è descritto da una funzione di massa di probabilità che assegna a ogni possibile valore $k$ la probabilità $P(X = k)$.
+
+### **1.1 Modello di bernoulli**
+
+Si supponga che venga realizzato un esperimento di Bernoulli, ossia un esperimento che può avere solo due esiti possibili, positivo e negativo. Si definisce una variabile aleatoria $X$ in modo tale che $X = 1$ nel primo caso e $X = 0$ nel secondo: il supporto è quindi $D_X = \{0, 1\}$.
+
+Per identificare univocamente una distribuzione basta conoscerne la funzione di massa di probabilità, che in questo caso è definita come
+\begin{align*}
+P(X=x) = \begin{cases}
+p & \text{se } x=1 \\[0.5em]
+1-p & \text{se } x=0
+\end{cases}
+\end{align*}
+dove con $p$ si indica la probabilità che l'esperimento registri un successo. Deve essere ovviamente $0 \le p \le 1$.
+
+Una variabile aleatoria $X$ si dice di Bernoulli con parametro $p \in [0,1]$ e si indica con $X \sim B(p)$ se la sua funzione di massa di probabilità è definita come sopra. In altri termini, $X$ si dice bernoulliana se può assumere solo i valori $0$ e $1$.
+
+\hfill
+È possibile definire più formalmente la funzione di massa di probabilità come
+$$
+p_X(x) = p^x (1-p)^{1-x}\, I_{\{0,1\}}(x)
+$$
+Per essere una funzione di massa di probabilità, $p_X(x)$ deve soddisfare le seguenti condizioni:
+
+- $p_X(x) \ge 0$ per ogni $x \in \mathbb{R}$;
+- $\sum_{x \in D_X} p_X(x) = 1$.
+
+La prima condizione è soddisfatta per ogni $x \in \mathbb{R}$, mentre la seconda condizione è verificata come segue:
+\begin{align*}
+\sum_{x \in D_X} p_X(x) & = p^1 (1-p)^{1-1} + p^0 (1-p)^{1-0} = p + (1-p) = 1
+\end{align*}
+
+\hfill
+La funzione di ripartizione di una variabile aleatoria bernoulliana è definita come
+$$
+F_X(x) = \begin{cases}
+0 & \text{se } x < 0 \\[0.5em]
+1-p & \text{se } 0 \le x < 1 \\[0.5em]
+1 & \text{se } x \ge 1
+\end{cases}
+$$
+
+```{=latex}
+\def\p{0.7}                 % probabilità di successo
+\pgfmathsetmacro{\q}{1-\p}
+
+%------------------------------------------------
+% STILI: ora registrati in /pgfplots/…
+%------------------------------------------------
+\pgfplotsset{
+  pmfaxis/.style={
+    width=6.5cm, height=4.8cm,
+    axis lines=left, axis line style={-stealth},
+    xmin=-0.25, xmax=1.25, ymin=0, ymax=1.05,
+    xtick={0,1}, xticklabels={$0$,$1$},
+    tick style={draw=none}, clip=false
+  },
+  cdfaxis/.style={
+    width=6.5cm, height=4.8cm,
+    axis lines=left, axis line style={-stealth},
+    xmin=-0.25, xmax=1.25, ymin=0, ymax=1.05,
+    xtick={0,1}, xticklabels={$0$,$1$},
+    tick style={draw=none}, clip=false
+  }
+}
+
+\begin{center}
+\begin{tikzpicture}[>=stealth,line cap=round]
+%---------------------- PANNELLO 1: pmf ----------------------
+\begin{axis}[pmfaxis,
+  ylabel={$p_{X}$},
+  ylabel style={at={(axis description cs:-0.08,1)},anchor=south},
+  ytick={\q,\p}, yticklabels={$1-p$,$p$},
+  xlabel={$x$}
+]
+  % asse x
+  \addplot[blue,very thick] coordinates {(-0.25,0) (1.25,0)};
+  % stanghette e puntini
+  \addplot[black,thick] coordinates {(0,0) (0,\q)};
+  \addplot[black,thick] coordinates {(1,0) (1,\p)};
+  \addplot[blue,only marks,mark=*] coordinates {(0,\q) (1,\p)};
+  \addplot[white,draw=black,very thick,
+           mark=*,mark options={scale=1.25,fill=white},
+           only marks] coordinates {(0,0) (1,0)};
+\end{axis}
+
+%---------------------- PANNELLO 2: cdf ----------------------
+\begin{axis}[cdfaxis,
+  at={(current bounding box.east)}, anchor=west, xshift=1.4cm,
+  ylabel={$F_{X}$},
+  ylabel style={at={(axis description cs:-0.08,1)},anchor=south},
+  ytick={\q,1}, yticklabels={$1-p$,$1$},
+  xlabel={$x$}
+]
+  % segmenti orizzontali + verticali
+  \addplot[blue,very thick] coordinates {(-0.25,0) (0,0)};
+  \addplot[blue,very thick] coordinates {(0,\q) (1,\q)};
+  \addplot[blue,very thick] coordinates {(1,1) (1.25,1)};
+  \addplot[blue,very thick] coordinates {(0,0) (0,\q)};
+  \addplot[blue,very thick] coordinates {(1,\q) (1,1)};
+  % punti pieni/vuoti
+  \addplot[blue,only marks,mark=*] coordinates {(0,\q) (1,1)};
+  \addplot[white,draw=black,very thick,
+           mark=*,mark options={scale=1.25,fill=white},
+           only marks] coordinates {(0,0) (1,\q)};
+  % area tratteggiata = p
+  \addplot[pattern={Lines[angle=45,distance=6pt]},
+           pattern color=red!65,draw=none]
+           coordinates {(0,\q) (1,\q) (1,1) (0,1) (0,\q)};
+  % freccia centrata
+  \draw[->,thick] (axis cs:0.75,{\q+0.5*\p})
+        -- (axis cs:1.25,{\q+0.5*\p})
+        node[right,font=\footnotesize] {$p$};
+\end{axis}
+
+\end{tikzpicture}
+\end{center}
+```
+
+Il suo valore atteso è dato da $\;\;\mathbb{E}[X] = 1\cdot p + 0\cdot (1-p) = p\;\;$ ed è quindi pari alla probabilità che la variabile aleatoria assuma il valore 1.
+
+La varianza è $\;\;\text{Var}(X) = \mathbb{E}[X^2] - \mathbb{E}[X]^2 \overset{(1)}{=} \mathbb{E}[X] - \mathbb{E}[X]^2 = p - p^2 = p(1-p) \begin{small}\qquad\text{(1): per idempotenza}\end{small}$
+
+```{=latex}
+\vspace{2mm}
+\begin{minipage}{0.42\textwidth}
+\begin{tikzpicture}[>=stealth,line cap=round]
+  \begin{axis}[
+      width=6cm, height=4cm,
+      domain=0:1, samples=250,
+      xlabel={$p$},
+      ylabel={$\operatorname{Var}(X)$},
+      axis lines=left,
+      axis line style={-stealth},
+      xmin=0, xmax=1.05,
+      ymin=0, ymax=0.26,
+      xtick={0,0.25,0.5,0.75,1},
+      ytick={0,0.05,0.10,0.15,0.20,0.25},
+      tick style={draw=none},
+      clip=false
+    ]
+    \addplot[blue,very thick]{x*(1-x)};
+    \addplot[blue,only marks,mark=*] coordinates {(0.5,0.25)};
+    \addplot[gray,dashed] coordinates {(0.5,0) (0.5,0.25)};
+    \addplot[gray,dashed] coordinates {(0,0.25) (0.5,0.25)};
+    \node[above right,font=\tiny] at (axis cs:0.5,0.25) {$(0.5,\;0.25)$};
+  \end{axis}
+\end{tikzpicture}
+\end{minipage}
+\begin{minipage}{0.57\textwidth}
+\vspace{-7mm}
+Si osserva che nel caso si scelga $p=0$ oppure $p=1$, la variabile aleatoria assume il valore 0 o 1 con probabilità 1, rispettivamente. In questo caso si ha una variabile aleatoria degenere e la varianza è nulla.
+\end{minipage}
+```
+
+### **1.2 Modello binomiale**
+
+Si supponga di realizzare $n \in \mathbb{N}$ ripetizioni indipendenti di un esperimento bernoulliano di parametro $p$. Se $X$ denota il numero totale di successi, allora $X$ si dice variabile aleatoria binomiale con parametri $n$ e $p$ e si indica con $X \sim B(n,p)$.
+
+Formalmente, dati $n \in \mathbb{N}$ e $X_1, \dots, X_n \sim B(p)$ variabili aleatorie indipendenti, si definisce una variabile aleatoria $X$ binomiale come
+$$
+X = \sum_{i=1}^n X_i \sim B(n,p)
+$$
+
+dove $X_i$ è la funzione indicatrice del successo dell'$i$-esimo esperimento:
+$$
+X_i = \begin{cases}
+1 & \text{se la prova $i$-esima ha successo} \\[0.5em]
+0 & \text{altrimenti}
+\end{cases}
+$$
+
+Il dominio di supporto è quindi $D_X = \{0, 1, \dots, n\}$. La funzione di massa di probabilità per una variabile aleatoria binomiale di parametri $(n,p)$ è data da
+$$
+p_X(x) = \binom{n}{x} p^x (1-p)^{n-x} \, I_{\{0,\dots,n\}}(x)
+$$
+dove il coefficiente binomiale
+$$
+\binom{n}{x} = \dfrac{n!}{x!(n-x)!}
+$$
+rappresenta il numero di combinazioni differenti che si possono ottenere scegliendo $x$ successi tra $n$ prove.
+
+La correttezza della funzione di massa di probabilità è garantita dalle seguenti condizioni:
+
+- $p_X(x) \ge 0$ per ogni $x \in \mathbb{R}$;
+- $\sum_{x \in D_X} p_X(x) = 1$.
+
+La prima condizione è soddisfatta per ogni $x \in \mathbb{R}$, mentre la seconda condizione è verificata come segue:
+\begin{align*}
+\sum_{x \in D_X} p_X(x) & = \sum_{x=0}^n \binom{n}{x} p^x (1-p)^{n-x} \overset{(1)}{=} (p + (1-p))^n = 1
+\end{align*}
+$\begin{small}\qquad\, \displaystyle \text{(1): per la formula delle potenze del binomio } (x+y)^n = \sum_{i=0}^n \binom{n}{i} x^i \, y^{n-i}\end{small}$
+
+\hfill
+La funzione di ripartizione di una variabile aleatoria binomiale è definita come
+$$
+F_X(x) = \mathbb{P}(X \le \floor{x}) = \sum_{i=0}^{\floor{x}} p_X(i)
+$$
+
+```{=latex}
+Grafici di aggiungere
+```
+
+Si osserva che indipendetemente dal valore di $p$, il grafico di $p_X$ cresce e poi decresce in maniera simmetrica. Ciò che $p$ stabilisce è se questo grafico sia spostato verso $0$ o verso $n$, il che è ragionevole in quanto, come si vedrà ora, il valore atteso di $X$ è $np$.
+
+\hfill
+Per definizione di variabile aleatoria binomiale, essa è la somma di $n$ variabili aleatorie bernoulliane, ognuna delle quali ha valore atteso $p$. Sfruttando la linearità del valore atteso, si ottiene
+$$
+\mathbb{E}[X] = \mathbb{E}\left[\sum_{i=1}^n X_i\right] = \sum_{i=1}^n \mathbb{E}[X_i] = \sum_{i=1}^n p = n\, p
+$$
+Ragionamento analogo si può fare per la varianza, notando che è possibile sfruttare l'indipendenza tra le variabili bernoulliane $X_i$ per evitare il termine di covarianza:
+$$
+\text{Var}(X) = \text{Var}\left(\sum_{i=1}^n X_i\right) = \sum_{i=1}^n \text{Var}(X_i) = \sum_{i=1}^n p(1-p) = n\, p(1-p)
+$$
+
+Come nel modello di Bernoulli, anche in questo caso la varianza assume il grafico di una parabola. La varianza aumenta sia quando $p$ tende a $1/2$, ma anche all'aumentare di $n$.
+
+#### Riproducibilità
+
+Si considerino due variabili aleatorie $X \sim B(n,p)$ e $Y \sim B(m,p)$ indipendenti tra loro. Queste due variabili non seguono la stessa distribuzione, ma sono correlate in quanto seguono lo stesso modello di distribuzione e, in aggiunta, condividono lo stesso parametro $p$.
+
+La somma di due variabili aleatorie binomiali con lo stesso parametro $p$ è una variabile aleatoria binomiale con parametri $n+m$ e $p$:
+$$
+X + Y = \sum_{i=1}^n X_i + \sum_{i=1}^m Y_i = \sum_{i=1}^{n+m} Z_i \; \sim B(n+m,p)
+$$
+
+Si osserva che $\forall i = 1, \dots, n \quad Z_i = X_i$ e $\forall i = 1, \dots, m \quad Z_{n+i} = Y_i$.
+
+Si dice perciò che questo modello gode della proprietà di riproducibilità tra variabili binomiali con lo stesso parametro $p$.
+
+### **1.3 Modello uniforme discreto**
+
+Questo modello si presenta quando l'esperimento casuale può restituire $n$ esiti distinti, ciascuno dei quali ha la stessa probabilità di verificarsi. Una variabile aleatoria $X$ che codifica tale esperimento si dice uniforme discreta con parametro $n$ e si indica con $X \sim U(n)$.
+
+Il suo dominio di supporto è quindi $D_X = \{1, \dots, n\}$ e $\forall i \in D_X \;\; \mathbb{P}(X=i) = 1/n$.
+
+La funzione di massa di probabilità è definita come
+$$
+p_X(x) = \dfrac{1}{n} \, I_{\{1,\dots,n\}}(x)
+$$
+La correttezza della funzione di massa di probabilità è banale, in quanto
+$$
+\sum_{x \in D_X} p_X(x) = \sum_{i=1}^n \dfrac{1}{n} = 1
+$$
+
+La funzione di ripartizione di una variabile aleatoria uniforme discreta è definita come
+$$
+F_X(x) = \mathbb{P}(X \le x) = \sum_{i \le x} p_X(i) = \sum_{i=1}^{\floor{x}} p_X(i) = \sum_{i=1}^{\floor{x}} \dfrac{1}{n} = \dfrac{\floor{x}}{n}
+$$
+
+Il valore atteso è dato da
+\begin{align*}
+\mathbb{E}[X] & = \sum_{x=1}^n x\, p_X(x) = \sum_{x=1}^n \dfrac{x}{n} = \dfrac{1}{n} \sum_{x=1}^n x = \dfrac{1}{n}\, \dfrac{n(n+1)}{2} = \dfrac{n+1}{2}
+\end{align*}
+
+La varianza invece si calcola come
+\begin{align*}
+\mathbb{E}[X^2] & = \sum_{x=1}^n x^2\, p_X(x) = \sum_{x=1}^n \dfrac{x^2}{n} = \dfrac{1}{n} \sum_{x=1}^n x^2 = \dfrac{1}{n}\, \dfrac{n(n+1)(2n+1)}{6} = \dfrac{(n+1)(2n+1)}{6} \\[1.5em]
+\text{Var}(X) & = \mathbb{E}[X^2] - \mathbb{E}[X]^2 = \dfrac{(n+1)(2n+1)}{6} - \dfrac{(n+1)^2}{4} = (n+1) \left( \dfrac{2n+1}{6} - \dfrac{n+1}{4} \right)\\[0.5em]
+&  = (n+1) \left( \dfrac{4n + 2 - 3n - 3}{12} \right) = \dfrac{(n+1)(n-1)}{12} = \dfrac{(n^2-1)}{12}
+\end{align*}
+
+### **1.4 Modello geometrico**
+
+Si supponga di realizzare un esperimento di Bernoulli con parametro $p$ e di contare il numero di prove necessarie affinché si verifichi il primo successo. La variabile aleatoria $X$ che codifica questo esperimento si dice geometrica con parametro $p$ e si indica con $X \sim G(p)$.  
+$X$ quindi conta il numero di fallimenti che precedono il primo successo.
+
+Formalmente, dati $X_1, X_2, \dots$ variabili aleatorie indipendenti e identicamente distribuite (i.i.d.) di Bernoulli con parametro $p$, si definisce una variabile aleatoria $X$ geometrica come
+$$
+X = \sum_{i=1}^{+\infty} X_i \cdot I_{\{X_i = 0\}} \sim G(p)
+$$
+
+Si osserva che se $p=1$ allora $X=0$ con probabilità 1, mentre se $p=0$ allora $X \to +\infty$ con probabilità 1. In entrambi i casi la variabile aleatoria è degenere. Si considera per tale motivo $p \in (0,1]$.
+
+\hfill
+#### Funzione di massa di probabilità
+Il dominio di supporto è $D_X = \mathbb{N} \cup \{0\}$. La funzione di massa di probabilità è definita come
+$$
+p_X(x) = p(1-p)^x \, I_{\mathbb{N} \cup \{0\}}(x)
+$$
+
+Infatti calcolare $p_X(x) = \mathbb{P}(X=x)$ equivale a calcolare la probabilità che i primi $x$ esperimenti siano fattili e che il $(x+1)$-esimo sia un successo, ossia:
+$$
+\mathbb{P}(X=x) = \mathbb{P}\left(\bigcap_{i=0}^x X_i = 0 \cap X_{x+1} = 1\right) \overset{(1)}{=} \prod_{i=0}^x \mathbb{P}(X_i = 0) \cdot \mathbb{P}(X_{x+1} = 1) = \prod_{i=0}^x (1-p) \cdot p = p\,(1-p)^x
+$$
+$\begin{small}\qquad\text{(1): per indipendenza}\end{small}$
+
+La correttezza della funzione di massa di probabilità è così dimostrata:
+\begin{align*}
+\sum_{x = 0}^{+\infty} = \sum_{x = 0}^{+\infty} p(1-p)^x & = p \sum_{x = 0}^{+\infty} (1-p)^x \overset{(1)}{=} p \, \dfrac{1}{1-(1-p)} = p \, \dfrac{1}{p} = 1
+\end{align*}
+
+\vspace{-2mm}
+$\begin{small}
+  \qquad \displaystyle
+  \text{(1): per la formula della somma geometrica: }
+  \sum_{i=0}^{+\infty} \alpha^i
+  \text{ converge a }
+  \dfrac{1}{1 - \alpha}
+  \text{ per }-1 < \alpha < 1.
+  \text{ Nel nostro caso }\alpha = p,\\[1mm]
+  \hspace*{3.9em}\text{che è una probabilità ed è quindi compresa tra 0 e 1.}
+\end{small}$
+
+Il grafico della funzione di massa di probabilità presenta un decadimento esponenziale, ed è tanto più ripido quanto più è grande il valore di $p$.
+
+
+\hfill
+#### Funzione di ripartizione
+Prima di calcolare la funzione di ripartizione, si osservi che
+\begin{align*}
+\mathbb{P}(X > n) & = \sum_{x=n+1}^{+\infty} p_X(x) = \sum_{x=n+1}^{+\infty} p\,(1-p)^x = p\, (1-p)^{n+1} \sum_{x=n+1}^{+\infty} (1-p)^{x-(n+1)}\\[0.5em]
+&  \overset{(1)}{=} p\, (1-p)^{n+1} \sum_{y=0}^{+\infty} (1-p)^y  \overset{(2)}{=} p\, (1-p)^{n+1} \cdot \dfrac{1}{1-(1-p)} = p\, (1-p)^{n+1} \cdot \dfrac{1}{p} = (1-p)^{n+1}
+\end{align*}
+
+$\begin{small}
+  \qquad\text{(1): ponendo } y = x - (n+1)\\[1mm]
+  \hspace*{2em} \text{(2): per la formula della serie geometrica}
+\end{small}$
+
+\vspace{2mm}
+Ora è possibile calcolare la funzione di ripartizione:
+\begin{align*}
+F_X(n) 
+  &= \mathbb{P}(X \le n)
+     = 1 - \mathbb{P}(X > n)
+     = 1 - (1-p)^{n+1}
+     && \hspace{-6em} \forall n \in \mathbb{N} \cup \{0\}\\[0.5em]
+F_X(x) 
+  &= \mathbb{P}(X \le x)
+     = \mathbb{P}(X \le \lfloor x\rfloor)
+     = 1 - (1-p)^{\lfloor x\rfloor+1}
+     && \hspace{-6em} \forall x \in \mathbb{R}
+\end{align*}
+
+##### Assenza di memoria
+L'assenza di memoria è una proprietà di cui gode il modello geometrico, ed è l'unico a possederla tra i vari modelli discreti. Si consideri $X \sim G(p)$ e si provi a calcolare $\mathbb{P}(X > i + j \mid X \ge i)$, ovvero la probabilità condizionata di ottenere un successo dopo $i+j$ prove, sapendo che ne sono già state effettuate $i$ senza successo. Si ha:
+\begin{gather*}
+\mathbb{P}(X \ge n) = \mathbb{P}(X > n-1) = (1-p)^n \\[0.5em]
+\mathbb{P}(X \ge i + j \mid X \ge i)  = \dfrac{\mathbb{P}(X \ge i+j, X \ge i)}{\mathbb{P}(X \ge i)} = \dfrac{\mathbb{P}(X \ge i+j)}{\mathbb{P}(X \ge i)} = \dfrac{(1-p)^{i+j}}{(1-p)^i} = (1-p)^j = \mathbb{P}(X \ge j)
+\end{gather*}
+
+Si ottiene quindi che $\mathbb{P}(X > i + j \mid X \ge i) = \mathbb{P}(X > j)$, ossia la probabilità di ottenere un successo dopo $i+j$ prove, sapendo che ne sono già state effettuate $i$ senza successo, è uguale alla probabilità di ottenere un successo dopo $j$ prove. In altre parole, il numero di prove necessarie per ottenere il primo successo non dipende da quante prove siano già state effettuate.
+
+#### Valore atteso e varianza
+
+Prima di calcolare il valore atteso, si osservi che
+\begin{align*}
+\sum_{i=0}^{+\infty} i \alpha^i & = \alpha \sum_{i=0}^{+\infty} i \alpha^{i-1} \overset{(1)}{=} \alpha \sum_{i=1}^{+\infty} \dfrac{d}{d\alpha} \alpha^i = \alpha \dfrac{d}{d\alpha} \left[\, \sum_{i=0}^{+\infty} \alpha^i \,\right]
+\overset{(2)}{=} \alpha \dfrac{d}{d\alpha} \left( \dfrac{1}{1-\alpha} \right) \overset{(3)}{=} \alpha \dfrac{1}{(1-\alpha)^2} = \dfrac{\alpha}{(1-\alpha)^2}
+\end{align*}
+$\begin{small}
+  \qquad\text{(1): } \displaystyle \dfrac{d}{dx} x^i = i\, x^{i-1}\\[1mm]
+  \hspace*{2em} \text{(2): per la formula della serie geometrica, considerando } |\alpha| < 1\\[1mm]
+  \hspace*{2em} \text{(3): } \displaystyle \dfrac{d}{dx} \dfrac{1}{x} = -\dfrac{1}{x^2}
+\end{small}$
+
+\vspace{3mm}
+Ora è possibile calcolare il valore atteso:
+\begin{align*}
+\mathbb{E}[X] & = \sum_{x = 0}^{+\infty} x\, p_X(x) = \sum_{x = 0}^{+\infty} x\, p(1-p)^x = p \sum_{x = 0}^{+\infty} x (1-p)^x
+\overset{(1)}{=} p \dfrac{1-p}{[1-(1-p)]^2} = p \dfrac{1-p}{p^2} = \dfrac{1-p}{p}
+\end{align*}
+$\begin{small}
+  \qquad\text{(1): per l'osservazione appena fatta, che si può utilizzare in quanto $0 < 1-p < 1$ e quindi la serie converge}
+\end{small}$
+
+
+\hfill
+La varianza è data da:
+\begin{align*}
+\mathbb{E}[X^2] & = \sum_{x = 0}^{+\infty} x^2\, p (1-p)^x = p(1-p) \sum_{x = 0}^{+\infty} x^2 (1-p)^{x-1} \overset{(1)}{=} p(1-p) \sum_{x = 0}^{+\infty} \dfrac{d}{dp} \left[-x(1-p)^x\right] \\[0.5em]
+& = p(1-p) \dfrac{d}{dp} \left[\, \sum_{x = 0}^{+\infty} -x (1-p)^x \, \right] = - p(1-p) \dfrac{d}{dp} \left[\, \sum_{x = 0}^{+\infty} x (1-p)^x \, \right] \overset{(2)}{=} -p(1-p) \dfrac{d}{dp} \left( \dfrac{1-p}{p^2} \right) \\[0.5em]
+& = - \cancel{p} (1-p) \dfrac{-p^2 -2p(1-p)}{p^{\cancel{4} 3}} = -(1-p) \dfrac{-p -2(1-p)}{p^2} = (1-p) \dfrac{p + 2 -2p}{p^2} = \dfrac{(1-p)(2-p)}{p^2}
+\end{align*}
+
+$\begin{small}
+  \qquad\text{(1): } \displaystyle \dfrac{d}{dx} x(1-p)^x = - x^2 (1-p)^{x-1} \;\;\Rightarrow \;\;
+  \displaystyle \dfrac{d}{dx} [-x (1-p)^x] = x^2 (1-p)^{x-1} \\[1mm]
+  \hspace*{2em} \text{(2): per l'osservazione fatta in precedenza}
+\end{small}$
+
+\begin{align*}
+\text{Var}(X) & = \mathbb{E}[X^2] - \mathbb{E}[X]^2 = \dfrac{(1-p)(2-p)}{p^2} - \left(\dfrac{1-p}{p}\right)^2 = \dfrac{(1-p)(2-p) - (1-p)^2}{p^2}\\[0.5em]
+& = \dfrac{(1-p)(2- \cancel p - 1 + \cancel p)}{p^2} = \dfrac{1-p}{p^2}
+\end{align*}
 
 \newpage
 # **Statistica inferenziale**
 
-# **Capitolo 8 - Analisi della varianza**
+# **Capitolo 9 - Analisi della varianza**
 
-
-\newpage
-# **Formulario**
-
-**Frequenza cumulata**:
-$$
-\hat F(x) = \frac{\# \{ x_i \leq x \}}{n}
-= \frac{1}{n} \sum_{i=1}^n \mathrm I_{(-\infty, x]}(x_i)
-$$
 
